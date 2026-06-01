@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Training data
+SystemAIYugioh/data/training_runs/
+
+# Learning outputs
+meta_stats.json
+learned_card_stats.json
+learned_engine_stats.json
+learning_tuning.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
