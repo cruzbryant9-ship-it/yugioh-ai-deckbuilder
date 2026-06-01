@@ -1,0 +1,205 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "matchup": "combo",
+    "going": "second",
+    "runs": 1
+  },
+  "created_at_utc": "2026-05-23T15:35:22.249598+00:00",
+  "summary": {
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "average_game1_score": 210.38,
+    "average_post_side_score": 214.42,
+    "average_post_side_delta": 4.04,
+    "post_side_valid_rate": 1.0,
+    "average_side_deck_score": 100.0,
+    "average_matchup_coverage_score": 32.0,
+    "average_candidate_count": 12,
+    "average_valid_candidate_count": 12,
+    "average_valid_candidate_rate": 1.0,
+    "optimization_success_rate": 1.0,
+    "post_side_memory_used_rate": 1.0,
+    "most_used_side_cards": [
+      [
+        "Ash Blossom & Joyous Spring",
+        1
+      ],
+      [
+        "Nibiru, the Primal Being",
+        1
+      ],
+      [
+        "Infinite Impermanence",
+        1
+      ]
+    ]
+  },
+  "post_side_memory_updated": true,
+  "post_side_memory_summary": {
+    "top_side_in_cards": [
+      [
+        "Ash Blossom & Joyous Spring",
+        2
+      ],
+      [
+        "Droll & Lock Bird",
+        1
+      ],
+      [
+        "Nibiru, the Primal Being",
+        1
+      ],
+      [
+        "Infinite Impermanence",
+        1
+      ]
+    ],
+    "top_side_out_cards": [
+      [
+        "Main 9",
+        1
+      ],
+      [
+        "Main 10",
+        1
+      ],
+      [
+        "Lightning Storm",
+        1
+      ],
+      [
+        "Book of Eclipse",
+        1
+      ],
+      [
+        "The Melody of Awakening Dragon",
+        1
+      ]
+    ],
+    "best_post_side_pattern": "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird || OUT: Main 9 | Main 10",
+    "average_post_side_delta": 5.02
+  },
+  "runs": [
+    {
+      "game1_score": 210.38,
+      "post_side_score": 214.42,
+      "post_side_delta": 4.04,
+      "post_side_valid": true,
+      "side_cards_used": [
+        "Ash Blossom & Joyous Spring",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence"
+      ],
+      "cards_sided_out": [
+        "Lightning Storm",
+        "Book of Eclipse",
+        "The Melody of Awakening Dragon"
+      ],
+      "post_side_warnings": [],
+      "candidate_count": 12,
+      "valid_candidate_count": 12,
+      "rejected_candidate_count": 0,
+      "valid_candidate_rate": 1.0,
+      "rejection_reasons": {},
+      "optimization_used": true,
+      "post_side_memory_used": true,
+      "best_post_side_score": 214.42,
+      "best_side_in": [
+        "Ash Blossom & Joyous Spring",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence"
+      ],
+      "best_side_out": [
+        "Lightning Storm",
+        "Book of Eclipse",
+        "The Melody of Awakening Dragon"
+      ],
+      "side_deck_score": 100.0,
+      "matchup_coverage_score": 32.0,
+      "game1_metrics": {
+        "final_score": 210.38,
+        "playable_hand_rate": 0.9667,
+        "brick_rate": 0.0,
+        "resilience_score": 0.0,
+        "ash_vulnerability_rate": 0.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 0.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 93.9
+      },
+      "post_side_metrics": {
+        "final_score": 214.42,
+        "playable_hand_rate": 0.9667,
+        "brick_rate": 0.0,
+        "resilience_score": 0.0,
+        "ash_vulnerability_rate": 0.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 0.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 94.69
+      },
+      "post_side_main": [
+        "Dragon Spirit of White",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Wishes for Eyes of Blue",
+        "The White Stone of Ancients",
+        "The White Stone of Ancients",
+        "Wishes for Eyes of Blue",
+        "The White Stone of Legend",
+        "The White Stone of Ancients",
+        "Wishes for Eyes of Blue",
+        "Maiden with Eyes of Blue",
+        "The White Stone of Legend",
+        "Dictator of D.",
+        "True Light",
+        "True Light",
+        "The Chaos Creator",
+        "Black Luster Soldier - Envoy of the Beginning",
+        "The Chaos Creator",
+        "Infinite Impermanence",
+        "Nibiru, the Primal Being",
+        "D.D. Crow",
+        "Droll & Lock Bird",
+        "Droll & Lock Bird",
+        "Effect Veiler",
+        "Skill Drain",
+        "Ash Blossom & Joyous Spring",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence"
+      ],
+      "recommended_side_deck": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Ash Blossom & Joyous Spring",
+        "Droll Bird",
+        "Book of Eclipse",
+        "Zuttomozaurus",
+        "Zuijin of the Ice Barrier",
+        "Zubababa Knight",
+        "Zubaba Knight",
+        "Zubaba Buster",
+        "Zoroa, the Magistus Verethragna",
+        "Zoroa, the Magistus Conflagrant Calamity"
+      ],
+      "blocked_card_violations_after_siding": [],
+      "post_side_deck_size_valid": true,
+      "run": 1,
+      "ok": true
+    }
+  ]
+}

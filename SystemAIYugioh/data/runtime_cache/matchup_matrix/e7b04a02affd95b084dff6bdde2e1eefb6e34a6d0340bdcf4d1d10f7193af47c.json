@@ -1,0 +1,885 @@
+{
+  "cache_version": "stabilization-a-v1",
+  "fingerprint": "0d2f28d19c83c73b479d87f877e9ca59ca7218ed335952b5b08802fb23803225",
+  "fingerprint_parts": {
+    "fingerprint_version": 2,
+    "cache_version": "stabilization-a-v1",
+    "report_version": "stabilization-a-v1",
+    "card_database": {
+      "cards.json": {
+        "exists": true,
+        "size": 27971304,
+        "mtime_ns": 1780256283624470200,
+        "sha256": "3b35d892493247d9f63111565ebf56de1b30267e60ac66cec6f7df5fae2a627d"
+      },
+      "metadata.json": {
+        "exists": true,
+        "size": 422,
+        "mtime_ns": 1780256283901632200,
+        "sha256": "7bb5a4ca4f539fb92af41058cf9ae7295e38a845b0ac970ac000747833259859"
+      },
+      "latest_update_analysis.json": {
+        "exists": true,
+        "size": 375,
+        "mtime_ns": 1780256283903665300,
+        "sha256": "74390daec2f29dbff53047ecd3c571969b68a4b2de208b215ff01022f50415a1"
+      }
+    },
+    "custom_card_limits": {
+      "Pot of Greed": 0,
+      "Protector with Eyes of Blue": 0,
+      "Strength in Unity": 0
+    },
+    "engine_variants": [
+      "pure",
+      "ritual",
+      "chaos",
+      "bystial",
+      "horus",
+      "branded",
+      "board_breaker_heavy",
+      "handtrap_heavy"
+    ],
+    "source_fingerprint": {
+      "fingerprint": "30869a4fb9a4f0894d7b3e43c949459f016cedd9e6ff36fbe1f2bb8937f50af9",
+      "source_hash": "311a2f94e1a5032321887790f4c47b61dc1f6558d76b6e34af7bc9a8c7591ee6",
+      "file_count": 11,
+      "files": {
+        "deck/builder.py": {
+          "exists": true,
+          "sha256": "d198b440757632f54cf13ae343cb4f42d53846aff3b4dee01b3a7c526a10561e",
+          "size": 36410
+        },
+        "deck/choke_simulator.py": {
+          "exists": true,
+          "sha256": "afac3d6705162510a1bab69702b6dd8d5d3f740b115c3725eb7b39bf1f5de5cf",
+          "size": 14716
+        },
+        "deck/hand_simulator.py": {
+          "exists": true,
+          "sha256": "5fcf417af907cb1f56d289784bd9969d55c842edd1402a56dc0b869feb65708c",
+          "size": 33714
+        },
+        "deck/line_validator.py": {
+          "exists": true,
+          "sha256": "9c14b8d68a99fee8aa50f1904e4b3759f8171741cba34f2b474db34fd4975e00",
+          "size": 26165
+        },
+        "deck/opponent_graph_simulator.py": {
+          "exists": true,
+          "sha256": "7b0f9437193916b11ee85589544d532f111de665e649f9c974250568974cb383",
+          "size": 15440
+        },
+        "deck/opponent_probability_simulator.py": {
+          "exists": true,
+          "sha256": "8283e62a0eb1a6e284b17cb1f3c8758f1a7a1e67c0517f23e1ae857ae3758ba8",
+          "size": 5289
+        },
+        "deck/package_builder.py": {
+          "exists": true,
+          "sha256": "ec32f4f5affb479f6b42abec9e00529d5182396763b98b864bf09a5a325bb2b8",
+          "size": 10773
+        },
+        "deck/post_side_evaluation.py": {
+          "exists": true,
+          "sha256": "edc564b0a232012d6ea40475df3a7412148988468d854ed18f33fa085a7b3a6d",
+          "size": 5742
+        },
+        "deck/side_deck_planner.py": {
+          "exists": true,
+          "sha256": "b17ad30ba4fb88fd7f1df00bafa20b7e7b034bcb45320b8d99b02a8af95051f0",
+          "size": 11746
+        },
+        "deck/side_plan_optimizer.py": {
+          "exists": true,
+          "sha256": "1f141114065e9f0d4167af6fe83b75cb4f492a3a144fa27ab6cafc1a20120160",
+          "size": 19020
+        },
+        "matchup_matrix.py": {
+          "exists": true,
+          "sha256": "fccccb314f5cb5363435fcc69b3661d6351dde40efbcaf0c450e522e10ace190",
+          "size": 41747
+        }
+      },
+      "version": 1
+    },
+    "source_dependencies": {
+      "file_count": 54,
+      "files": {
+        "SystemAIYugioh/__init__.py": {
+          "exists": true,
+          "size": 40,
+          "mtime_ns": 1779397464885551100,
+          "sha256": "db33a9ab8601a6be95c424ebc2ff556f00451dc582f69e4ef14e92ff33cb579a"
+        },
+        "SystemAIYugioh/banlist.py": {
+          "exists": true,
+          "size": 597,
+          "mtime_ns": 1779398458640737700,
+          "sha256": "e0d835d6ff9a93590f806a27e5cb8def32e6a776b72763c687ca3826a66de725"
+        },
+        "SystemAIYugioh/cache_fingerprint.py": {
+          "exists": true,
+          "size": 4179,
+          "mtime_ns": 1780256090782578700,
+          "sha256": "428f8afdd9fe080d6b7b924427c34ff4bc50a058855b62bad4bda17e7833e283"
+        },
+        "SystemAIYugioh/json_utils.py": {
+          "exists": true,
+          "size": 1914,
+          "mtime_ns": 1779856915956330600,
+          "sha256": "d0c6b5ca3e1ec060ab1410ee3b59d12d4497b3a84cb7f4ff7ac5d0fee4207231"
+        },
+        "SystemAIYugioh/matrix_cache.py": {
+          "exists": true,
+          "size": 6226,
+          "mtime_ns": 1780256096676538400,
+          "sha256": "d8da2c7376615e4be8f1fa766fe92212f8902447db85e4291f902d173e45d757"
+        },
+        "SystemAIYugioh/memory_context.py": {
+          "exists": true,
+          "size": 4094,
+          "mtime_ns": 1779987374132607600,
+          "sha256": "915755abd7dd988ec40bec5edf6f9c71c1103c250447d379788f38327d7728b0"
+        },
+        "SystemAIYugioh/metric_registry.py": {
+          "exists": true,
+          "size": 3153,
+          "mtime_ns": 1779812138641381300,
+          "sha256": "6f737796863dbe57383eabd1b44598885f8d86870dc3b398dc6d3735a620296d"
+        },
+        "SystemAIYugioh/opponent_metric_builder.py": {
+          "exists": true,
+          "size": 6067,
+          "mtime_ns": 1780212061620422200,
+          "sha256": "038c9680f9dbd829754b4428930c265110d4ea7562435ee0e73974d57df50822"
+        },
+        "SystemAIYugioh/opponent_signal_sentinel.py": {
+          "exists": true,
+          "size": 5241,
+          "mtime_ns": 1780208061490152700,
+          "sha256": "9096214912b0177ae9b3ca304ce5aab79bd6192929e2e91abf9c92fa985eace9"
+        },
+        "SystemAIYugioh/report_schema.py": {
+          "exists": true,
+          "size": 4431,
+          "mtime_ns": 1780212371846332800,
+          "sha256": "48d1315ef36bb608b75854d534db6ae356f9006188fb52a2ee13518e3d0a618e"
+        },
+        "SystemAIYugioh/score_snapshot.py": {
+          "exists": true,
+          "size": 2721,
+          "mtime_ns": 1779828178730158200,
+          "sha256": "224d7d2e93a9ee4f3992688a785483ab5ac8862a6c4d949e7f85672f64bb85dc"
+        },
+        "SystemAIYugioh/source_fingerprint.py": {
+          "exists": true,
+          "size": 2167,
+          "mtime_ns": 1780256520844842800,
+          "sha256": "6bad7821ead4b6aa273c056c6490dabe5e927acec03286023ed32ec4ee288b7e"
+        },
+        "config/__init__.py": {
+          "exists": true,
+          "size": 36,
+          "mtime_ns": 1779737119165865700,
+          "sha256": "3c78788ea0fb8b468bf16f215d385ccca713e31b0d6625da9c1c4e1f920e5b92"
+        },
+        "config/settings.py": {
+          "exists": true,
+          "size": 1493,
+          "mtime_ns": 1779854244743390300,
+          "sha256": "cff99b2aa5cfcf5b2f4206da07b8080dbede7e883fdd048ef875a4db7358ac94"
+        },
+        "data/__init__.py": {
+          "exists": true,
+          "size": 42,
+          "mtime_ns": 1779398458087985000,
+          "sha256": "603a48b17ddb099f666ebe20f50bae75569c29b2e776778208c9d9ad6b4562d8"
+        },
+        "data/card_limits.py": {
+          "exists": true,
+          "size": 3550,
+          "mtime_ns": 1779823898465947400,
+          "sha256": "4ca6a9a4e12cdb579d57312b5abd45c0ad8c5e2d8d876f0be8ef3e41baf1ca22"
+        },
+        "deck/__init__.py": {
+          "exists": true,
+          "size": 43,
+          "mtime_ns": 1779398458406605700,
+          "sha256": "b77aa08e4d8bba94330bc936cc6303df5b95b0cfb562477a76e6191bc27880ae"
+        },
+        "deck/builder.py": {
+          "exists": true,
+          "size": 36410,
+          "mtime_ns": 1779899696053535900,
+          "sha256": "d198b440757632f54cf13ae343cb4f42d53846aff3b4dee01b3a7c526a10561e"
+        },
+        "deck/card_conditions.py": {
+          "exists": true,
+          "size": 4248,
+          "mtime_ns": 1779483161639296900,
+          "sha256": "e28a118ab3d1e473e6ec635e0aa33104c7e4b2ba969477a9773c4fef2b61a527"
+        },
+        "deck/card_metadata.py": {
+          "exists": true,
+          "size": 4095,
+          "mtime_ns": 1779480058972756200,
+          "sha256": "2995d53f6fbe66f7cd39f9625069677b68f8159ed9fbe391adf1c9a5d36bef93"
+        },
+        "deck/card_text_parser.py": {
+          "exists": true,
+          "size": 4205,
+          "mtime_ns": 1779480040990924100,
+          "sha256": "27246cf814cd7205e0d1fe93a62bbc4f03e9853f572d807bc6137334a476af2d"
+        },
+        "deck/chain_model.py": {
+          "exists": true,
+          "size": 2479,
+          "mtime_ns": 1779484161598861200,
+          "sha256": "16188b367bc399c4a2efa7c82d473b10f2cd5c75cbcfad25a37b4471e451478d"
+        },
+        "deck/choke_simulator.py": {
+          "exists": true,
+          "size": 14716,
+          "mtime_ns": 1779828212187689300,
+          "sha256": "afac3d6705162510a1bab69702b6dd8d5d3f740b115c3725eb7b39bf1f5de5cf"
+        },
+        "deck/combo_lines.py": {
+          "exists": true,
+          "size": 12791,
+          "mtime_ns": 1779468381062002000,
+          "sha256": "94edbab026492e938ea27f38efeed66ea6731fd49fc67d578645354809ab3969"
+        },
+        "deck/curated_opponent_library.py": {
+          "exists": true,
+          "size": 7642,
+          "mtime_ns": 1779823907945590900,
+          "sha256": "90bd7de825764ca32baa5279d36adf1e9eac1eb490c99aa0e6d98972f75f4f48"
+        },
+        "deck/curated_opponent_memory.py": {
+          "exists": true,
+          "size": 15764,
+          "mtime_ns": 1779987498368909100,
+          "sha256": "bcd17699b69dd80b4961de8eafbbaae8d0c06e6b8873b8d3c810296d3a3acd00"
+        },
+        "deck/deck_utils.py": {
+          "exists": true,
+          "size": 535,
+          "mtime_ns": 1779812085412015500,
+          "sha256": "336bda4f28dfc51d000010e2d2a428fa1105b6731ea0ed45ce0dec79196d86c5"
+        },
+        "deck/decklist_parser.py": {
+          "exists": true,
+          "size": 1963,
+          "mtime_ns": 1779556110715820800,
+          "sha256": "bcc99c187292f2bd82109549d303c0ca66b1c0a195f6528acaf832aceba61a85"
+        },
+        "deck/engine_variants.py": {
+          "exists": true,
+          "size": 439,
+          "mtime_ns": 1779812282609701600,
+          "sha256": "993d336269e98a06dff7968873b3cdd0d8aaf9b7fea059b64c2d082380dcdbd1"
+        },
+        "deck/hand_simulator.py": {
+          "exists": true,
+          "size": 33714,
+          "mtime_ns": 1779484257874473700,
+          "sha256": "5fcf417af907cb1f56d289784bd9969d55c842edd1402a56dc0b869feb65708c"
+        },
+        "deck/interruption_profiles.py": {
+          "exists": true,
+          "size": 1570,
+          "mtime_ns": 1779484147603989400,
+          "sha256": "fdc83f5ec65e42b442633b815b50ca23cc338831618f366bf905ff97bcd10f29"
+        },
+        "deck/line_graph.py": {
+          "exists": true,
+          "size": 15069,
+          "mtime_ns": 1779484208899215100,
+          "sha256": "8514c3cf6d532b4f6a0d9c527fe786767d2996ed6721fc0e0b7108ba5634d16d"
+        },
+        "deck/line_validator.py": {
+          "exists": true,
+          "size": 26165,
+          "mtime_ns": 1779484229134361600,
+          "sha256": "9c14b8d68a99fee8aa50f1904e4b3759f8171741cba34f2b474db34fd4975e00"
+        },
+        "deck/matchup_engine_stats.py": {
+          "exists": true,
+          "size": 3897,
+          "mtime_ns": 1779987487716446700,
+          "sha256": "2ac6b2780a0d09714baf1d57fd79617a21350aaa6610035951b691a4e4e31d38"
+        },
+        "deck/matchup_profiles.py": {
+          "exists": true,
+          "size": 3935,
+          "mtime_ns": 1779485061085888200,
+          "sha256": "5f22938ecaed13b7d144a3a49153940afacef4113ed629efc11c3c4c977b1ac5"
+        },
+        "deck/opponent_analyzer.py": {
+          "exists": true,
+          "size": 7919,
+          "mtime_ns": 1779561650027130400,
+          "sha256": "2dac1e1182f73c0fa05b72b64dd99e61c41c3631fdb19f67023b3eabc852aa0e"
+        },
+        "deck/opponent_branch_graph.py": {
+          "exists": true,
+          "size": 12565,
+          "mtime_ns": 1779680753418822200,
+          "sha256": "e8c814bb0491613973098ecce19fc56bae5cfb0f0d7cba401aa6a37471263892"
+        },
+        "deck/opponent_choke_model.py": {
+          "exists": true,
+          "size": 12441,
+          "mtime_ns": 1779636942167357500,
+          "sha256": "f2aee78b1903d08f2ff5abcf71d63b413eacb778985ae7ed9cb691263494158c"
+        },
+        "deck/opponent_graph_simulator.py": {
+          "exists": true,
+          "size": 15440,
+          "mtime_ns": 1779695011309590800,
+          "sha256": "7b0f9437193916b11ee85589544d532f111de665e649f9c974250568974cb383"
+        },
+        "deck/opponent_probability_simulator.py": {
+          "exists": true,
+          "size": 5289,
+          "mtime_ns": 1779694992647474500,
+          "sha256": "8283e62a0eb1a6e284b17cb1f3c8758f1a7a1e67c0517f23e1ae857ae3758ba8"
+        },
+        "deck/opponent_profiles.py": {
+          "exists": true,
+          "size": 2650,
+          "mtime_ns": 1779561632267600100,
+          "sha256": "94eed99a6df1fa193c8ac018179d68af7af554b11aad0bd98da9b17deaef33c2"
+        },
+        "deck/opponent_resource_state.py": {
+          "exists": true,
+          "size": 3707,
+          "mtime_ns": 1779680675318835000,
+          "sha256": "c80b8ad947d1c9d0de552741d778dbc56631118e599cbf952ed25d3766ad0840"
+        },
+        "deck/package_builder.py": {
+          "exists": true,
+          "size": 10773,
+          "mtime_ns": 1779466708112557400,
+          "sha256": "ec32f4f5affb479f6b42abec9e00529d5182396763b98b864bf09a5a325bb2b8"
+        },
+        "deck/package_quality.py": {
+          "exists": true,
+          "size": 2881,
+          "mtime_ns": 1779467403486337200,
+          "sha256": "aee77c9151c26bdf86f2a97af4d3f12cb3b7daab971588bc0d3f5a3f49c4482c"
+        },
+        "deck/packages.py": {
+          "exists": true,
+          "size": 6656,
+          "mtime_ns": 1779466638304620800,
+          "sha256": "fc9da51409a8fb317ad808d983096660f81bcef58ad34cf62305ffdbab1a9ebd"
+        },
+        "deck/post_side_evaluation.py": {
+          "exists": true,
+          "size": 5742,
+          "mtime_ns": 1780212083228420800,
+          "sha256": "edc564b0a232012d6ea40475df3a7412148988468d854ed18f33fa085a7b3a6d"
+        },
+        "deck/post_side_memory.py": {
+          "exists": true,
+          "size": 8303,
+          "mtime_ns": 1779987476315207700,
+          "sha256": "620608740daddd0bb9ddb2ef518e6087f8c8f486f69f93c33ca8c296cef35be1"
+        },
+        "deck/resource_state.py": {
+          "exists": true,
+          "size": 12184,
+          "mtime_ns": 1779483149751932400,
+          "sha256": "147b6f445b4b6f5971bb80c1b1213071803eea0e20aa1bc26ca39b0c7635eae2"
+        },
+        "deck/side_application.py": {
+          "exists": true,
+          "size": 4393,
+          "mtime_ns": 1779520654636310200,
+          "sha256": "6a54316a1a50def7083a0de1c1339ff97c71a66cf08d172d6aa120f386e5e21a"
+        },
+        "deck/side_deck_planner.py": {
+          "exists": true,
+          "size": 11746,
+          "mtime_ns": 1779695043858664100,
+          "sha256": "b17ad30ba4fb88fd7f1df00bafa20b7e7b034bcb45320b8d99b02a8af95051f0"
+        },
+        "deck/side_deck_scoring.py": {
+          "exists": true,
+          "size": 5011,
+          "mtime_ns": 1779485091200462100,
+          "sha256": "46220010752305100d2f98652e899e0e96a93b8c6aea59b26fa0c5884bd7624f"
+        },
+        "deck/side_plan_optimizer.py": {
+          "exists": true,
+          "size": 19020,
+          "mtime_ns": 1779828202904661900,
+          "sha256": "1f141114065e9f0d4167af6fe83b75cb4f492a3a144fa27ab6cafc1a20120160"
+        },
+        "deck/timing_windows.py": {
+          "exists": true,
+          "size": 3485,
+          "mtime_ns": 1779636942258755900,
+          "sha256": "a84fd24962df6d35578f5e8958c8308ab3be42a6976f4945c9b548a7249d4640"
+        },
+        "matchup_matrix.py": {
+          "exists": true,
+          "size": 41747,
+          "mtime_ns": 1780256127814279200,
+          "sha256": "fccccb314f5cb5363435fcc69b3661d6351dde40efbcaf0c450e522e10ace190"
+        }
+      },
+      "source_hash": "ec31e2e460a3306f31819dff168b89d07c059962939e1c2dfb38f606a8ea9600"
+    },
+    "side_plan_settings": {
+      "matrix_smoke_side_candidates": 4,
+      "matrix_full_side_candidates": 6,
+      "matrix_smoke_engine_limit": 4,
+      "matrix_smoke_matchup_limit": 4
+    }
+  },
+  "source_fingerprint": {
+    "fingerprint": "30869a4fb9a4f0894d7b3e43c949459f016cedd9e6ff36fbe1f2bb8937f50af9",
+    "source_hash": "311a2f94e1a5032321887790f4c47b61dc1f6558d76b6e34af7bc9a8c7591ee6",
+    "file_count": 11,
+    "files": {
+      "deck/builder.py": {
+        "exists": true,
+        "sha256": "d198b440757632f54cf13ae343cb4f42d53846aff3b4dee01b3a7c526a10561e",
+        "size": 36410
+      },
+      "deck/choke_simulator.py": {
+        "exists": true,
+        "sha256": "afac3d6705162510a1bab69702b6dd8d5d3f740b115c3725eb7b39bf1f5de5cf",
+        "size": 14716
+      },
+      "deck/hand_simulator.py": {
+        "exists": true,
+        "sha256": "5fcf417af907cb1f56d289784bd9969d55c842edd1402a56dc0b869feb65708c",
+        "size": 33714
+      },
+      "deck/line_validator.py": {
+        "exists": true,
+        "sha256": "9c14b8d68a99fee8aa50f1904e4b3759f8171741cba34f2b474db34fd4975e00",
+        "size": 26165
+      },
+      "deck/opponent_graph_simulator.py": {
+        "exists": true,
+        "sha256": "7b0f9437193916b11ee85589544d532f111de665e649f9c974250568974cb383",
+        "size": 15440
+      },
+      "deck/opponent_probability_simulator.py": {
+        "exists": true,
+        "sha256": "8283e62a0eb1a6e284b17cb1f3c8758f1a7a1e67c0517f23e1ae857ae3758ba8",
+        "size": 5289
+      },
+      "deck/package_builder.py": {
+        "exists": true,
+        "sha256": "ec32f4f5affb479f6b42abec9e00529d5182396763b98b864bf09a5a325bb2b8",
+        "size": 10773
+      },
+      "deck/post_side_evaluation.py": {
+        "exists": true,
+        "sha256": "edc564b0a232012d6ea40475df3a7412148988468d854ed18f33fa085a7b3a6d",
+        "size": 5742
+      },
+      "deck/side_deck_planner.py": {
+        "exists": true,
+        "sha256": "b17ad30ba4fb88fd7f1df00bafa20b7e7b034bcb45320b8d99b02a8af95051f0",
+        "size": 11746
+      },
+      "deck/side_plan_optimizer.py": {
+        "exists": true,
+        "sha256": "1f141114065e9f0d4167af6fe83b75cb4f492a3a144fa27ab6cafc1a20120160",
+        "size": 19020
+      },
+      "matchup_matrix.py": {
+        "exists": true,
+        "sha256": "fccccb314f5cb5363435fcc69b3661d6351dde40efbcaf0c450e522e10ace190",
+        "size": 41747
+      }
+    },
+    "version": 1
+  },
+  "cache_created_timestamp": "2026-05-31T19:42:50.259334+00:00",
+  "schema_version": 1,
+  "value": {
+    "engine_variant": "pure",
+    "matchup": "Labrynth curated profile",
+    "going": "first",
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "failed_cell": false,
+    "failure_rate": 0.0,
+    "average_final_score": 279.0,
+    "best_score": 279.0,
+    "package_quality": 98.81,
+    "playable_hand_rate": 1.0,
+    "brick_rate": 0.0,
+    "resilience_score": 8.7,
+    "side_deck_score": 89.3,
+    "game1_score": 280.38,
+    "post_side_score": 278.11,
+    "post_side_delta": -2.27,
+    "post_side_valid_rate": 1.0,
+    "valid_candidate_rate": 1.0,
+    "side_optimization_success_rate": 1.0,
+    "post_side_memory_used_rate": 0.0,
+    "memory_aided_post_side_delta": 0,
+    "matchup_coverage_score": 19.0,
+    "choke_stop_rate": 0.75,
+    "opponent_recovery_rate": 0.5658,
+    "choke_coverage_score": 75.0,
+    "best_interruption_overlap": 5,
+    "poor_interruption_count": 0,
+    "timing_precision_score": 0.6559,
+    "pivot_risk_score": 0.8183,
+    "best_timing_window_count": 4,
+    "late_interruption_risk": 0.25,
+    "early_interruption_risk": 0.25,
+    "backup_line_success_rate": 0.5378,
+    "graph_stop_rate": 0.78,
+    "graph_pivot_rate": 0.61,
+    "graph_endboard_reduction_score": 0.4875,
+    "graph_best_interruption_count": 3,
+    "graph_poor_interruption_count": 3,
+    "graph_timing_precision_score": 0.78,
+    "opponent_resource_valid_rate": 1.0,
+    "opponent_resource_failure_rate": 0.0,
+    "opponent_pivot_success_rate": 0.0,
+    "opponent_backup_success_rate": 0.6667,
+    "opponent_starter_open_rate": 0.0,
+    "opponent_extender_open_rate": 0.0,
+    "opponent_interruption_open_rate": 0.0,
+    "opponent_brick_rate": 0.0,
+    "probability_weighted_resource_valid_rate": 0.0,
+    "probability_weighted_stop_rate": 0.0,
+    "probability_weighted_pivot_rate": 0.0,
+    "probability_weighted_backup_rate": 0.0,
+    "opponent_signal_sentinel_counts": {},
+    "opponent_signal_provenance_counts": {
+      "curated": 1,
+      "simulated": 1
+    },
+    "going_first_side_score": 12.0,
+    "going_second_side_score": 4.8,
+    "blocked_card_violations": [],
+    "best_deck": {
+      "main_deck": [
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Abyss Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Jet Dragon",
+        "Dictator of D.",
+        "Bingo Machine, Go!!!",
+        "Sage with Eyes of Blue",
+        "Maiden with Eyes of Blue",
+        "Dictator of D.",
+        "The White Stone of Legend",
+        "Sage with Eyes of Blue",
+        "Bingo Machine, Go!!!",
+        "The White Stone of Ancients",
+        "The White Stone of Legend",
+        "The Ultimate Creature of Destruction",
+        "The Ultimate Creature of Destruction",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Effect Veiler",
+        "Ghost Belle & Haunted Mansion",
+        "Infinite Impermanence",
+        "Harpie's Feather Duster",
+        "Forbidden Droplet"
+      ],
+      "extra_deck": [
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Dragon Master Knight",
+        "Blue-Eyes Tyrant Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Ultimate Dragon"
+      ]
+    },
+    "recommended_side_deck": [
+      [
+        "Lightning Storm",
+        1
+      ],
+      [
+        "Evenly Matched",
+        1
+      ],
+      [
+        "Cosmic Cyclone",
+        1
+      ],
+      [
+        "Ash Blossom & Joyous Spring",
+        1
+      ],
+      [
+        "Infinite Impermanence",
+        1
+      ],
+      [
+        "Gryphon Wing",
+        1
+      ],
+      [
+        "Zexal Entrust",
+        1
+      ],
+      [
+        "Zexal Construction",
+        1
+      ],
+      [
+        "Zeman the Ape King",
+        1
+      ],
+      [
+        "Zefraniu, Secret of the Yang Zing",
+        1
+      ],
+      [
+        "Zefra Divine Strike",
+        1
+      ],
+      [
+        "Zapper Shrimp",
+        1
+      ],
+      [
+        "ZW - Dragonic Halberd",
+        1
+      ],
+      [
+        "Yosenjus' Secret Move",
+        1
+      ],
+      [
+        "Yamato-no-Kami",
+        1
+      ]
+    ],
+    "best_remembered_side_cards": [],
+    "best_remembered_side_out_cards": [],
+    "runs": [
+      {
+        "run": 1,
+        "ok": true,
+        "engine_variant": "pure",
+        "final_score": 279.0,
+        "package_quality": 98.81,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 8.7,
+        "side_deck_score": 89.3,
+        "game1_score": 280.38,
+        "post_side_score": 278.11,
+        "post_side_delta": -2.27,
+        "post_side_valid": true,
+        "valid_candidate_rate": 1.0,
+        "optimization_used": true,
+        "post_side_memory_used": false,
+        "remembered_side_cards": [],
+        "remembered_side_out_cards": [],
+        "memory_aided_post_side_delta": 0,
+        "matchup_coverage_score": 19.0,
+        "choke_stop_rate": 0.75,
+        "opponent_recovery_rate": 0.5658,
+        "choke_coverage_score": 75.0,
+        "best_interruption_overlap": 5,
+        "poor_interruption_count": 0,
+        "timing_precision_score": 0.6559,
+        "pivot_risk_score": 0.8183,
+        "best_timing_window_count": 4,
+        "late_interruption_risk": 0.25,
+        "early_interruption_risk": 0.25,
+        "backup_line_success_rate": 0.5378,
+        "graph_stop_rate": 0.78,
+        "graph_pivot_rate": 0.61,
+        "graph_endboard_reduction_score": 0.4875,
+        "graph_best_interruption_count": 3,
+        "graph_poor_interruption_count": 3,
+        "graph_timing_precision_score": 0.78,
+        "opponent_resource_valid_rate": 1.0,
+        "opponent_resource_failure_rate": 0.0,
+        "opponent_pivot_success_rate": 0.0,
+        "opponent_backup_success_rate": 0.6667,
+        "opponent_missing_card_failures": {},
+        "opponent_missing_extra_failures": {},
+        "opponent_once_per_turn_failures": 0,
+        "opponent_normal_summon_failures": 0,
+        "opponent_starter_open_rate": 0.0,
+        "opponent_extender_open_rate": 0.0,
+        "opponent_interruption_open_rate": 0.0,
+        "opponent_brick_rate": 0.0,
+        "probability_weighted_resource_valid_rate": 0.0,
+        "probability_weighted_stop_rate": 0.0,
+        "probability_weighted_pivot_rate": 0.0,
+        "probability_weighted_backup_rate": 0.0,
+        "opponent_signal_provenance": {
+          "curated": true,
+          "inferred": false,
+          "simulated": true,
+          "unsupported": false,
+          "sentinel_reason": ""
+        },
+        "going_first_side_score": 12.0,
+        "going_second_side_score": 4.8,
+        "blocked_card_violations": [],
+        "main_deck": [
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Blue-Eyes Abyss Dragon",
+          "Dragon Spirit of White",
+          "Blue-Eyes Jet Dragon",
+          "Dictator of D.",
+          "Bingo Machine, Go!!!",
+          "Sage with Eyes of Blue",
+          "Maiden with Eyes of Blue",
+          "Dictator of D.",
+          "The White Stone of Legend",
+          "Sage with Eyes of Blue",
+          "Bingo Machine, Go!!!",
+          "The White Stone of Ancients",
+          "The White Stone of Legend",
+          "The Ultimate Creature of Destruction",
+          "The Ultimate Creature of Destruction",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Effect Veiler",
+          "Ghost Belle & Haunted Mansion",
+          "Infinite Impermanence",
+          "Harpie's Feather Duster",
+          "Forbidden Droplet"
+        ],
+        "extra_deck": [
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Dragon Master Knight",
+          "Blue-Eyes Tyrant Dragon",
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Ultimate Dragon"
+        ],
+        "recommended_side_deck": [
+          "Lightning Storm",
+          "Evenly Matched",
+          "Cosmic Cyclone",
+          "Ash Blossom & Joyous Spring",
+          "Infinite Impermanence",
+          "Gryphon Wing",
+          "Zexal Entrust",
+          "Zexal Construction",
+          "Zeman the Ape King",
+          "Zefraniu, Secret of the Yang Zing",
+          "Zefra Divine Strike",
+          "Zapper Shrimp",
+          "ZW - Dragonic Halberd",
+          "Yosenjus' Secret Move",
+          "Yamato-no-Kami"
+        ],
+        "side_cards_used": [
+          "Cosmic Cyclone",
+          "Infinite Impermanence",
+          "Zexal Construction"
+        ],
+        "cards_sided_out": [
+          "Dragon Spirit of White",
+          "Infinite Impermanence",
+          "Harpie's Feather Duster"
+        ]
+      }
+    ],
+    "cache_hit": false,
+    "cache_generation_time": 2.7177,
+    "cache_created_timestamp": "2026-05-31T19:42:50.259334+00:00",
+    "cache_fingerprint": "0d2f28d19c83c73b479d87f877e9ca59ca7218ed335952b5b08802fb23803225",
+    "source_fingerprint": {
+      "fingerprint": "30869a4fb9a4f0894d7b3e43c949459f016cedd9e6ff36fbe1f2bb8937f50af9",
+      "source_hash": "311a2f94e1a5032321887790f4c47b61dc1f6558d76b6e34af7bc9a8c7591ee6",
+      "file_count": 11,
+      "files": {
+        "deck/builder.py": {
+          "exists": true,
+          "sha256": "d198b440757632f54cf13ae343cb4f42d53846aff3b4dee01b3a7c526a10561e",
+          "size": 36410
+        },
+        "deck/choke_simulator.py": {
+          "exists": true,
+          "sha256": "afac3d6705162510a1bab69702b6dd8d5d3f740b115c3725eb7b39bf1f5de5cf",
+          "size": 14716
+        },
+        "deck/hand_simulator.py": {
+          "exists": true,
+          "sha256": "5fcf417af907cb1f56d289784bd9969d55c842edd1402a56dc0b869feb65708c",
+          "size": 33714
+        },
+        "deck/line_validator.py": {
+          "exists": true,
+          "sha256": "9c14b8d68a99fee8aa50f1904e4b3759f8171741cba34f2b474db34fd4975e00",
+          "size": 26165
+        },
+        "deck/opponent_graph_simulator.py": {
+          "exists": true,
+          "sha256": "7b0f9437193916b11ee85589544d532f111de665e649f9c974250568974cb383",
+          "size": 15440
+        },
+        "deck/opponent_probability_simulator.py": {
+          "exists": true,
+          "sha256": "8283e62a0eb1a6e284b17cb1f3c8758f1a7a1e67c0517f23e1ae857ae3758ba8",
+          "size": 5289
+        },
+        "deck/package_builder.py": {
+          "exists": true,
+          "sha256": "ec32f4f5affb479f6b42abec9e00529d5182396763b98b864bf09a5a325bb2b8",
+          "size": 10773
+        },
+        "deck/post_side_evaluation.py": {
+          "exists": true,
+          "sha256": "edc564b0a232012d6ea40475df3a7412148988468d854ed18f33fa085a7b3a6d",
+          "size": 5742
+        },
+        "deck/side_deck_planner.py": {
+          "exists": true,
+          "sha256": "b17ad30ba4fb88fd7f1df00bafa20b7e7b034bcb45320b8d99b02a8af95051f0",
+          "size": 11746
+        },
+        "deck/side_plan_optimizer.py": {
+          "exists": true,
+          "sha256": "1f141114065e9f0d4167af6fe83b75cb4f492a3a144fa27ab6cafc1a20120160",
+          "size": 19020
+        },
+        "matchup_matrix.py": {
+          "exists": true,
+          "sha256": "fccccb314f5cb5363435fcc69b3661d6351dde40efbcaf0c450e522e10ace190",
+          "size": 41747
+        }
+      },
+      "version": 1
+    }
+  }
+}

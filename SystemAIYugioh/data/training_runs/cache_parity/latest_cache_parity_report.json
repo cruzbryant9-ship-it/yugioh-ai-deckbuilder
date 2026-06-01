@@ -1,0 +1,33 @@
+{
+  "report_type": "cache_parity",
+  "created_at_utc": "2026-06-01T01:44:31.957165+00:00",
+  "seed": 7701,
+  "matched_cells": 3,
+  "mismatched_cells": 0,
+  "mismatch_reasons": [],
+  "best_engine_cold": "pure",
+  "best_engine_warm": "pure",
+  "comparisons": [
+    {
+      "engine_variant": "pure",
+      "matchup": "Snake-Eye curated profile",
+      "going": "first",
+      "cache_hit": true,
+      "mismatch_reasons": []
+    },
+    {
+      "engine_variant": "pure",
+      "matchup": "Snake-Eye curated profile",
+      "going": "second",
+      "cache_hit": true,
+      "mismatch_reasons": []
+    },
+    {
+      "engine_variant": "pure",
+      "matchup": "Snake-Eye curated profile",
+      "going": "both",
+      "cache_hit": true,
+      "mismatch_reasons": []
+    }
+  ]
+}

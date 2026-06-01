@@ -1,0 +1,283 @@
+{
+  "report_type": "generic_archetype_benchmark",
+  "report_version": "phase6f-v1",
+  "created_at_utc": "2026-05-27T18:35:09.654912+00:00",
+  "config": {
+    "archetypes": [
+      "Branded",
+      "Kashtira"
+    ],
+    "mode": "meta",
+    "runs": 3
+  },
+  "summary": {
+    "archetype_count": 2,
+    "average_improvement": 0.48,
+    "best_improved_archetype": "Kashtira",
+    "best_improvement": 1.1,
+    "worst_improved_archetype": "Branded",
+    "worst_improvement": -0.14,
+    "tuning_hurt_archetypes": [
+      "Branded"
+    ],
+    "improved_archetypes": [
+      "Kashtira"
+    ],
+    "most_reliable_ratio_patterns": [
+      [
+        "board_breakers:2|extenders:8|interruptions:8|max_bricks:4|payoffs:4|recovery:2|starters_searchers:10",
+        1
+      ]
+    ],
+    "common_package_weaknesses": [
+      [
+        "low interruption count",
+        2
+      ]
+    ],
+    "common_quota_warnings": [],
+    "repair_success_rate": 1.0,
+    "average_repair_actions": 1.5,
+    "decks_saved_by_repair": 6,
+    "decks_still_rejected": 0,
+    "common_repair_warnings": [],
+    "memory_updates": {
+      "recorded_bad_pattern": 1,
+      "updated": 1
+    },
+    "historical_average_improvement": 0.5139,
+    "recent_average_improvement": 0.5139,
+    "average_repair_reliability": 1.0,
+    "recommended_follow_up_archetypes": [
+      "Branded",
+      "Kashtira"
+    ]
+  },
+  "results": [
+    {
+      "archetype": "Branded",
+      "normal_score": 189.81,
+      "tuned_score": 189.67,
+      "improvement": -0.14,
+      "normal_confidence": 0.7498,
+      "tuned_confidence": 0.7498,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 19,
+        "starters_searchers": 21
+      },
+      "tuned_package_counts": {
+        "extenders": 19,
+        "starters_searchers": 21
+      },
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 3,
+      "legal_variant_count": 3,
+      "best_ratio_profile": {
+        "starters_searchers": 13,
+        "extenders": 5,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 9,
+        "board_breakers": 2,
+        "max_bricks": 4
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 3,
+      "fallback_used_count": 0,
+      "average_repair_actions": 1,
+      "common_repair_warnings": [],
+      "memory_action": "recorded_bad_pattern"
+    },
+    {
+      "archetype": "Kashtira",
+      "normal_score": 185.23,
+      "tuned_score": 186.33,
+      "improvement": 1.1,
+      "normal_confidence": 0.7498,
+      "tuned_confidence": 0.7498,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 15,
+        "interruptions": 4,
+        "starters_searchers": 21
+      },
+      "tuned_package_counts": {
+        "extenders": 15,
+        "interruptions": 4,
+        "starters_searchers": 21
+      },
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 3,
+      "legal_variant_count": 3,
+      "best_ratio_profile": {
+        "starters_searchers": 10,
+        "extenders": 8,
+        "payoffs": 4,
+        "recovery": 2,
+        "interruptions": 8,
+        "board_breakers": 2,
+        "max_bricks": 4
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 3,
+      "fallback_used_count": 0,
+      "average_repair_actions": 2,
+      "common_repair_warnings": [],
+      "memory_action": "updated"
+    }
+  ],
+  "benchmark_history": {
+    "profiles": {
+      "Branded": {
+        "total_benchmark_runs": 26,
+        "average_normal_score": 189.0177,
+        "average_tuned_score": 189.7362,
+        "average_improvement": 0.7185,
+        "best_improvement": 3.86,
+        "worst_improvement": -0.92,
+        "tuning_hurt_count": 8,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 1.0,
+        "rejected_deck_count": 0,
+        "memory_update_count": 18,
+        "trend_direction": "declining",
+        "best_ratio_patterns": [
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:8|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 19,
+            "average_improvement": 1.1242,
+            "best_improvement": 3.86,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:5|interruptions:9|max_bricks:4|payoffs:3|recovery:2|starters_searchers:13",
+            "count": 2,
+            "average_improvement": 0.395,
+            "best_improvement": 0.93,
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 5,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          }
+        ],
+        "bad_ratio_pattern_count": 5
+      },
+      "Kashtira": {
+        "total_benchmark_runs": 26,
+        "average_normal_score": 185.4088,
+        "average_tuned_score": 185.7181,
+        "average_improvement": 0.3092,
+        "best_improvement": 1.19,
+        "worst_improvement": -1.03,
+        "tuning_hurt_count": 7,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 2.0,
+        "rejected_deck_count": 0,
+        "memory_update_count": 19,
+        "trend_direction": "declining",
+        "best_ratio_patterns": [
+          {
+            "pattern": "board_breakers:2|extenders:8|interruptions:8|max_bricks:4|payoffs:4|recovery:2|starters_searchers:10",
+            "count": 2,
+            "average_improvement": 0.89,
+            "best_improvement": 1.1,
+            "ratio_profile": {
+              "starters_searchers": 10,
+              "extenders": 8,
+              "payoffs": 4,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:5|interruptions:9|max_bricks:4|payoffs:3|recovery:2|starters_searchers:13",
+            "count": 11,
+            "average_improvement": 0.59,
+            "best_improvement": 1.19,
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 5,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:8|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 10,
+            "average_improvement": 0.202,
+            "best_improvement": 0.55,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          }
+        ],
+        "bad_ratio_pattern_count": 3
+      }
+    },
+    "best_long_term_archetypes": [
+      [
+        "Branded",
+        0.7185
+      ],
+      [
+        "Kashtira",
+        0.3092
+      ]
+    ],
+    "worst_long_term_archetypes": [
+      [
+        "Kashtira",
+        0.3092
+      ],
+      [
+        "Branded",
+        0.7185
+      ]
+    ],
+    "noisy_archetypes": [],
+    "recommended_follow_up_archetypes": [
+      "Branded",
+      "Kashtira"
+    ],
+    "historical_average_improvement": 0.5139,
+    "recent_average_improvement": 0.5139,
+    "average_repair_reliability": 1.0
+  }
+}

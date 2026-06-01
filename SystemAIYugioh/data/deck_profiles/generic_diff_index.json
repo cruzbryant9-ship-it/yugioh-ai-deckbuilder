@@ -1,0 +1,1644 @@
+{
+  "version": 1,
+  "updated_at_utc": "2026-05-30T07:29:55.396802+00:00",
+  "helpful_cards": {
+    "additions": {},
+    "removals": {}
+  },
+  "harmful_cards": {
+    "additions": {
+      "Albion the Shrouded Dragon": {
+        "count": 498,
+        "score_delta_total": -3036.6604,
+        "average_score_delta": -6.0977,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Branded Loss": {
+        "count": 271,
+        "score_delta_total": -1665.7733,
+        "average_score_delta": -6.1468,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Branded in Central Dogmatika": {
+        "count": 771,
+        "score_delta_total": -3094.2721,
+        "average_score_delta": -4.0133,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Branded Regained": {
+        "count": 121,
+        "score_delta_total": -730.4766,
+        "average_score_delta": -6.037,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Kashtira Akstra": {
+        "count": 371,
+        "score_delta_total": -1602.198,
+        "average_score_delta": -4.3186,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Kashtira Overlap": {
+        "count": 400,
+        "score_delta_total": -1572.5031,
+        "average_score_delta": -3.9313,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Kashtira Preparations": {
+        "count": 234,
+        "score_delta_total": -1238.6563,
+        "average_score_delta": -5.2934,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Anti Raigeki": {
+        "count": 135,
+        "score_delta_total": -737.0115,
+        "average_score_delta": -5.4593,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Branded Bond": {
+        "count": 16,
+        "score_delta_total": -107.355,
+        "average_score_delta": -6.7097,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-28T17:31:19.745326+00:00"
+      },
+      "Crystal Raigeki": {
+        "count": 3,
+        "score_delta_total": 0.6366,
+        "average_score_delta": 0.2122,
+        "affected_archetypes": [
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+      },
+      "Ghost Belle & Haunted Mansion": {
+        "count": 28,
+        "score_delta_total": -97.7732,
+        "average_score_delta": -3.4919,
+        "affected_archetypes": [
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Effect Veiler": {
+        "count": 2,
+        "score_delta_total": -3.39,
+        "average_score_delta": -1.695,
+        "affected_archetypes": [
+          "Runick",
+          "Tearlaments"
+        ],
+        "last_seen_utc": "2026-05-30T07:27:09.379290+00:00"
+      },
+      "D.D. Crow": {
+        "count": 25,
+        "score_delta_total": -98.4098,
+        "average_score_delta": -3.9364,
+        "affected_archetypes": [
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Infinite Impermanence": {
+        "count": 12,
+        "score_delta_total": -59.9565,
+        "average_score_delta": -4.9964,
+        "affected_archetypes": [
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      }
+    },
+    "removals": {
+      "Branded Befallen": {
+        "count": 443,
+        "score_delta_total": -2782.8587,
+        "average_score_delta": -6.2818,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Branded Disciple": {
+        "count": 560,
+        "score_delta_total": -3241.9736,
+        "average_score_delta": -5.7892,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "The Fallen &amp; The Virtuous": {
+        "count": 322,
+        "score_delta_total": -2004.6635,
+        "average_score_delta": -6.2257,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Springans Kitt": {
+        "count": 201,
+        "score_delta_total": -1214.9766,
+        "average_score_delta": -6.0447,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Screams of the Branded": {
+        "count": 125,
+        "score_delta_total": -759.7516,
+        "average_score_delta": -6.078,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "D.D. Crow": {
+        "count": 436,
+        "score_delta_total": -1677.0279,
+        "average_score_delta": -3.8464,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Ghost Belle & Haunted Mansion": {
+        "count": 234,
+        "score_delta_total": -1238.6563,
+        "average_score_delta": -5.2934,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Nibiru, the Primal Being": {
+        "count": 335,
+        "score_delta_total": -1497.6732,
+        "average_score_delta": -4.4707,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Ash Blossom & Joyous Spring": {
+        "count": 150,
+        "score_delta_total": -807.238,
+        "average_score_delta": -5.3816,
+        "affected_archetypes": [
+          "Kashtira",
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Branded Fusion": {
+        "count": 26,
+        "score_delta_total": -129.2602,
+        "average_score_delta": -4.9715,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:28:14.966034+00:00"
+      },
+      "Infinite Impermanence": {
+        "count": 49,
+        "score_delta_total": -98.4098,
+        "average_score_delta": -2.0084,
+        "affected_archetypes": [
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "Anti Raigeki": {
+        "count": 1,
+        "score_delta_total": -0.9167,
+        "average_score_delta": -0.9167,
+        "affected_archetypes": [
+          "Tearlaments"
+        ],
+        "last_seen_utc": "2026-05-30T07:27:09.379290+00:00"
+      }
+    }
+  },
+  "helpful_package_movements": {
+    "gains": {},
+    "losses": {}
+  },
+  "harmful_package_movements": {
+    "gains": {
+      "extenders:+1": {
+        "count": 298,
+        "score_delta_total": -1758.3598,
+        "average_score_delta": -5.9005,
+        "affected_archetypes": [
+          "Branded",
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "engine_requirement:+1": {
+        "count": 390,
+        "score_delta_total": -1736.4182,
+        "average_score_delta": -4.4524,
+        "affected_archetypes": [
+          "Branded",
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "engine_requirement:+3": {
+        "count": 702,
+        "score_delta_total": -1238.6563,
+        "average_score_delta": -1.7645,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "engine_requirement:+2": {
+        "count": 228,
+        "score_delta_total": -333.2154,
+        "average_score_delta": -1.4615,
+        "affected_archetypes": [
+          "Branded",
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "interruptions:+1": {
+        "count": 16,
+        "score_delta_total": -61.7932,
+        "average_score_delta": -3.8621,
+        "affected_archetypes": [
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      }
+    },
+    "losses": {
+      "board_breakers:-1": {
+        "count": 560,
+        "score_delta_total": -3241.9736,
+        "average_score_delta": -5.7892,
+        "affected_archetypes": [
+          "Branded"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "extenders:-2": {
+        "count": 198,
+        "score_delta_total": -501.6448,
+        "average_score_delta": -2.5336,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "extenders:-1": {
+        "count": 141,
+        "score_delta_total": -453.3169,
+        "average_score_delta": -3.215,
+        "affected_archetypes": [
+          "Branded",
+          "Kashtira",
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "extenders:-3": {
+        "count": 405,
+        "score_delta_total": -737.0115,
+        "average_score_delta": -1.8198,
+        "affected_archetypes": [
+          "Kashtira"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      },
+      "interruptions:-1": {
+        "count": 67,
+        "score_delta_total": -274.4678,
+        "average_score_delta": -4.0965,
+        "affected_archetypes": [
+          "Kashtira",
+          "Runick"
+        ],
+        "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+      }
+    },
+    "board_breakers:-1": {
+      "count": 560,
+      "score_delta_total": -3241.9736,
+      "average_score_delta": -5.7892,
+      "affected_archetypes": [
+        "Branded"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "extenders:+1": {
+      "count": 298,
+      "score_delta_total": -1758.3598,
+      "average_score_delta": -5.9005,
+      "affected_archetypes": [
+        "Branded",
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "engine_requirement:+1": {
+      "count": 390,
+      "score_delta_total": -1736.4182,
+      "average_score_delta": -4.4524,
+      "affected_archetypes": [
+        "Branded",
+        "Kashtira"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "engine_requirement:+3": {
+      "count": 702,
+      "score_delta_total": -1238.6563,
+      "average_score_delta": -1.7645,
+      "affected_archetypes": [
+        "Kashtira"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "extenders:-2": {
+      "count": 198,
+      "score_delta_total": -501.6448,
+      "average_score_delta": -2.5336,
+      "affected_archetypes": [
+        "Kashtira"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "engine_requirement:+2": {
+      "count": 228,
+      "score_delta_total": -333.2154,
+      "average_score_delta": -1.4615,
+      "affected_archetypes": [
+        "Branded",
+        "Kashtira"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "extenders:-1": {
+      "count": 141,
+      "score_delta_total": -453.3169,
+      "average_score_delta": -3.215,
+      "affected_archetypes": [
+        "Branded",
+        "Kashtira",
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "extenders:-3": {
+      "count": 405,
+      "score_delta_total": -737.0115,
+      "average_score_delta": -1.8198,
+      "affected_archetypes": [
+        "Kashtira"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "interruptions:+1": {
+      "count": 16,
+      "score_delta_total": -61.7932,
+      "average_score_delta": -3.8621,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "interruptions:-1": {
+      "count": 67,
+      "score_delta_total": -274.4678,
+      "average_score_delta": -4.0965,
+      "affected_archetypes": [
+        "Kashtira",
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    }
+  },
+  "recurring_risk_flags": {
+    "extender_loss": {
+      "count": 26,
+      "affected_archetypes": [
+        "Branded"
+      ],
+      "last_seen_utc": "2026-05-30T07:28:14.966034+00:00"
+    },
+    "package_instability": {
+      "count": 44,
+      "affected_archetypes": [
+        "Branded",
+        "Kashtira"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    }
+  },
+  "recurring_repair_actions": {
+    "added Extra Deck repair card: Albion the Branded Dragon": {
+      "count": 146,
+      "affected_archetypes": [
+        "Branded"
+      ],
+      "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+    },
+    "filled missing main slot with interruptions: Anti Raigeki": {
+      "count": 353,
+      "affected_archetypes": [
+        "Kashtira",
+        "Runick",
+        "Tearlaments"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "added Extra Deck repair card: Kashtira Shangri-Ira": {
+      "count": 136,
+      "affected_archetypes": [
+        "Kashtira"
+      ],
+      "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+    },
+    "filled missing main slot with interruptions: Crystal Raigeki": {
+      "count": 166,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "added Extra Deck repair card: Hugin the Runick Wings": {
+      "count": 4,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+    },
+    "added Extra Deck repair card: Munin the Runick Wings": {
+      "count": 4,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+    },
+    "added Extra Deck repair card: Geri the Runick Fangs": {
+      "count": 4,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+    },
+    "added Extra Deck repair card: Sleipnir the Runick Mane": {
+      "count": 4,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+    },
+    "added Extra Deck repair card: Freki the Runick Fangs": {
+      "count": 4,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+    },
+    "filled missing main slot with interruptions: D.D. Crow": {
+      "count": 100,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "filled missing main slot with safe filler: Ash Blossom & Joyous Spring": {
+      "count": 2,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-28T20:32:37.188862+00:00"
+    },
+    "filled missing main slot with safe filler: Infinite Impermanence": {
+      "count": 2,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-28T20:32:37.188862+00:00"
+    },
+    "filled missing main slot with contextual safe filler: Infinite Impermanence": {
+      "count": 82,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "filled missing main slot with contextual safe filler: Triple Tactics Talent": {
+      "count": 7,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    },
+    "filled missing main slot with contextual safe filler: Triple Tactics Thrust": {
+      "count": 7,
+      "affected_archetypes": [
+        "Runick"
+      ],
+      "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+    }
+  },
+  "archetype_patterns": {
+    "Branded": {
+      "helpful_additions": {},
+      "harmful_additions": {
+        "Albion the Shrouded Dragon": {
+          "count": 498,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Branded Loss": {
+          "count": 271,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Branded in Central Dogmatika": {
+          "count": 527,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Branded Regained": {
+          "count": 121,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Branded Bond": {
+          "count": 16,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-28T17:31:19.745326+00:00"
+        }
+      },
+      "helpful_removals": {},
+      "harmful_removals": {
+        "Branded Befallen": {
+          "count": 443,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Branded Disciple": {
+          "count": 560,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "The Fallen &amp; The Virtuous": {
+          "count": 322,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Springans Kitt": {
+          "count": 201,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Screams of the Branded": {
+          "count": 125,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Branded Fusion": {
+          "count": 26,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:28:14.966034+00:00"
+        }
+      },
+      "helpful_packages": {},
+      "harmful_packages": {
+        "board_breakers:-1": {
+          "count": 560,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "extenders:+1": {
+          "count": 271,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "engine_requirement:+1": {
+          "count": 289,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "engine_requirement:+2": {
+          "count": 13,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:28:14.966034+00:00"
+        },
+        "extenders:-1": {
+          "count": 26,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:28:14.966034+00:00"
+        }
+      },
+      "risk_flags": {
+        "package_instability": {
+          "count": 128,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "extender_loss": {
+          "count": 26,
+          "affected_archetypes": [
+            "Branded"
+          ],
+          "last_seen_utc": "2026-05-30T07:28:14.966034+00:00"
+        }
+      }
+    },
+    "Kashtira": {
+      "helpful_additions": {},
+      "harmful_additions": {
+        "Kashtira Akstra": {
+          "count": 371,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Kashtira Overlap": {
+          "count": 400,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Kashtira Preparations": {
+          "count": 234,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Anti Raigeki": {
+          "count": 135,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        }
+      },
+      "helpful_removals": {},
+      "harmful_removals": {
+        "D.D. Crow": {
+          "count": 436,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Ghost Belle & Haunted Mansion": {
+          "count": 234,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Nibiru, the Primal Being": {
+          "count": 335,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Ash Blossom & Joyous Spring": {
+          "count": 135,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        }
+      },
+      "helpful_packages": {},
+      "harmful_packages": {
+        "engine_requirement:+3": {
+          "count": 234,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "extenders:-2": {
+          "count": 99,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "interruptions:-1": {
+          "count": 301,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "engine_requirement:+2": {
+          "count": 101,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "extenders:-1": {
+          "count": 101,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "engine_requirement:+1": {
+          "count": 101,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "extenders:-3": {
+          "count": 135,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        }
+      },
+      "risk_flags": {
+        "package_instability": {
+          "count": 135,
+          "affected_archetypes": [
+            "Kashtira"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        }
+      }
+    },
+    "Runick": {
+      "helpful_additions": {},
+      "harmful_additions": {
+        "Crystal Raigeki": {
+          "count": 3,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-28T06:35:59.409235+00:00"
+        },
+        "Ghost Belle & Haunted Mansion": {
+          "count": 28,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Effect Veiler": {
+          "count": 1,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-28T20:32:37.188862+00:00"
+        },
+        "D.D. Crow": {
+          "count": 25,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Infinite Impermanence": {
+          "count": 12,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        }
+      },
+      "helpful_removals": {},
+      "harmful_removals": {
+        "Ash Blossom & Joyous Spring": {
+          "count": 15,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "Infinite Impermanence": {
+          "count": 25,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        }
+      },
+      "helpful_packages": {},
+      "harmful_packages": {
+        "extenders:+1": {
+          "count": 27,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "interruptions:+1": {
+          "count": 16,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "extenders:-1": {
+          "count": 14,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        },
+        "interruptions:-1": {
+          "count": 24,
+          "affected_archetypes": [
+            "Runick"
+          ],
+          "last_seen_utc": "2026-05-30T07:29:55.395799+00:00"
+        }
+      },
+      "risk_flags": {}
+    },
+    "Tearlaments": {
+      "helpful_additions": {},
+      "harmful_additions": {
+        "Effect Veiler": {
+          "count": 1,
+          "affected_archetypes": [
+            "Tearlaments"
+          ],
+          "last_seen_utc": "2026-05-30T07:27:09.379290+00:00"
+        }
+      },
+      "helpful_removals": {},
+      "harmful_removals": {
+        "Anti Raigeki": {
+          "count": 1,
+          "affected_archetypes": [
+            "Tearlaments"
+          ],
+          "last_seen_utc": "2026-05-30T07:27:09.379290+00:00"
+        }
+      },
+      "helpful_packages": {},
+      "harmful_packages": {},
+      "risk_flags": {}
+    }
+  },
+  "provenance_log": [
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:30:25.853451+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:30:33.898470+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:30:41.073122+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:30:57.378851+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:31:09.199330+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:31:19.996413+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:31:30.813883+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:31:41.980459+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:31:47.775980+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:32:01.739282+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:32:12.741178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:32:15.342052+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:32:26.239041+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:32:37.317183+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:32:48.288913+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:34:18.484329+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:34:52.721570+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:35:25.224315+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:35:56.551993+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:36:27.713877+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:36:58.980570+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:37:29.453143+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T17:51:34.744783+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T19:03:19.792377+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T19:03:19.792377+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T20:32:10.080400+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-28T20:32:10.080400+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T16:35:06.284052+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T16:35:06.284052+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T17:47:11.113614+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T17:47:11.113614+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T18:44:06.364871+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T18:44:06.364871+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T20:01:58.944707+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T20:01:58.944707+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:03:53.125488+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:03:53.125488+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:12:06.045116+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:12:06.045116+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:27:53.976838+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:27:53.976838+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T04:28:30.027273+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T04:28:30.027273+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T06:59:23.052705+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T06:59:23.052705+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:00:11.475440+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:00:11.475440+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:03:16.711038+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:03:16.711038+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:03:57.782466+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:03:57.782466+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    }
+  ],
+  "last_update_provenance": {
+    "source": "benchmark",
+    "validator_generated": false,
+    "smoke": false,
+    "legal": null,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-05-30T07:26:34.236178+00:00"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "matchup": "combo",
+    "going": "second",
+    "runs": 1
+  },
+  "created_at_utc": "2026-05-25T06:24:06.083194+00:00",
+  "summary": {
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "average_game1_score": 305.79,
+    "average_post_side_score": 307.68,
+    "average_post_side_delta": 1.89,
+    "post_side_valid_rate": 1.0,
+    "average_side_deck_score": 103.0,
+    "average_matchup_coverage_score": 35.0,
+    "average_candidate_count": 12,
+    "average_valid_candidate_count": 12,
+    "average_valid_candidate_rate": 1.0,
+    "optimization_success_rate": 1.0,
+    "post_side_memory_used_rate": 1.0,
+    "average_choke_stop_rate": 0.0,
+    "average_opponent_recovery_rate": 0.0,
+    "average_choke_coverage_score": 0.0,
+    "average_best_interruption_overlap": 0,
+    "average_poor_interruption_count": 0,
+    "average_timing_precision_score": 0.0,
+    "average_pivot_risk_score": 0.0,
+    "average_best_timing_window_count": 0,
+    "average_late_interruption_risk": 0.0,
+    "average_early_interruption_risk": 0.0,
+    "average_backup_line_success_rate": 0.0,
+    "average_graph_stop_rate": 0.0,
+    "average_graph_pivot_rate": 0.0,
+    "average_graph_endboard_reduction_score": 0.0,
+    "average_graph_timing_precision_score": 0.0,
+    "average_graph_poor_interruption_count": 0,
+    "average_opponent_resource_valid_rate": 0.0,
+    "average_opponent_resource_failure_rate": 0.0,
+    "average_opponent_pivot_success_rate": 0.0,
+    "average_opponent_backup_success_rate": 0.0,
+    "most_used_side_cards": [
+      [
+        "Droll & Lock Bird",
+        1
+      ],
+      [
+        "Ash Blossom & Joyous Spring",
+        1
+      ],
+      [
+        "Effect Veiler",
+        1
+      ]
+    ]
+  },
+  "post_side_memory_updated": true,
+  "post_side_memory_summary": {
+    "top_side_in_cards": [
+      [
+        "Ash Blossom & Joyous Spring",
+        55
+      ],
+      [
+        "Droll & Lock Bird",
+        44
+      ],
+      [
+        "Infinite Impermanence",
+        31
+      ],
+      [
+        "Effect Veiler",
+        21
+      ],
+      [
+        "Nibiru, the Primal Being",
+        11
+      ],
+      [
+        "Evenly Matched",
+        5
+      ],
+      [
+        "Dark Ruler No More",
+        4
+      ]
+    ],
+    "top_side_out_cards": [
+      [
+        "Dragon Spirit of White",
+        33
+      ],
+      [
+        "Destined Rivals",
+        22
+      ],
+      [
+        "Ghost Ogre & Snow Rabbit",
+        19
+      ],
+      [
+        "Lightning Storm",
+        13
+      ],
+      [
+        "Solemn Judgment",
+        10
+      ],
+      [
+        "Main 9",
+        9
+      ],
+      [
+        "Main 10",
+        9
+      ],
+      [
+        "The Ultimate Creature of Destruction",
+        8
+      ],
+      [
+        "Book of Eclipse",
+        7
+      ],
+      [
+        "Skill Drain",
+        6
+      ]
+    ],
+    "best_post_side_pattern": "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | Ghost Ogre & Snow Rabbit",
+    "average_post_side_delta": 3.162
+  },
+  "runs": [
+    {
+      "game1_score": 305.79,
+      "post_side_score": 307.68,
+      "post_side_delta": 1.89,
+      "post_side_valid": true,
+      "side_cards_used": [
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Effect Veiler"
+      ],
+      "cards_sided_out": [
+        "The Bystial Lubellion",
+        "True Light",
+        "Book of Eclipse"
+      ],
+      "post_side_warnings": [],
+      "candidate_count": 12,
+      "valid_candidate_count": 12,
+      "rejected_candidate_count": 0,
+      "valid_candidate_rate": 1.0,
+      "rejection_reasons": {},
+      "optimization_used": true,
+      "post_side_memory_used": true,
+      "curated_opponent_memory_used": false,
+      "best_post_side_score": 307.68,
+      "best_side_in": [
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Effect Veiler"
+      ],
+      "best_side_out": [
+        "The Bystial Lubellion",
+        "True Light",
+        "Book of Eclipse"
+      ],
+      "side_deck_score": 103.0,
+      "matchup_coverage_score": 35.0,
+      "choke_report": {
+        "opponent": "combo",
+        "available_interruptions": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Droll & Lock Bird",
+          "Ash Blossom & Joyous Spring",
+          "Droll Bird",
+          "Book of Eclipse",
+          "Zuttomozaurus",
+          "Zuijin of the Ice Barrier",
+          "Zubababa Knight",
+          "Zubaba Knight",
+          "Zubaba Buster",
+          "Zoroa, the Magistus Verethragna"
+        ],
+        "likely_lines": [],
+        "best_interruptions": [],
+        "choke_results": [],
+        "best_timing_windows": [],
+        "bad_timing_windows": [],
+        "line_branch_results": [],
+        "average_stop_rate": 0.0,
+        "average_recovery_rate": 0.0,
+        "timing_precision_score": 0.0,
+        "pivot_risk_score": 0.0,
+        "best_timing_window_count": 0,
+        "late_interruption_risk": 0.0,
+        "early_interruption_risk": 0.0,
+        "backup_line_success_rate": 0.0,
+        "recommended_interruptions": [],
+        "poor_interruptions": [],
+        "choke_coverage_score": 0.0,
+        "best_interruption_overlap": 0,
+        "poor_interruption_count": 0,
+        "graph_name": null,
+        "graph_route": [],
+        "route_results": [],
+        "graph_stop_rate": 0.0,
+        "graph_pivot_rate": 0.0,
+        "graph_endboard_reduction_score": 0.0,
+        "graph_timing_precision_score": 0.0,
+        "best_interruption_nodes": [],
+        "poor_interruption_nodes": [],
+        "graph_best_interruption_count": 0,
+        "graph_poor_interruption_count": 0,
+        "opponent_resource_valid_rate": 0.0,
+        "opponent_resource_failure_rate": 0.0,
+        "opponent_pivot_success_rate": 0.0,
+        "opponent_backup_success_rate": 0.0,
+        "opponent_missing_card_failures": {},
+        "opponent_missing_extra_failures": {},
+        "opponent_once_per_turn_failures": 0,
+        "opponent_normal_summon_failures": 0
+      },
+      "choke_stop_rate": 0.0,
+      "opponent_recovery_rate": 0.0,
+      "choke_coverage_score": 0.0,
+      "best_interruption_overlap": 0,
+      "poor_interruption_count": 0,
+      "timing_precision_score": 0.0,
+      "pivot_risk_score": 0.0,
+      "best_timing_window_count": 0,
+      "late_interruption_risk": 0.0,
+      "early_interruption_risk": 0.0,
+      "backup_line_success_rate": 0.0,
+      "graph_stop_rate": 0.0,
+      "graph_pivot_rate": 0.0,
+      "graph_endboard_reduction_score": 0.0,
+      "graph_best_interruption_count": 0,
+      "graph_poor_interruption_count": 0,
+      "graph_timing_precision_score": 0.0,
+      "opponent_resource_valid_rate": 0.0,
+      "opponent_resource_failure_rate": 0.0,
+      "opponent_pivot_success_rate": 0.0,
+      "opponent_backup_success_rate": 0.0,
+      "opponent_missing_card_failures": {},
+      "opponent_missing_extra_failures": {},
+      "opponent_once_per_turn_failures": 0,
+      "opponent_normal_summon_failures": 0,
+      "game1_metrics": {
+        "final_score": 305.79,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 11.25,
+        "ash_vulnerability_rate": 0.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 0.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 93.55
+      },
+      "post_side_metrics": {
+        "final_score": 307.68,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 11.25,
+        "ash_vulnerability_rate": 0.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 0.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 93.95
+      },
+      "post_side_main": [
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "Bingo Machine, Go!!!",
+        "Dictator of D.",
+        "The White Stone of Legend",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Wishes for Eyes of Blue",
+        "True Light",
+        "Bystial Magnamhut",
+        "The Bystial Lubellion",
+        "The Bystial Lubellion",
+        "D.D. Crow",
+        "Effect Veiler",
+        "Effect Veiler",
+        "Droll & Lock Bird",
+        "Ghost Ogre & Snow Rabbit",
+        "Forbidden Droplet",
+        "Solemn Strike",
+        "Infinite Impermanence",
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Effect Veiler"
+      ],
+      "recommended_side_deck": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Droll Bird",
+        "Book of Eclipse",
+        "Zuttomozaurus",
+        "Zuijin of the Ice Barrier",
+        "Zubababa Knight",
+        "Zubaba Knight",
+        "Zubaba Buster",
+        "Zoroa, the Magistus Verethragna"
+      ],
+      "blocked_card_violations_after_siding": [],
+      "post_side_deck_size_valid": true,
+      "run": 1,
+      "ok": true
+    }
+  ]
+}

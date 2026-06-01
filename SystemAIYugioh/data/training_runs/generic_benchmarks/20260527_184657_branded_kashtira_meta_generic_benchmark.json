@@ -1,0 +1,555 @@
+{
+  "report_type": "generic_archetype_benchmark",
+  "report_version": "phase6g-v1",
+  "created_at_utc": "2026-05-27T18:46:57.278706+00:00",
+  "config": {
+    "archetypes": [
+      "Branded",
+      "Kashtira"
+    ],
+    "mode": "meta",
+    "runs": 2
+  },
+  "summary": {
+    "archetype_count": 2,
+    "average_improvement": 0.48,
+    "best_improved_archetype": "Kashtira",
+    "best_improvement": 0.55,
+    "worst_improved_archetype": "Branded",
+    "worst_improvement": 0.42,
+    "tuning_hurt_archetypes": [],
+    "improved_archetypes": [
+      "Branded",
+      "Kashtira"
+    ],
+    "most_reliable_ratio_patterns": [
+      [
+        "board_breakers:2|extenders:6|interruptions:9|max_bricks:3|payoffs:3|recovery:2|starters_searchers:11",
+        1
+      ],
+      [
+        "board_breakers:2|extenders:6|interruptions:10|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+        1
+      ]
+    ],
+    "common_package_weaknesses": [
+      [
+        "low interruption count",
+        2
+      ]
+    ],
+    "common_quota_warnings": [],
+    "repair_success_rate": 1.0,
+    "average_repair_actions": 1.25,
+    "decks_saved_by_repair": 4,
+    "decks_still_rejected": 0,
+    "common_repair_warnings": [],
+    "memory_updates": {
+      "updated": 2
+    },
+    "diagnosis_severity_counts": {
+      "medium": 1,
+      "low": 1
+    },
+    "diagnosis_influenced_tuning_count": 2,
+    "historical_average_improvement": 0.4329,
+    "recent_average_improvement": 0.4329,
+    "average_repair_reliability": 1.0,
+    "recommended_follow_up_archetypes": [
+      "Branded"
+    ]
+  },
+  "results": [
+    {
+      "archetype": "Branded",
+      "normal_score": 189.44,
+      "tuned_score": 189.86,
+      "improvement": 0.42,
+      "normal_confidence": 0.7498,
+      "tuned_confidence": 0.7498,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 19,
+        "starters_searchers": 21
+      },
+      "tuned_package_counts": {
+        "extenders": 19,
+        "starters_searchers": 21
+      },
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 2,
+      "legal_variant_count": 2,
+      "best_ratio_profile": {
+        "starters_searchers": 11,
+        "extenders": 6,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 9,
+        "board_breakers": 2,
+        "max_bricks": 3
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 2,
+      "fallback_used_count": 0,
+      "average_repair_actions": 1,
+      "common_repair_warnings": [],
+      "memory_action": "updated",
+      "diagnosis_influenced_tuning": true,
+      "diagnosis_bias": {
+        "interruptions": 1,
+        "max_bricks": -1
+      },
+      "diagnosis_used": {
+        "archetype": "Branded",
+        "mode": "meta",
+        "diagnosis": "Branded trend is declining; likely pressure from interruption shortage, ratio overfitting, package variance high.",
+        "severity": "high",
+        "suspected_causes": [
+          "interruption_shortage",
+          "ratio_overfitting",
+          "package_variance_high"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds.",
+          "Retest safer baseline-adjacent ratios before trusting narrow improvements.",
+          "Constrain package ratio swings and retest with more runs."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 19,
+          "payoffs": 3,
+          "interruptions": 0,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 10,
+          "max_bricks": 2,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.0875,
+        "bad_pattern_recurrence": 0.6667,
+        "last_diagnosed_utc": "2026-05-27T18:46:54.924073+00:00"
+      },
+      "trend_diagnosis": {
+        "archetype": "Branded",
+        "mode": "meta",
+        "diagnosis": "Branded trend is improving; likely pressure from interruption shortage, ratio overfitting, package variance high.",
+        "severity": "medium",
+        "suspected_causes": [
+          "interruption_shortage",
+          "ratio_overfitting",
+          "package_variance_high"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds.",
+          "Retest safer baseline-adjacent ratios before trusting narrow improvements.",
+          "Constrain package ratio swings and retest with more runs."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 19,
+          "payoffs": 3,
+          "interruptions": 0,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 9,
+          "max_bricks": 3,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.0875,
+        "bad_pattern_recurrence": 0.2727,
+        "last_diagnosed_utc": "2026-05-27T18:46:57.280724+00:00"
+      }
+    },
+    {
+      "archetype": "Kashtira",
+      "normal_score": 185.86,
+      "tuned_score": 186.41,
+      "improvement": 0.55,
+      "normal_confidence": 0.7498,
+      "tuned_confidence": 0.7498,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 15,
+        "interruptions": 4,
+        "starters_searchers": 21
+      },
+      "tuned_package_counts": {
+        "extenders": 16,
+        "interruptions": 3,
+        "starters_searchers": 21
+      },
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 2,
+      "legal_variant_count": 2,
+      "best_ratio_profile": {
+        "starters_searchers": 11,
+        "extenders": 6,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 10,
+        "board_breakers": 2,
+        "max_bricks": 4
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 2,
+      "fallback_used_count": 0,
+      "average_repair_actions": 1.5,
+      "common_repair_warnings": [],
+      "memory_action": "updated",
+      "diagnosis_influenced_tuning": true,
+      "diagnosis_bias": {
+        "interruptions": 1
+      },
+      "diagnosis_used": {
+        "archetype": "Kashtira",
+        "mode": "meta",
+        "diagnosis": "Kashtira trend is improving; likely pressure from interruption shortage.",
+        "severity": "low",
+        "suspected_causes": [
+          "interruption_shortage"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 16,
+          "payoffs": 3,
+          "interruptions": 3,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 10,
+          "max_bricks": 4,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.1531,
+        "bad_pattern_recurrence": 0.1034,
+        "last_diagnosed_utc": "2026-05-27T18:46:53.628123+00:00"
+      },
+      "trend_diagnosis": {
+        "archetype": "Kashtira",
+        "mode": "meta",
+        "diagnosis": "Kashtira trend is improving; likely pressure from interruption shortage.",
+        "severity": "low",
+        "suspected_causes": [
+          "interruption_shortage"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 16,
+          "payoffs": 3,
+          "interruptions": 3,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 10,
+          "max_bricks": 4,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.1458,
+        "bad_pattern_recurrence": 0.1,
+        "last_diagnosed_utc": "2026-05-27T18:46:57.280724+00:00"
+      }
+    }
+  ],
+  "benchmark_history": {
+    "profiles": {
+      "Branded": {
+        "total_benchmark_runs": 33,
+        "average_normal_score": 186.4173,
+        "average_tuned_score": 186.9164,
+        "average_improvement": 0.4991,
+        "best_improvement": 3.86,
+        "worst_improvement": -1.89,
+        "tuning_hurt_count": 12,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 0.9697,
+        "rejected_deck_count": 0,
+        "memory_update_count": 21,
+        "trend_direction": "improving",
+        "best_ratio_patterns": [
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:10|max_bricks:2|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 1,
+            "average_improvement": 1.34,
+            "best_improvement": 1.34,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 2
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:8|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 19,
+            "average_improvement": 1.1242,
+            "best_improvement": 3.86,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:9|max_bricks:3|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 2,
+            "average_improvement": 0.47,
+            "best_improvement": 0.52,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 3
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:5|interruptions:9|max_bricks:4|payoffs:3|recovery:2|starters_searchers:13",
+            "count": 2,
+            "average_improvement": 0.395,
+            "best_improvement": 0.93,
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 5,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          }
+        ],
+        "bad_ratio_pattern_count": 9,
+        "latest_diagnosis": {
+          "archetype": "Branded",
+          "mode": "meta",
+          "diagnosis": "Branded trend is improving; likely pressure from interruption shortage, ratio overfitting, package variance high.",
+          "severity": "medium",
+          "suspected_causes": [
+            "interruption_shortage",
+            "ratio_overfitting",
+            "package_variance_high"
+          ],
+          "recommended_adjustments": [
+            "Explore +1 interruption/non-engine slot in meta builds.",
+            "Retest safer baseline-adjacent ratios before trusting narrow improvements.",
+            "Constrain package ratio swings and retest with more runs."
+          ],
+          "package_pressure": {
+            "starters_searchers": 21,
+            "extenders": 19,
+            "payoffs": 3,
+            "interruptions": 0,
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 0,
+            "recovery": 0,
+            "target_starters_searchers": 11,
+            "target_extenders": 6,
+            "target_interruptions": 9,
+            "max_bricks": 3,
+            "brick_pressure": 0.0
+          },
+          "confidence_trend": "stable",
+          "repair_dependency": 0.0875,
+          "bad_pattern_recurrence": 0.2727,
+          "last_diagnosed_utc": "2026-05-27T18:46:57.280724+00:00"
+        }
+      },
+      "Kashtira": {
+        "total_benchmark_runs": 30,
+        "average_normal_score": 185.395,
+        "average_tuned_score": 185.7617,
+        "average_improvement": 0.3667,
+        "best_improvement": 1.2,
+        "worst_improvement": -1.03,
+        "tuning_hurt_count": 7,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 1.95,
+        "rejected_deck_count": 0,
+        "memory_update_count": 23,
+        "trend_direction": "improving",
+        "best_ratio_patterns": [
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:10|max_bricks:2|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 1,
+            "average_improvement": 1.2,
+            "best_improvement": 1.2,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 2
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:8|interruptions:8|max_bricks:4|payoffs:4|recovery:2|starters_searchers:10",
+            "count": 2,
+            "average_improvement": 0.89,
+            "best_improvement": 1.1,
+            "ratio_profile": {
+              "starters_searchers": 10,
+              "extenders": 8,
+              "payoffs": 4,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:5|interruptions:9|max_bricks:4|payoffs:3|recovery:2|starters_searchers:13",
+            "count": 12,
+            "average_improvement": 0.6108,
+            "best_improvement": 1.19,
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 5,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:10|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 2,
+            "average_improvement": 0.46,
+            "best_improvement": 0.55,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:8|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 10,
+            "average_improvement": 0.202,
+            "best_improvement": 0.55,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          }
+        ],
+        "bad_ratio_pattern_count": 3,
+        "latest_diagnosis": {
+          "archetype": "Kashtira",
+          "mode": "meta",
+          "diagnosis": "Kashtira trend is improving; likely pressure from interruption shortage.",
+          "severity": "low",
+          "suspected_causes": [
+            "interruption_shortage"
+          ],
+          "recommended_adjustments": [
+            "Explore +1 interruption/non-engine slot in meta builds."
+          ],
+          "package_pressure": {
+            "starters_searchers": 21,
+            "extenders": 16,
+            "payoffs": 3,
+            "interruptions": 3,
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 0,
+            "recovery": 0,
+            "target_starters_searchers": 11,
+            "target_extenders": 6,
+            "target_interruptions": 10,
+            "max_bricks": 4,
+            "brick_pressure": 0.0
+          },
+          "confidence_trend": "stable",
+          "repair_dependency": 0.1458,
+          "bad_pattern_recurrence": 0.1,
+          "last_diagnosed_utc": "2026-05-27T18:46:57.280724+00:00"
+        }
+      }
+    },
+    "best_long_term_archetypes": [
+      [
+        "Branded",
+        0.4991
+      ],
+      [
+        "Kashtira",
+        0.3667
+      ]
+    ],
+    "worst_long_term_archetypes": [
+      [
+        "Kashtira",
+        0.3667
+      ],
+      [
+        "Branded",
+        0.4991
+      ]
+    ],
+    "noisy_archetypes": [],
+    "recommended_follow_up_archetypes": [
+      "Branded"
+    ],
+    "historical_average_improvement": 0.4329,
+    "recent_average_improvement": 0.4329,
+    "average_repair_reliability": 1.0
+  }
+}

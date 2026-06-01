@@ -1,0 +1,149 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "matchup": "combo",
+    "going": "second",
+    "runs": 1
+  },
+  "created_at_utc": "2026-05-23T06:32:07.750751+00:00",
+  "summary": {
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "average_game1_score": 276.93,
+    "average_post_side_score": 277.25,
+    "average_post_side_delta": 0.32,
+    "post_side_valid_rate": 0.0,
+    "average_side_deck_score": 103.0,
+    "average_matchup_coverage_score": 35.0,
+    "most_used_side_cards": [
+      [
+        "Evenly Matched",
+        1
+      ],
+      [
+        "Dark Ruler No More",
+        1
+      ],
+      [
+        "Nibiru, the Primal Being",
+        1
+      ],
+      [
+        "Infinite Impermanence",
+        1
+      ]
+    ]
+  },
+  "runs": [
+    {
+      "game1_score": 276.93,
+      "post_side_score": 277.25,
+      "post_side_delta": 0.32,
+      "post_side_valid": false,
+      "side_cards_used": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence"
+      ],
+      "cards_sided_out": [
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Dragon Spirit of White",
+        "Maiden with Eyes of Blue"
+      ],
+      "post_side_warnings": [
+        "side-in skipped because no matching side-out slot remains: Effect Veiler",
+        "side-out card not found in main deck: Blue-Eyes Tyrant Dragon"
+      ],
+      "side_deck_score": 103.0,
+      "matchup_coverage_score": 35.0,
+      "game1_metrics": {
+        "final_score": 276.93,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 8.7,
+        "ash_vulnerability_rate": 1.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 1.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 91.75
+      },
+      "post_side_metrics": {
+        "final_score": 277.25,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 8.7,
+        "ash_vulnerability_rate": 1.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 1.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 90.35
+      },
+      "post_side_main": [
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Sage with Eyes of Blue",
+        "Dictator of D.",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "The White Stone of Legend",
+        "Sage with Eyes of Blue",
+        "Bingo Machine, Go!!!",
+        "The White Stone of Ancients",
+        "Wishes for Eyes of Blue",
+        "Blue-Eyes Jet Dragon",
+        "Destined Rivals",
+        "Destined Rivals",
+        "The Bystial Lubellion",
+        "Branded Regained",
+        "Branded Regained",
+        "Branded Regained",
+        "Effect Veiler",
+        "Ghost Ogre & Snow Rabbit",
+        "Ghost Belle & Haunted Mansion",
+        "Droll & Lock Bird",
+        "Nibiru, the Primal Being",
+        "Evenly Matched",
+        "Raigeki",
+        "Skill Drain",
+        "Solemn Judgment",
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence"
+      ],
+      "recommended_side_deck": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Droll Bird",
+        "Book of Eclipse",
+        "Zuttomozaurus",
+        "Zuijin of the Ice Barrier",
+        "Zubababa Knight",
+        "Zubaba Knight",
+        "Zubaba Buster",
+        "Zoroa, the Magistus Verethragna"
+      ],
+      "blocked_card_violations_after_siding": [],
+      "post_side_deck_size_valid": true,
+      "run": 1,
+      "ok": true
+    }
+  ]
+}

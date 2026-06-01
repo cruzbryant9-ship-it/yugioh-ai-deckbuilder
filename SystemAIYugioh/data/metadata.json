@@ -1,0 +1,8 @@
+{
+  "last_sync_utc": "2026-06-01T01:40:18.271093+00:00",
+  "last_sync_epoch": 1780278018.2710936,
+  "source": "https://db.ygoprodeck.com/api/v7/cardinfo.php",
+  "card_count": 14371,
+  "latest_snapshot": "C:\\Users\\theeg\\OneDrive\\Desktop\\yugioh_ai_deckbuilder\\SystemAIYugioh\\data\\snapshots\\cards_20260601_014016.json",
+  "database_hash": "58b78c13ba8c94d818319fd16ccc2650b1808b19697e421c67b3b72407ac336c"
+}

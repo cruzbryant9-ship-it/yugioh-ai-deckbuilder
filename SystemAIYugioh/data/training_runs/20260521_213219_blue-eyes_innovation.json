@@ -1,0 +1,455 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "innovation",
+    "runs": 5
+  },
+  "created_at_utc": "2026-05-21T21:32:19.637148+00:00",
+  "summary": {
+    "successful_runs": 5,
+    "failed_runs": 0,
+    "best_score": 296.25,
+    "average_score": 285.8,
+    "most_common_main_deck_cards": [
+      [
+        "Blue-Eyes Alternative White Dragon",
+        10
+      ],
+      [
+        "Rage with Eyes of Blue",
+        10
+      ],
+      [
+        "Blue-Eyes Chaos Dragon",
+        10
+      ],
+      [
+        "Blue-Eyes Jet Dragon",
+        9
+      ],
+      [
+        "Heart of the Blue-Eyes",
+        9
+      ],
+      [
+        "Protector with Eyes of Blue",
+        9
+      ],
+      [
+        "Majesty with Eyes of Blue",
+        9
+      ],
+      [
+        "Bingo Machine, Go!!!",
+        7
+      ],
+      [
+        "Maiden with Eyes of Blue",
+        6
+      ],
+      [
+        "Malefic Blue-Eyes White Dragon",
+        6
+      ],
+      [
+        "The White Stone of Ancients",
+        6
+      ],
+      [
+        "True Light",
+        6
+      ],
+      [
+        "Sage with Eyes of Blue",
+        6
+      ],
+      [
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        6
+      ],
+      [
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        5
+      ]
+    ],
+    "most_common_extra_deck_cards": [
+      [
+        "Blue-Eyes Alternative Ultimate Dragon",
+        8
+      ],
+      [
+        "Blue-Eyes Twin Burst Dragon",
+        5
+      ],
+      [
+        "Blue-Eyes Tyrant Dragon",
+        3
+      ],
+      [
+        "Blue-Eyes Spirit Dragon",
+        3
+      ],
+      [
+        "Blue-Eyes Ultimate Spirit Dragon",
+        3
+      ],
+      [
+        "Dragon Master Knight",
+        2
+      ],
+      [
+        "Blue-Eyes Ultimate Dragon",
+        2
+      ]
+    ],
+    "most_common_critique_issues": [],
+    "best_deck_list": {
+      "main_deck": [
+        "Blue-Eyes Toon Ultimate Dragon",
+        "Blue-Eyes Chaos Dragon",
+        "Ultimate Fusion",
+        "Blue-Eyes Toon Ultimate Dragon",
+        "Priestess with Eyes of Blue",
+        "Majesty with Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Beacon of White",
+        "Kaibaman",
+        "Maiden with Eyes of Blue",
+        "The White Stone of Ancients",
+        "Chaos Form",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Heart of the Blue-Eyes",
+        "Rage with Eyes of Blue",
+        "Dictator of D.",
+        "Blue-Eyes Alternative White Dragon",
+        "Protector with Eyes of Blue",
+        "Dictator of D.",
+        "True Light",
+        "Blue-Eyes Chaos Dragon",
+        "Maiden with Eyes of Blue",
+        "Majesty with Eyes of Blue",
+        "Heart of the Blue-Eyes",
+        "Rage with Eyes of Blue",
+        "Dragon Spirit of White",
+        "Sage with Eyes of Blue",
+        "True Light",
+        "Deep-Eyes White Dragon",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "True Light"
+      ],
+      "extra_deck": [
+        "Dragon Master Knight",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Tyrant Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Spirit Dragon"
+      ]
+    }
+  },
+  "runs": [
+    {
+      "run": 1,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "innovation",
+      "final_score": 272.75,
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Maiden with Eyes of Blue",
+        "Blue-Eyes Jet Dragon",
+        "Heart of the Blue-Eyes",
+        "Chaos Form",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Rage with Eyes of Blue",
+        "Protector with Eyes of Blue",
+        "Blue-Eyes Solid Dragon",
+        "Deep-Eyes White Dragon",
+        "Bingo Machine, Go!!!",
+        "The White Stone of Legend",
+        "Blue-Eyes Alternative White Dragon",
+        "Malefic Blue-Eyes White Dragon",
+        "Chaos Form",
+        "Majesty with Eyes of Blue",
+        "Bingo Machine, Go!!!",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Chaos Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Neutron Blast",
+        "Majesty with Eyes of Blue",
+        "Deep-Eyes White Dragon",
+        "Majesty with Eyes of Blue",
+        "Kaibaman",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "The White Stone of Ancients",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "Blue-Eyes White Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Chaos MAX Dragon",
+        "Malefic Blue-Eyes White Dragon",
+        "Burst Stream of Destruction",
+        "Bingo Machine, Go!!!",
+        "True Light",
+        "Blue-Eyes Chaos Dragon"
+      ],
+      "extra_deck": [
+        "Blue-Eyes Twin Burst Dragon",
+        "Dragon Master Knight",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Twin Burst Dragon"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 9,
+        "draw_cards": 0,
+        "special_summon_cards": 24,
+        "disruption_cards": 27,
+        "graveyard_cards": 26
+      }
+    },
+    {
+      "run": 2,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "innovation",
+      "final_score": 296.25,
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Blue-Eyes Toon Ultimate Dragon",
+        "Blue-Eyes Chaos Dragon",
+        "Ultimate Fusion",
+        "Blue-Eyes Toon Ultimate Dragon",
+        "Priestess with Eyes of Blue",
+        "Majesty with Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Beacon of White",
+        "Kaibaman",
+        "Maiden with Eyes of Blue",
+        "The White Stone of Ancients",
+        "Chaos Form",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Heart of the Blue-Eyes",
+        "Rage with Eyes of Blue",
+        "Dictator of D.",
+        "Blue-Eyes Alternative White Dragon",
+        "Protector with Eyes of Blue",
+        "Dictator of D.",
+        "True Light",
+        "Blue-Eyes Chaos Dragon",
+        "Maiden with Eyes of Blue",
+        "Majesty with Eyes of Blue",
+        "Heart of the Blue-Eyes",
+        "Rage with Eyes of Blue",
+        "Dragon Spirit of White",
+        "Sage with Eyes of Blue",
+        "True Light",
+        "Deep-Eyes White Dragon",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "True Light"
+      ],
+      "extra_deck": [
+        "Dragon Master Knight",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Tyrant Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Spirit Dragon"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 11,
+        "draw_cards": 0,
+        "special_summon_cards": 31,
+        "disruption_cards": 27,
+        "graveyard_cards": 32
+      }
+    },
+    {
+      "run": 3,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "innovation",
+      "final_score": 294.38,
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Protector with Eyes of Blue",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Blue-Eyes Toon Ultimate Dragon",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "Blue-Eyes Chaos Dragon",
+        "Bingo Machine, Go!!!",
+        "Rage with Eyes of Blue",
+        "Dictator of D.",
+        "Priestess with Eyes of Blue",
+        "Blue-Eyes Chaos Dragon",
+        "Blue-Eyes White Dragon",
+        "Paladin of White Dragon",
+        "True Light",
+        "Blue-Eyes Chaos Dragon",
+        "Beacon of White",
+        "Sage with Eyes of Blue",
+        "Heart of the Blue-Eyes",
+        "Malefic Blue-Eyes White Dragon",
+        "Rage with Eyes of Blue",
+        "Majesty with Eyes of Blue",
+        "Ultimate Fusion",
+        "Blue-Eyes Chaos MAX Dragon",
+        "Dragon Spirit of White",
+        "Protector with Eyes of Blue",
+        "Paladin of White Dragon",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Blue-Eyes White Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Heart of the Blue-Eyes",
+        "Maiden with Eyes of Blue",
+        "Blue-Eyes White Dragon"
+      ],
+      "extra_deck": [
+        "Blue-Eyes Spirit Dragon",
+        "Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Spirit Dragon",
+        "Blue-Eyes Ultimate Spirit Dragon",
+        "Blue-Eyes Tyrant Dragon",
+        "Blue-Eyes Ultimate Spirit Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 9,
+        "draw_cards": 0,
+        "special_summon_cards": 27,
+        "disruption_cards": 25,
+        "graveyard_cards": 24
+      }
+    },
+    {
+      "run": 4,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "innovation",
+      "final_score": 284.88,
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Blue-Eyes Chaos Dragon",
+        "The White Stone of Ancients",
+        "Majesty with Eyes of Blue",
+        "Blue-Eyes Shining Dragon",
+        "Majesty with Eyes of Blue",
+        "Malefic Blue-Eyes White Dragon",
+        "Malefic Blue-Eyes White Dragon",
+        "Protector with Eyes of Blue",
+        "Kaibaman",
+        "Blue-Eyes Jet Dragon",
+        "Rage with Eyes of Blue",
+        "Malefic Blue-Eyes White Dragon",
+        "Maiden with Eyes of Blue",
+        "The White Stone of Ancients",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Protector with Eyes of Blue",
+        "Neutron Blast",
+        "Chaos Form",
+        "Rage with Eyes of Blue",
+        "Neutron Blast",
+        "Sage with Eyes of Blue",
+        "Protector with Eyes of Blue",
+        "Kaibaman",
+        "Majesty with Eyes of Blue",
+        "Blue-Eyes Shining Dragon",
+        "Bingo Machine, Go!!!",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Rage with Eyes of Blue",
+        "True Light",
+        "Heart of the Blue-Eyes",
+        "Blue-Eyes Alternative White Dragon",
+        "Dragon Spirit of White",
+        "Sage with Eyes of Blue",
+        "Heart of the Blue-Eyes"
+      ],
+      "extra_deck": [
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Tyrant Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Ultimate Spirit Dragon"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 8,
+        "draw_cards": 0,
+        "special_summon_cards": 30,
+        "disruption_cards": 24,
+        "graveyard_cards": 28
+      }
+    },
+    {
+      "run": 5,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "innovation",
+      "final_score": 280.75,
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Burst Stream of Destruction",
+        "Protector with Eyes of Blue",
+        "Ultimate Fusion",
+        "Heart of the Blue-Eyes",
+        "Rage with Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "Protector with Eyes of Blue",
+        "Dictator of D.",
+        "The Ultimate Creature of Destruction",
+        "The White Stone of Ancients",
+        "Neutron Blast",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "Blue-Eyes Shining Dragon",
+        "Heart of the Blue-Eyes",
+        "Deep-Eyes White Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Jet Dragon",
+        "The White Stone of Ancients",
+        "Blue-Eyes Alternative White Dragon",
+        "Bingo Machine, Go!!!",
+        "Blue-Eyes Jet Dragon",
+        "Rage with Eyes of Blue",
+        "Blue-Eyes Chaos Dragon",
+        "Paladin of White Dragon",
+        "Blue-Eyes Chaos MAX Dragon",
+        "Priestess with Eyes of Blue",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Chaos MAX Dragon",
+        "Beacon of White",
+        "Bingo Machine, Go!!!",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Blue-Eyes Chaos Dragon",
+        "Blue-Eyes Chaos MAX Dragon",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Paladin of White Dragon"
+      ],
+      "extra_deck": [
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 10,
+        "draw_cards": 0,
+        "special_summon_cards": 27,
+        "disruption_cards": 29,
+        "graveyard_cards": 24
+      }
+    }
+  ]
+}

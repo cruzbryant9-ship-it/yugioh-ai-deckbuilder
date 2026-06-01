@@ -1,0 +1,2630 @@
+{
+  "version": 1,
+  "profiles": {
+    "blue-eyes": {
+      "meta": {
+        "combo": {
+          "second": {
+            "side_in_card_counts": {
+              "Ash Blossom & Joyous Spring": 88,
+              "Droll & Lock Bird": 63,
+              "Nibiru, the Primal Being": 20,
+              "Infinite Impermanence": 50,
+              "Effect Veiler": 45,
+              "Evenly Matched": 5,
+              "Dark Ruler No More": 4
+            },
+            "side_out_card_counts": {
+              "Main 9": 10,
+              "Main 10": 10,
+              "Lightning Storm": 17,
+              "Book of Eclipse": 10,
+              "The Melody of Awakening Dragon": 4,
+              "Dragon Spirit of White": 57,
+              "The Ultimate Creature of Destruction": 20,
+              "Solemn Judgment": 16,
+              "Destined Rivals": 32,
+              "Advanced Ritual Art": 2,
+              "Raigeki": 1,
+              "Ghost Ogre & Snow Rabbit": 35,
+              "The Chaos Creator": 3,
+              "Nibiru, the Primal Being": 7,
+              "Skill Drain": 9,
+              "True Light": 4,
+              "Infinite Impermanence": 6,
+              "Ghost Belle & Haunted Mansion": 2,
+              "Harpie's Feather Duster": 14,
+              "Forbidden Droplet": 6,
+              "D.D. Crow": 1,
+              "Bystial Magnamhut": 2,
+              "The Bystial Lubellion": 2,
+              "Solemn Strike": 2,
+              "Dark Ruler No More": 1,
+              "Bystial Druiswurm": 1,
+              "Aluber the Jester of Despia": 1
+            },
+            "side_in_delta_totals": {
+              "Ash Blossom & Joyous Spring": 264.07,
+              "Droll & Lock Bird": 213.8700000000001,
+              "Nibiru, the Primal Being": 47.64,
+              "Infinite Impermanence": 115.98000000000005,
+              "Effect Veiler": 104.48999999999998,
+              "Evenly Matched": 10.379999999999999,
+              "Dark Ruler No More": 6.680000000000001
+            },
+            "side_in_delta_counts": {
+              "Ash Blossom & Joyous Spring": 88,
+              "Droll & Lock Bird": 63,
+              "Nibiru, the Primal Being": 20,
+              "Infinite Impermanence": 50,
+              "Effect Veiler": 45,
+              "Evenly Matched": 5,
+              "Dark Ruler No More": 4
+            },
+            "side_out_delta_totals": {
+              "Main 9": 60.0,
+              "Main 10": 60.0,
+              "Lightning Storm": 44.080000000000005,
+              "Book of Eclipse": 17.959999999999997,
+              "The Melody of Awakening Dragon": 9.09,
+              "Dragon Spirit of White": 150.66000000000003,
+              "The Ultimate Creature of Destruction": 59.499999999999986,
+              "Solemn Judgment": 42.28,
+              "Destined Rivals": 88.00999999999999,
+              "Advanced Ritual Art": 3.54,
+              "Raigeki": 0.53,
+              "Ghost Ogre & Snow Rabbit": 98.58000000000001,
+              "The Chaos Creator": 6.7299999999999995,
+              "Nibiru, the Primal Being": 21.86,
+              "Skill Drain": 25.979999999999997,
+              "True Light": 2.51,
+              "Infinite Impermanence": 13.93,
+              "Ghost Belle & Haunted Mansion": 4.66,
+              "Harpie's Feather Duster": 34.65,
+              "Forbidden Droplet": 13.08,
+              "D.D. Crow": 1.61,
+              "Bystial Magnamhut": -0.17999999999999994,
+              "The Bystial Lubellion": 2.92,
+              "Solemn Strike": 4.4399999999999995,
+              "Dark Ruler No More": -1.79,
+              "Bystial Druiswurm": -1.79,
+              "Aluber the Jester of Despia": 0.27
+            },
+            "side_out_delta_counts": {
+              "Main 9": 10,
+              "Main 10": 10,
+              "Lightning Storm": 17,
+              "Book of Eclipse": 10,
+              "The Melody of Awakening Dragon": 4,
+              "Dragon Spirit of White": 57,
+              "The Ultimate Creature of Destruction": 20,
+              "Solemn Judgment": 16,
+              "Destined Rivals": 32,
+              "Advanced Ritual Art": 2,
+              "Raigeki": 1,
+              "Ghost Ogre & Snow Rabbit": 35,
+              "The Chaos Creator": 3,
+              "Nibiru, the Primal Being": 7,
+              "Skill Drain": 9,
+              "True Light": 4,
+              "Infinite Impermanence": 6,
+              "Ghost Belle & Haunted Mansion": 2,
+              "Harpie's Feather Duster": 14,
+              "Forbidden Droplet": 6,
+              "D.D. Crow": 1,
+              "Bystial Magnamhut": 2,
+              "The Bystial Lubellion": 2,
+              "Solemn Strike": 2,
+              "Dark Ruler No More": 1,
+              "Bystial Druiswurm": 1,
+              "Aluber the Jester of Despia": 1
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Ash Blossom & Joyous Spring": 3.0008,
+                "Droll & Lock Bird": 3.3948,
+                "Nibiru, the Primal Being": 2.382,
+                "Infinite Impermanence": 2.3196,
+                "Effect Veiler": 2.322,
+                "Evenly Matched": 2.076,
+                "Dark Ruler No More": 1.67
+              },
+              "side_out": {
+                "Main 9": 6.0,
+                "Main 10": 6.0,
+                "Lightning Storm": 2.5929,
+                "Book of Eclipse": 1.796,
+                "The Melody of Awakening Dragon": 2.2725,
+                "Dragon Spirit of White": 2.6432,
+                "The Ultimate Creature of Destruction": 2.975,
+                "Solemn Judgment": 2.6425,
+                "Destined Rivals": 2.7503,
+                "Advanced Ritual Art": 1.77,
+                "Raigeki": 0.53,
+                "Ghost Ogre & Snow Rabbit": 2.8166,
+                "The Chaos Creator": 2.2433,
+                "Nibiru, the Primal Being": 3.1229,
+                "Skill Drain": 2.8867,
+                "True Light": 0.6275,
+                "Infinite Impermanence": 2.3217,
+                "Ghost Belle & Haunted Mansion": 2.33,
+                "Harpie's Feather Duster": 2.475,
+                "Forbidden Droplet": 2.18,
+                "D.D. Crow": 1.61,
+                "Bystial Magnamhut": -0.09,
+                "The Bystial Lubellion": 1.46,
+                "Solemn Strike": 2.22,
+                "Dark Ruler No More": -1.79,
+                "Bystial Druiswurm": -1.79,
+                "Aluber the Jester of Despia": 0.27
+              }
+            },
+            "best_side_in_patterns": {
+              "Ash Blossom & Joyous Spring | Droll & Lock Bird": {
+                "count": 10,
+                "delta_total": 60.0,
+                "best_delta": 6.0
+              },
+              "Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Infinite Impermanence": {
+                "count": 5,
+                "delta_total": 9.95,
+                "best_delta": 4.04
+              },
+              "Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Effect Veiler": {
+                "count": 2,
+                "delta_total": 5.21,
+                "best_delta": 4.17
+              },
+              "Droll & Lock Bird | Infinite Impermanence | Ash Blossom & Joyous Spring": {
+                "count": 5,
+                "delta_total": 13.2,
+                "best_delta": 6.52
+              },
+              "Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler": {
+                "count": 21,
+                "delta_total": 61.95,
+                "best_delta": 8.88
+              },
+              "Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence": {
+                "count": 17,
+                "delta_total": 52.14000000000001,
+                "best_delta": 8.31
+              },
+              "Ash Blossom & Joyous Spring | Infinite Impermanence | Nibiru, the Primal Being": {
+                "count": 2,
+                "delta_total": 5.51,
+                "best_delta": 3.34
+              },
+              "Effect Veiler | Evenly Matched | Dark Ruler No More": {
+                "count": 3,
+                "delta_total": 5.65,
+                "best_delta": 2.43
+              },
+              "Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler": {
+                "count": 8,
+                "delta_total": 12.11,
+                "best_delta": 2.65
+              },
+              "Infinite Impermanence | Nibiru, the Primal Being | Effect Veiler": {
+                "count": 1,
+                "delta_total": 1.49,
+                "best_delta": 1.49
+              },
+              "Ash Blossom & Joyous Spring | Infinite Impermanence | Evenly Matched": {
+                "count": 1,
+                "delta_total": 3.7,
+                "best_delta": 3.7
+              },
+              "Droll & Lock Bird | Ash Blossom & Joyous Spring | Nibiru, the Primal Being": {
+                "count": 3,
+                "delta_total": 7.8,
+                "best_delta": 3.01
+              },
+              "Infinite Impermanence | Evenly Matched | Dark Ruler No More": {
+                "count": 1,
+                "delta_total": 1.03,
+                "best_delta": 1.03
+              },
+              "Ash Blossom & Joyous Spring | Effect Veiler | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 1.13,
+                "best_delta": 1.13
+              },
+              "Droll & Lock Bird | Effect Veiler | Ash Blossom & Joyous Spring": {
+                "count": 2,
+                "delta_total": 2.99,
+                "best_delta": 1.88
+              },
+              "Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence": {
+                "count": 7,
+                "delta_total": 13.959999999999999,
+                "best_delta": 4.55
+              },
+              "Droll & Lock Bird | Nibiru, the Primal Being | Ash Blossom & Joyous Spring": {
+                "count": 1,
+                "delta_total": 5.96,
+                "best_delta": 5.96
+              },
+              "Nibiru, the Primal Being | Droll & Lock Bird | Ash Blossom & Joyous Spring": {
+                "count": 2,
+                "delta_total": 7.699999999999999,
+                "best_delta": 7.43
+              },
+              "Nibiru, the Primal Being | Droll & Lock Bird | Infinite Impermanence": {
+                "count": 2,
+                "delta_total": 2.13,
+                "best_delta": 1.79
+              },
+              "Nibiru, the Primal Being | Infinite Impermanence | Ash Blossom & Joyous Spring": {
+                "count": 1,
+                "delta_total": 0.76,
+                "best_delta": 0.76
+              }
+            },
+            "best_side_out_patterns": {
+              "Main 9 | Main 10": {
+                "count": 10,
+                "delta_total": 60.0,
+                "best_delta": 6.0
+              },
+              "Lightning Storm | Book of Eclipse | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 4.04,
+                "best_delta": 4.04
+              },
+              "Dragon Spirit of White | The Ultimate Creature of Destruction | Solemn Judgment": {
+                "count": 2,
+                "delta_total": 2.39,
+                "best_delta": 1.35
+              },
+              "Destined Rivals | Advanced Ritual Art | Raigeki": {
+                "count": 1,
+                "delta_total": 0.53,
+                "best_delta": 0.53
+              },
+              "Dragon Spirit of White | Solemn Judgment | Destined Rivals": {
+                "count": 2,
+                "delta_total": 10.01,
+                "best_delta": 7.43
+              },
+              "Destined Rivals | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.81,
+                "best_delta": 1.81
+              },
+              "Dragon Spirit of White | Lightning Storm | Destined Rivals": {
+                "count": 3,
+                "delta_total": 8.83,
+                "best_delta": 5.32
+              },
+              "Dragon Spirit of White | Destined Rivals | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 8.31,
+                "best_delta": 8.31
+              },
+              "Dragon Spirit of White | Destined Rivals | Solemn Judgment": {
+                "count": 2,
+                "delta_total": 2.68,
+                "best_delta": 1.87
+              },
+              "Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 10,
+                "delta_total": 33.45,
+                "best_delta": 6.25
+              },
+              "Dragon Spirit of White | Ghost Ogre & Snow Rabbit | The Ultimate Creature of Destruction": {
+                "count": 4,
+                "delta_total": 15.900000000000002,
+                "best_delta": 4.98
+              },
+              "Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Solemn Judgment": {
+                "count": 3,
+                "delta_total": 11.68,
+                "best_delta": 5.25
+              },
+              "Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Lightning Storm": {
+                "count": 4,
+                "delta_total": 8.05,
+                "best_delta": 3.58
+              },
+              "Book of Eclipse | The Chaos Creator | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 1.34,
+                "best_delta": 1.34
+              },
+              "The Melody of Awakening Dragon | The Chaos Creator | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 3.34,
+                "best_delta": 3.34
+              },
+              "Skill Drain | Book of Eclipse | The Chaos Creator": {
+                "count": 1,
+                "delta_total": 2.05,
+                "best_delta": 2.05
+              },
+              "Dragon Spirit of White | Lightning Storm | True Light": {
+                "count": 1,
+                "delta_total": -0.31,
+                "best_delta": -0.31
+              },
+              "Nibiru, the Primal Being | Infinite Impermanence | Ghost Belle & Haunted Mansion": {
+                "count": 1,
+                "delta_total": 2.87,
+                "best_delta": 2.87
+              },
+              "Lightning Storm | Infinite Impermanence | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 7.45,
+                "best_delta": 7.45
+              },
+              "Harpie's Feather Duster | True Light | Book of Eclipse": {
+                "count": 1,
+                "delta_total": 1.01,
+                "best_delta": 1.01
+              },
+              "Book of Eclipse | Infinite Impermanence | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 1.56,
+                "best_delta": 1.56
+              },
+              "Dragon Spirit of White | Destined Rivals | Lightning Storm": {
+                "count": 3,
+                "delta_total": 7.51,
+                "best_delta": 4.89
+              },
+              "Ghost Ogre & Snow Rabbit | Lightning Storm | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 3.45,
+                "best_delta": 3.45
+              },
+              "Destined Rivals | Skill Drain | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 1.71,
+                "best_delta": 1.71
+              },
+              "Dragon Spirit of White | The Ultimate Creature of Destruction | Harpie's Feather Duster": {
+                "count": 4,
+                "delta_total": 9.81,
+                "best_delta": 3.34
+              },
+              "Dragon Spirit of White | Solemn Judgment | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.21,
+                "best_delta": 2.21
+              },
+              "True Light | Infinite Impermanence | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": -0.08,
+                "best_delta": -0.08
+              },
+              "Lightning Storm | Solemn Judgment | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.43,
+                "best_delta": 2.43
+              },
+              "Ghost Ogre & Snow Rabbit | Skill Drain | Forbidden Droplet": {
+                "count": 1,
+                "delta_total": 1.87,
+                "best_delta": 1.87
+              },
+              "Book of Eclipse | D.D. Crow | Bystial Magnamhut": {
+                "count": 1,
+                "delta_total": 1.61,
+                "best_delta": 1.61
+              },
+              "Dragon Spirit of White | Destined Rivals | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.43,
+                "best_delta": 2.43
+              },
+              "Dragon Spirit of White | Destined Rivals | The Bystial Lubellion": {
+                "count": 1,
+                "delta_total": 1.03,
+                "best_delta": 1.03
+              },
+              "Solemn Judgment | Harpie's Feather Duster | Solemn Strike": {
+                "count": 1,
+                "delta_total": 4.17,
+                "best_delta": 4.17
+              },
+              "Dragon Spirit of White | Solemn Strike | Destined Rivals": {
+                "count": 1,
+                "delta_total": 0.27,
+                "best_delta": 0.27
+              },
+              "Dragon Spirit of White | Solemn Judgment | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 2.72,
+                "best_delta": 2.72
+              },
+              "Dragon Spirit of White | Destined Rivals | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 1.12,
+                "best_delta": 1.12
+              },
+              "The Bystial Lubellion | True Light | Book of Eclipse": {
+                "count": 1,
+                "delta_total": 1.89,
+                "best_delta": 1.89
+              },
+              "Solemn Judgment | Lightning Storm | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.36,
+                "best_delta": 2.36
+              },
+              "Harpie's Feather Duster | Skill Drain | Forbidden Droplet": {
+                "count": 1,
+                "delta_total": 8.88,
+                "best_delta": 8.88
+              },
+              "Dragon Spirit of White | The Ultimate Creature of Destruction | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 4.96,
+                "best_delta": 4.96
+              },
+              "Ghost Ogre & Snow Rabbit | Destined Rivals | Book of Eclipse": {
+                "count": 1,
+                "delta_total": 1.11,
+                "best_delta": 1.11
+              },
+              "Bystial Magnamhut | Dark Ruler No More | Bystial Druiswurm": {
+                "count": 1,
+                "delta_total": -1.79,
+                "best_delta": -1.79
+              },
+              "Destined Rivals | Advanced Ritual Art | Book of Eclipse": {
+                "count": 1,
+                "delta_total": 3.01,
+                "best_delta": 3.01
+              },
+              "Dragon Spirit of White | Forbidden Droplet | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 0.87,
+                "best_delta": 0.87
+              },
+              "Harpie's Feather Duster | The Ultimate Creature of Destruction | Destined Rivals": {
+                "count": 1,
+                "delta_total": 5.96,
+                "best_delta": 5.96
+              },
+              "Dragon Spirit of White | Harpie's Feather Duster | Ghost Ogre & Snow Rabbit": {
+                "count": 2,
+                "delta_total": 2.9899999999999998,
+                "best_delta": 2.3
+              },
+              "Dragon Spirit of White | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 3,
+                "delta_total": 9.98,
+                "best_delta": 6.52
+              },
+              "Harpie's Feather Duster | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 1,
+                "delta_total": -1.76,
+                "best_delta": -1.76
+              },
+              "Dragon Spirit of White | Lightning Storm | Aluber the Jester of Despia": {
+                "count": 1,
+                "delta_total": 0.27,
+                "best_delta": 0.27
+              },
+              "Ghost Belle & Haunted Mansion | Infinite Impermanence | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 1.79,
+                "best_delta": 1.79
+              },
+              "Dragon Spirit of White | Forbidden Droplet | Ghost Ogre & Snow Rabbit": {
+                "count": 2,
+                "delta_total": 0.98,
+                "best_delta": 0.98
+              },
+              "Dragon Spirit of White | The Ultimate Creature of Destruction | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.04,
+                "best_delta": 2.04
+              },
+              "Book of Eclipse | Nibiru, the Primal Being | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": 0.34,
+                "best_delta": 0.34
+              },
+              "Dragon Spirit of White | The Ultimate Creature of Destruction | Forbidden Droplet": {
+                "count": 1,
+                "delta_total": 0.48,
+                "best_delta": 0.48
+              },
+              "Harpie's Feather Duster | Solemn Judgment | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.76,
+                "best_delta": 0.76
+              }
+            },
+            "best_full_side_plans": {
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird || OUT: Main 9 | Main 10": {
+                "count": 10,
+                "delta_total": 60.0,
+                "best_delta": 6.0
+              },
+              "IN: Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Infinite Impermanence || OUT: Lightning Storm | Book of Eclipse | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 4.04,
+                "best_delta": 4.04
+              },
+              "IN: Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 1.04,
+                "best_delta": 1.04
+              },
+              "IN: Droll & Lock Bird | Infinite Impermanence | Ash Blossom & Joyous Spring || OUT: Destined Rivals | Advanced Ritual Art | Raigeki": {
+                "count": 1,
+                "delta_total": 0.53,
+                "best_delta": 0.53
+              },
+              "IN: Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Infinite Impermanence || OUT: Dragon Spirit of White | Solemn Judgment | Destined Rivals": {
+                "count": 1,
+                "delta_total": 2.58,
+                "best_delta": 2.58
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Destined Rivals | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.81,
+                "best_delta": 1.81
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Lightning Storm | Destined Rivals": {
+                "count": 1,
+                "delta_total": 5.32,
+                "best_delta": 5.32
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Nibiru, the Primal Being || OUT: Dragon Spirit of White | Lightning Storm | Destined Rivals": {
+                "count": 1,
+                "delta_total": 2.17,
+                "best_delta": 2.17
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 8.31,
+                "best_delta": 8.31
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 0.81,
+                "best_delta": 0.81
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Lightning Storm | Destined Rivals": {
+                "count": 1,
+                "delta_total": 1.34,
+                "best_delta": 1.34
+              },
+              "IN: Effect Veiler | Evenly Matched | Dark Ruler No More || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 1,
+                "delta_total": 1.01,
+                "best_delta": 1.01
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | The Ultimate Creature of Destruction": {
+                "count": 2,
+                "delta_total": 7.65,
+                "best_delta": 4.98
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 5.25,
+                "best_delta": 5.25
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Lightning Storm": {
+                "count": 1,
+                "delta_total": 0.57,
+                "best_delta": 0.57
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Book of Eclipse | The Chaos Creator | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 1.34,
+                "best_delta": 1.34
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Nibiru, the Primal Being || OUT: The Melody of Awakening Dragon | The Chaos Creator | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 3.34,
+                "best_delta": 3.34
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 5,
+                "delta_total": 23.45,
+                "best_delta": 6.25
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Skill Drain | Book of Eclipse | The Chaos Creator": {
+                "count": 1,
+                "delta_total": 2.05,
+                "best_delta": 2.05
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Lightning Storm | True Light": {
+                "count": 1,
+                "delta_total": -0.31,
+                "best_delta": -0.31
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Nibiru, the Primal Being | Infinite Impermanence | Ghost Belle & Haunted Mansion": {
+                "count": 1,
+                "delta_total": 2.87,
+                "best_delta": 2.87
+              },
+              "IN: Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 1.76,
+                "best_delta": 1.76
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Lightning Storm | Infinite Impermanence | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 7.45,
+                "best_delta": 7.45
+              },
+              "IN: Droll & Lock Bird | Infinite Impermanence | Ash Blossom & Joyous Spring || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Lightning Storm": {
+                "count": 1,
+                "delta_total": 3.58,
+                "best_delta": 3.58
+              },
+              "IN: Droll & Lock Bird | Infinite Impermanence | Ash Blossom & Joyous Spring || OUT: Harpie's Feather Duster | True Light | Book of Eclipse": {
+                "count": 1,
+                "delta_total": 1.01,
+                "best_delta": 1.01
+              },
+              "IN: Droll & Lock Bird | Infinite Impermanence | Ash Blossom & Joyous Spring || OUT: Book of Eclipse | Infinite Impermanence | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 1.56,
+                "best_delta": 1.56
+              },
+              "IN: Infinite Impermanence | Nibiru, the Primal Being | Effect Veiler || OUT: Dragon Spirit of White | Destined Rivals | Lightning Storm": {
+                "count": 1,
+                "delta_total": 1.49,
+                "best_delta": 1.49
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Ghost Ogre & Snow Rabbit | Lightning Storm | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 3.45,
+                "best_delta": 3.45
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | Lightning Storm": {
+                "count": 1,
+                "delta_total": 4.89,
+                "best_delta": 4.89
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Destined Rivals | Skill Drain | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 1.71,
+                "best_delta": 1.71
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Lightning Storm": {
+                "count": 1,
+                "delta_total": 2.02,
+                "best_delta": 2.02
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Evenly Matched || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 3.7,
+                "best_delta": 3.7
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Harpie's Feather Duster": {
+                "count": 2,
+                "delta_total": 6.42,
+                "best_delta": 3.34
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 2,
+                "delta_total": 5.21,
+                "best_delta": 4.95
+              },
+              "IN: Effect Veiler | Evenly Matched | Dark Ruler No More || OUT: Dragon Spirit of White | Solemn Judgment | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.21,
+                "best_delta": 2.21
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: True Light | Infinite Impermanence | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": -0.08,
+                "best_delta": -0.08
+              },
+              "IN: Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Infinite Impermanence || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 1,
+                "delta_total": 1.45,
+                "best_delta": 1.45
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Nibiru, the Primal Being || OUT: Lightning Storm | Solemn Judgment | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.43,
+                "best_delta": 2.43
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Ghost Ogre & Snow Rabbit | Skill Drain | Forbidden Droplet": {
+                "count": 1,
+                "delta_total": 1.87,
+                "best_delta": 1.87
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 4.67,
+                "best_delta": 4.67
+              },
+              "IN: Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Infinite Impermanence || OUT: Book of Eclipse | D.D. Crow | Bystial Magnamhut": {
+                "count": 1,
+                "delta_total": 1.61,
+                "best_delta": 1.61
+              },
+              "IN: Effect Veiler | Evenly Matched | Dark Ruler No More || OUT: Dragon Spirit of White | Destined Rivals | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.43,
+                "best_delta": 2.43
+              },
+              "IN: Infinite Impermanence | Evenly Matched | Dark Ruler No More || OUT: Dragon Spirit of White | Destined Rivals | The Bystial Lubellion": {
+                "count": 1,
+                "delta_total": 1.03,
+                "best_delta": 1.03
+              },
+              "IN: Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Effect Veiler || OUT: Solemn Judgment | Harpie's Feather Duster | Solemn Strike": {
+                "count": 1,
+                "delta_total": 4.17,
+                "best_delta": 4.17
+              },
+              "IN: Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Infinite Impermanence || OUT: Dragon Spirit of White | Solemn Strike | Destined Rivals": {
+                "count": 1,
+                "delta_total": 0.27,
+                "best_delta": 0.27
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Solemn Judgment | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 2.72,
+                "best_delta": 2.72
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 1.12,
+                "best_delta": 1.12
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: The Bystial Lubellion | True Light | Book of Eclipse": {
+                "count": 1,
+                "delta_total": 1.89,
+                "best_delta": 1.89
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Nibiru, the Primal Being || OUT: Solemn Judgment | Lightning Storm | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.36,
+                "best_delta": 2.36
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Nibiru, the Primal Being || OUT: Dragon Spirit of White | Destined Rivals | Lightning Storm": {
+                "count": 1,
+                "delta_total": 1.13,
+                "best_delta": 1.13
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Harpie's Feather Duster | Skill Drain | Forbidden Droplet": {
+                "count": 1,
+                "delta_total": 8.88,
+                "best_delta": 8.88
+              },
+              "IN: Droll & Lock Bird | Effect Veiler | Ash Blossom & Joyous Spring || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Lightning Storm": {
+                "count": 1,
+                "delta_total": 1.88,
+                "best_delta": 1.88
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 4.96,
+                "best_delta": 4.96
+              },
+              "IN: Droll & Lock Bird | Effect Veiler | Ash Blossom & Joyous Spring || OUT: Ghost Ogre & Snow Rabbit | Destined Rivals | Book of Eclipse": {
+                "count": 1,
+                "delta_total": 1.11,
+                "best_delta": 1.11
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Bystial Magnamhut | Dark Ruler No More | Bystial Druiswurm": {
+                "count": 1,
+                "delta_total": -1.79,
+                "best_delta": -1.79
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Nibiru, the Primal Being || OUT: Destined Rivals | Advanced Ritual Art | Book of Eclipse": {
+                "count": 1,
+                "delta_total": 3.01,
+                "best_delta": 3.01
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 4.55,
+                "best_delta": 4.55
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: Dragon Spirit of White | Forbidden Droplet | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 0.87,
+                "best_delta": 0.87
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 1,
+                "delta_total": 2.33,
+                "best_delta": 2.33
+              },
+              "IN: Droll & Lock Bird | Nibiru, the Primal Being | Ash Blossom & Joyous Spring || OUT: Harpie's Feather Duster | The Ultimate Creature of Destruction | Destined Rivals": {
+                "count": 1,
+                "delta_total": 5.96,
+                "best_delta": 5.96
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: Dragon Spirit of White | Harpie's Feather Duster | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.69,
+                "best_delta": 0.69
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 2.84,
+                "best_delta": 2.84
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 1.87,
+                "best_delta": 1.87
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.81,
+                "best_delta": 0.81
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Harpie's Feather Duster | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 1,
+                "delta_total": -1.76,
+                "best_delta": -1.76
+              },
+              "IN: Nibiru, the Primal Being | Droll & Lock Bird | Ash Blossom & Joyous Spring || OUT: Dragon Spirit of White | Lightning Storm | Aluber the Jester of Despia": {
+                "count": 1,
+                "delta_total": 0.27,
+                "best_delta": 0.27
+              },
+              "IN: Nibiru, the Primal Being | Droll & Lock Bird | Infinite Impermanence || OUT: Ghost Belle & Haunted Mansion | Infinite Impermanence | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 1.79,
+                "best_delta": 1.79
+              },
+              "IN: Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Forbidden Droplet | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.98,
+                "best_delta": 0.98
+              },
+              "IN: Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 1.35,
+                "best_delta": 1.35
+              },
+              "IN: Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.04,
+                "best_delta": 2.04
+              },
+              "IN: Nibiru, the Primal Being | Droll & Lock Bird | Infinite Impermanence || OUT: Book of Eclipse | Nibiru, the Primal Being | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": 0.34,
+                "best_delta": 0.34
+              },
+              "IN: Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 2.65,
+                "best_delta": 2.65
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Forbidden Droplet | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.0,
+                "best_delta": 0.0
+              },
+              "IN: Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Forbidden Droplet": {
+                "count": 1,
+                "delta_total": 0.48,
+                "best_delta": 0.48
+              },
+              "IN: Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 0.55,
+                "best_delta": 0.55
+              },
+              "IN: Nibiru, the Primal Being | Infinite Impermanence | Ash Blossom & Joyous Spring || OUT: Harpie's Feather Duster | Solemn Judgment | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.76,
+                "best_delta": 0.76
+              },
+              "IN: Infinite Impermanence | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Harpie's Feather Duster | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 2.3,
+                "best_delta": 2.3
+              },
+              "IN: Nibiru, the Primal Being | Droll & Lock Bird | Ash Blossom & Joyous Spring || OUT: Dragon Spirit of White | Solemn Judgment | Destined Rivals": {
+                "count": 1,
+                "delta_total": 7.43,
+                "best_delta": 7.43
+              },
+              "IN: Droll & Lock Bird | Infinite Impermanence | Ash Blossom & Joyous Spring || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 6.52,
+                "best_delta": 6.52
+              }
+            },
+            "valid_candidate_rate_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_score_history": [
+              300.0,
+              214.42,
+              286.19,
+              274.1,
+              300.0,
+              301.26,
+              283.41,
+              288.02,
+              274.0,
+              305.96,
+              300.0,
+              305.88,
+              307.19,
+              305.57,
+              307.67,
+              307.6,
+              300.0,
+              277.85,
+              273.85,
+              304.56,
+              309.01,
+              300.0,
+              283.16,
+              309.2,
+              308.54,
+              305.23,
+              280.62,
+              282.96,
+              307.96,
+              300.0,
+              283.14,
+              284.33,
+              307.09,
+              279.97,
+              283.09,
+              307.6,
+              300.0,
+              312.09,
+              310.57,
+              309.49,
+              304.41,
+              311.55,
+              309.34,
+              305.36,
+              300.0,
+              281.13,
+              308.95,
+              303.41,
+              284.36,
+              305.62,
+              309.27,
+              306.81,
+              303.45,
+              272.21,
+              307.75,
+              282.13,
+              287.18,
+              300.0,
+              307.59,
+              307.68,
+              299.88,
+              283.68,
+              281.79,
+              307.97,
+              306.97,
+              281.6,
+              307.19,
+              300.0,
+              283.52,
+              288.21,
+              306.01,
+              279.12,
+              275.0,
+              280.48,
+              282.82,
+              279.04,
+              307.7,
+              274.45,
+              308.06,
+              307.13,
+              280.81,
+              279.48,
+              304.31,
+              308.32,
+              307.09,
+              280.17,
+              307.0,
+              311.23,
+              278.31,
+              306.51,
+              303.46,
+              280.77,
+              285.95,
+              283.6,
+              307.22
+            ],
+            "post_side_delta_history": [
+              6.0,
+              4.04,
+              1.04,
+              0.53,
+              6.0,
+              2.58,
+              1.81,
+              5.32,
+              2.17,
+              8.31,
+              6.0,
+              0.81,
+              1.34,
+              1.01,
+              2.67,
+              5.25,
+              6.0,
+              0.57,
+              1.34,
+              3.34,
+              5.59,
+              6.0,
+              2.05,
+              -0.31,
+              2.87,
+              1.76,
+              7.45,
+              3.58,
+              1.01,
+              6.0,
+              1.56,
+              1.49,
+              3.45,
+              4.89,
+              5.18,
+              1.71,
+              6.0,
+              2.02,
+              3.7,
+              3.34,
+              4.95,
+              2.21,
+              -0.08,
+              1.45,
+              6.0,
+              2.43,
+              1.87,
+              4.67,
+              1.61,
+              3.08,
+              2.43,
+              3.86,
+              1.03,
+              2.57,
+              4.17,
+              0.27,
+              2.72,
+              6.0,
+              1.12,
+              1.89,
+              4.98,
+              6.25,
+              2.36,
+              0.26,
+              1.13,
+              8.88,
+              1.88,
+              6.0,
+              4.96,
+              1.11,
+              -1.79,
+              3.01,
+              4.55,
+              0.87,
+              2.33,
+              5.96,
+              0.69,
+              2.84,
+              1.87,
+              0.81,
+              -1.76,
+              0.27,
+              1.79,
+              0.98,
+              1.35,
+              2.04,
+              0.34,
+              2.65,
+              0.0,
+              0.48,
+              0.55,
+              0.76,
+              2.3,
+              7.43,
+              6.52
+            ],
+            "rejected_side_cards": {},
+            "cards_frequently_present_in_bad_side_plans": {
+              "Droll & Lock Bird": 4,
+              "Ash Blossom & Joyous Spring": 4,
+              "Effect Veiler": 3,
+              "Dragon Spirit of White": 1,
+              "Lightning Storm": 1,
+              "True Light": 2,
+              "Infinite Impermanence": 2,
+              "The Melody of Awakening Dragon": 1,
+              "Bystial Magnamhut": 1,
+              "Dark Ruler No More": 1,
+              "Bystial Druiswurm": 1,
+              "Harpie's Feather Duster": 1,
+              "Ghost Ogre & Snow Rabbit": 1,
+              "Destined Rivals": 1
+            },
+            "updated_at_utc": "2026-05-30T08:38:37.903328+00:00",
+            "last_update_provenance": {
+              "source": "manual",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T08:38:37.903328+00:00"
+            }
+          },
+          "both": {
+            "side_in_card_counts": {
+              "Nibiru, the Primal Being": 6,
+              "Infinite Impermanence": 14,
+              "Effect Veiler": 17,
+              "Droll & Lock Bird": 16,
+              "Ash Blossom & Joyous Spring": 16
+            },
+            "side_out_card_counts": {
+              "Raigeki": 7,
+              "Nibiru, the Primal Being": 7,
+              "Infinite Impermanence": 2,
+              "Dragon Spirit of White": 14,
+              "True Light": 1,
+              "The Bystial Lubellion": 1,
+              "Harpie's Feather Duster": 7,
+              "Evenly Matched": 6,
+              "D.D. Crow": 8,
+              "The Ultimate Creature of Destruction": 2,
+              "Book of Eclipse": 4,
+              "The Melody of Awakening Dragon": 1,
+              "The Chaos Creator": 4,
+              "Skill Drain": 2,
+              "Ghost Ogre & Snow Rabbit": 1,
+              "Lightning Storm": 2
+            },
+            "side_in_delta_totals": {
+              "Nibiru, the Primal Being": 11.67,
+              "Infinite Impermanence": 36.58,
+              "Effect Veiler": 41.019999999999996,
+              "Droll & Lock Bird": 44.78,
+              "Ash Blossom & Joyous Spring": 49.699999999999996
+            },
+            "side_in_delta_counts": {
+              "Nibiru, the Primal Being": 6,
+              "Infinite Impermanence": 14,
+              "Effect Veiler": 17,
+              "Droll & Lock Bird": 16,
+              "Ash Blossom & Joyous Spring": 16
+            },
+            "side_out_delta_totals": {
+              "Raigeki": 17.15,
+              "Nibiru, the Primal Being": 17.87,
+              "Infinite Impermanence": 1.71,
+              "Dragon Spirit of White": 37.080000000000005,
+              "True Light": -1.67,
+              "The Bystial Lubellion": -1.67,
+              "Harpie's Feather Duster": 27.23,
+              "Evenly Matched": 20.45,
+              "D.D. Crow": 31.060000000000002,
+              "The Ultimate Creature of Destruction": 1.7,
+              "Book of Eclipse": 10.05,
+              "The Melody of Awakening Dragon": 3.58,
+              "The Chaos Creator": 8.41,
+              "Skill Drain": 4.6899999999999995,
+              "Ghost Ogre & Snow Rabbit": 1.31,
+              "Lightning Storm": 4.8
+            },
+            "side_out_delta_counts": {
+              "Raigeki": 7,
+              "Nibiru, the Primal Being": 7,
+              "Infinite Impermanence": 2,
+              "Dragon Spirit of White": 14,
+              "True Light": 1,
+              "The Bystial Lubellion": 1,
+              "Harpie's Feather Duster": 7,
+              "Evenly Matched": 6,
+              "D.D. Crow": 8,
+              "The Ultimate Creature of Destruction": 2,
+              "Book of Eclipse": 4,
+              "The Melody of Awakening Dragon": 1,
+              "The Chaos Creator": 4,
+              "Skill Drain": 2,
+              "Ghost Ogre & Snow Rabbit": 1,
+              "Lightning Storm": 2
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Nibiru, the Primal Being": 1.945,
+                "Infinite Impermanence": 2.6129,
+                "Effect Veiler": 2.4129,
+                "Droll & Lock Bird": 2.7988,
+                "Ash Blossom & Joyous Spring": 3.1062
+              },
+              "side_out": {
+                "Raigeki": 2.45,
+                "Nibiru, the Primal Being": 2.5529,
+                "Infinite Impermanence": 0.855,
+                "Dragon Spirit of White": 2.6486,
+                "True Light": -1.67,
+                "The Bystial Lubellion": -1.67,
+                "Harpie's Feather Duster": 3.89,
+                "Evenly Matched": 3.4083,
+                "D.D. Crow": 3.8825,
+                "The Ultimate Creature of Destruction": 0.85,
+                "Book of Eclipse": 2.5125,
+                "The Melody of Awakening Dragon": 3.58,
+                "The Chaos Creator": 2.1025,
+                "Skill Drain": 2.345,
+                "Ghost Ogre & Snow Rabbit": 1.31,
+                "Lightning Storm": 2.4
+              }
+            },
+            "best_side_in_patterns": {
+              "Nibiru, the Primal Being | Infinite Impermanence | Effect Veiler": {
+                "count": 2,
+                "delta_total": 0.10999999999999999,
+                "best_delta": 0.45
+              },
+              "Infinite Impermanence | Effect Veiler | Droll & Lock Bird": {
+                "count": 2,
+                "delta_total": 2.4000000000000004,
+                "best_delta": 4.07
+              },
+              "Nibiru, the Primal Being | Ash Blossom & Joyous Spring | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": 4.47,
+                "best_delta": 4.47
+              },
+              "Infinite Impermanence | Droll & Lock Bird | Effect Veiler": {
+                "count": 1,
+                "delta_total": 1.26,
+                "best_delta": 1.26
+              },
+              "Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": 2.46,
+                "best_delta": 2.46
+              },
+              "Droll & Lock Bird | Infinite Impermanence | Effect Veiler": {
+                "count": 1,
+                "delta_total": 6.53,
+                "best_delta": 6.53
+              },
+              "Ash Blossom & Joyous Spring | Droll & Lock Bird | Infinite Impermanence": {
+                "count": 4,
+                "delta_total": 13.3,
+                "best_delta": 9.47
+              },
+              "Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler": {
+                "count": 8,
+                "delta_total": 21.290000000000006,
+                "best_delta": 5.62
+              },
+              "Ash Blossom & Joyous Spring | Effect Veiler | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 3.38,
+                "best_delta": 3.38
+              },
+              "Effect Veiler | Infinite Impermanence | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 1.25,
+                "best_delta": 1.25
+              },
+              "Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": 4.8,
+                "best_delta": 4.8
+              }
+            },
+            "best_side_out_patterns": {
+              "Raigeki | Nibiru, the Primal Being | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": 0.45,
+                "best_delta": 0.45
+              },
+              "Dragon Spirit of White | True Light | The Bystial Lubellion": {
+                "count": 1,
+                "delta_total": -1.67,
+                "best_delta": -1.67
+              },
+              "Harpie's Feather Duster | Evenly Matched | D.D. Crow": {
+                "count": 1,
+                "delta_total": 4.47,
+                "best_delta": 4.47
+              },
+              "Dragon Spirit of White | Raigeki | Nibiru, the Primal Being": {
+                "count": 2,
+                "delta_total": 5.33,
+                "best_delta": 4.07
+              },
+              "Dragon Spirit of White | Harpie's Feather Duster | D.D. Crow": {
+                "count": 1,
+                "delta_total": -0.34,
+                "best_delta": -0.34
+              },
+              "Dragon Spirit of White | Infinite Impermanence | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 1.26,
+                "best_delta": 1.26
+              },
+              "Book of Eclipse | Raigeki | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 2.46,
+                "best_delta": 2.46
+              },
+              "Dragon Spirit of White | Nibiru, the Primal Being | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 6.53,
+                "best_delta": 6.53
+              },
+              "Dragon Spirit of White | Book of Eclipse | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": -0.48,
+                "best_delta": -0.48
+              },
+              "Dragon Spirit of White | Book of Eclipse | Evenly Matched": {
+                "count": 2,
+                "delta_total": 8.07,
+                "best_delta": 5.62
+              },
+              "Dragon Spirit of White | Harpie's Feather Duster | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 0.44,
+                "best_delta": 0.44
+              },
+              "Nibiru, the Primal Being | D.D. Crow | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 3.58,
+                "best_delta": 3.58
+              },
+              "Dragon Spirit of White | Evenly Matched | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 1.86,
+                "best_delta": 1.86
+              },
+              "The Chaos Creator | Skill Drain | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.31,
+                "best_delta": 1.31
+              },
+              "Dragon Spirit of White | Raigeki | D.D. Crow": {
+                "count": 1,
+                "delta_total": 5.36,
+                "best_delta": 5.36
+              },
+              "D.D. Crow | The Chaos Creator | Lightning Storm": {
+                "count": 1,
+                "delta_total": 1.42,
+                "best_delta": 1.42
+              },
+              "Lightning Storm | The Chaos Creator | Skill Drain": {
+                "count": 1,
+                "delta_total": 3.38,
+                "best_delta": 3.38
+              },
+              "Dragon Spirit of White | D.D. Crow | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 9.47,
+                "best_delta": 9.47
+              },
+              "Dragon Spirit of White | Evenly Matched | Raigeki": {
+                "count": 1,
+                "delta_total": 1.25,
+                "best_delta": 1.25
+              },
+              "D.D. Crow | Raigeki | The Chaos Creator": {
+                "count": 1,
+                "delta_total": 2.3,
+                "best_delta": 2.3
+              },
+              "D.D. Crow | Harpie's Feather Duster | Evenly Matched": {
+                "count": 1,
+                "delta_total": 4.8,
+                "best_delta": 4.8
+              }
+            },
+            "best_full_side_plans": {
+              "IN: Nibiru, the Primal Being | Infinite Impermanence | Effect Veiler || OUT: Raigeki | Nibiru, the Primal Being | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": 0.45,
+                "best_delta": 0.45
+              },
+              "IN: Infinite Impermanence | Effect Veiler | Droll & Lock Bird || OUT: Dragon Spirit of White | True Light | The Bystial Lubellion": {
+                "count": 1,
+                "delta_total": -1.67,
+                "best_delta": -1.67
+              },
+              "IN: Nibiru, the Primal Being | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Harpie's Feather Duster | Evenly Matched | D.D. Crow": {
+                "count": 1,
+                "delta_total": 4.47,
+                "best_delta": 4.47
+              },
+              "IN: Infinite Impermanence | Effect Veiler | Droll & Lock Bird || OUT: Dragon Spirit of White | Raigeki | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 4.07,
+                "best_delta": 4.07
+              },
+              "IN: Nibiru, the Primal Being | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Harpie's Feather Duster | D.D. Crow": {
+                "count": 1,
+                "delta_total": -0.34,
+                "best_delta": -0.34
+              },
+              "IN: Infinite Impermanence | Droll & Lock Bird | Effect Veiler || OUT: Dragon Spirit of White | Infinite Impermanence | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 1.26,
+                "best_delta": 1.26
+              },
+              "IN: Ash Blossom & Joyous Spring | Nibiru, the Primal Being | Infinite Impermanence || OUT: Book of Eclipse | Raigeki | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 2.46,
+                "best_delta": 2.46
+              },
+              "IN: Droll & Lock Bird | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 6.53,
+                "best_delta": 6.53
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Infinite Impermanence || OUT: Dragon Spirit of White | Book of Eclipse | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": -0.48,
+                "best_delta": -0.48
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler || OUT: Dragon Spirit of White | Book of Eclipse | Evenly Matched": {
+                "count": 1,
+                "delta_total": 5.62,
+                "best_delta": 5.62
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler || OUT: Dragon Spirit of White | Harpie's Feather Duster | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 0.44,
+                "best_delta": 0.44
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler || OUT: Nibiru, the Primal Being | D.D. Crow | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 3.58,
+                "best_delta": 3.58
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Infinite Impermanence || OUT: Dragon Spirit of White | Evenly Matched | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 1.86,
+                "best_delta": 1.86
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler || OUT: The Chaos Creator | Skill Drain | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.31,
+                "best_delta": 1.31
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler || OUT: Dragon Spirit of White | Raigeki | D.D. Crow": {
+                "count": 1,
+                "delta_total": 5.36,
+                "best_delta": 5.36
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler || OUT: D.D. Crow | The Chaos Creator | Lightning Storm": {
+                "count": 1,
+                "delta_total": 1.42,
+                "best_delta": 1.42
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Nibiru, the Primal Being || OUT: Lightning Storm | The Chaos Creator | Skill Drain": {
+                "count": 1,
+                "delta_total": 3.38,
+                "best_delta": 3.38
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler || OUT: Dragon Spirit of White | Raigeki | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 1.26,
+                "best_delta": 1.26
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Infinite Impermanence || OUT: Dragon Spirit of White | D.D. Crow | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 9.47,
+                "best_delta": 9.47
+              },
+              "IN: Effect Veiler | Infinite Impermanence | Nibiru, the Primal Being || OUT: Dragon Spirit of White | Evenly Matched | Raigeki": {
+                "count": 1,
+                "delta_total": 1.25,
+                "best_delta": 1.25
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Infinite Impermanence || OUT: Dragon Spirit of White | Book of Eclipse | Evenly Matched": {
+                "count": 1,
+                "delta_total": 2.45,
+                "best_delta": 2.45
+              },
+              "IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Effect Veiler || OUT: D.D. Crow | Raigeki | The Chaos Creator": {
+                "count": 1,
+                "delta_total": 2.3,
+                "best_delta": 2.3
+              },
+              "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: D.D. Crow | Harpie's Feather Duster | Evenly Matched": {
+                "count": 1,
+                "delta_total": 4.8,
+                "best_delta": 4.8
+              }
+            },
+            "valid_candidate_rate_history": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_score_history": [
+              305.63,
+              308.02,
+              308.61,
+              303.99,
+              310.35,
+              309.25,
+              282.08,
+              303.78,
+              305.91,
+              305.75,
+              284.87,
+              308.99,
+              309.8,
+              310.27,
+              307.16,
+              305.56,
+              307.09,
+              284.35,
+              283.02,
+              279.34,
+              307.07,
+              311.39,
+              282.76
+            ],
+            "post_side_delta_history": [
+              0.45,
+              -1.67,
+              4.47,
+              4.07,
+              -0.34,
+              1.26,
+              2.46,
+              6.53,
+              -0.48,
+              5.62,
+              0.44,
+              3.58,
+              1.86,
+              1.31,
+              5.36,
+              1.42,
+              3.38,
+              1.26,
+              9.47,
+              1.25,
+              2.45,
+              2.3,
+              4.8
+            ],
+            "rejected_side_cards": {},
+            "cards_frequently_present_in_bad_side_plans": {
+              "Infinite Impermanence": 3,
+              "Effect Veiler": 2,
+              "Droll & Lock Bird": 2,
+              "Dragon Spirit of White": 3,
+              "True Light": 1,
+              "The Bystial Lubellion": 1,
+              "Nibiru, the Primal Being": 2,
+              "Harpie's Feather Duster": 1,
+              "D.D. Crow": 1,
+              "Ash Blossom & Joyous Spring": 1,
+              "Book of Eclipse": 1
+            },
+            "updated_at_utc": "2026-06-01T01:44:41.234102+00:00",
+            "last_update_provenance": {
+              "source": "manual",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-01T01:44:41.234102+00:00"
+            }
+          }
+        },
+        "unknown_meta": {
+          "both": {
+            "side_in_card_counts": {
+              "Harpie's Feather Duster": 18,
+              "Evenly Matched": 18,
+              "D.D. Crow": 16,
+              "Infinite Impermanence": 16,
+              "Book of Eclipse": 7,
+              "Ash Blossom & Joyous Spring": 18,
+              "Gryphon Wing": 3
+            },
+            "side_out_card_counts": {
+              "Nibiru, the Primal Being": 8,
+              "Infinite Impermanence": 4,
+              "Ghost Ogre & Snow Rabbit": 11,
+              "Dragon Spirit of White": 13,
+              "Raigeki": 2,
+              "Effect Veiler": 5,
+              "Dark Ruler No More": 3,
+              "Ghost Belle & Haunted Mansion": 2,
+              "Destined Rivals": 6,
+              "Solemn Strike": 1,
+              "Forbidden Droplet": 1,
+              "Droll & Lock Bird": 1,
+              "Book of Eclipse": 6,
+              "The Ultimate Creature of Destruction": 6,
+              "D.D. Crow": 2,
+              "True Light": 2,
+              "Lightning Storm": 3,
+              "Bystial Magnamhut": 2,
+              "Bystial Druiswurm": 2,
+              "Solemn Judgment": 1,
+              "The Bystial Lubellion": 1,
+              "Branded Regained": 2,
+              "Harpie's Feather Duster": 2,
+              "Evenly Matched": 1,
+              "Ash Blossom & Joyous Spring": 1,
+              "Skill Drain": 3,
+              "Fallen of Albaz": 2,
+              "Aluber the Jester of Despia": 1,
+              "Branded Fusion": 2
+            },
+            "side_in_delta_totals": {
+              "Harpie's Feather Duster": 7.390000000000001,
+              "Evenly Matched": 1.5800000000000005,
+              "D.D. Crow": -0.5199999999999995,
+              "Infinite Impermanence": 4.52,
+              "Book of Eclipse": -2.82,
+              "Ash Blossom & Joyous Spring": 9.29,
+              "Gryphon Wing": -1.9800000000000004
+            },
+            "side_in_delta_counts": {
+              "Harpie's Feather Duster": 18,
+              "Evenly Matched": 18,
+              "D.D. Crow": 16,
+              "Infinite Impermanence": 16,
+              "Book of Eclipse": 7,
+              "Ash Blossom & Joyous Spring": 18,
+              "Gryphon Wing": 3
+            },
+            "side_out_delta_totals": {
+              "Nibiru, the Primal Being": 13.15,
+              "Infinite Impermanence": 0.28,
+              "Ghost Ogre & Snow Rabbit": 12.170000000000002,
+              "Dragon Spirit of White": 5.05,
+              "Raigeki": -2.9800000000000004,
+              "Effect Veiler": 2.72,
+              "Dark Ruler No More": 3.04,
+              "Ghost Belle & Haunted Mansion": -3.8000000000000003,
+              "Destined Rivals": 6.03,
+              "Solemn Strike": -3.7,
+              "Forbidden Droplet": -3.7,
+              "Droll & Lock Bird": -3.7,
+              "Book of Eclipse": -1.7099999999999997,
+              "The Ultimate Creature of Destruction": -0.9900000000000002,
+              "D.D. Crow": -0.58,
+              "True Light": 1.9900000000000002,
+              "Lightning Storm": 1.33,
+              "Bystial Magnamhut": -3.25,
+              "Bystial Druiswurm": -3.25,
+              "Solemn Judgment": -2.4,
+              "The Bystial Lubellion": -2.75,
+              "Branded Regained": -1.72,
+              "Harpie's Feather Duster": 3.81,
+              "Evenly Matched": -1.4,
+              "Ash Blossom & Joyous Spring": -1.4,
+              "Skill Drain": 1.4700000000000002,
+              "Fallen of Albaz": -1.1400000000000001,
+              "Aluber the Jester of Despia": -3.33,
+              "Branded Fusion": 8.22
+            },
+            "side_out_delta_counts": {
+              "Nibiru, the Primal Being": 8,
+              "Infinite Impermanence": 4,
+              "Ghost Ogre & Snow Rabbit": 11,
+              "Dragon Spirit of White": 13,
+              "Raigeki": 2,
+              "Effect Veiler": 5,
+              "Dark Ruler No More": 3,
+              "Ghost Belle & Haunted Mansion": 2,
+              "Destined Rivals": 6,
+              "Solemn Strike": 1,
+              "Forbidden Droplet": 1,
+              "Droll & Lock Bird": 1,
+              "Book of Eclipse": 6,
+              "The Ultimate Creature of Destruction": 6,
+              "D.D. Crow": 2,
+              "True Light": 2,
+              "Lightning Storm": 3,
+              "Bystial Magnamhut": 2,
+              "Bystial Druiswurm": 2,
+              "Solemn Judgment": 1,
+              "The Bystial Lubellion": 1,
+              "Branded Regained": 2,
+              "Harpie's Feather Duster": 2,
+              "Evenly Matched": 1,
+              "Ash Blossom & Joyous Spring": 1,
+              "Skill Drain": 3,
+              "Fallen of Albaz": 2,
+              "Aluber the Jester of Despia": 1,
+              "Branded Fusion": 2
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Harpie's Feather Duster": 0.4106,
+                "Evenly Matched": 0.0878,
+                "D.D. Crow": -0.0325,
+                "Infinite Impermanence": 0.2825,
+                "Book of Eclipse": -0.4029,
+                "Ash Blossom & Joyous Spring": 0.5161,
+                "Gryphon Wing": -0.66
+              },
+              "side_out": {
+                "Nibiru, the Primal Being": 1.6438,
+                "Infinite Impermanence": 0.07,
+                "Ghost Ogre & Snow Rabbit": 1.1064,
+                "Dragon Spirit of White": 0.3885,
+                "Raigeki": -1.49,
+                "Effect Veiler": 0.544,
+                "Dark Ruler No More": 1.0133,
+                "Ghost Belle & Haunted Mansion": -1.9,
+                "Destined Rivals": 1.005,
+                "Solemn Strike": -3.7,
+                "Forbidden Droplet": -3.7,
+                "Droll & Lock Bird": -3.7,
+                "Book of Eclipse": -0.285,
+                "The Ultimate Creature of Destruction": -0.165,
+                "D.D. Crow": -0.29,
+                "True Light": 0.995,
+                "Lightning Storm": 0.4433,
+                "Bystial Magnamhut": -1.625,
+                "Bystial Druiswurm": -1.625,
+                "Solemn Judgment": -2.4,
+                "The Bystial Lubellion": -2.75,
+                "Branded Regained": -0.86,
+                "Harpie's Feather Duster": 1.905,
+                "Evenly Matched": -1.4,
+                "Ash Blossom & Joyous Spring": -1.4,
+                "Skill Drain": 0.49,
+                "Fallen of Albaz": -0.57,
+                "Aluber the Jester of Despia": -3.33,
+                "Branded Fusion": 4.11
+              }
+            },
+            "best_side_in_patterns": {
+              "Harpie's Feather Duster | Evenly Matched | D.D. Crow": {
+                "count": 3,
+                "delta_total": -0.49,
+                "best_delta": 1.23
+              },
+              "Infinite Impermanence | Harpie's Feather Duster | Evenly Matched": {
+                "count": 1,
+                "delta_total": 0.71,
+                "best_delta": 0.71
+              },
+              "D.D. Crow | Harpie's Feather Duster | Infinite Impermanence": {
+                "count": 2,
+                "delta_total": 0.75,
+                "best_delta": 1.01
+              },
+              "Evenly Matched | Harpie's Feather Duster | D.D. Crow": {
+                "count": 1,
+                "delta_total": 1.5,
+                "best_delta": 1.5
+              },
+              "Evenly Matched | D.D. Crow | Book of Eclipse": {
+                "count": 3,
+                "delta_total": -2.57,
+                "best_delta": 0.68
+              },
+              "Ash Blossom & Joyous Spring | Infinite Impermanence | Gryphon Wing": {
+                "count": 3,
+                "delta_total": -1.9800000000000004,
+                "best_delta": 3.29
+              },
+              "Evenly Matched | Book of Eclipse | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": -3.7,
+                "best_delta": -3.7
+              },
+              "D.D. Crow | Infinite Impermanence | Ash Blossom & Joyous Spring": {
+                "count": 1,
+                "delta_total": -2.16,
+                "best_delta": -2.16
+              },
+              "Evenly Matched | D.D. Crow | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 0.25,
+                "best_delta": 0.25
+              },
+              "Book of Eclipse | Infinite Impermanence | Ash Blossom & Joyous Spring": {
+                "count": 1,
+                "delta_total": 3.37,
+                "best_delta": 3.37
+              },
+              "Evenly Matched | Book of Eclipse | D.D. Crow": {
+                "count": 1,
+                "delta_total": 1.48,
+                "best_delta": 1.48
+              },
+              "D.D. Crow | Ash Blossom & Joyous Spring | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": -1.38,
+                "best_delta": -1.38
+              },
+              "Harpie's Feather Duster | Evenly Matched | Book of Eclipse": {
+                "count": 1,
+                "delta_total": -1.4,
+                "best_delta": -1.4
+              },
+              "Harpie's Feather Duster | Ash Blossom & Joyous Spring | D.D. Crow": {
+                "count": 2,
+                "delta_total": 1.62,
+                "best_delta": 2.45
+              },
+              "Ash Blossom & Joyous Spring | D.D. Crow | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": 0.48,
+                "best_delta": 0.48
+              },
+              "Harpie's Feather Duster | Ash Blossom & Joyous Spring | Evenly Matched": {
+                "count": 1,
+                "delta_total": 2.43,
+                "best_delta": 2.43
+              },
+              "Harpie's Feather Duster | Ash Blossom & Joyous Spring | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": -2.27,
+                "best_delta": -2.27
+              },
+              "Ash Blossom & Joyous Spring | Evenly Matched | Infinite Impermanence": {
+                "count": 3,
+                "delta_total": 1.19,
+                "best_delta": 2.33
+              },
+              "Evenly Matched | Harpie's Feather Duster | Ash Blossom & Joyous Spring": {
+                "count": 2,
+                "delta_total": 2.18,
+                "best_delta": 2.33
+              },
+              "Ash Blossom & Joyous Spring | Harpie's Feather Duster | Infinite Impermanence": {
+                "count": 2,
+                "delta_total": 5.8100000000000005,
+                "best_delta": 6.03
+              }
+            },
+            "best_side_out_patterns": {
+              "Nibiru, the Primal Being | Infinite Impermanence | Ghost Ogre & Snow Rabbit": {
+                "count": 2,
+                "delta_total": 1.94,
+                "best_delta": 1.23
+              },
+              "Dragon Spirit of White | Nibiru, the Primal Being | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.01,
+                "best_delta": 1.01
+              },
+              "Dragon Spirit of White | Infinite Impermanence | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -0.26,
+                "best_delta": -0.26
+              },
+              "Raigeki | Effect Veiler | Dark Ruler No More": {
+                "count": 1,
+                "delta_total": 1.5,
+                "best_delta": 1.5
+              },
+              "Ghost Belle & Haunted Mansion | Effect Veiler | Destined Rivals": {
+                "count": 1,
+                "delta_total": 0.68,
+                "best_delta": 0.68
+              },
+              "Dragon Spirit of White | Raigeki | Ghost Belle & Haunted Mansion": {
+                "count": 1,
+                "delta_total": -4.48,
+                "best_delta": -4.48
+              },
+              "Dragon Spirit of White | Dark Ruler No More | Destined Rivals": {
+                "count": 1,
+                "delta_total": -0.79,
+                "best_delta": -0.79
+              },
+              "Solemn Strike | Forbidden Droplet | Droll & Lock Bird": {
+                "count": 1,
+                "delta_total": -3.7,
+                "best_delta": -3.7
+              },
+              "Dragon Spirit of White | Book of Eclipse | Effect Veiler": {
+                "count": 1,
+                "delta_total": -2.16,
+                "best_delta": -2.16
+              },
+              "The Ultimate Creature of Destruction | Effect Veiler | D.D. Crow": {
+                "count": 1,
+                "delta_total": 0.25,
+                "best_delta": 0.25
+              },
+              "Dragon Spirit of White | Ghost Ogre & Snow Rabbit | True Light": {
+                "count": 1,
+                "delta_total": 3.37,
+                "best_delta": 3.37
+              },
+              "Lightning Storm | Bystial Magnamhut | Bystial Druiswurm": {
+                "count": 1,
+                "delta_total": -0.85,
+                "best_delta": -0.85
+              },
+              "Solemn Judgment | Bystial Magnamhut | Bystial Druiswurm": {
+                "count": 1,
+                "delta_total": -2.4,
+                "best_delta": -2.4
+              },
+              "The Ultimate Creature of Destruction | The Bystial Lubellion | Branded Regained": {
+                "count": 1,
+                "delta_total": -2.75,
+                "best_delta": -2.75
+              },
+              "Book of Eclipse | The Ultimate Creature of Destruction | Branded Regained": {
+                "count": 1,
+                "delta_total": 1.03,
+                "best_delta": 1.03
+              },
+              "Nibiru, the Primal Being | The Ultimate Creature of Destruction | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 1.48,
+                "best_delta": 1.48
+              },
+              "Dragon Spirit of White | True Light | Book of Eclipse": {
+                "count": 1,
+                "delta_total": -1.38,
+                "best_delta": -1.38
+              },
+              "Evenly Matched | Ash Blossom & Joyous Spring | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": -1.4,
+                "best_delta": -1.4
+              },
+              "Dragon Spirit of White | Book of Eclipse | Ghost Ogre & Snow Rabbit": {
+                "count": 2,
+                "delta_total": 1.02,
+                "best_delta": 3.29
+              },
+              "Skill Drain | Effect Veiler | Destined Rivals": {
+                "count": 1,
+                "delta_total": 2.45,
+                "best_delta": 2.45
+              },
+              "Skill Drain | Destined Rivals | D.D. Crow": {
+                "count": 1,
+                "delta_total": -0.83,
+                "best_delta": -0.83
+              },
+              "Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Nibiru, the Primal Being": {
+                "count": 2,
+                "delta_total": 2.91,
+                "best_delta": 2.43
+              },
+              "Destined Rivals | Harpie's Feather Duster | Lightning Storm": {
+                "count": 1,
+                "delta_total": 2.33,
+                "best_delta": 2.33
+              },
+              "Ghost Ogre & Snow Rabbit | Dark Ruler No More | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 2.33,
+                "best_delta": 2.33
+              },
+              "Skill Drain | Lightning Storm | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -0.15,
+                "best_delta": -0.15
+              },
+              "The Ultimate Creature of Destruction | Fallen of Albaz | Aluber the Jester of Despia": {
+                "count": 1,
+                "delta_total": -3.33,
+                "best_delta": -3.33
+              },
+              "Destined Rivals | Fallen of Albaz | Branded Fusion": {
+                "count": 1,
+                "delta_total": 2.19,
+                "best_delta": 2.19
+              },
+              "Dragon Spirit of White | Book of Eclipse | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": -0.22,
+                "best_delta": -0.22
+              },
+              "Dragon Spirit of White | Branded Fusion | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 6.03,
+                "best_delta": 6.03
+              }
+            },
+            "best_full_side_plans": {
+              "IN: Harpie's Feather Duster | Evenly Matched | D.D. Crow || OUT: Nibiru, the Primal Being | Infinite Impermanence | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.23,
+                "best_delta": 1.23
+              },
+              "IN: Infinite Impermanence | Harpie's Feather Duster | Evenly Matched || OUT: Nibiru, the Primal Being | Infinite Impermanence | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.71,
+                "best_delta": 0.71
+              },
+              "IN: D.D. Crow | Harpie's Feather Duster | Infinite Impermanence || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.01,
+                "best_delta": 1.01
+              },
+              "IN: D.D. Crow | Harpie's Feather Duster | Infinite Impermanence || OUT: Dragon Spirit of White | Infinite Impermanence | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -0.26,
+                "best_delta": -0.26
+              },
+              "IN: Evenly Matched | Harpie's Feather Duster | D.D. Crow || OUT: Raigeki | Effect Veiler | Dark Ruler No More": {
+                "count": 1,
+                "delta_total": 1.5,
+                "best_delta": 1.5
+              },
+              "IN: Evenly Matched | D.D. Crow | Book of Eclipse || OUT: Ghost Belle & Haunted Mansion | Effect Veiler | Destined Rivals": {
+                "count": 1,
+                "delta_total": 0.68,
+                "best_delta": 0.68
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Gryphon Wing || OUT: Dragon Spirit of White | Raigeki | Ghost Belle & Haunted Mansion": {
+                "count": 1,
+                "delta_total": -4.48,
+                "best_delta": -4.48
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Gryphon Wing || OUT: Dragon Spirit of White | Dark Ruler No More | Destined Rivals": {
+                "count": 1,
+                "delta_total": -0.79,
+                "best_delta": -0.79
+              },
+              "IN: Evenly Matched | Book of Eclipse | Harpie's Feather Duster || OUT: Solemn Strike | Forbidden Droplet | Droll & Lock Bird": {
+                "count": 1,
+                "delta_total": -3.7,
+                "best_delta": -3.7
+              },
+              "IN: D.D. Crow | Infinite Impermanence | Ash Blossom & Joyous Spring || OUT: Dragon Spirit of White | Book of Eclipse | Effect Veiler": {
+                "count": 1,
+                "delta_total": -2.16,
+                "best_delta": -2.16
+              },
+              "IN: Evenly Matched | D.D. Crow | Harpie's Feather Duster || OUT: The Ultimate Creature of Destruction | Effect Veiler | D.D. Crow": {
+                "count": 1,
+                "delta_total": 0.25,
+                "best_delta": 0.25
+              },
+              "IN: Book of Eclipse | Infinite Impermanence | Ash Blossom & Joyous Spring || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | True Light": {
+                "count": 1,
+                "delta_total": 3.37,
+                "best_delta": 3.37
+              },
+              "IN: Evenly Matched | D.D. Crow | Book of Eclipse || OUT: Lightning Storm | Bystial Magnamhut | Bystial Druiswurm": {
+                "count": 1,
+                "delta_total": -0.85,
+                "best_delta": -0.85
+              },
+              "IN: Evenly Matched | D.D. Crow | Book of Eclipse || OUT: Solemn Judgment | Bystial Magnamhut | Bystial Druiswurm": {
+                "count": 1,
+                "delta_total": -2.4,
+                "best_delta": -2.4
+              },
+              "IN: Harpie's Feather Duster | Evenly Matched | D.D. Crow || OUT: The Ultimate Creature of Destruction | The Bystial Lubellion | Branded Regained": {
+                "count": 1,
+                "delta_total": -2.75,
+                "best_delta": -2.75
+              },
+              "IN: Harpie's Feather Duster | Evenly Matched | D.D. Crow || OUT: Book of Eclipse | The Ultimate Creature of Destruction | Branded Regained": {
+                "count": 1,
+                "delta_total": 1.03,
+                "best_delta": 1.03
+              },
+              "IN: Evenly Matched | Book of Eclipse | D.D. Crow || OUT: Nibiru, the Primal Being | The Ultimate Creature of Destruction | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 1.48,
+                "best_delta": 1.48
+              },
+              "IN: D.D. Crow | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | True Light | Book of Eclipse": {
+                "count": 1,
+                "delta_total": -1.38,
+                "best_delta": -1.38
+              },
+              "IN: Harpie's Feather Duster | Evenly Matched | Book of Eclipse || OUT: Evenly Matched | Ash Blossom & Joyous Spring | Infinite Impermanence": {
+                "count": 1,
+                "delta_total": -1.4,
+                "best_delta": -1.4
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Gryphon Wing || OUT: Dragon Spirit of White | Book of Eclipse | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 3.29,
+                "best_delta": 3.29
+              },
+              "IN: Harpie's Feather Duster | Ash Blossom & Joyous Spring | D.D. Crow || OUT: Skill Drain | Effect Veiler | Destined Rivals": {
+                "count": 1,
+                "delta_total": 2.45,
+                "best_delta": 2.45
+              },
+              "IN: Harpie's Feather Duster | Ash Blossom & Joyous Spring | D.D. Crow || OUT: Skill Drain | Destined Rivals | D.D. Crow": {
+                "count": 1,
+                "delta_total": -0.83,
+                "best_delta": -0.83
+              },
+              "IN: Ash Blossom & Joyous Spring | D.D. Crow | Infinite Impermanence || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 0.48,
+                "best_delta": 0.48
+              },
+              "IN: Harpie's Feather Duster | Ash Blossom & Joyous Spring | Evenly Matched || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 2.43,
+                "best_delta": 2.43
+              },
+              "IN: Harpie's Feather Duster | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Book of Eclipse | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -2.27,
+                "best_delta": -2.27
+              },
+              "IN: Ash Blossom & Joyous Spring | Evenly Matched | Infinite Impermanence || OUT: Destined Rivals | Harpie's Feather Duster | Lightning Storm": {
+                "count": 1,
+                "delta_total": 2.33,
+                "best_delta": 2.33
+              },
+              "IN: Evenly Matched | Harpie's Feather Duster | Ash Blossom & Joyous Spring || OUT: Ghost Ogre & Snow Rabbit | Dark Ruler No More | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 2.33,
+                "best_delta": 2.33
+              },
+              "IN: Evenly Matched | Harpie's Feather Duster | Ash Blossom & Joyous Spring || OUT: Skill Drain | Lightning Storm | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -0.15,
+                "best_delta": -0.15
+              },
+              "IN: Ash Blossom & Joyous Spring | Evenly Matched | Infinite Impermanence || OUT: The Ultimate Creature of Destruction | Fallen of Albaz | Aluber the Jester of Despia": {
+                "count": 1,
+                "delta_total": -3.33,
+                "best_delta": -3.33
+              },
+              "IN: Ash Blossom & Joyous Spring | Evenly Matched | Infinite Impermanence || OUT: Destined Rivals | Fallen of Albaz | Branded Fusion": {
+                "count": 1,
+                "delta_total": 2.19,
+                "best_delta": 2.19
+              },
+              "IN: Ash Blossom & Joyous Spring | Harpie's Feather Duster | Infinite Impermanence || OUT: Dragon Spirit of White | Book of Eclipse | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": -0.22,
+                "best_delta": -0.22
+              },
+              "IN: Ash Blossom & Joyous Spring | Harpie's Feather Duster | Infinite Impermanence || OUT: Dragon Spirit of White | Branded Fusion | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 6.03,
+                "best_delta": 6.03
+              }
+            },
+            "valid_candidate_rate_history": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "post_side_score_history": [
+              308.17,
+              305.52,
+              308.46,
+              308.55,
+              298.28,
+              305.39,
+              301.69,
+              308.1,
+              305.75,
+              300.85,
+              307.65,
+              310.89,
+              307.4,
+              304.54,
+              303.77,
+              305.77,
+              308.61,
+              308.24,
+              304.7,
+              300.94,
+              303.07,
+              305.72,
+              308.1,
+              309.39,
+              306.79,
+              305.42,
+              309.68,
+              306.24,
+              300.04,
+              309.05,
+              306.88,
+              299.01
+            ],
+            "post_side_delta_history": [
+              1.23,
+              0.71,
+              1.01,
+              -0.26,
+              1.5,
+              0.68,
+              -4.48,
+              -0.79,
+              -3.7,
+              -2.16,
+              0.25,
+              3.37,
+              -0.85,
+              -2.4,
+              -2.75,
+              1.03,
+              1.48,
+              -1.38,
+              -1.4,
+              3.29,
+              2.45,
+              -0.83,
+              0.48,
+              2.43,
+              -2.27,
+              2.33,
+              2.33,
+              -0.15,
+              -3.33,
+              2.19,
+              -0.22,
+              6.03
+            ],
+            "rejected_side_cards": {},
+            "cards_frequently_present_in_bad_side_plans": {
+              "D.D. Crow": 8,
+              "Harpie's Feather Duster": 8,
+              "Infinite Impermanence": 10,
+              "Dragon Spirit of White": 7,
+              "Ghost Ogre & Snow Rabbit": 3,
+              "Ash Blossom & Joyous Spring": 10,
+              "Gryphon Wing": 2,
+              "Raigeki": 1,
+              "Ghost Belle & Haunted Mansion": 1,
+              "Dark Ruler No More": 1,
+              "Destined Rivals": 2,
+              "Evenly Matched": 8,
+              "Book of Eclipse": 8,
+              "Solemn Strike": 1,
+              "Forbidden Droplet": 1,
+              "Droll & Lock Bird": 1,
+              "Effect Veiler": 1,
+              "Lightning Storm": 2,
+              "Bystial Magnamhut": 2,
+              "Bystial Druiswurm": 2,
+              "Solemn Judgment": 1,
+              "The Ultimate Creature of Destruction": 2,
+              "The Bystial Lubellion": 1,
+              "Branded Regained": 1,
+              "True Light": 1,
+              "Skill Drain": 2,
+              "Fallen of Albaz": 1,
+              "Aluber the Jester of Despia": 1,
+              "Nibiru, the Primal Being": 1
+            },
+            "updated_at_utc": "2026-05-24T20:41:18.049200+00:00"
+          }
+        }
+      }
+    }
+  },
+  "last_update_provenance": {
+    "source": "manual",
+    "validator_generated": false,
+    "smoke": false,
+    "legal": null,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-06-01T01:44:41.234102+00:00"
+  },
+  "provenance_log": [
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T08:38:37.903328+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-31T07:27:42.147664+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-31T07:30:50.749832+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-31T19:38:53.155478+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-31T19:41:27.577401+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-31T19:42:28.718097+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-31T19:45:03.368608+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T00:37:16.346742+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T00:37:55.120273+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T00:38:39.258323+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T00:39:45.057703+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T00:40:30.372139+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T00:40:30.407249+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T00:41:17.500755+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T01:37:39.698513+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T01:40:45.589710+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T01:43:58.468491+00:00"
+    },
+    {
+      "source": "manual",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T01:44:41.234102+00:00"
+    }
+  ]
+}

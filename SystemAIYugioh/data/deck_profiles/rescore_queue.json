@@ -1,0 +1,4489 @@
+[
+  {
+    "key": "archetype:\"C\"",
+    "archetype": "\"C\"",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:-Eyes Dragon",
+    "archetype": "-Eyes Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:/Assault Mode",
+    "archetype": "/Assault Mode",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:25th Anniversary Monsters",
+    "archetype": "25th Anniversary Monsters",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:@Ignister",
+    "archetype": "@Ignister",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:A-to-Z",
+    "archetype": "A-to-Z",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:A.I.",
+    "archetype": "A.I.",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:ABC",
+    "archetype": "ABC",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Abyss Actor",
+    "archetype": "Abyss Actor",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Abyss Script",
+    "archetype": "Abyss Script",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Abyss-",
+    "archetype": "Abyss-",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Adamancipator",
+    "archetype": "Adamancipator",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Advanced Crystal Beast",
+    "archetype": "Advanced Crystal Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Adventurer",
+    "archetype": "Adventurer",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Adventurer Token",
+    "archetype": "Adventurer Token",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Aesir",
+    "archetype": "Aesir",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Aether",
+    "archetype": "Aether",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Albaz Dragon",
+    "archetype": "Albaz Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Aleister",
+    "archetype": "Aleister",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Alien",
+    "archetype": "Alien",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Alligator",
+    "archetype": "Alligator",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Allure Queen",
+    "archetype": "Allure Queen",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ally of Justice",
+    "archetype": "Ally of Justice",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Altergeist",
+    "archetype": "Altergeist",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Amazement",
+    "archetype": "Amazement",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Amazoness",
+    "archetype": "Amazoness",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Amorphage",
+    "archetype": "Amorphage",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ancient Fairy Dragon",
+    "archetype": "Ancient Fairy Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ancient Gear",
+    "archetype": "Ancient Gear",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ancient Treasure",
+    "archetype": "Ancient Treasure",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ancient Warriors",
+    "archetype": "Ancient Warriors",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Anotherverse",
+    "archetype": "Anotherverse",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Anti",
+    "archetype": "Anti",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Apophis",
+    "archetype": "Apophis",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Apoqliphort",
+    "archetype": "Apoqliphort",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Appliancer",
+    "archetype": "Appliancer",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Aqua Jet",
+    "archetype": "Aqua Jet",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Aquaactress",
+    "archetype": "Aquaactress",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Aquamirror",
+    "archetype": "Aquamirror",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Arcana Force",
+    "archetype": "Arcana Force",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Archfiend",
+    "archetype": "Archfiend",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Argostars",
+    "archetype": "Argostars",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Armed Dragon",
+    "archetype": "Armed Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Aroma",
+    "archetype": "Aroma",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Artifact",
+    "archetype": "Artifact",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Artmage",
+    "archetype": "Artmage",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ashened",
+    "archetype": "Ashened",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Assault Blackwing",
+    "archetype": "Assault Blackwing",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Assault Mode",
+    "archetype": "Assault Mode",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Atlantean",
+    "archetype": "Atlantean",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Attraction",
+    "archetype": "Attraction",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Attribute Summoner",
+    "archetype": "Attribute Summoner",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Azamina",
+    "archetype": "Azamina",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:B.E.S.",
+    "archetype": "B.E.S.",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Bamboo Sword",
+    "archetype": "Bamboo Sword",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Barbaros",
+    "archetype": "Barbaros",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Barian's",
+    "archetype": "Barian's",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Batteryman",
+    "archetype": "Batteryman",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Battleguard",
+    "archetype": "Battleguard",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Battlewasp",
+    "archetype": "Battlewasp",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Battlin' Boxer",
+    "archetype": "Battlin' Boxer",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Battlin' Boxing",
+    "archetype": "Battlin' Boxing",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Beetrooper",
+    "archetype": "Beetrooper",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Black Luster Soldier",
+    "archetype": "Black Luster Soldier",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Blackwing",
+    "archetype": "Blackwing",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Blaze Accelerator",
+    "archetype": "Blaze Accelerator",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Blitzclique",
+    "archetype": "Blitzclique",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Blue Tears",
+    "archetype": "Blue Tears",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Blue-Eyes",
+    "archetype": "Blue-Eyes",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Bonding",
+    "archetype": "Bonding",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Book of",
+    "archetype": "Book of",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Boot-Up",
+    "archetype": "Boot-Up",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Borrel",
+    "archetype": "Borrel",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Bounzer",
+    "archetype": "Bounzer",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Branded",
+    "archetype": "Branded",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Broken World",
+    "archetype": "Broken World",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Bugroth",
+    "archetype": "Bugroth",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Bujin",
+    "archetype": "Bujin",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Burning Abyss",
+    "archetype": "Burning Abyss",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Butterfly",
+    "archetype": "Butterfly",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Butterspy",
+    "archetype": "Butterspy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Bystial",
+    "archetype": "Bystial",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:CXyz",
+    "archetype": "CXyz",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Call of the Haunted",
+    "archetype": "Call of the Haunted",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cataclysmic",
+    "archetype": "Cataclysmic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Celebration",
+    "archetype": "Celebration",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Celtic Guard",
+    "archetype": "Celtic Guard",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Centur-Ion",
+    "archetype": "Centur-Ion",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Change",
+    "archetype": "Change",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Chaos",
+    "archetype": "Chaos",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Chaos Phantom",
+    "archetype": "Chaos Phantom",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Charmer",
+    "archetype": "Charmer",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Chemicritter",
+    "archetype": "Chemicritter",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Chimera",
+    "archetype": "Chimera",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Chronomaly",
+    "archetype": "Chronomaly",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Chrysalis",
+    "archetype": "Chrysalis",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cipher",
+    "archetype": "Cipher",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Circular",
+    "archetype": "Circular",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Clear",
+    "archetype": "Clear",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Clear Wing",
+    "archetype": "Clear Wing",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cloudian",
+    "archetype": "Cloudian",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Clown Crew",
+    "archetype": "Clown Crew",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Code Talker",
+    "archetype": "Code Talker",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Codebreaker",
+    "archetype": "Codebreaker",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Constellar",
+    "archetype": "Constellar",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Contact",
+    "archetype": "Contact",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Corn",
+    "archetype": "Corn",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cosmic Synchro Monster",
+    "archetype": "Cosmic Synchro Monster",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Counter Fairy",
+    "archetype": "Counter Fairy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Crusadia",
+    "archetype": "Crusadia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Crystal",
+    "archetype": "Crystal",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Crystal Beast",
+    "archetype": "Crystal Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Crystron",
+    "archetype": "Crystron",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cubic",
+    "archetype": "Cubic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cupid",
+    "archetype": "Cupid",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Curse of Dragon",
+    "archetype": "Curse of Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cyber",
+    "archetype": "Cyber",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cyber Angel",
+    "archetype": "Cyber Angel",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cyber Dragon",
+    "archetype": "Cyber Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cyberdark",
+    "archetype": "Cyberdark",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cyclone",
+    "archetype": "Cyclone",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Cynet",
+    "archetype": "Cynet",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:D.D.",
+    "archetype": "D.D.",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:D/D",
+    "archetype": "D/D",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Danger!",
+    "archetype": "Danger!",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dark Contract",
+    "archetype": "Dark Contract",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dark Magician",
+    "archetype": "Dark Magician",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dark Scorpion",
+    "archetype": "Dark Scorpion",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dark Time Wizard",
+    "archetype": "Dark Time Wizard",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dark Tuner",
+    "archetype": "Dark Tuner",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dark World",
+    "archetype": "Dark World",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dark counterpart",
+    "archetype": "Dark counterpart",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Darklord",
+    "archetype": "Darklord",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Deep Sea",
+    "archetype": "Deep Sea",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Demise",
+    "archetype": "Demise",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Deskbot",
+    "archetype": "Deskbot",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Despia",
+    "archetype": "Despia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Destiny HERO",
+    "archetype": "Destiny HERO",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Destruction Sword",
+    "archetype": "Destruction Sword",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Diabell",
+    "archetype": "Diabell",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Diabellstar",
+    "archetype": "Diabellstar",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dice",
+    "archetype": "Dice",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Digital Bug",
+    "archetype": "Digital Bug",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dinomist",
+    "archetype": "Dinomist",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dinomorphia",
+    "archetype": "Dinomorphia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dinowrestler",
+    "archetype": "Dinowrestler",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Divine Dragon",
+    "archetype": "Divine Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Djinn",
+    "archetype": "Djinn",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dododo",
+    "archetype": "Dododo",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dogmatika",
+    "archetype": "Dogmatika",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Doll",
+    "archetype": "Doll",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Doll Monster",
+    "archetype": "Doll Monster",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dominus",
+    "archetype": "Dominus",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Doodle Beast",
+    "archetype": "Doodle Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Doodlebook",
+    "archetype": "Doodlebook",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:DoomZ",
+    "archetype": "DoomZ",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Doriado",
+    "archetype": "Doriado",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Draconia",
+    "archetype": "Draconia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dracoslayer",
+    "archetype": "Dracoslayer",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dracotail",
+    "archetype": "Dracotail",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dracoverlord",
+    "archetype": "Dracoverlord",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dragon Mech",
+    "archetype": "Dragon Mech",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dragon Ruler",
+    "archetype": "Dragon Ruler",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dragonmaid",
+    "archetype": "Dragonmaid",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dragunity",
+    "archetype": "Dragunity",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dream Mirror",
+    "archetype": "Dream Mirror",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Drytron",
+    "archetype": "Drytron",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Dual Avatar",
+    "archetype": "Dual Avatar",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Duston",
+    "archetype": "Duston",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Earthbound",
+    "archetype": "Earthbound",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ecclesia",
+    "archetype": "Ecclesia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Edge Imp",
+    "archetype": "Edge Imp",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Egyptian God",
+    "archetype": "Egyptian God",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Eldlich",
+    "archetype": "Eldlich",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Eldlixir",
+    "archetype": "Eldlixir",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Elemental HERO",
+    "archetype": "Elemental HERO",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Elemental Lord",
+    "archetype": "Elemental Lord",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Elementsaber",
+    "archetype": "Elementsaber",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Elfnote",
+    "archetype": "Elfnote",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Elvennotes",
+    "archetype": "Elvennotes",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Emblema",
+    "archetype": "Emblema",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Empower",
+    "archetype": "Empower",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Empowered Warrior",
+    "archetype": "Empowered Warrior",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:End of the World",
+    "archetype": "End of the World",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Endymion",
+    "archetype": "Endymion",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Enneacraft",
+    "archetype": "Enneacraft",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Evil Eye",
+    "archetype": "Evil Eye",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Evil HERO",
+    "archetype": "Evil HERO",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Evil★Twin",
+    "archetype": "Evil★Twin",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Evol",
+    "archetype": "Evol",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Evolsaur",
+    "archetype": "Evolsaur",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Evoltile",
+    "archetype": "Evoltile",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Evolzar",
+    "archetype": "Evolzar",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Exchange of the Spirit",
+    "archetype": "Exchange of the Spirit",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Exodd",
+    "archetype": "Exodd",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Exodia",
+    "archetype": "Exodia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Exosister",
+    "archetype": "Exosister",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Eyes Restrict",
+    "archetype": "Eyes Restrict",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:F.A.",
+    "archetype": "F.A.",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fabled",
+    "archetype": "Fabled",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fairy",
+    "archetype": "Fairy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fairy Tail",
+    "archetype": "Fairy Tail",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Familiar-Possessed",
+    "archetype": "Familiar-Possessed",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fan-Made Cards",
+    "archetype": "Fan-Made Cards",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Favorite",
+    "archetype": "Favorite",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Felgrand",
+    "archetype": "Felgrand",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Field Searcher",
+    "archetype": "Field Searcher",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fiendsmith",
+    "archetype": "Fiendsmith",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fire Fist",
+    "archetype": "Fire Fist",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fire Formation",
+    "archetype": "Fire Formation",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fire King",
+    "archetype": "Fire King",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Firewall",
+    "archetype": "Firewall",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fishborg",
+    "archetype": "Fishborg",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Flame Swordsman",
+    "archetype": "Flame Swordsman",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Flamvell",
+    "archetype": "Flamvell",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fleur",
+    "archetype": "Fleur",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Floowandereeze",
+    "archetype": "Floowandereeze",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Flower Cardian",
+    "archetype": "Flower Cardian",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fluffal",
+    "archetype": "Fluffal",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Forbidden",
+    "archetype": "Forbidden",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fortress Whale",
+    "archetype": "Fortress Whale",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fortune Fairy",
+    "archetype": "Fortune Fairy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fortune Lady",
+    "archetype": "Fortune Lady",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fossil",
+    "archetype": "Fossil",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Frightfur",
+    "archetype": "Frightfur",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Frog",
+    "archetype": "Frog",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:From the Underworld",
+    "archetype": "From the Underworld",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fur Hire",
+    "archetype": "Fur Hire",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Fusion",
+    "archetype": "Fusion",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:G Golem",
+    "archetype": "G Golem",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:GMX",
+    "archetype": "GMX",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gadget",
+    "archetype": "Gadget",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gagaga",
+    "archetype": "Gagaga",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gaia Knight",
+    "archetype": "Gaia Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gaia The Fierce Knight",
+    "archetype": "Gaia The Fierce Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Galaxy",
+    "archetype": "Galaxy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Galaxy-Eyes",
+    "archetype": "Galaxy-Eyes",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gandora",
+    "archetype": "Gandora",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gate Guardian",
+    "archetype": "Gate Guardian",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Geargia",
+    "archetype": "Geargia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gem Dragon",
+    "archetype": "Gem Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gem-",
+    "archetype": "Gem-",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Generaider",
+    "archetype": "Generaider",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Genex",
+    "archetype": "Genex",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ghostrick",
+    "archetype": "Ghostrick",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ghoti",
+    "archetype": "Ghoti",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gimmick Puppet",
+    "archetype": "Gimmick Puppet",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gishki",
+    "archetype": "Gishki",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gizmek",
+    "archetype": "Gizmek",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Glacial Beast",
+    "archetype": "Glacial Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gladiator",
+    "archetype": "Gladiator",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gladiator Beast",
+    "archetype": "Gladiator Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Goblin",
+    "archetype": "Goblin",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gogogo",
+    "archetype": "Gogogo",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gold Pride",
+    "archetype": "Gold Pride",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Golden Castle of Stromberg",
+    "archetype": "Golden Castle of Stromberg",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Golden Land",
+    "archetype": "Golden Land",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gorgonic",
+    "archetype": "Gorgonic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gottoms",
+    "archetype": "Gottoms",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gouki",
+    "archetype": "Gouki",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:GranSolfachord",
+    "archetype": "GranSolfachord",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gravekeeper's",
+    "archetype": "Gravekeeper's",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Graydle",
+    "archetype": "Graydle",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Greed",
+    "archetype": "Greed",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Grepher",
+    "archetype": "Grepher",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Guardian",
+    "archetype": "Guardian",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Guardragon",
+    "archetype": "Guardragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gunkan",
+    "archetype": "Gunkan",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Gusto",
+    "archetype": "Gusto",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:HERO",
+    "archetype": "HERO",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Harpie",
+    "archetype": "Harpie",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Hazy",
+    "archetype": "Hazy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Heart",
+    "archetype": "Heart",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Hecahands",
+    "archetype": "Hecahands",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Herald",
+    "archetype": "Herald",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Heraldic",
+    "archetype": "Heraldic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Heraldry",
+    "archetype": "Heraldry",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Heroic",
+    "archetype": "Heroic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Hi-Speedroid",
+    "archetype": "Hi-Speedroid",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Hieratic",
+    "archetype": "Hieratic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Hole",
+    "archetype": "Hole",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Holy Knight",
+    "archetype": "Holy Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Horus",
+    "archetype": "Horus",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Horus the Black Flame Dragon",
+    "archetype": "Horus the Black Flame Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Hunting Scout of the Deep Forest",
+    "archetype": "Hunting Scout of the Deep Forest",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Hyperion",
+    "archetype": "Hyperion",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ice Barrier",
+    "archetype": "Ice Barrier",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Icejade",
+    "archetype": "Icejade",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Igknight",
+    "archetype": "Igknight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Impcantation",
+    "archetype": "Impcantation",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Indestructible Insect",
+    "archetype": "Indestructible Insect",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Infernity",
+    "archetype": "Infernity",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Infernoble Arms",
+    "archetype": "Infernoble Arms",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Infernoble Knight",
+    "archetype": "Infernoble Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Infernoid",
+    "archetype": "Infernoid",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Infestation",
+    "archetype": "Infestation",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Infinitrack",
+    "archetype": "Infinitrack",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Invoked",
+    "archetype": "Invoked",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Inzektor",
+    "archetype": "Inzektor",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Iron Chain",
+    "archetype": "Iron Chain",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Jar",
+    "archetype": "Jar",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Jester",
+    "archetype": "Jester",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Jinzo",
+    "archetype": "Jinzo",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Junk",
+    "archetype": "Junk",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Jurrac",
+    "archetype": "Jurrac",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:K9",
+    "archetype": "K9",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Kaiju",
+    "archetype": "Kaiju",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Kairyu-Shin",
+    "archetype": "Kairyu-Shin",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Karakuri",
+    "archetype": "Karakuri",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Kashtira",
+    "archetype": "Kashtira",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Kewl Tune",
+    "archetype": "Kewl Tune",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ki-sikil",
+    "archetype": "Ki-sikil",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:King",
+    "archetype": "King",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Knight",
+    "archetype": "Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Knightmare",
+    "archetype": "Knightmare",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Koa'ki Meiru",
+    "archetype": "Koa'ki Meiru",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Koala",
+    "archetype": "Koala",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Konami Arcade Games",
+    "archetype": "Konami Arcade Games",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Kozmo",
+    "archetype": "Kozmo",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Krawler",
+    "archetype": "Krawler",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Kuriboh",
+    "archetype": "Kuriboh",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Labrynth",
+    "archetype": "Labrynth",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Labyrinth Wall",
+    "archetype": "Labyrinth Wall",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Lady of Lament",
+    "archetype": "Lady of Lament",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Laval",
+    "archetype": "Laval",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Legendary Knight",
+    "archetype": "Legendary Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Libromancer",
+    "archetype": "Libromancer",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Light and Darkness Dragon",
+    "archetype": "Light and Darkness Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Lightsworn",
+    "archetype": "Lightsworn",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Lil-la",
+    "archetype": "Lil-la",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Live☆Twin",
+    "archetype": "Live☆Twin",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Lswarm",
+    "archetype": "Lswarm",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Lunalight",
+    "archetype": "Lunalight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Lyrilusc",
+    "archetype": "Lyrilusc",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Machina",
+    "archetype": "Machina",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Machine Angel",
+    "archetype": "Machine Angel",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Madolche",
+    "archetype": "Madolche",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Madoor",
+    "archetype": "Madoor",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Magical Musket",
+    "archetype": "Magical Musket",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Magician",
+    "archetype": "Magician",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Magician Girl",
+    "archetype": "Magician Girl",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Magikey",
+    "archetype": "Magikey",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Magistus",
+    "archetype": "Magistus",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Magna Warrior",
+    "archetype": "Magna Warrior",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Magnet",
+    "archetype": "Magnet",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Magnet Warrior",
+    "archetype": "Magnet Warrior",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Majespecter",
+    "archetype": "Majespecter",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Majestic",
+    "archetype": "Majestic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Maju",
+    "archetype": "Maju",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Malefic",
+    "archetype": "Malefic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Malicevorous",
+    "archetype": "Malicevorous",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Maliss",
+    "archetype": "Maliss",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Man-Eater Bug",
+    "archetype": "Man-Eater Bug",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mannadium",
+    "archetype": "Mannadium",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Marincess",
+    "archetype": "Marincess",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Martial Art Spirit",
+    "archetype": "Martial Art Spirit",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mask",
+    "archetype": "Mask",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Masked HERO",
+    "archetype": "Masked HERO",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Materiactor",
+    "archetype": "Materiactor",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mathmech",
+    "archetype": "Mathmech",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mayakashi",
+    "archetype": "Mayakashi",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mecha Phantom Beast",
+    "archetype": "Mecha Phantom Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Megalith",
+    "archetype": "Megalith",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mekk-Knight",
+    "archetype": "Mekk-Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Meklord",
+    "archetype": "Meklord",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Melffy",
+    "archetype": "Melffy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Melodious",
+    "archetype": "Melodious",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Memento",
+    "archetype": "Memento",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mermail",
+    "archetype": "Mermail",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Metalfoes",
+    "archetype": "Metalfoes",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Metalmorph",
+    "archetype": "Metalmorph",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Metaphys",
+    "archetype": "Metaphys",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mikanko",
+    "archetype": "Mikanko",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Millennium",
+    "archetype": "Millennium",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mimighoul",
+    "archetype": "Mimighoul",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mirror Trap",
+    "archetype": "Mirror Trap",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mischief",
+    "archetype": "Mischief",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mist Valley",
+    "archetype": "Mist Valley",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mitsurugi",
+    "archetype": "Mitsurugi",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mokey Mokey",
+    "archetype": "Mokey Mokey",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Monarch",
+    "archetype": "Monarch",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Morganite",
+    "archetype": "Morganite",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Morphtronic",
+    "archetype": "Morphtronic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Motor",
+    "archetype": "Motor",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mulcharmy",
+    "archetype": "Mulcharmy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mystical Beast of the Forest",
+    "archetype": "Mystical Beast of the Forest",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Mythical Beast",
+    "archetype": "Mythical Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Myutant",
+    "archetype": "Myutant",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Naturia",
+    "archetype": "Naturia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Nekroz",
+    "archetype": "Nekroz",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Nemeses",
+    "archetype": "Nemeses",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Nemleria",
+    "archetype": "Nemleria",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Nemurelia",
+    "archetype": "Nemurelia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Neo Space",
+    "archetype": "Neo Space",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Neo-Spacian",
+    "archetype": "Neo-Spacian",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Neos",
+    "archetype": "Neos",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Nephthys",
+    "archetype": "Nephthys",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Nimble",
+    "archetype": "Nimble",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ninja",
+    "archetype": "Ninja",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ninjitsu Art",
+    "archetype": "Ninjitsu Art",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Noble Arms",
+    "archetype": "Noble Arms",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Noble Knight",
+    "archetype": "Noble Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Nordic",
+    "archetype": "Nordic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Nouvelles",
+    "archetype": "Nouvelles",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Number",
+    "archetype": "Number",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Numeron",
+    "archetype": "Numeron",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Odd-Eyes",
+    "archetype": "Odd-Eyes",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ogdoadic",
+    "archetype": "Ogdoadic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ojama",
+    "archetype": "Ojama",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Onomat",
+    "archetype": "Onomat",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Orcust",
+    "archetype": "Orcust",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Overlay",
+    "archetype": "Overlay",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:P",
+    "archetype": "P",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:P.U.N.K.",
+    "archetype": "P.U.N.K.",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:PSY-Frame",
+    "archetype": "PSY-Frame",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Paladins of Dragons",
+    "archetype": "Paladins of Dragons",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Paleozoic",
+    "archetype": "Paleozoic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:PaniK's monsters",
+    "archetype": "PaniK's monsters",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Parasite",
+    "archetype": "Parasite",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Parshath",
+    "archetype": "Parshath",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Patissciel",
+    "archetype": "Patissciel",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Pendulum",
+    "archetype": "Pendulum",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Pendulum Dragon",
+    "archetype": "Pendulum Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Penguin",
+    "archetype": "Penguin",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Performage",
+    "archetype": "Performage",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Performapal",
+    "archetype": "Performapal",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Phantasm",
+    "archetype": "Phantasm",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Phantasm Spiral",
+    "archetype": "Phantasm Spiral",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Phantom Beast",
+    "archetype": "Phantom Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Phantom Knights",
+    "archetype": "Phantom Knights",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Photon",
+    "archetype": "Photon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Piece Golem",
+    "archetype": "Piece Golem",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Plunder Patroll",
+    "archetype": "Plunder Patroll",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Polymerization",
+    "archetype": "Polymerization",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Possessed",
+    "archetype": "Possessed",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Potan",
+    "archetype": "Potan",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Power Patron",
+    "archetype": "Power Patron",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Power Tool",
+    "archetype": "Power Tool",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Prank-Kids",
+    "archetype": "Prank-Kids",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Predap",
+    "archetype": "Predap",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Predaplant",
+    "archetype": "Predaplant",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Prediction Princess",
+    "archetype": "Prediction Princess",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Priestess",
+    "archetype": "Priestess",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Primite",
+    "archetype": "Primite",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Prophecy",
+    "archetype": "Prophecy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Puppet",
+    "archetype": "Puppet",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Purrely",
+    "archetype": "Purrely",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Qli",
+    "archetype": "Qli",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:R.B.",
+    "archetype": "R.B.",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ra",
+    "archetype": "Ra",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Radiant Typhoon",
+    "archetype": "Radiant Typhoon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ragnaraika",
+    "archetype": "Ragnaraika",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Raidraptor",
+    "archetype": "Raidraptor",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rainbow Bridge",
+    "archetype": "Rainbow Bridge",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rank-Up-Magic",
+    "archetype": "Rank-Up-Magic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Recipe",
+    "archetype": "Recipe",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Recolored counterpart",
+    "archetype": "Recolored counterpart",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Red-Eyes",
+    "archetype": "Red-Eyes",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Regenesis",
+    "archetype": "Regenesis",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Relinquished",
+    "archetype": "Relinquished",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Reptilianne",
+    "archetype": "Reptilianne",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rescue Squad",
+    "archetype": "Rescue Squad",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rescue-ACE",
+    "archetype": "Rescue-ACE",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Resonator",
+    "archetype": "Resonator",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rikka",
+    "archetype": "Rikka",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Risebell",
+    "archetype": "Risebell",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rites",
+    "archetype": "Rites",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ritual Art",
+    "archetype": "Ritual Art",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ritual Beast",
+    "archetype": "Ritual Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ritual of Light and Darkness",
+    "archetype": "Ritual of Light and Darkness",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Roid",
+    "archetype": "Roid",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rokket",
+    "archetype": "Rokket",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Roland",
+    "archetype": "Roland",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rose",
+    "archetype": "Rose",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Rose Dragon",
+    "archetype": "Rose Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Royal",
+    "archetype": "Royal",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Runick",
+    "archetype": "Runick",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ryu-Ge",
+    "archetype": "Ryu-Ge",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ryzeal",
+    "archetype": "Ryzeal",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:S-Force",
+    "archetype": "S-Force",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:SPYRAL",
+    "archetype": "SPYRAL",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Saber",
+    "archetype": "Saber",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sacred Beast",
+    "archetype": "Sacred Beast",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Salamandra",
+    "archetype": "Salamandra",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Salamangreat",
+    "archetype": "Salamangreat",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sangen",
+    "archetype": "Sangen",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Scareclaw",
+    "archetype": "Scareclaw",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Schoolwork",
+    "archetype": "Schoolwork",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Scrap",
+    "archetype": "Scrap",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Scrap-Iron",
+    "archetype": "Scrap-Iron",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sea Stealth",
+    "archetype": "Sea Stealth",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Secret Six Samurai",
+    "archetype": "Secret Six Samurai",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Serket",
+    "archetype": "Serket",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Seventh",
+    "archetype": "Seventh",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Shaddoll",
+    "archetype": "Shaddoll",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Shark",
+    "archetype": "Shark",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Shining Sarcophagus",
+    "archetype": "Shining Sarcophagus",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Shinobird",
+    "archetype": "Shinobird",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Shiranui",
+    "archetype": "Shiranui",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Signature move",
+    "archetype": "Signature move",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Silent Magician",
+    "archetype": "Silent Magician",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Silent Swordsman",
+    "archetype": "Silent Swordsman",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Simorgh",
+    "archetype": "Simorgh",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sinful Spoils",
+    "archetype": "Sinful Spoils",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Six Samurai",
+    "archetype": "Six Samurai",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Six Strike",
+    "archetype": "Six Strike",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Skilled Magician",
+    "archetype": "Skilled Magician",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Skull Servant",
+    "archetype": "Skull Servant",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sky Scourge",
+    "archetype": "Sky Scourge",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sky Striker",
+    "archetype": "Sky Striker",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Skyblaster",
+    "archetype": "Skyblaster",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Slime",
+    "archetype": "Slime",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Snake-Eye",
+    "archetype": "Snake-Eye",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Solemn",
+    "archetype": "Solemn",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Solfachord",
+    "archetype": "Solfachord",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Speedroid",
+    "archetype": "Speedroid",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Spellbook",
+    "archetype": "Spellbook",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sphinx",
+    "archetype": "Sphinx",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Spider",
+    "archetype": "Spider",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Spirit Message",
+    "archetype": "Spirit Message",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Spiritual Art",
+    "archetype": "Spiritual Art",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Spright",
+    "archetype": "Spright",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Springans",
+    "archetype": "Springans",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Star",
+    "archetype": "Star",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Star Seraph",
+    "archetype": "Star Seraph",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Stardust",
+    "archetype": "Stardust",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Starliege",
+    "archetype": "Starliege",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Starry Knight",
+    "archetype": "Starry Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Starving Venom",
+    "archetype": "Starving Venom",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Stealth Kragen",
+    "archetype": "Stealth Kragen",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Steelswarm",
+    "archetype": "Steelswarm",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Stellarknight",
+    "archetype": "Stellarknight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Subterror",
+    "archetype": "Subterror",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sunavalon",
+    "archetype": "Sunavalon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sunseed",
+    "archetype": "Sunseed",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sunvine",
+    "archetype": "Sunvine",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Super Defense Robot",
+    "archetype": "Super Defense Robot",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Super Quant",
+    "archetype": "Super Quant",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Superheavy",
+    "archetype": "Superheavy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Superheavy Samurai",
+    "archetype": "Superheavy Samurai",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Supreme King",
+    "archetype": "Supreme King",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Swamp",
+    "archetype": "Swamp",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Swarm of",
+    "archetype": "Swarm of",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Swordsoul",
+    "archetype": "Swordsoul",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Sylvan",
+    "archetype": "Sylvan",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Symphonic Warrior",
+    "archetype": "Symphonic Warrior",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Synchro",
+    "archetype": "Synchro",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Synchron",
+    "archetype": "Synchron",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:T.G.",
+    "archetype": "T.G.",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tachyon",
+    "archetype": "Tachyon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tearlaments",
+    "archetype": "Tearlaments",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Teleport",
+    "archetype": "Teleport",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tellarknight",
+    "archetype": "Tellarknight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Temple of the Kings",
+    "archetype": "Temple of the Kings",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tenpai Dragon",
+    "archetype": "Tenpai Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tenyi",
+    "archetype": "Tenyi",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Test",
+    "archetype": "Test",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:The Agent",
+    "archetype": "The Agent",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:The Sanctuary in the Sky",
+    "archetype": "The Sanctuary in the Sky",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:The Weather",
+    "archetype": "The Weather",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Theorealize",
+    "archetype": "Theorealize",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Therion",
+    "archetype": "Therion",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Thunder Dragon",
+    "archetype": "Thunder Dragon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tiki",
+    "archetype": "Tiki",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Timaeus",
+    "archetype": "Timaeus",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Time Thief",
+    "archetype": "Time Thief",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Timelord",
+    "archetype": "Timelord",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tindangle",
+    "archetype": "Tindangle",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tistina",
+    "archetype": "Tistina",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Toon",
+    "archetype": "Toon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Topologic",
+    "archetype": "Topologic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Toy",
+    "archetype": "Toy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Train",
+    "archetype": "Train",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Transcendosaurus",
+    "archetype": "Transcendosaurus",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Trap Hole",
+    "archetype": "Trap Hole",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Trap Monster",
+    "archetype": "Trap Monster",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Traptrix",
+    "archetype": "Traptrix",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Tri-Brigade",
+    "archetype": "Tri-Brigade",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Triamid",
+    "archetype": "Triamid",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Trickstar",
+    "archetype": "Trickstar",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:True Draco",
+    "archetype": "True Draco",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:U.A.",
+    "archetype": "U.A.",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Umbral Horror",
+    "archetype": "Umbral Horror",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Umi",
+    "archetype": "Umi",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Unchained",
+    "archetype": "Unchained",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Underworld",
+    "archetype": "Underworld",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Uniform Nomenclature",
+    "archetype": "Uniform Nomenclature",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Ursarctic",
+    "archetype": "Ursarctic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Utopia",
+    "archetype": "Utopia",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Utopic",
+    "archetype": "Utopic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vaalmonica",
+    "archetype": "Vaalmonica",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Valkyrie",
+    "archetype": "Valkyrie",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vampire",
+    "archetype": "Vampire",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vanquish Soul",
+    "archetype": "Vanquish Soul",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vassal",
+    "archetype": "Vassal",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vaylantz",
+    "archetype": "Vaylantz",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Veda",
+    "archetype": "Veda",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vendread",
+    "archetype": "Vendread",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Venom",
+    "archetype": "Venom",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vernusylph",
+    "archetype": "Vernusylph",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Virtual World",
+    "archetype": "Virtual World",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Visas",
+    "archetype": "Visas",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vision HERO",
+    "archetype": "Vision HERO",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Voiceless Voice",
+    "archetype": "Voiceless Voice",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Void",
+    "archetype": "Void",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Volcanic",
+    "archetype": "Volcanic",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Vylon",
+    "archetype": "Vylon",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:WAKE CUP!",
+    "archetype": "WAKE CUP!",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:War Rock",
+    "archetype": "War Rock",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Warrior",
+    "archetype": "Warrior",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Watt",
+    "archetype": "Watt",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Wedju",
+    "archetype": "Wedju",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:White",
+    "archetype": "White",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:White Forest",
+    "archetype": "White Forest",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:White Knight",
+    "archetype": "White Knight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Wicked God",
+    "archetype": "Wicked God",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Wight",
+    "archetype": "Wight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Wind-Up",
+    "archetype": "Wind-Up",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Windwitch",
+    "archetype": "Windwitch",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Witchcrafter",
+    "archetype": "Witchcrafter",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:World Chalice",
+    "archetype": "World Chalice",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:World Legacy",
+    "archetype": "World Legacy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Worm",
+    "archetype": "Worm",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:X-Saber",
+    "archetype": "X-Saber",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Xyz",
+    "archetype": "Xyz",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Yang Zing",
+    "archetype": "Yang Zing",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Yokai",
+    "archetype": "Yokai",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Yosenju",
+    "archetype": "Yosenju",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Yubel",
+    "archetype": "Yubel",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Yummy",
+    "archetype": "Yummy",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Zefra",
+    "archetype": "Zefra",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Zera",
+    "archetype": "Zera",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Zexal",
+    "archetype": "Zexal",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Zombie counterpart",
+    "archetype": "Zombie counterpart",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Zoodiac",
+    "archetype": "Zoodiac",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:Zubaba",
+    "archetype": "Zubaba",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:hunder",
+    "archetype": "hunder",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:roid",
+    "archetype": "roid",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:sphinx",
+    "archetype": "sphinx",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:tellarknight",
+    "archetype": "tellarknight",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  },
+  {
+    "key": "archetype:with Eyes of Blue",
+    "archetype": "with Eyes of Blue",
+    "reason": "New cards, support, synergy, or banlist changes may alter strength.",
+    "queued_at_utc": "2026-05-21T21:05:08.442297+00:00",
+    "status": "pending"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "report_type": "generic_archetype_benchmark",
+  "report_version": "phase6d-v1",
+  "created_at_utc": "2026-05-27T17:01:59.572238+00:00",
+  "config": {
+    "archetypes": [
+      "Branded",
+      "Kashtira"
+    ],
+    "mode": "meta",
+    "runs": 3
+  },
+  "summary": {
+    "archetype_count": 2,
+    "average_improvement": 0.32,
+    "best_improved_archetype": "Kashtira",
+    "best_improvement": 0.6,
+    "worst_improved_archetype": "Branded",
+    "worst_improvement": 0.03,
+    "tuning_hurt_archetypes": [],
+    "improved_archetypes": [
+      "Branded",
+      "Kashtira"
+    ],
+    "most_reliable_ratio_patterns": [
+      [
+        "board_breakers:2|extenders:5|interruptions:9|max_bricks:4|payoffs:3|recovery:2|starters_searchers:13",
+        1
+      ],
+      [
+        "board_breakers:2|extenders:8|interruptions:8|max_bricks:4|payoffs:4|recovery:2|starters_searchers:10",
+        1
+      ]
+    ],
+    "common_package_weaknesses": [],
+    "common_quota_warnings": [
+      [
+        "main deck below 40 cards: 39",
+        1
+      ]
+    ],
+    "memory_updates": {
+      "updated": 1,
+      "recorded_bad_pattern": 1
+    }
+  },
+  "results": [
+    {
+      "archetype": "Branded",
+      "normal_score": 187.24,
+      "tuned_score": 187.27,
+      "improvement": 0.03,
+      "normal_confidence": 0.7445,
+      "tuned_confidence": 0.7445,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "board_breakers": 2,
+        "extenders": 13,
+        "interruptions": 8,
+        "payoffs": 3,
+        "recovery": 2,
+        "starters_searchers": 12
+      },
+      "tuned_package_counts": {
+        "board_breakers": 2,
+        "extenders": 10,
+        "interruptions": 9,
+        "payoffs": 3,
+        "recovery": 2,
+        "starters_searchers": 14
+      },
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 3,
+      "legal_variant_count": 3,
+      "best_ratio_profile": {
+        "starters_searchers": 13,
+        "extenders": 5,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 9,
+        "board_breakers": 2,
+        "max_bricks": 4
+      },
+      "memory_action": "updated"
+    },
+    {
+      "archetype": "Kashtira",
+      "normal_score": 182.18,
+      "tuned_score": 182.78,
+      "improvement": 0.6,
+      "normal_confidence": 0.6645,
+      "tuned_confidence": 0.6645,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "board_breakers": 2,
+        "extenders": 10,
+        "interruptions": 10,
+        "payoffs": 3,
+        "recovery": 2,
+        "starters_searchers": 12
+      },
+      "tuned_package_counts": {
+        "board_breakers": 2,
+        "extenders": 11,
+        "interruptions": 9,
+        "payoffs": 4,
+        "recovery": 2,
+        "starters_searchers": 11
+      },
+      "normal_quota_warnings": [
+        "main deck below 40 cards: 39"
+      ],
+      "tuned_quota_warnings": [
+        "main deck below 40 cards: 39"
+      ],
+      "normal_legal": false,
+      "tuned_legal": false,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 3,
+      "legal_variant_count": 0,
+      "best_ratio_profile": {
+        "starters_searchers": 10,
+        "extenders": 8,
+        "payoffs": 4,
+        "recovery": 2,
+        "interruptions": 8,
+        "board_breakers": 2,
+        "max_bricks": 4
+      },
+      "memory_action": "recorded_bad_pattern"
+    }
+  ]
+}

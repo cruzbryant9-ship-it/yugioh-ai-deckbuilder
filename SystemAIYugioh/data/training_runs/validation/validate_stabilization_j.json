@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "details": null,
+      "duration_seconds": 1.0016,
+      "error": null,
+      "name": "review tool runs",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.0097,
+      "error": null,
+      "name": "quarantine copies memory safely",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.0121,
+      "error": null,
+      "name": "manifest is created",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.0,
+      "error": null,
+      "name": "blocked-card scan works",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.9853,
+      "error": null,
+      "name": "recommendations are generated",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.9468,
+      "error": null,
+      "name": "no production memory is deleted automatically",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.0,
+      "error": null,
+      "name": "learning_signal_audit.py still passes",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.0,
+      "error": null,
+      "name": "Stabilization I validator still passes",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.0,
+      "error": null,
+      "name": "matchup matrix smoke still passes",
+      "passed": true
+    },
+    {
+      "details": null,
+      "duration_seconds": 0.0002,
+      "error": null,
+      "name": "documentation exists",
+      "passed": true
+    }
+  ],
+  "created_at_utc": "2026-06-01T01:44:46.715255+00:00",
+  "duration_seconds": 2.9559,
+  "passed": true,
+  "validator": "validate_stabilization_j"
+}

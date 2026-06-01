@@ -1,0 +1,96 @@
+{
+  "profiles": {
+    "blue-eyes": {
+      "meta": {
+        "archetype": "Blue-Eyes",
+        "mode": "meta",
+        "total_runs_analyzed": 980,
+        "average_score_analyzed": 230.3,
+        "card_adjustments": {
+          "Beacon of White": 0.01,
+          "Blue-Eyes Alternative Ultimate Dragon": 0.01,
+          "Blue-Eyes Chaos Dragon": 0.01,
+          "Blue-Eyes Chaos MAX Dragon": 0.01,
+          "Blue-Eyes Jet Dragon": 0.01,
+          "Blue-Eyes Shining Dragon": 0.01,
+          "Blue-Eyes Solid Dragon": 0.01,
+          "Blue-Eyes Spirit Dragon": 0.01,
+          "Blue-Eyes Twin Burst Dragon": 0.01,
+          "Blue-Eyes Tyrant Dragon": 0.01,
+          "Blue-Eyes Ultimate Dragon": 0.01,
+          "Blue-Eyes Ultimate Spirit Dragon": 0.01,
+          "Blue-Eyes White Dragon": -0.12,
+          "Blue-Eyes White Dragon, the White Phantom Beast": 0.01,
+          "Dragon Master Knight": 0.01,
+          "Maiden with Eyes of Blue": 0.01,
+          "Neo Blue-Eyes Ultimate Dragon": 0.01,
+          "The Ultimate Creature of Destruction": 0.01
+        },
+        "card_reasons": {
+          "Beacon of White": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Alternative Ultimate Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Chaos Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Chaos MAX Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Jet Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Shining Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Solid Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Spirit Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Twin Burst Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Tyrant Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Ultimate Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes Ultimate Spirit Dragon": {
+            "endboard_shortage": 1
+          },
+          "Blue-Eyes White Dragon": {
+            "brick_penalty": 26
+          },
+          "Blue-Eyes White Dragon, the White Phantom Beast": {
+            "endboard_shortage": 1
+          },
+          "Dragon Master Knight": {
+            "endboard_shortage": 1
+          },
+          "Maiden with Eyes of Blue": {
+            "endboard_shortage": 1
+          },
+          "Neo Blue-Eyes Ultimate Dragon": {
+            "endboard_shortage": 1
+          },
+          "The Ultimate Creature of Destruction": {
+            "endboard_shortage": 1
+          }
+        },
+        "weakness_counts": {
+          "low_endboard_score": 1,
+          "high_brick_penalty": 27
+        },
+        "max_adjustment": 0.12,
+        "updated_at_utc": "2026-05-24T21:32:53.068540+00:00"
+      }
+    }
+  },
+  "version": 1,
+  "updated_at_utc": "2026-05-24T21:32:53.581721+00:00"
+}

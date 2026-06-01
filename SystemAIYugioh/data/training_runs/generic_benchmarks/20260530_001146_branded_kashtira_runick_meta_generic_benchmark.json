@@ -1,0 +1,4428 @@
+{
+  "report_type": "generic_archetype_benchmark",
+  "report_version": "phase6m-v1",
+  "created_at_utc": "2026-05-30T00:11:40.399323+00:00",
+  "config": {
+    "archetypes": [
+      "Branded",
+      "Kashtira",
+      "Runick"
+    ],
+    "mode": "meta",
+    "runs": 1,
+    "show_replay": false
+  },
+  "provenance": {
+    "source": "benchmark",
+    "validator_generated": true,
+    "smoke": true,
+    "legal": true,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-05-30T00:11:35.592402+00:00"
+  },
+  "scrub_report_summary": {
+    "removed_entries": 0,
+    "quarantined_archetypes": 0,
+    "quarantined_provenance_entries": 2,
+    "quarantined_card_entries": 0
+  },
+  "summary": {
+    "archetype_count": 3,
+    "average_improvement": -0.77,
+    "best_improved_archetype": "Kashtira",
+    "best_improvement": 0.03,
+    "worst_improved_archetype": "Runick",
+    "worst_improvement": -2.22,
+    "tuning_hurt_archetypes": [
+      "Branded",
+      "Runick"
+    ],
+    "improved_archetypes": [
+      "Kashtira"
+    ],
+    "most_reliable_ratio_patterns": [
+      [
+        "board_breakers:2|extenders:6|interruptions:9|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+        1
+      ]
+    ],
+    "common_package_weaknesses": [
+      [
+        "low interruption count",
+        2
+      ],
+      [
+        "low starter/searcher count",
+        1
+      ]
+    ],
+    "common_quota_warnings": [
+      [
+        "starter/searcher minimum missed: 5<8",
+        1
+      ]
+    ],
+    "repair_success_rate": 1.0,
+    "average_repair_actions": 3.67,
+    "decks_saved_by_repair": 2,
+    "decks_completed_by_safe_filler": 1,
+    "contextual_filler_usage_count": 1,
+    "selected_filler_counts": {
+      "Infinite Impermanence": 2
+    },
+    "filler_role_distribution": {
+      "defensive_trap": 2
+    },
+    "archetypes_relying_on_contextual_filler": [
+      "Runick"
+    ],
+    "filler_impact_summary": {
+      "average_score_with_contextual_filler": 161.78,
+      "average_score_without_contextual_filler": 184.91,
+      "impact_classification_counts": {
+        "indeterminate": 1
+      },
+      "performance_positive_fillers": [],
+      "completion_only_fillers": [],
+      "negative_fillers": []
+    },
+    "decks_still_rejected": 0,
+    "common_repair_warnings": [
+      [
+        "starter/searcher minimum missed: 5<8",
+        1
+      ]
+    ],
+    "under_40_diagnostics": [],
+    "repair_strategy_counts": {
+      "archetype_package_repair": 2,
+      "contextual_safe_filler": 1
+    },
+    "advisory_bias_calibration": {
+      "diagnosis_bias_used_count": 2,
+      "diff_index_bias_used_count": 0,
+      "bias_changed_exploration_order_count": 0,
+      "signals_suppressed": 0,
+      "signals_ignored_due_to_low_support": 0,
+      "signals_ignored_due_to_contested_history": 0
+    },
+    "memory_updates": {
+      "recorded_bad_pattern": 2,
+      "updated": 1
+    },
+    "diagnosis_severity_counts": {
+      "low": 2,
+      "high": 1
+    },
+    "diagnosis_influenced_tuning_count": 2,
+    "targeted_retest_count": 1,
+    "accepted_targeted_retests": 1,
+    "targeted_retest_improvements": {
+      "Branded": 0,
+      "Kashtira": 0,
+      "Runick": 2.91
+    },
+    "card_shift_summary": {
+      "accepted_shift_count": 1,
+      "rejected_shift_count": 2,
+      "most_common_helpful_additions": [
+        [
+          "D.D. Crow",
+          1
+        ],
+        [
+          "Ghost Belle & Haunted Mansion",
+          1
+        ]
+      ],
+      "most_common_helpful_removals": [
+        [
+          "Infinite Impermanence",
+          2
+        ]
+      ],
+      "most_common_harmful_additions": [],
+      "most_common_harmful_removals": [],
+      "package_movement_summary": []
+    },
+    "package_replay_summary": {
+      "accepted_replay_count": 1,
+      "rejected_replay_count": 2,
+      "package_delta_counts": [
+        [
+          "extenders:+1",
+          1
+        ],
+        [
+          "interruptions:-1",
+          1
+        ]
+      ],
+      "risk_flag_counts": []
+    },
+    "diff_index_summary": {
+      "top_helpful_additions": [
+        {
+          "name": "D.D. Crow",
+          "count": 1,
+          "average_score_delta": 2.91,
+          "affected_archetypes": [
+            "Runick"
+          ]
+        },
+        {
+          "name": "Ghost Belle & Haunted Mansion",
+          "count": 1,
+          "average_score_delta": 2.91,
+          "affected_archetypes": [
+            "Runick"
+          ]
+        }
+      ],
+      "top_harmful_additions": [],
+      "top_helpful_removals": [
+        {
+          "name": "Infinite Impermanence",
+          "count": 2,
+          "average_score_delta": 1.455,
+          "affected_archetypes": [
+            "Runick"
+          ]
+        }
+      ],
+      "top_harmful_removals": [],
+      "top_helpful_package_movements": [
+        {
+          "name": "extenders:+1",
+          "count": 1,
+          "average_score_delta": 2.91,
+          "affected_archetypes": [
+            "Runick"
+          ]
+        },
+        {
+          "name": "interruptions:-1",
+          "count": 1,
+          "average_score_delta": 2.91,
+          "affected_archetypes": [
+            "Runick"
+          ]
+        }
+      ],
+      "top_harmful_package_movements": [],
+      "common_risk_flags": [],
+      "common_repair_actions": [
+        {
+          "name": "filled missing main slot with interruptions: Anti Raigeki",
+          "count": 10,
+          "average_score_delta": 0,
+          "affected_archetypes": [
+            "Kashtira",
+            "Runick"
+          ]
+        },
+        {
+          "name": "filled missing main slot with interruptions: Crystal Raigeki",
+          "count": 6,
+          "average_score_delta": 0,
+          "affected_archetypes": [
+            "Runick"
+          ]
+        },
+        {
+          "name": "filled missing main slot with interruptions: D.D. Crow",
+          "count": 4,
+          "average_score_delta": 0,
+          "affected_archetypes": [
+            "Runick"
+          ]
+        },
+        {
+          "name": "filled missing main slot with contextual safe filler: Infinite Impermanence",
+          "count": 4,
+          "average_score_delta": 0,
+          "affected_archetypes": [
+            "Runick"
+          ]
+        }
+      ],
+      "archetypes_needing_review": []
+    },
+    "filler_impact_classification_summary": {
+      "classification_counts": {
+        "indeterminate": 1
+      },
+      "performance_positive_fillers": [],
+      "completion_only_fillers": [],
+      "negative_fillers": [],
+      "shared_attribution_events": 1,
+      "single_card_attribution_events": 0,
+      "indeterminate_attribution_events": 1,
+      "completion_biased_cards": [],
+      "support_threshold_failures": [
+        [
+          "min_uses",
+          1
+        ],
+        [
+          "min_archetype_breadth",
+          1
+        ],
+        [
+          "provenance_valid",
+          1
+        ]
+      ]
+    },
+    "filler_memory_concentration_warnings": [
+      {
+        "card": "Infinite Impermanence",
+        "dominant_archetype": "runick",
+        "single_archetype_share": 1.0,
+        "total_observations": 2
+      }
+    ],
+    "filler_memory_cross_archetype_index_size": 0,
+    "scrub_report_summary": {
+      "removed_entries": 0,
+      "quarantined_archetypes": 0,
+      "quarantined_provenance_entries": 2,
+      "quarantined_card_entries": 0
+    },
+    "diff_index_bias_used_count": 0,
+    "advisory_signals_applied_count": 0,
+    "suppressed_low_support_signal_count": 0,
+    "contested_signal_count": 0,
+    "historical_average_improvement": -0.7317,
+    "recent_average_improvement": -0.7317,
+    "average_repair_reliability": 1.0,
+    "recommended_follow_up_archetypes": [
+      "Kashtira",
+      "Runick"
+    ]
+  },
+  "results": [
+    {
+      "archetype": "Branded",
+      "normal_score": 186.51,
+      "tuned_score": 186.39,
+      "improvement": -0.12,
+      "normal_confidence": 0.7445,
+      "tuned_confidence": 0.7445,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 19,
+        "starters_searchers": 21
+      },
+      "tuned_package_counts": {
+        "extenders": 19,
+        "starters_searchers": 21
+      },
+      "normal_deck_sections": {
+        "main": [
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "Bystial Saronir",
+          "Branded Opening",
+          "The Bystial Lubellion",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Lost",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Opening",
+          "Branded Retribution",
+          "Bystial Saronir",
+          "Branded Opening",
+          "Despian Tragedy",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Regained",
+          "Branded Sword",
+          "Despia, Theater of the Branded",
+          "Bystial Saronir",
+          "Branded in Central Dogmatika",
+          "Branded in High Spirits",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Fusion",
+          "Branded in Central Dogmatika",
+          "Branded Loss",
+          "Branded Regained"
+        ],
+        "extra": [
+          "Albion the Branded Dragon"
+        ]
+      },
+      "tuned_deck_sections": {
+        "main": [
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "Bystial Saronir",
+          "Branded Opening",
+          "The Bystial Lubellion",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Lost",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Opening",
+          "Branded Retribution",
+          "Bystial Saronir",
+          "Branded Opening",
+          "Despian Tragedy",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Regained",
+          "Branded Sword",
+          "Despia, Theater of the Branded",
+          "Screams of the Branded",
+          "Bystial Saronir",
+          "Branded in Central Dogmatika",
+          "Branded in High Spirits",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Fusion",
+          "Branded in Central Dogmatika",
+          "Branded Loss"
+        ],
+        "extra": [
+          "Albion the Branded Dragon"
+        ]
+      },
+      "normal_deck_names": [
+        "Aluber the Jester of Despia",
+        "The Bystial Lubellion",
+        "Branded Lost",
+        "Branded in High Spirits",
+        "Despian Tragedy",
+        "Aluber the Jester of Despia",
+        "The Bystial Lubellion",
+        "Branded Lost",
+        "Branded in High Spirits",
+        "Despian Tragedy",
+        "Aluber the Jester of Despia",
+        "Bystial Saronir",
+        "Branded Opening",
+        "The Bystial Lubellion",
+        "Branded Retribution",
+        "Albion the Shrouded Dragon",
+        "Branded Banishment",
+        "Branded Lost",
+        "Branded Retribution",
+        "Albion the Shrouded Dragon",
+        "Branded Opening",
+        "Branded Retribution",
+        "Bystial Saronir",
+        "Branded Opening",
+        "Despian Tragedy",
+        "Branded Banishment",
+        "Branded Bond",
+        "Branded Regained",
+        "Branded Sword",
+        "Despia, Theater of the Branded",
+        "Bystial Saronir",
+        "Branded in Central Dogmatika",
+        "Branded in High Spirits",
+        "Albion the Shrouded Dragon",
+        "Branded Banishment",
+        "Branded Bond",
+        "Branded Fusion",
+        "Branded in Central Dogmatika",
+        "Branded Loss",
+        "Branded Regained",
+        "Albion the Branded Dragon"
+      ],
+      "tuned_deck_names": [
+        "Aluber the Jester of Despia",
+        "The Bystial Lubellion",
+        "Branded Lost",
+        "Branded in High Spirits",
+        "Despian Tragedy",
+        "Aluber the Jester of Despia",
+        "The Bystial Lubellion",
+        "Branded Lost",
+        "Branded in High Spirits",
+        "Despian Tragedy",
+        "Aluber the Jester of Despia",
+        "Bystial Saronir",
+        "Branded Opening",
+        "The Bystial Lubellion",
+        "Branded Retribution",
+        "Albion the Shrouded Dragon",
+        "Branded Banishment",
+        "Branded Lost",
+        "Branded Retribution",
+        "Albion the Shrouded Dragon",
+        "Branded Opening",
+        "Branded Retribution",
+        "Bystial Saronir",
+        "Branded Opening",
+        "Despian Tragedy",
+        "Branded Banishment",
+        "Branded Bond",
+        "Branded Regained",
+        "Branded Sword",
+        "Despia, Theater of the Branded",
+        "Screams of the Branded",
+        "Bystial Saronir",
+        "Branded in Central Dogmatika",
+        "Branded in High Spirits",
+        "Albion the Shrouded Dragon",
+        "Branded Banishment",
+        "Branded Bond",
+        "Branded Fusion",
+        "Branded in Central Dogmatika",
+        "Branded Loss",
+        "Albion the Branded Dragon"
+      ],
+      "normal_repair_actions": [],
+      "tuned_repair_actions": [],
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 1,
+      "legal_variant_count": 1,
+      "best_ratio_profile": {
+        "starters_searchers": 11,
+        "extenders": 6,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 9,
+        "board_breakers": 2,
+        "max_bricks": 4
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 0,
+      "decks_completed_by_safe_filler": 0,
+      "contextual_filler_usage_count": 0,
+      "selected_filler_counts": {},
+      "filler_role_distribution": {},
+      "filler_impact_summary": {
+        "average_score_with_contextual_filler": 0.0,
+        "average_score_without_contextual_filler": 186.39,
+        "classification_counts": {},
+        "performance_positive_fillers": [],
+        "completion_only_fillers": [],
+        "negative_fillers": []
+      },
+      "filler_impact_reports": [],
+      "best_selected_fillers": [],
+      "best_filler_impact": {},
+      "best_filler_reasons": [],
+      "best_filler_context_scores": {},
+      "best_rejected_filler_reasons": [],
+      "fallback_used_count": 0,
+      "average_repair_actions": 0,
+      "common_repair_warnings": [],
+      "under_40_diagnostics": [],
+      "repair_strategy_counts": {
+        "archetype_package_repair": 1
+      },
+      "memory_action": "recorded_bad_pattern",
+      "diagnosis_influenced_tuning": true,
+      "diagnosis_bias": {
+        "interruptions": 1
+      },
+      "diagnosis_used": {
+        "archetype": "Branded",
+        "mode": "meta",
+        "diagnosis": "Branded trend is stable; likely pressure from interruption shortage.",
+        "severity": "low",
+        "suspected_causes": [
+          "interruption_shortage"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 19,
+          "payoffs": 3,
+          "interruptions": 0,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 8,
+          "max_bricks": 4,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.0,
+        "bad_pattern_recurrence": 0.0,
+        "last_diagnosed_utc": "2026-05-30T00:05:39.896513+00:00"
+      },
+      "diff_index_bias_used": false,
+      "advisory_budget_used": {
+        "enabled": true,
+        "total_cap": 0.15,
+        "tracked_sources": [
+          "diagnosis",
+          "diff_index",
+          "filler_memory"
+        ],
+        "used_by_source": {
+          "diagnosis": 0.05,
+          "diff_index": 0.0,
+          "filler_memory": 0.0
+        },
+        "remaining": 0.1
+      },
+      "advisory_signals_applied": [],
+      "suppressed_low_support_signals": [],
+      "contested_signals": [],
+      "advisory_bias_calibration": {
+        "advisory_budget_available": 0.1,
+        "advisory_budget_used": {
+          "diagnosis": 0.05,
+          "diff_index": 0.0,
+          "filler_memory": 0.0
+        },
+        "diagnosis_bias_used": true,
+        "diff_index_bias_used": false,
+        "signals_suppressed": 0,
+        "signals_ignored_due_to_low_support": 0,
+        "signals_ignored_due_to_contested_history": 0,
+        "bias_changed_exploration_order": false
+      },
+      "provenance": {
+        "source": "benchmark",
+        "validator_generated": true,
+        "smoke": true,
+        "legal": true,
+        "confidence_score": null,
+        "improvement": null,
+        "timestamp": "2026-05-30T00:11:35.592402+00:00"
+      },
+      "trend_diagnosis": {
+        "archetype": "Branded",
+        "mode": "meta",
+        "diagnosis": "Branded trend is stable; likely pressure from interruption shortage.",
+        "severity": "low",
+        "suspected_causes": [
+          "interruption_shortage"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 19,
+          "payoffs": 3,
+          "interruptions": 0,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 9,
+          "max_bricks": 4,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.0,
+        "bad_pattern_recurrence": 0.0,
+        "last_diagnosed_utc": "2026-05-30T00:11:40.399843+00:00"
+      },
+      "ratio_recommendations": [],
+      "targeted_retest": {
+        "targeted_retest_used": false,
+        "tested_recommendations": 0
+      },
+      "filler_memory_update": "none",
+      "diff_index_warnings": [],
+      "deck_diff_artifacts": {
+        "markdown": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_branded_deck_diff.md",
+        "html": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_branded_deck_diff.html"
+      },
+      "deck_diff_summary": {
+        "score_delta": -0.12,
+        "confidence_delta": 0.0,
+        "risk_flags": [],
+        "human_review_notes": [
+          "Review baseline-to-tuned card movement before trusting ratio memory."
+        ]
+      }
+    },
+    {
+      "archetype": "Kashtira",
+      "normal_score": 183.41,
+      "tuned_score": 183.44,
+      "improvement": 0.03,
+      "normal_confidence": 0.7445,
+      "tuned_confidence": 0.7445,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 15,
+        "interruptions": 4,
+        "starters_searchers": 21
+      },
+      "tuned_package_counts": {
+        "extenders": 15,
+        "interruptions": 4,
+        "starters_searchers": 21
+      },
+      "normal_deck_sections": {
+        "main": [
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Unicorn",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Unicorn",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Riseheart",
+          "Kashtira Unicorn",
+          "Kashtiratheosis",
+          "Scareclaw Kashtira",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Kashtira Overlap",
+          "Kashtira Birth",
+          "Kashtira Birth",
+          "Kashtira Riseheart",
+          "Kashtiratheosis",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Akstra",
+          "Kashtira Birth",
+          "Kashtira Preparations",
+          "Kashtira Riseheart",
+          "Kashtira Preparations",
+          "Kashtiratheosis",
+          "Tearlaments Kashtira",
+          "Kashtira Akstra",
+          "Kashtira Preparations",
+          "Kashtira Overlap",
+          "Kashtira Akstra",
+          "Kashtira Overlap",
+          "Anti Raigeki"
+        ],
+        "extra": [
+          "Kashtira Shangri-Ira"
+        ]
+      },
+      "tuned_deck_sections": {
+        "main": [
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Unicorn",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Unicorn",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Riseheart",
+          "Kashtira Unicorn",
+          "Kashtiratheosis",
+          "Scareclaw Kashtira",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Kashtira Overlap",
+          "Kashtira Birth",
+          "Kashtira Birth",
+          "Kashtira Riseheart",
+          "Kashtiratheosis",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Akstra",
+          "Kashtira Birth",
+          "Kashtira Preparations",
+          "Kashtira Overlap",
+          "Kashtira Riseheart",
+          "Kashtira Preparations",
+          "Kashtiratheosis",
+          "Tearlaments Kashtira",
+          "Kashtira Akstra",
+          "Kashtira Preparations",
+          "Kashtira Overlap",
+          "Kashtira Akstra",
+          "Anti Raigeki"
+        ],
+        "extra": [
+          "Kashtira Shangri-Ira"
+        ]
+      },
+      "normal_deck_names": [
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Unicorn",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Unicorn",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Riseheart",
+        "Kashtira Unicorn",
+        "Kashtiratheosis",
+        "Scareclaw Kashtira",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Kashtira Overlap",
+        "Kashtira Birth",
+        "Kashtira Birth",
+        "Kashtira Riseheart",
+        "Kashtiratheosis",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Akstra",
+        "Kashtira Birth",
+        "Kashtira Preparations",
+        "Kashtira Riseheart",
+        "Kashtira Preparations",
+        "Kashtiratheosis",
+        "Tearlaments Kashtira",
+        "Kashtira Akstra",
+        "Kashtira Preparations",
+        "Kashtira Overlap",
+        "Kashtira Akstra",
+        "Kashtira Overlap",
+        "Anti Raigeki",
+        "Kashtira Shangri-Ira"
+      ],
+      "tuned_deck_names": [
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Unicorn",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Unicorn",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Riseheart",
+        "Kashtira Unicorn",
+        "Kashtiratheosis",
+        "Scareclaw Kashtira",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Kashtira Overlap",
+        "Kashtira Birth",
+        "Kashtira Birth",
+        "Kashtira Riseheart",
+        "Kashtiratheosis",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Akstra",
+        "Kashtira Birth",
+        "Kashtira Preparations",
+        "Kashtira Overlap",
+        "Kashtira Riseheart",
+        "Kashtira Preparations",
+        "Kashtiratheosis",
+        "Tearlaments Kashtira",
+        "Kashtira Akstra",
+        "Kashtira Preparations",
+        "Kashtira Overlap",
+        "Kashtira Akstra",
+        "Anti Raigeki",
+        "Kashtira Shangri-Ira"
+      ],
+      "normal_repair_actions": [
+        "filled missing main slot with interruptions: Anti Raigeki"
+      ],
+      "tuned_repair_actions": [
+        "filled missing main slot with interruptions: Anti Raigeki"
+      ],
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 1,
+      "legal_variant_count": 1,
+      "best_ratio_profile": {
+        "starters_searchers": 11,
+        "extenders": 6,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 9,
+        "board_breakers": 2,
+        "max_bricks": 4
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 1,
+      "decks_completed_by_safe_filler": 0,
+      "contextual_filler_usage_count": 0,
+      "selected_filler_counts": {},
+      "filler_role_distribution": {},
+      "filler_impact_summary": {
+        "average_score_with_contextual_filler": 0.0,
+        "average_score_without_contextual_filler": 183.44,
+        "classification_counts": {},
+        "performance_positive_fillers": [],
+        "completion_only_fillers": [],
+        "negative_fillers": []
+      },
+      "filler_impact_reports": [],
+      "best_selected_fillers": [],
+      "best_filler_impact": {},
+      "best_filler_reasons": [],
+      "best_filler_context_scores": {},
+      "best_rejected_filler_reasons": [],
+      "fallback_used_count": 0,
+      "average_repair_actions": 1,
+      "common_repair_warnings": [],
+      "under_40_diagnostics": [],
+      "repair_strategy_counts": {
+        "archetype_package_repair": 1
+      },
+      "memory_action": "updated",
+      "diagnosis_influenced_tuning": true,
+      "diagnosis_bias": {
+        "interruptions": 1
+      },
+      "diagnosis_used": {
+        "archetype": "Kashtira",
+        "mode": "meta",
+        "diagnosis": "Kashtira trend is stable; likely pressure from interruption shortage.",
+        "severity": "low",
+        "suspected_causes": [
+          "interruption_shortage"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 15,
+          "payoffs": 3,
+          "interruptions": 4,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 8,
+          "max_bricks": 4,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.0875,
+        "bad_pattern_recurrence": 0.0,
+        "last_diagnosed_utc": "2026-05-30T00:05:39.896513+00:00"
+      },
+      "diff_index_bias_used": false,
+      "advisory_budget_used": {
+        "enabled": true,
+        "total_cap": 0.15,
+        "tracked_sources": [
+          "diagnosis",
+          "diff_index",
+          "filler_memory"
+        ],
+        "used_by_source": {
+          "diagnosis": 0.05,
+          "diff_index": 0.0,
+          "filler_memory": 0.0
+        },
+        "remaining": 0.1
+      },
+      "advisory_signals_applied": [],
+      "suppressed_low_support_signals": [],
+      "contested_signals": [],
+      "advisory_bias_calibration": {
+        "advisory_budget_available": 0.1,
+        "advisory_budget_used": {
+          "diagnosis": 0.05,
+          "diff_index": 0.0,
+          "filler_memory": 0.0
+        },
+        "diagnosis_bias_used": true,
+        "diff_index_bias_used": false,
+        "signals_suppressed": 0,
+        "signals_ignored_due_to_low_support": 0,
+        "signals_ignored_due_to_contested_history": 0,
+        "bias_changed_exploration_order": false
+      },
+      "provenance": {
+        "source": "benchmark",
+        "validator_generated": true,
+        "smoke": true,
+        "legal": true,
+        "confidence_score": null,
+        "improvement": null,
+        "timestamp": "2026-05-30T00:11:35.592402+00:00"
+      },
+      "trend_diagnosis": {
+        "archetype": "Kashtira",
+        "mode": "meta",
+        "diagnosis": "Kashtira trend is stable; likely pressure from interruption shortage.",
+        "severity": "low",
+        "suspected_causes": [
+          "interruption_shortage"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 15,
+          "payoffs": 3,
+          "interruptions": 4,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 9,
+          "max_bricks": 4,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.0875,
+        "bad_pattern_recurrence": 0.0,
+        "last_diagnosed_utc": "2026-05-30T00:11:40.400856+00:00"
+      },
+      "ratio_recommendations": [],
+      "targeted_retest": {
+        "targeted_retest_used": false,
+        "tested_recommendations": 0
+      },
+      "filler_memory_update": "none",
+      "diff_index_warnings": [],
+      "deck_diff_artifacts": {
+        "markdown": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_kashtira_deck_diff.md",
+        "html": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_kashtira_deck_diff.html"
+      },
+      "deck_diff_summary": {
+        "score_delta": 0.03,
+        "confidence_delta": 0.0,
+        "risk_flags": [],
+        "human_review_notes": [
+          "No major review warnings detected."
+        ]
+      }
+    },
+    {
+      "archetype": "Runick",
+      "normal_score": 164.0,
+      "tuned_score": 161.78,
+      "improvement": -2.22,
+      "normal_confidence": 0.6308,
+      "tuned_confidence": 0.6308,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 22,
+        "interruptions": 13,
+        "recovery": 2,
+        "starters_searchers": 3
+      },
+      "tuned_package_counts": {
+        "extenders": 22,
+        "interruptions": 13,
+        "recovery": 2,
+        "starters_searchers": 3
+      },
+      "normal_deck_sections": {
+        "main": [
+          "Runick Tip",
+          "Runick Tip",
+          "Runick Tip",
+          "Runick Freezing Curses",
+          "Runick Destruction",
+          "Runick Dispelling",
+          "Runick Flashing Fire",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Freezing Curses",
+          "Runick Freezing Curses",
+          "Runick Fountain",
+          "Runick Fountain",
+          "Runick Destruction",
+          "Runick Dispelling",
+          "Runick Flashing Fire",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Ash Blossom & Joyous Spring",
+          "Runick Destruction",
+          "Runick Flashing Fire",
+          "Runick Dispelling",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Anti Raigeki",
+          "Anti Raigeki",
+          "Anti Raigeki",
+          "Crystal Raigeki",
+          "Crystal Raigeki",
+          "Crystal Raigeki",
+          "D.D. Crow",
+          "D.D. Crow",
+          "Infinite Impermanence",
+          "Infinite Impermanence"
+        ],
+        "extra": [
+          "Munin the Runick Wings",
+          "Hugin the Runick Wings",
+          "Sleipnir the Runick Mane",
+          "Geri the Runick Fangs",
+          "Freki the Runick Fangs"
+        ]
+      },
+      "tuned_deck_sections": {
+        "main": [
+          "Runick Tip",
+          "Runick Tip",
+          "Runick Tip",
+          "Runick Freezing Curses",
+          "Runick Destruction",
+          "Runick Dispelling",
+          "Runick Flashing Fire",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Freezing Curses",
+          "Runick Freezing Curses",
+          "Runick Fountain",
+          "Runick Fountain",
+          "Runick Destruction",
+          "Runick Dispelling",
+          "Runick Flashing Fire",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Ash Blossom & Joyous Spring",
+          "Runick Destruction",
+          "Runick Flashing Fire",
+          "Runick Dispelling",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Anti Raigeki",
+          "Anti Raigeki",
+          "Anti Raigeki",
+          "Crystal Raigeki",
+          "Crystal Raigeki",
+          "Crystal Raigeki",
+          "D.D. Crow",
+          "D.D. Crow",
+          "Infinite Impermanence",
+          "Infinite Impermanence"
+        ],
+        "extra": [
+          "Munin the Runick Wings",
+          "Hugin the Runick Wings",
+          "Sleipnir the Runick Mane",
+          "Geri the Runick Fangs",
+          "Freki the Runick Fangs"
+        ]
+      },
+      "normal_deck_names": [
+        "Runick Tip",
+        "Runick Tip",
+        "Runick Tip",
+        "Runick Freezing Curses",
+        "Runick Destruction",
+        "Runick Dispelling",
+        "Runick Flashing Fire",
+        "Runick Golden Droplet",
+        "Runick Slumber",
+        "Runick Freezing Curses",
+        "Runick Freezing Curses",
+        "Runick Fountain",
+        "Runick Fountain",
+        "Runick Destruction",
+        "Runick Dispelling",
+        "Runick Flashing Fire",
+        "Runick Golden Droplet",
+        "Runick Slumber",
+        "Runick Smiting Storm",
+        "Runick Allure",
+        "Ash Blossom & Joyous Spring",
+        "Runick Destruction",
+        "Runick Flashing Fire",
+        "Runick Dispelling",
+        "Runick Golden Droplet",
+        "Runick Slumber",
+        "Runick Smiting Storm",
+        "Runick Allure",
+        "Runick Smiting Storm",
+        "Runick Allure",
+        "Anti Raigeki",
+        "Anti Raigeki",
+        "Anti Raigeki",
+        "Crystal Raigeki",
+        "Crystal Raigeki",
+        "Crystal Raigeki",
+        "D.D. Crow",
+        "D.D. Crow",
+        "Infinite Impermanence",
+        "Infinite Impermanence",
+        "Munin the Runick Wings",
+        "Hugin the Runick Wings",
+        "Sleipnir the Runick Mane",
+        "Geri the Runick Fangs",
+        "Freki the Runick Fangs"
+      ],
+      "tuned_deck_names": [
+        "Runick Tip",
+        "Runick Tip",
+        "Runick Tip",
+        "Runick Freezing Curses",
+        "Runick Destruction",
+        "Runick Dispelling",
+        "Runick Flashing Fire",
+        "Runick Golden Droplet",
+        "Runick Slumber",
+        "Runick Freezing Curses",
+        "Runick Freezing Curses",
+        "Runick Fountain",
+        "Runick Fountain",
+        "Runick Destruction",
+        "Runick Dispelling",
+        "Runick Flashing Fire",
+        "Runick Golden Droplet",
+        "Runick Slumber",
+        "Runick Smiting Storm",
+        "Runick Allure",
+        "Ash Blossom & Joyous Spring",
+        "Runick Destruction",
+        "Runick Flashing Fire",
+        "Runick Dispelling",
+        "Runick Golden Droplet",
+        "Runick Slumber",
+        "Runick Smiting Storm",
+        "Runick Allure",
+        "Runick Smiting Storm",
+        "Runick Allure",
+        "Anti Raigeki",
+        "Anti Raigeki",
+        "Anti Raigeki",
+        "Crystal Raigeki",
+        "Crystal Raigeki",
+        "Crystal Raigeki",
+        "D.D. Crow",
+        "D.D. Crow",
+        "Infinite Impermanence",
+        "Infinite Impermanence",
+        "Munin the Runick Wings",
+        "Hugin the Runick Wings",
+        "Sleipnir the Runick Mane",
+        "Geri the Runick Fangs",
+        "Freki the Runick Fangs"
+      ],
+      "normal_repair_actions": [
+        "filled missing main slot with interruptions: Anti Raigeki",
+        "filled missing main slot with interruptions: Anti Raigeki",
+        "filled missing main slot with interruptions: Anti Raigeki",
+        "filled missing main slot with interruptions: Crystal Raigeki",
+        "filled missing main slot with interruptions: Crystal Raigeki",
+        "filled missing main slot with interruptions: Crystal Raigeki",
+        "filled missing main slot with interruptions: D.D. Crow",
+        "filled missing main slot with interruptions: D.D. Crow",
+        "filled missing main slot with contextual safe filler: Infinite Impermanence",
+        "filled missing main slot with contextual safe filler: Infinite Impermanence"
+      ],
+      "tuned_repair_actions": [
+        "filled missing main slot with interruptions: Anti Raigeki",
+        "filled missing main slot with interruptions: Anti Raigeki",
+        "filled missing main slot with interruptions: Anti Raigeki",
+        "filled missing main slot with interruptions: Crystal Raigeki",
+        "filled missing main slot with interruptions: Crystal Raigeki",
+        "filled missing main slot with interruptions: Crystal Raigeki",
+        "filled missing main slot with interruptions: D.D. Crow",
+        "filled missing main slot with interruptions: D.D. Crow",
+        "filled missing main slot with contextual safe filler: Infinite Impermanence",
+        "filled missing main slot with contextual safe filler: Infinite Impermanence"
+      ],
+      "normal_quota_warnings": [
+        "starter/searcher minimum missed: 5<8"
+      ],
+      "tuned_quota_warnings": [
+        "starter/searcher minimum missed: 5<8"
+      ],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 3,
+      "variant_count": 1,
+      "legal_variant_count": 1,
+      "best_ratio_profile": {
+        "starters_searchers": 11,
+        "extenders": 6,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 8,
+        "board_breakers": 2,
+        "max_bricks": 4
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 1,
+      "decks_completed_by_safe_filler": 1,
+      "contextual_filler_usage_count": 1,
+      "selected_filler_counts": {
+        "Infinite Impermanence": 2
+      },
+      "filler_role_distribution": {
+        "defensive_trap": 2
+      },
+      "filler_impact_summary": {
+        "average_score_with_contextual_filler": 161.78,
+        "average_score_without_contextual_filler": 0.0,
+        "classification_counts": {
+          "indeterminate": 1
+        },
+        "performance_positive_fillers": [],
+        "completion_only_fillers": [],
+        "negative_fillers": []
+      },
+      "filler_impact_reports": [
+        {
+          "archetype": "Runick",
+          "mode": "meta",
+          "filler_cards": [
+            "Infinite Impermanence",
+            "Infinite Impermanence"
+          ],
+          "impact_classification": {
+            "Infinite Impermanence": "indeterminate"
+          },
+          "event_impact_classification": "performance_positive",
+          "score_delta": 0.72,
+          "confidence_delta": 0.08,
+          "attributed_score_delta": 0.36,
+          "attributed_confidence_delta": 0.04,
+          "attribution_model": "shared",
+          "attribution_shared": true,
+          "attribution_confidence": 0.5,
+          "completion_required": true,
+          "repair_dependency": true,
+          "package_pressure_relieved": {
+            "interruptions": 5,
+            "recovery": 2
+          },
+          "package_pressure_worsened": {
+            "starters_searchers": -2
+          },
+          "role_contribution": {
+            "defensive_trap": 2
+          },
+          "would_be_under_40_without_filler": true,
+          "performance_positive_fillers": [],
+          "completion_only_fillers": [],
+          "negative_fillers": [],
+          "indeterminate_fillers": [
+            "Infinite Impermanence"
+          ],
+          "risk_flags": [
+            "quota_or_repair_warning",
+            "shared_attribution"
+          ]
+        }
+      ],
+      "best_selected_fillers": [
+        "Infinite Impermanence",
+        "Infinite Impermanence"
+      ],
+      "best_filler_impact": {
+        "archetype": "Runick",
+        "mode": "meta",
+        "filler_cards": [
+          "Infinite Impermanence",
+          "Infinite Impermanence"
+        ],
+        "impact_classification": {
+          "Infinite Impermanence": "indeterminate"
+        },
+        "event_impact_classification": "performance_positive",
+        "score_delta": 0.72,
+        "confidence_delta": 0.08,
+        "attributed_score_delta": 0.36,
+        "attributed_confidence_delta": 0.04,
+        "attribution_model": "shared",
+        "attribution_shared": true,
+        "attribution_confidence": 0.5,
+        "completion_required": true,
+        "repair_dependency": true,
+        "package_pressure_relieved": {
+          "interruptions": 5,
+          "recovery": 2
+        },
+        "package_pressure_worsened": {
+          "starters_searchers": -2
+        },
+        "role_contribution": {
+          "defensive_trap": 2
+        },
+        "would_be_under_40_without_filler": true,
+        "performance_positive_fillers": [],
+        "completion_only_fillers": [],
+        "negative_fillers": [],
+        "indeterminate_fillers": [
+          "Infinite Impermanence"
+        ],
+        "risk_flags": [
+          "quota_or_repair_warning",
+          "shared_attribution"
+        ]
+      },
+      "best_filler_reasons": [
+        "Infinite Impermanence selected as defensive_trap filler (score 1.44); fits spell/trap-heavy texture",
+        "Infinite Impermanence selected as defensive_trap filler (score 1.44); fits spell/trap-heavy texture"
+      ],
+      "best_filler_context_scores": {
+        "Anti-Spell Fragrance": 0.54,
+        "Ash Blossom & Joyous Spring": 1.28,
+        "Book of Eclipse": 1.1,
+        "Book of Lunar Eclipse": 1.08,
+        "Book of Moon": 1.12,
+        "Called by the Grave": 1.16,
+        "Cosmic Cyclone": 1.06,
+        "Crossout Designator": 1.04,
+        "D.D. Crow": 1.16,
+        "Dark Ruler No More": 1.04,
+        "Droll & Lock Bird": 1.2,
+        "Effect Veiler": 1.22,
+        "Evenly Matched": 1.02,
+        "Forbidden Droplet": 0.94,
+        "Ghost Belle & Haunted Mansion": 1.22,
+        "Ghost Ogre & Snow Rabbit": 1.1,
+        "Harpie's Feather Duster": 0.96,
+        "Infinite Impermanence": 1.44,
+        "Lightning Storm": 1.0,
+        "Nibiru, the Primal Being": 1.14,
+        "Pot of Desires": 1.16,
+        "Pot of Duality": 1.3,
+        "Pot of Extravagance": 1.18,
+        "Pot of Prosperity": 1.2,
+        "Raigeki": 0.98,
+        "Small World": 1.28,
+        "Solemn Judgment": 0.62,
+        "Solemn Strike": 0.6,
+        "Solemn Warning": 0.58,
+        "Terraforming": 1.26,
+        "Triple Tactics Talent": 1.42,
+        "Triple Tactics Thrust": 1.41,
+        "Upstart Goblin": 1.38
+      },
+      "best_rejected_filler_reasons": [
+        {
+          "name": "Dimensional Barrier",
+          "reason": "blocked_or_forbidden"
+        },
+        {
+          "name": "Anti-Spell Fragrance",
+          "reason": "lower_context_score",
+          "score": 0.54
+        },
+        {
+          "name": "Solemn Warning",
+          "reason": "lower_context_score",
+          "score": 0.58
+        },
+        {
+          "name": "Solemn Strike",
+          "reason": "lower_context_score",
+          "score": 0.6
+        },
+        {
+          "name": "Solemn Judgment",
+          "reason": "lower_context_score",
+          "score": 0.62
+        },
+        {
+          "name": "Forbidden Droplet",
+          "reason": "lower_context_score",
+          "score": 0.94
+        },
+        {
+          "name": "Harpie's Feather Duster",
+          "reason": "lower_context_score",
+          "score": 0.96
+        },
+        {
+          "name": "Raigeki",
+          "reason": "lower_context_score",
+          "score": 0.98
+        },
+        {
+          "name": "Lightning Storm",
+          "reason": "lower_context_score",
+          "score": 1.0
+        },
+        {
+          "name": "Evenly Matched",
+          "reason": "lower_context_score",
+          "score": 1.02
+        },
+        {
+          "name": "Crossout Designator",
+          "reason": "lower_context_score",
+          "score": 1.04
+        },
+        {
+          "name": "Dark Ruler No More",
+          "reason": "lower_context_score",
+          "score": 1.04
+        },
+        {
+          "name": "Cosmic Cyclone",
+          "reason": "lower_context_score",
+          "score": 1.06
+        },
+        {
+          "name": "Book of Lunar Eclipse",
+          "reason": "lower_context_score",
+          "score": 1.08
+        },
+        {
+          "name": "Ghost Ogre & Snow Rabbit",
+          "reason": "lower_context_score",
+          "score": 1.1
+        },
+        {
+          "name": "Book of Eclipse",
+          "reason": "lower_context_score",
+          "score": 1.1
+        },
+        {
+          "name": "Book of Moon",
+          "reason": "lower_context_score",
+          "score": 1.12
+        },
+        {
+          "name": "Nibiru, the Primal Being",
+          "reason": "lower_context_score",
+          "score": 1.14
+        },
+        {
+          "name": "D.D. Crow",
+          "reason": "lower_context_score",
+          "score": 1.16
+        },
+        {
+          "name": "Called by the Grave",
+          "reason": "lower_context_score",
+          "score": 1.16
+        },
+        {
+          "name": "Pot of Desires",
+          "reason": "lower_context_score",
+          "score": 1.16
+        }
+      ],
+      "fallback_used_count": 0,
+      "average_repair_actions": 10,
+      "common_repair_warnings": [
+        [
+          "starter/searcher minimum missed: 5<8",
+          1
+        ]
+      ],
+      "under_40_diagnostics": [],
+      "repair_strategy_counts": {
+        "contextual_safe_filler": 1
+      },
+      "memory_action": "recorded_bad_pattern",
+      "diagnosis_influenced_tuning": false,
+      "diagnosis_bias": {},
+      "diagnosis_used": {},
+      "diff_index_bias_used": false,
+      "advisory_budget_used": {
+        "enabled": true,
+        "total_cap": 0.15,
+        "tracked_sources": [
+          "diagnosis",
+          "diff_index",
+          "filler_memory"
+        ],
+        "used_by_source": {
+          "diagnosis": 0.0,
+          "diff_index": 0.0,
+          "filler_memory": 0.0
+        },
+        "remaining": 0.15
+      },
+      "advisory_signals_applied": [],
+      "suppressed_low_support_signals": [],
+      "contested_signals": [],
+      "advisory_bias_calibration": {
+        "advisory_budget_available": 0.15,
+        "advisory_budget_used": {
+          "diagnosis": 0.0,
+          "diff_index": 0.0,
+          "filler_memory": 0.0
+        },
+        "diagnosis_bias_used": false,
+        "diff_index_bias_used": false,
+        "signals_suppressed": 0,
+        "signals_ignored_due_to_low_support": 0,
+        "signals_ignored_due_to_contested_history": 0,
+        "bias_changed_exploration_order": false
+      },
+      "provenance": {
+        "source": "benchmark",
+        "validator_generated": true,
+        "smoke": true,
+        "legal": true,
+        "confidence_score": null,
+        "improvement": null,
+        "timestamp": "2026-05-30T00:11:35.592402+00:00"
+      },
+      "trend_diagnosis": {
+        "archetype": "Runick",
+        "mode": "meta",
+        "diagnosis": "Runick trend is stable; likely pressure from starter density low, repair dependency high, ratio overfitting.",
+        "severity": "high",
+        "suspected_causes": [
+          "starter_density_low",
+          "repair_dependency_high",
+          "ratio_overfitting"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 to +2 starter/searcher slots and prefer cards that add from deck.",
+          "Prefer safer ratio profiles before aggressive exploration.",
+          "Retest safer baseline-adjacent ratios before trusting narrow improvements."
+        ],
+        "package_pressure": {
+          "starters_searchers": 3,
+          "extenders": 22,
+          "payoffs": 3,
+          "interruptions": 13,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 2,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 8,
+          "max_bricks": 4,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.35,
+        "bad_pattern_recurrence": 1.0,
+        "last_diagnosed_utc": "2026-05-30T00:11:40.400856+00:00"
+      },
+      "ratio_recommendations": [
+        {
+          "ratio_profile": {
+            "starters_searchers": 12,
+            "extenders": 6,
+            "payoffs": 3,
+            "recovery": 2,
+            "interruptions": 8,
+            "board_breakers": 1,
+            "max_bricks": 4
+          },
+          "reason": "Increase starter/searcher density by 1.",
+          "diagnosis_causes": [
+            "starter_density_low"
+          ],
+          "risk_level": "low"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 13,
+            "extenders": 6,
+            "payoffs": 3,
+            "recovery": 2,
+            "interruptions": 8,
+            "board_breakers": 0,
+            "max_bricks": 4
+          },
+          "reason": "Increase starter/searcher density by 2.",
+          "diagnosis_causes": [
+            "starter_density_low"
+          ],
+          "risk_level": "low"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 14,
+            "extenders": 6,
+            "payoffs": 2,
+            "recovery": 2,
+            "interruptions": 8,
+            "board_breakers": 0,
+            "max_bricks": 4
+          },
+          "reason": "Increase starter/searcher density by 3.",
+          "diagnosis_causes": [
+            "starter_density_low"
+          ],
+          "risk_level": "medium"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 12,
+            "extenders": 7,
+            "payoffs": 2,
+            "recovery": 2,
+            "interruptions": 9,
+            "board_breakers": 1,
+            "max_bricks": 3
+          },
+          "reason": "Use a safer balanced ratio to reduce repair dependence.",
+          "diagnosis_causes": [
+            "repair_dependency_high"
+          ],
+          "risk_level": "low"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 11,
+            "extenders": 6,
+            "payoffs": 3,
+            "recovery": 2,
+            "interruptions": 8,
+            "board_breakers": 2,
+            "max_bricks": 3
+          },
+          "reason": "Retest a small conservative change around the current ratio.",
+          "diagnosis_causes": [
+            "ratio_overfitting"
+          ],
+          "risk_level": "low"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 11,
+            "extenders": 6,
+            "payoffs": 3,
+            "recovery": 2,
+            "interruptions": 8,
+            "board_breakers": 2,
+            "max_bricks": 4
+          },
+          "reason": "Retest the baseline-like ratio to guard against overfitting.",
+          "diagnosis_causes": [
+            "ratio_overfitting"
+          ],
+          "risk_level": "low"
+        }
+      ],
+      "targeted_retest": {
+        "archetype": "Runick",
+        "mode": "meta",
+        "tested_recommendations": 6,
+        "accepted_recommendation": {
+          "ratio_profile": {
+            "starters_searchers": 12,
+            "extenders": 7,
+            "payoffs": 2,
+            "recovery": 2,
+            "interruptions": 9,
+            "board_breakers": 1,
+            "max_bricks": 3
+          },
+          "score": 165.78,
+          "improvement": 2.91,
+          "reason": "Use a safer balanced ratio to reduce repair dependence.",
+          "diagnosis_causes": [
+            "repair_dependency_high"
+          ],
+          "risk_level": "low",
+          "package_counts": {
+            "extenders": 23,
+            "interruptions": 12,
+            "recovery": 2,
+            "starters_searchers": 3
+          },
+          "confidence": 0.6308,
+          "card_shift_explanation": {
+            "cards_added": [
+              "Ghost Belle & Haunted Mansion"
+            ],
+            "cards_removed": [
+              "Infinite Impermanence"
+            ],
+            "copy_increases": {
+              "D.D. Crow": 1,
+              "Ghost Belle & Haunted Mansion": 1
+            },
+            "copy_decreases": {
+              "Infinite Impermanence": 2
+            },
+            "role_delta": {
+              "starters_searchers": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "extenders": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "payoffs": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "interruptions": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "board_breakers": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "bricks": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "recovery": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "core": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "unknown": {
+                "gained": 2,
+                "lost": 2,
+                "net": 0
+              }
+            },
+            "package_delta": {},
+            "explanation": "Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.",
+            "risk_flags": []
+          },
+          "package_replay_report": {
+            "archetype": "Runick",
+            "score_delta": 2.91,
+            "before_main_package_counts": {
+              "engine_requirement": 29,
+              "extenders": 1,
+              "interruptions": 10
+            },
+            "after_main_package_counts": {
+              "engine_requirement": 29,
+              "extenders": 2,
+              "interruptions": 9
+            },
+            "before_main_count": 40,
+            "after_main_count": 40,
+            "before_extra_count": 5,
+            "after_extra_count": 5,
+            "cards_added": [
+              "Ghost Belle & Haunted Mansion"
+            ],
+            "cards_removed": [
+              "Infinite Impermanence"
+            ],
+            "copy_increases": {
+              "D.D. Crow": 1,
+              "Ghost Belle & Haunted Mansion": 1
+            },
+            "copy_decreases": {
+              "Infinite Impermanence": 2
+            },
+            "role_gains_losses": {
+              "starters_searchers": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "extenders": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "payoffs": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "interruptions": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "board_breakers": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "bricks": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "recovery": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "core": {
+                "gained": 0,
+                "lost": 0,
+                "net": 0
+              },
+              "unknown": {
+                "gained": 2,
+                "lost": 2,
+                "net": 0
+              }
+            },
+            "package_gains_losses": {
+              "extenders": 1,
+              "interruptions": -1
+            },
+            "risk_flags": [],
+            "short_explanation": "Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.",
+            "compact_card_delta_table": [
+              {
+                "card": "D.D. Crow",
+                "delta": 1,
+                "change": "added/increased"
+              },
+              {
+                "card": "Ghost Belle & Haunted Mansion",
+                "delta": 1,
+                "change": "added/increased"
+              },
+              {
+                "card": "Infinite Impermanence",
+                "delta": -2,
+                "change": "removed/decreased"
+              }
+            ],
+            "markdown_section": "### Runick Package Replay\n\n- Score delta: 2.91\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 2 | +1 |\n| interruptions | 10 | 9 | -1 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| D.D. Crow | +1 | added/increased |\n| Ghost Belle & Haunted Mansion | +1 | added/increased |\n| Infinite Impermanence | -2 | removed/decreased |"
+          },
+          "decision_explanation": "Accepted because the candidate improved by 2.91 while passing legality and confidence checks. Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence."
+        },
+        "best_score": 165.78,
+        "baseline_score": 162.87,
+        "actual_baseline_score": 162.87,
+        "baseline_deck_names": [
+          "Runick Tip",
+          "Runick Tip",
+          "Runick Tip",
+          "Runick Freezing Curses",
+          "Runick Destruction",
+          "Runick Dispelling",
+          "Runick Flashing Fire",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Freezing Curses",
+          "Runick Freezing Curses",
+          "Runick Fountain",
+          "Runick Fountain",
+          "Runick Destruction",
+          "Runick Dispelling",
+          "Runick Flashing Fire",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Ash Blossom & Joyous Spring",
+          "Runick Destruction",
+          "Runick Flashing Fire",
+          "Runick Dispelling",
+          "Runick Golden Droplet",
+          "Runick Slumber",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Runick Smiting Storm",
+          "Runick Allure",
+          "Anti Raigeki",
+          "Anti Raigeki",
+          "Anti Raigeki",
+          "Crystal Raigeki",
+          "Crystal Raigeki",
+          "Crystal Raigeki",
+          "D.D. Crow",
+          "D.D. Crow",
+          "Infinite Impermanence",
+          "Infinite Impermanence",
+          "Munin the Runick Wings",
+          "Hugin the Runick Wings",
+          "Sleipnir the Runick Mane",
+          "Geri the Runick Fangs",
+          "Freki the Runick Fangs"
+        ],
+        "baseline_package_counts": {
+          "extenders": 22,
+          "interruptions": 13,
+          "recovery": 2,
+          "starters_searchers": 3
+        },
+        "improvement": 2.91,
+        "rejected_recommendations": [
+          {
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 12,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 1,
+                "max_bricks": 4
+              },
+              "reason": "Increase starter/searcher density by 1.",
+              "diagnosis_causes": [
+                "starter_density_low"
+              ],
+              "risk_level": "low"
+            },
+            "score": 162.33,
+            "improvement": -0.54,
+            "rejection_reason": "no_safe_improvement",
+            "rejection_causes": [
+              "quota_warning",
+              "score_negative"
+            ],
+            "harmful_learning_eligible": true,
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate declined by -0.54. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": -0.54,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -0.54. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: -0.54\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate declined by -0.54. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 10 | 10 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            }
+          },
+          {
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 2,
+                "max_bricks": 4
+              },
+              "reason": "Retest the baseline-like ratio to guard against overfitting.",
+              "diagnosis_causes": [
+                "ratio_overfitting"
+              ],
+              "risk_level": "low"
+            },
+            "score": 162.65,
+            "improvement": -0.22,
+            "rejection_reason": "no_safe_improvement",
+            "rejection_causes": [
+              "quota_warning",
+              "score_negative"
+            ],
+            "harmful_learning_eligible": true,
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate declined by -0.22. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": -0.22,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -0.22. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: -0.22\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate declined by -0.22. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 10 | 10 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            }
+          }
+        ],
+        "targeted_retest_used": true,
+        "tested_results": [
+          {
+            "recommendation_index": 1,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 12,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 1,
+                "max_bricks": 4
+              },
+              "reason": "Increase starter/searcher density by 1.",
+              "diagnosis_causes": [
+                "starter_density_low"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 12,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 1,
+              "max_bricks": 4
+            },
+            "runs": 1,
+            "average_score": 162.33,
+            "best_score": 162.33,
+            "baseline_score": 162.87,
+            "improvement": -0.54,
+            "legal_run_count": 1,
+            "blocked_card_violations": [],
+            "quota_warnings": [
+              "starter/searcher minimum missed: 5<8"
+            ],
+            "confidence": 0.6308,
+            "package_counts": {
+              "extenders": 22,
+              "interruptions": 13,
+              "recovery": 2,
+              "starters_searchers": 3
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence"
+            ],
+            "safe": false,
+            "rejection_reason": "no_safe_improvement",
+            "decision_explanation": "Rejected because no_safe_improvement. Candidate declined by -0.54. Added no major additions; removed no major removals.",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate declined by -0.54. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": -0.54,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -0.54. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: -0.54\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate declined by -0.54. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 10 | 10 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            },
+            "best_deck_names": [
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Freezing Curses",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Freezing Curses",
+              "Runick Freezing Curses",
+              "Runick Fountain",
+              "Runick Fountain",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Ash Blossom & Joyous Spring",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "D.D. Crow",
+              "D.D. Crow",
+              "Infinite Impermanence",
+              "Infinite Impermanence",
+              "Munin the Runick Wings",
+              "Hugin the Runick Wings",
+              "Sleipnir the Runick Mane",
+              "Geri the Runick Fangs",
+              "Freki the Runick Fangs"
+            ]
+          },
+          {
+            "recommendation_index": 2,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 13,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 0,
+                "max_bricks": 4
+              },
+              "reason": "Increase starter/searcher density by 2.",
+              "diagnosis_causes": [
+                "starter_density_low"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 0,
+              "max_bricks": 4
+            },
+            "runs": 1,
+            "average_score": 165.01,
+            "best_score": 165.01,
+            "baseline_score": 162.87,
+            "improvement": 2.14,
+            "legal_run_count": 1,
+            "blocked_card_violations": [],
+            "quota_warnings": [
+              "starter/searcher minimum missed: 5<8"
+            ],
+            "confidence": 0.6308,
+            "package_counts": {
+              "extenders": 22,
+              "interruptions": 13,
+              "recovery": 2,
+              "starters_searchers": 3
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence"
+            ],
+            "safe": true,
+            "rejection_reason": null,
+            "decision_explanation": "Accepted because the candidate improved by 2.14 while passing legality and confidence checks. Candidate improved by 2.14. Added no major additions; removed no major removals.",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate improved by 2.14. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": 2.14,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate improved by 2.14. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: 2.14\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate improved by 2.14. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 10 | 10 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            },
+            "best_deck_names": [
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Freezing Curses",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Freezing Curses",
+              "Runick Freezing Curses",
+              "Runick Fountain",
+              "Runick Fountain",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Ash Blossom & Joyous Spring",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "D.D. Crow",
+              "D.D. Crow",
+              "Infinite Impermanence",
+              "Infinite Impermanence",
+              "Munin the Runick Wings",
+              "Hugin the Runick Wings",
+              "Sleipnir the Runick Mane",
+              "Geri the Runick Fangs",
+              "Freki the Runick Fangs"
+            ]
+          },
+          {
+            "recommendation_index": 3,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 14,
+                "extenders": 6,
+                "payoffs": 2,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 0,
+                "max_bricks": 4
+              },
+              "reason": "Increase starter/searcher density by 3.",
+              "diagnosis_causes": [
+                "starter_density_low"
+              ],
+              "risk_level": "medium"
+            },
+            "ratio_profile": {
+              "starters_searchers": 14,
+              "extenders": 6,
+              "payoffs": 2,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 0,
+              "max_bricks": 4
+            },
+            "runs": 1,
+            "average_score": 164.52,
+            "best_score": 164.52,
+            "baseline_score": 162.87,
+            "improvement": 1.65,
+            "legal_run_count": 1,
+            "blocked_card_violations": [],
+            "quota_warnings": [
+              "starter/searcher minimum missed: 5<8"
+            ],
+            "confidence": 0.6308,
+            "package_counts": {
+              "extenders": 22,
+              "interruptions": 13,
+              "recovery": 2,
+              "starters_searchers": 3
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence"
+            ],
+            "safe": true,
+            "rejection_reason": null,
+            "decision_explanation": "Accepted because the candidate improved by 1.65 while passing legality and confidence checks. Candidate improved by 1.65. Added no major additions; removed no major removals.",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate improved by 1.65. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": 1.65,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate improved by 1.65. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: 1.65\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate improved by 1.65. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 10 | 10 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            },
+            "best_deck_names": [
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Freezing Curses",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Freezing Curses",
+              "Runick Freezing Curses",
+              "Runick Fountain",
+              "Runick Fountain",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Ash Blossom & Joyous Spring",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "D.D. Crow",
+              "D.D. Crow",
+              "Infinite Impermanence",
+              "Infinite Impermanence",
+              "Munin the Runick Wings",
+              "Hugin the Runick Wings",
+              "Sleipnir the Runick Mane",
+              "Geri the Runick Fangs",
+              "Freki the Runick Fangs"
+            ]
+          },
+          {
+            "recommendation_index": 4,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 12,
+                "extenders": 7,
+                "payoffs": 2,
+                "recovery": 2,
+                "interruptions": 9,
+                "board_breakers": 1,
+                "max_bricks": 3
+              },
+              "reason": "Use a safer balanced ratio to reduce repair dependence.",
+              "diagnosis_causes": [
+                "repair_dependency_high"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 12,
+              "extenders": 7,
+              "payoffs": 2,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 1,
+              "max_bricks": 3
+            },
+            "runs": 1,
+            "average_score": 165.78,
+            "best_score": 165.78,
+            "baseline_score": 162.87,
+            "improvement": 2.91,
+            "legal_run_count": 1,
+            "blocked_card_violations": [],
+            "quota_warnings": [
+              "starter/searcher minimum missed: 5<8"
+            ],
+            "confidence": 0.6308,
+            "package_counts": {
+              "extenders": 23,
+              "interruptions": 12,
+              "recovery": 2,
+              "starters_searchers": 3
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with interruptions: D.D. Crow"
+            ],
+            "safe": true,
+            "rejection_reason": null,
+            "decision_explanation": "Accepted because the candidate improved by 2.91 while passing legality and confidence checks. Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.",
+            "card_shift_explanation": {
+              "cards_added": [
+                "Ghost Belle & Haunted Mansion"
+              ],
+              "cards_removed": [
+                "Infinite Impermanence"
+              ],
+              "copy_increases": {
+                "D.D. Crow": 1,
+                "Ghost Belle & Haunted Mansion": 1
+              },
+              "copy_decreases": {
+                "Infinite Impermanence": 2
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 2,
+                  "lost": 2,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": 2.91,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 2,
+                "interruptions": 9
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [
+                "Ghost Belle & Haunted Mansion"
+              ],
+              "cards_removed": [
+                "Infinite Impermanence"
+              ],
+              "copy_increases": {
+                "D.D. Crow": 1,
+                "Ghost Belle & Haunted Mansion": 1
+              },
+              "copy_decreases": {
+                "Infinite Impermanence": 2
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 2,
+                  "lost": 2,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {
+                "extenders": 1,
+                "interruptions": -1
+              },
+              "risk_flags": [],
+              "short_explanation": "Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.",
+              "compact_card_delta_table": [
+                {
+                  "card": "D.D. Crow",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Ghost Belle & Haunted Mansion",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Infinite Impermanence",
+                  "delta": -2,
+                  "change": "removed/decreased"
+                }
+              ],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: 2.91\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 2 | +1 |\n| interruptions | 10 | 9 | -1 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| D.D. Crow | +1 | added/increased |\n| Ghost Belle & Haunted Mansion | +1 | added/increased |\n| Infinite Impermanence | -2 | removed/decreased |"
+            },
+            "best_deck_names": [
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Freezing Curses",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Freezing Curses",
+              "Runick Freezing Curses",
+              "Runick Fountain",
+              "Runick Fountain",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Ash Blossom & Joyous Spring",
+              "Ghost Belle & Haunted Mansion",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Runick Allure",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "D.D. Crow",
+              "D.D. Crow",
+              "D.D. Crow",
+              "Munin the Runick Wings",
+              "Hugin the Runick Wings",
+              "Sleipnir the Runick Mane",
+              "Geri the Runick Fangs",
+              "Freki the Runick Fangs"
+            ]
+          },
+          {
+            "recommendation_index": 5,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 2,
+                "max_bricks": 3
+              },
+              "reason": "Retest a small conservative change around the current ratio.",
+              "diagnosis_causes": [
+                "ratio_overfitting"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 3
+            },
+            "runs": 1,
+            "average_score": 164.5,
+            "best_score": 164.5,
+            "baseline_score": 162.87,
+            "improvement": 1.63,
+            "legal_run_count": 1,
+            "blocked_card_violations": [],
+            "quota_warnings": [
+              "starter/searcher minimum missed: 5<8"
+            ],
+            "confidence": 0.6308,
+            "package_counts": {
+              "extenders": 22,
+              "interruptions": 13,
+              "recovery": 2,
+              "starters_searchers": 3
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence"
+            ],
+            "safe": true,
+            "rejection_reason": null,
+            "decision_explanation": "Accepted because the candidate improved by 1.63 while passing legality and confidence checks. Candidate improved by 1.63. Added no major additions; removed no major removals.",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate improved by 1.63. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": 1.63,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate improved by 1.63. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: 1.63\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate improved by 1.63. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 10 | 10 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            },
+            "best_deck_names": [
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Freezing Curses",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Freezing Curses",
+              "Runick Freezing Curses",
+              "Runick Fountain",
+              "Runick Fountain",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Ash Blossom & Joyous Spring",
+              "Runick Destruction",
+              "Runick Flashing Fire",
+              "Runick Dispelling",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "D.D. Crow",
+              "D.D. Crow",
+              "Infinite Impermanence",
+              "Infinite Impermanence",
+              "Munin the Runick Wings",
+              "Hugin the Runick Wings",
+              "Sleipnir the Runick Mane",
+              "Geri the Runick Fangs",
+              "Freki the Runick Fangs"
+            ]
+          },
+          {
+            "recommendation_index": 6,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 2,
+                "max_bricks": 4
+              },
+              "reason": "Retest the baseline-like ratio to guard against overfitting.",
+              "diagnosis_causes": [
+                "ratio_overfitting"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            },
+            "runs": 1,
+            "average_score": 162.65,
+            "best_score": 162.65,
+            "baseline_score": 162.87,
+            "improvement": -0.22,
+            "legal_run_count": 1,
+            "blocked_card_violations": [],
+            "quota_warnings": [
+              "starter/searcher minimum missed: 5<8"
+            ],
+            "confidence": 0.6308,
+            "package_counts": {
+              "extenders": 22,
+              "interruptions": 13,
+              "recovery": 2,
+              "starters_searchers": 3
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Anti Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: Crystal Raigeki",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with interruptions: D.D. Crow",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence",
+              "filled missing main slot with contextual safe filler: Infinite Impermanence"
+            ],
+            "safe": false,
+            "rejection_reason": "no_safe_improvement",
+            "decision_explanation": "Rejected because no_safe_improvement. Candidate declined by -0.22. Added no major additions; removed no major removals.",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate declined by -0.22. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": -0.22,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -0.22. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: -0.22\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate declined by -0.22. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 10 | 10 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            },
+            "best_deck_names": [
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Tip",
+              "Runick Freezing Curses",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Freezing Curses",
+              "Runick Freezing Curses",
+              "Runick Fountain",
+              "Runick Fountain",
+              "Runick Destruction",
+              "Runick Dispelling",
+              "Runick Flashing Fire",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Ash Blossom & Joyous Spring",
+              "Runick Destruction",
+              "Runick Flashing Fire",
+              "Runick Dispelling",
+              "Runick Golden Droplet",
+              "Runick Slumber",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Runick Smiting Storm",
+              "Runick Allure",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Anti Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "Crystal Raigeki",
+              "D.D. Crow",
+              "D.D. Crow",
+              "Infinite Impermanence",
+              "Infinite Impermanence",
+              "Munin the Runick Wings",
+              "Hugin the Runick Wings",
+              "Sleipnir the Runick Mane",
+              "Geri the Runick Fangs",
+              "Freki the Runick Fangs"
+            ]
+          }
+        ],
+        "provenance": {
+          "source": "benchmark",
+          "validator_generated": true,
+          "smoke": true,
+          "legal": true,
+          "confidence_score": null,
+          "improvement": null,
+          "timestamp": "2026-05-30T00:11:35.592402+00:00"
+        }
+      },
+      "filler_memory_update": "updated",
+      "filler_reliability_by_archetype": {
+        "Infinite Impermanence": {
+          "times_used": 2,
+          "positive": 0,
+          "completion_only": 0,
+          "negative": 0,
+          "indeterminate": 2,
+          "attribution_confidence": 0.5,
+          "completion_bias_flag": false,
+          "eligibility": {
+            "eligible": false,
+            "failures": [
+              "min_uses",
+              "min_archetype_breadth",
+              "provenance_valid"
+            ],
+            "times_used": 2,
+            "archetype_breadth": 1,
+            "legal_observation_count": 2,
+            "completion_bias_flag": false,
+            "provenance_valid": false
+          },
+          "average_score_delta": 0.36
+        }
+      },
+      "filler_memory_eligibility_status": {
+        "Infinite Impermanence": {
+          "eligible": false,
+          "failures": [
+            "min_uses",
+            "min_archetype_breadth",
+            "provenance_valid"
+          ],
+          "times_used": 2,
+          "archetype_breadth": 1,
+          "legal_observation_count": 2,
+          "completion_bias_flag": false,
+          "provenance_valid": false
+        }
+      },
+      "completion_biased_cards": [],
+      "diff_index_warnings": [],
+      "deck_diff_artifacts": {
+        "markdown": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_runick_deck_diff.md",
+        "html": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_runick_deck_diff.html"
+      },
+      "deck_diff_summary": {
+        "score_delta": -2.22,
+        "confidence_delta": 0.0,
+        "risk_flags": [],
+        "human_review_notes": [
+          "No major review warnings detected."
+        ]
+      }
+    }
+  ],
+  "benchmark_history": {
+    "profiles": {
+      "Branded": {
+        "total_benchmark_runs": 2,
+        "average_normal_score": 186.86,
+        "average_tuned_score": 186.985,
+        "average_improvement": 0.125,
+        "best_improvement": 0.37,
+        "worst_improvement": -0.12,
+        "tuning_hurt_count": 1,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 0.0,
+        "rejected_deck_count": 0,
+        "memory_update_count": 1,
+        "trend_direction": "stable",
+        "best_ratio_patterns": [
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:8|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 1,
+            "average_improvement": 0.37,
+            "best_improvement": 0.37,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:9|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 1,
+            "average_improvement": -0.12,
+            "best_improvement": -0.12,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          }
+        ],
+        "bad_ratio_pattern_count": 0,
+        "latest_diagnosis": {
+          "archetype": "Branded",
+          "mode": "meta",
+          "diagnosis": "Branded trend is stable; likely pressure from interruption shortage.",
+          "severity": "low",
+          "suspected_causes": [
+            "interruption_shortage"
+          ],
+          "recommended_adjustments": [
+            "Explore +1 interruption/non-engine slot in meta builds."
+          ],
+          "package_pressure": {
+            "starters_searchers": 21,
+            "extenders": 19,
+            "payoffs": 3,
+            "interruptions": 0,
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 0,
+            "recovery": 0,
+            "target_starters_searchers": 11,
+            "target_extenders": 6,
+            "target_interruptions": 9,
+            "max_bricks": 4,
+            "brick_pressure": 0.0
+          },
+          "confidence_trend": "stable",
+          "repair_dependency": 0.0,
+          "bad_pattern_recurrence": 0.0,
+          "last_diagnosed_utc": "2026-05-30T00:11:40.399843+00:00"
+        },
+        "latest_targeted_retest": {}
+      },
+      "Kashtira": {
+        "total_benchmark_runs": 2,
+        "average_normal_score": 183.57,
+        "average_tuned_score": 183.47,
+        "average_improvement": -0.1,
+        "best_improvement": 0.03,
+        "worst_improvement": -0.23,
+        "tuning_hurt_count": 1,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 1.0,
+        "rejected_deck_count": 0,
+        "memory_update_count": 1,
+        "trend_direction": "stable",
+        "best_ratio_patterns": [
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:9|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 1,
+            "average_improvement": 0.03,
+            "best_improvement": 0.03,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:8|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 1,
+            "average_improvement": -0.23,
+            "best_improvement": -0.23,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          }
+        ],
+        "bad_ratio_pattern_count": 0,
+        "latest_diagnosis": {
+          "archetype": "Kashtira",
+          "mode": "meta",
+          "diagnosis": "Kashtira trend is stable; likely pressure from interruption shortage.",
+          "severity": "low",
+          "suspected_causes": [
+            "interruption_shortage"
+          ],
+          "recommended_adjustments": [
+            "Explore +1 interruption/non-engine slot in meta builds."
+          ],
+          "package_pressure": {
+            "starters_searchers": 21,
+            "extenders": 15,
+            "payoffs": 3,
+            "interruptions": 4,
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 0,
+            "recovery": 0,
+            "target_starters_searchers": 11,
+            "target_extenders": 6,
+            "target_interruptions": 9,
+            "max_bricks": 4,
+            "brick_pressure": 0.0
+          },
+          "confidence_trend": "stable",
+          "repair_dependency": 0.0875,
+          "bad_pattern_recurrence": 0.0,
+          "last_diagnosed_utc": "2026-05-30T00:11:40.400856+00:00"
+        },
+        "latest_targeted_retest": {}
+      },
+      "Runick": {
+        "total_benchmark_runs": 1,
+        "average_normal_score": 164.0,
+        "average_tuned_score": 161.78,
+        "average_improvement": -2.22,
+        "best_improvement": -2.22,
+        "worst_improvement": -2.22,
+        "tuning_hurt_count": 1,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 10.0,
+        "rejected_deck_count": 0,
+        "memory_update_count": 0,
+        "trend_direction": "stable",
+        "best_ratio_patterns": [],
+        "bad_ratio_pattern_count": 1,
+        "latest_diagnosis": {
+          "archetype": "Runick",
+          "mode": "meta",
+          "diagnosis": "Runick trend is stable; likely pressure from starter density low, repair dependency high, ratio overfitting.",
+          "severity": "high",
+          "suspected_causes": [
+            "starter_density_low",
+            "repair_dependency_high",
+            "ratio_overfitting"
+          ],
+          "recommended_adjustments": [
+            "Explore +1 to +2 starter/searcher slots and prefer cards that add from deck.",
+            "Prefer safer ratio profiles before aggressive exploration.",
+            "Retest safer baseline-adjacent ratios before trusting narrow improvements."
+          ],
+          "package_pressure": {
+            "starters_searchers": 3,
+            "extenders": 22,
+            "payoffs": 3,
+            "interruptions": 13,
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 0,
+            "recovery": 2,
+            "target_starters_searchers": 11,
+            "target_extenders": 6,
+            "target_interruptions": 8,
+            "max_bricks": 4,
+            "brick_pressure": 0.0
+          },
+          "confidence_trend": "stable",
+          "repair_dependency": 0.35,
+          "bad_pattern_recurrence": 1.0,
+          "last_diagnosed_utc": "2026-05-30T00:11:40.400856+00:00"
+        },
+        "latest_targeted_retest": {
+          "timestamp_utc": "2026-05-30T00:11:46.263967+00:00",
+          "tested_recommendations": 6,
+          "accepted_recommendation": {
+            "ratio_profile": {
+              "starters_searchers": 12,
+              "extenders": 7,
+              "payoffs": 2,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 1,
+              "max_bricks": 3
+            },
+            "score": 165.78,
+            "improvement": 2.91,
+            "reason": "Use a safer balanced ratio to reduce repair dependence.",
+            "diagnosis_causes": [
+              "repair_dependency_high"
+            ],
+            "risk_level": "low",
+            "package_counts": {
+              "extenders": 23,
+              "interruptions": 12,
+              "recovery": 2,
+              "starters_searchers": 3
+            },
+            "confidence": 0.6308,
+            "card_shift_explanation": {
+              "cards_added": [
+                "Ghost Belle & Haunted Mansion"
+              ],
+              "cards_removed": [
+                "Infinite Impermanence"
+              ],
+              "copy_increases": {
+                "D.D. Crow": 1,
+                "Ghost Belle & Haunted Mansion": 1
+              },
+              "copy_decreases": {
+                "Infinite Impermanence": 2
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 2,
+                  "lost": 2,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Runick",
+              "score_delta": 2.91,
+              "before_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 1,
+                "interruptions": 10
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 29,
+                "extenders": 2,
+                "interruptions": 9
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 5,
+              "after_extra_count": 5,
+              "cards_added": [
+                "Ghost Belle & Haunted Mansion"
+              ],
+              "cards_removed": [
+                "Infinite Impermanence"
+              ],
+              "copy_increases": {
+                "D.D. Crow": 1,
+                "Ghost Belle & Haunted Mansion": 1
+              },
+              "copy_decreases": {
+                "Infinite Impermanence": 2
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 2,
+                  "lost": 2,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {
+                "extenders": 1,
+                "interruptions": -1
+              },
+              "risk_flags": [],
+              "short_explanation": "Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.",
+              "compact_card_delta_table": [
+                {
+                  "card": "D.D. Crow",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Ghost Belle & Haunted Mansion",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Infinite Impermanence",
+                  "delta": -2,
+                  "change": "removed/decreased"
+                }
+              ],
+              "markdown_section": "### Runick Package Replay\n\n- Score delta: 2.91\n- Main count: 40 -> 40\n- Extra count: 5 -> 5\n- Risk flags: none\n- Explanation: Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| engine_requirement | 29 | 29 | +0 |\n| extenders | 1 | 2 | +1 |\n| interruptions | 10 | 9 | -1 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| D.D. Crow | +1 | added/increased |\n| Ghost Belle & Haunted Mansion | +1 | added/increased |\n| Infinite Impermanence | -2 | removed/decreased |"
+            },
+            "decision_explanation": "Accepted because the candidate improved by 2.91 while passing legality and confidence checks. Candidate improved by 2.91. Added D.D. Crow, Ghost Belle & Haunted Mansion; removed Infinite Impermanence."
+          },
+          "rejected_recommendation_count": 2,
+          "targeted_improvement": 2.91,
+          "best_score": 165.78,
+          "baseline_score": 162.87,
+          "provenance": {
+            "source": "benchmark",
+            "validator_generated": true,
+            "smoke": true,
+            "legal": true,
+            "confidence_score": null,
+            "improvement": null,
+            "timestamp": "2026-05-30T00:11:35.592402+00:00"
+          }
+        }
+      }
+    },
+    "best_long_term_archetypes": [
+      [
+        "Branded",
+        0.125
+      ],
+      [
+        "Kashtira",
+        -0.1
+      ],
+      [
+        "Runick",
+        -2.22
+      ]
+    ],
+    "worst_long_term_archetypes": [
+      [
+        "Runick",
+        -2.22
+      ],
+      [
+        "Kashtira",
+        -0.1
+      ],
+      [
+        "Branded",
+        0.125
+      ]
+    ],
+    "noisy_archetypes": [],
+    "recommended_follow_up_archetypes": [
+      "Kashtira",
+      "Runick"
+    ],
+    "historical_average_improvement": -0.7317,
+    "recent_average_improvement": -0.7317,
+    "average_repair_reliability": 1.0
+  },
+  "filler_memory_concentration_warnings": [
+    {
+      "card": "Infinite Impermanence",
+      "dominant_archetype": "runick",
+      "single_archetype_share": 1.0,
+      "total_observations": 2
+    }
+  ],
+  "filler_memory_cross_archetype_index_size": 0,
+  "diff_index_summary": {
+    "top_helpful_additions": [
+      {
+        "name": "D.D. Crow",
+        "count": 1,
+        "average_score_delta": 2.91,
+        "affected_archetypes": [
+          "Runick"
+        ]
+      },
+      {
+        "name": "Ghost Belle & Haunted Mansion",
+        "count": 1,
+        "average_score_delta": 2.91,
+        "affected_archetypes": [
+          "Runick"
+        ]
+      }
+    ],
+    "top_harmful_additions": [],
+    "top_helpful_removals": [
+      {
+        "name": "Infinite Impermanence",
+        "count": 2,
+        "average_score_delta": 1.455,
+        "affected_archetypes": [
+          "Runick"
+        ]
+      }
+    ],
+    "top_harmful_removals": [],
+    "top_helpful_package_movements": [
+      {
+        "name": "extenders:+1",
+        "count": 1,
+        "average_score_delta": 2.91,
+        "affected_archetypes": [
+          "Runick"
+        ]
+      },
+      {
+        "name": "interruptions:-1",
+        "count": 1,
+        "average_score_delta": 2.91,
+        "affected_archetypes": [
+          "Runick"
+        ]
+      }
+    ],
+    "top_harmful_package_movements": [],
+    "common_risk_flags": [],
+    "common_repair_actions": [
+      {
+        "name": "filled missing main slot with interruptions: Anti Raigeki",
+        "count": 10,
+        "average_score_delta": 0,
+        "affected_archetypes": [
+          "Kashtira",
+          "Runick"
+        ]
+      },
+      {
+        "name": "filled missing main slot with interruptions: Crystal Raigeki",
+        "count": 6,
+        "average_score_delta": 0,
+        "affected_archetypes": [
+          "Runick"
+        ]
+      },
+      {
+        "name": "filled missing main slot with interruptions: D.D. Crow",
+        "count": 4,
+        "average_score_delta": 0,
+        "affected_archetypes": [
+          "Runick"
+        ]
+      },
+      {
+        "name": "filled missing main slot with contextual safe filler: Infinite Impermanence",
+        "count": 4,
+        "average_score_delta": 0,
+        "affected_archetypes": [
+          "Runick"
+        ]
+      }
+    ],
+    "archetypes_needing_review": []
+  }
+}

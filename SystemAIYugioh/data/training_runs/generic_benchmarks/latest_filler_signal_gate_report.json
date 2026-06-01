@@ -1,0 +1,4783 @@
+{
+  "report_type": "filler_signal_gate_report",
+  "eligible_signals": [
+    {
+      "card": "Ash Blossom & Joyous Spring",
+      "eligible": true,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 2.1767,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 11,
+      "missing_gate_count": 0,
+      "holdout_required": true,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.6733,
+      "holdout_support_count": 12,
+      "holdout_contradiction_count": 0,
+      "activation_ready": true
+    },
+    {
+      "card": "Effect Veiler",
+      "eligible": true,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.5658,
+          "negative_share": 0.0833
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 11,
+      "missing_gate_count": 0,
+      "holdout_required": true,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.7875,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": true
+    },
+    {
+      "card": "Nibiru, the Primal Being",
+      "eligible": true,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.3333,
+          "negative_share": 0.1667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 11,
+      "missing_gate_count": 0,
+      "holdout_required": true,
+      "holdout_passed": false,
+      "holdout_average_delta": -0.0717,
+      "holdout_support_count": 7,
+      "holdout_contradiction_count": 5,
+      "activation_ready": false
+    },
+    {
+      "card": "Ghost Belle & Haunted Mansion",
+      "eligible": true,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.6083,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 11,
+      "missing_gate_count": 0,
+      "holdout_required": true,
+      "holdout_passed": true,
+      "holdout_average_delta": 0.9483,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": true
+    }
+  ],
+  "near_eligible_signals": [
+    {
+      "card": "Droll & Lock Bird",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.3758,
+          "negative_share": 0.4167
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Droll & Lock Bird has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "D.D. Crow",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.2792,
+          "negative_share": 0.5
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "D.D. Crow has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Cosmic Cyclone",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.6858,
+          "negative_share": 0.6667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Cosmic Cyclone has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Lightning Storm",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.49,
+          "negative_share": 0.75
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Lightning Storm has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Evenly Matched",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.48,
+          "negative_share": 0.5833
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Evenly Matched has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 78,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.8846,
+        "attribution_majority": 0.1538,
+        "indeterminate_suppression": 0.7179,
+        "confidence_floor": 0.5833,
+        "score_stability": {
+          "average_score_delta": 1.6017,
+          "negative_share": 0.0128
+        },
+        "provenance_clean": {
+          "legal_observation_count": 78,
+          "illegal_observation_count": 0,
+          "times_used": 78,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in runick at 0.8846",
+        "Infinite Impermanence lacks enough single-card attribution.",
+        "Infinite Impermanence has too much indeterminate attribution.",
+        "Infinite Impermanence has weak attribution confidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 78,
+      "archetype_breadth": 4,
+      "near_eligible_score": 7,
+      "missing_gate_count": 4,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Talent",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Talent is concentrated in runick at 1.0",
+        "Triple Tactics Talent lacks enough single-card attribution.",
+        "Triple Tactics Talent has too much indeterminate attribution.",
+        "Triple Tactics Talent has weak attribution confidence.",
+        "Triple Tactics Talent lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Thrust is concentrated in runick at 1.0",
+        "Triple Tactics Thrust lacks enough single-card attribution.",
+        "Triple Tactics Thrust has too much indeterminate attribution.",
+        "Triple Tactics Thrust has weak attribution confidence.",
+        "Triple Tactics Thrust lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    }
+  ],
+  "failed_signals": [
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 78,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.8846,
+        "attribution_majority": 0.1538,
+        "indeterminate_suppression": 0.7179,
+        "confidence_floor": 0.5833,
+        "score_stability": {
+          "average_score_delta": 1.6017,
+          "negative_share": 0.0128
+        },
+        "provenance_clean": {
+          "legal_observation_count": 78,
+          "illegal_observation_count": 0,
+          "times_used": 78,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in runick at 0.8846",
+        "Infinite Impermanence lacks enough single-card attribution.",
+        "Infinite Impermanence has too much indeterminate attribution.",
+        "Infinite Impermanence has weak attribution confidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 78,
+      "archetype_breadth": 4,
+      "near_eligible_score": 7,
+      "missing_gate_count": 4,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Droll & Lock Bird",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.3758,
+          "negative_share": 0.4167
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Droll & Lock Bird has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "D.D. Crow",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.2792,
+          "negative_share": 0.5
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "D.D. Crow has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Cosmic Cyclone",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.6858,
+          "negative_share": 0.6667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Cosmic Cyclone has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Lightning Storm",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.49,
+          "negative_share": 0.75
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Lightning Storm has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Evenly Matched",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.48,
+          "negative_share": 0.5833
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Evenly Matched has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Talent",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Talent is concentrated in runick at 1.0",
+        "Triple Tactics Talent lacks enough single-card attribution.",
+        "Triple Tactics Talent has too much indeterminate attribution.",
+        "Triple Tactics Talent has weak attribution confidence.",
+        "Triple Tactics Talent lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Thrust is concentrated in runick at 1.0",
+        "Triple Tactics Thrust lacks enough single-card attribution.",
+        "Triple Tactics Thrust has too much indeterminate attribution.",
+        "Triple Tactics Thrust has weak attribution confidence.",
+        "Triple Tactics Thrust lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    }
+  ],
+  "aggregate_signals": [
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 78,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.8846,
+        "attribution_majority": 0.1538,
+        "indeterminate_suppression": 0.7179,
+        "confidence_floor": 0.5833,
+        "score_stability": {
+          "average_score_delta": 1.6017,
+          "negative_share": 0.0128
+        },
+        "provenance_clean": {
+          "legal_observation_count": 78,
+          "illegal_observation_count": 0,
+          "times_used": 78,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in runick at 0.8846",
+        "Infinite Impermanence lacks enough single-card attribution.",
+        "Infinite Impermanence has too much indeterminate attribution.",
+        "Infinite Impermanence has weak attribution confidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 78,
+      "archetype_breadth": 4,
+      "near_eligible_score": 7,
+      "missing_gate_count": 4,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ash Blossom & Joyous Spring",
+      "eligible": true,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 2.1767,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 11,
+      "missing_gate_count": 0,
+      "holdout_required": true,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.6733,
+      "holdout_support_count": 12,
+      "holdout_contradiction_count": 0,
+      "activation_ready": true
+    },
+    {
+      "card": "Effect Veiler",
+      "eligible": true,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.5658,
+          "negative_share": 0.0833
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 11,
+      "missing_gate_count": 0,
+      "holdout_required": true,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.7875,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": true
+    },
+    {
+      "card": "Droll & Lock Bird",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.3758,
+          "negative_share": 0.4167
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Droll & Lock Bird has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Nibiru, the Primal Being",
+      "eligible": true,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.3333,
+          "negative_share": 0.1667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 11,
+      "missing_gate_count": 0,
+      "holdout_required": true,
+      "holdout_passed": false,
+      "holdout_average_delta": -0.0717,
+      "holdout_support_count": 7,
+      "holdout_contradiction_count": 5,
+      "activation_ready": false
+    },
+    {
+      "card": "D.D. Crow",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.2792,
+          "negative_share": 0.5
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "D.D. Crow has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ghost Belle & Haunted Mansion",
+      "eligible": true,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.6083,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 11,
+      "missing_gate_count": 0,
+      "holdout_required": true,
+      "holdout_passed": true,
+      "holdout_average_delta": 0.9483,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": true
+    },
+    {
+      "card": "Cosmic Cyclone",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.6858,
+          "negative_share": 0.6667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Cosmic Cyclone has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Lightning Storm",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.49,
+          "negative_share": 0.75
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Lightning Storm has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Evenly Matched",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.25,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.48,
+          "negative_share": 0.5833
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Evenly Matched has unstable or negative score evidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 4,
+      "near_eligible_score": 10,
+      "missing_gate_count": 1,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Talent",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Talent is concentrated in runick at 1.0",
+        "Triple Tactics Talent lacks enough single-card attribution.",
+        "Triple Tactics Talent has too much indeterminate attribution.",
+        "Triple Tactics Talent has weak attribution confidence.",
+        "Triple Tactics Talent lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Thrust is concentrated in runick at 1.0",
+        "Triple Tactics Thrust lacks enough single-card attribution.",
+        "Triple Tactics Thrust has too much indeterminate attribution.",
+        "Triple Tactics Thrust has weak attribution confidence.",
+        "Triple Tactics Thrust lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    }
+  ],
+  "local_signals": [
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 69,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0435,
+        "indeterminate_suppression": 0.8116,
+        "confidence_floor": 0.5238,
+        "score_stability": {
+          "average_score_delta": 1.6135,
+          "negative_share": 0.0145
+        },
+        "provenance_clean": {
+          "legal_observation_count": 69,
+          "illegal_observation_count": 0,
+          "times_used": 69,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in runick at 1.0",
+        "Infinite Impermanence lacks enough single-card attribution.",
+        "Infinite Impermanence has too much indeterminate attribution.",
+        "Infinite Impermanence has weak attribution confidence.",
+        "Infinite Impermanence lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 69,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ash Blossom & Joyous Spring",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.7933,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Ash Blossom & Joyous Spring is concentrated in runick at 1.0",
+        "Ash Blossom & Joyous Spring lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.6733,
+      "holdout_support_count": 12,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Effect Veiler",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.2033,
+          "negative_share": 0.3333
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Effect Veiler is concentrated in runick at 1.0",
+        "Effect Veiler has unstable or negative score evidence.",
+        "Effect Veiler lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.7875,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": false
+    },
+    {
+      "card": "Droll & Lock Bird",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.2833,
+          "negative_share": 0.3333
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Droll & Lock Bird is concentrated in runick at 1.0",
+        "Droll & Lock Bird has unstable or negative score evidence.",
+        "Droll & Lock Bird lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Nibiru, the Primal Being",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.64,
+          "negative_share": 0.3333
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Nibiru, the Primal Being is concentrated in runick at 1.0",
+        "Nibiru, the Primal Being has unstable or negative score evidence.",
+        "Nibiru, the Primal Being lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": -0.0717,
+      "holdout_support_count": 7,
+      "holdout_contradiction_count": 5,
+      "activation_ready": false
+    },
+    {
+      "card": "D.D. Crow",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -2.0933,
+          "negative_share": 1.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "D.D. Crow is concentrated in runick at 1.0",
+        "D.D. Crow has unstable or negative score evidence.",
+        "D.D. Crow lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ghost Belle & Haunted Mansion",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.69,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Ghost Belle & Haunted Mansion is concentrated in runick at 1.0",
+        "Ghost Belle & Haunted Mansion lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 0.9483,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": false
+    },
+    {
+      "card": "Cosmic Cyclone",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -2.0333,
+          "negative_share": 1.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Cosmic Cyclone is concentrated in runick at 1.0",
+        "Cosmic Cyclone has unstable or negative score evidence.",
+        "Cosmic Cyclone lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Lightning Storm",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -2.9933,
+          "negative_share": 1.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Lightning Storm is concentrated in runick at 1.0",
+        "Lightning Storm has unstable or negative score evidence.",
+        "Lightning Storm lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Evenly Matched",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -2.2433,
+          "negative_share": 1.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Evenly Matched is concentrated in runick at 1.0",
+        "Evenly Matched has unstable or negative score evidence.",
+        "Evenly Matched lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Talent",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Talent is concentrated in runick at 1.0",
+        "Triple Tactics Talent lacks enough single-card attribution.",
+        "Triple Tactics Talent has too much indeterminate attribution.",
+        "Triple Tactics Talent has weak attribution confidence.",
+        "Triple Tactics Talent lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Thrust is concentrated in runick at 1.0",
+        "Triple Tactics Thrust lacks enough single-card attribution.",
+        "Triple Tactics Thrust has too much indeterminate attribution.",
+        "Triple Tactics Thrust has weak attribution confidence.",
+        "Triple Tactics Thrust lacks cross-archetype breadth."
+      ],
+      "archetype": "runick",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 3.4733,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in branded at 1.0",
+        "Infinite Impermanence lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ash Blossom & Joyous Spring",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 4.1633,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Ash Blossom & Joyous Spring is concentrated in branded at 1.0",
+        "Ash Blossom & Joyous Spring lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.6733,
+      "holdout_support_count": 12,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Effect Veiler",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 3.7567,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Effect Veiler is concentrated in branded at 1.0",
+        "Effect Veiler lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.7875,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": false
+    },
+    {
+      "card": "Droll & Lock Bird",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 2.42,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Droll & Lock Bird is concentrated in branded at 1.0",
+        "Droll & Lock Bird lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Nibiru, the Primal Being",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 2.5933,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Nibiru, the Primal Being is concentrated in branded at 1.0",
+        "Nibiru, the Primal Being lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": -0.0717,
+      "holdout_support_count": 7,
+      "holdout_contradiction_count": 5,
+      "activation_ready": false
+    },
+    {
+      "card": "D.D. Crow",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.68,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "D.D. Crow is concentrated in branded at 1.0",
+        "D.D. Crow lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ghost Belle & Haunted Mansion",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 4.07,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Ghost Belle & Haunted Mansion is concentrated in branded at 1.0",
+        "Ghost Belle & Haunted Mansion lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 0.9483,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": false
+    },
+    {
+      "card": "Cosmic Cyclone",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.5933,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Cosmic Cyclone is concentrated in branded at 1.0",
+        "Cosmic Cyclone lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Lightning Storm",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 3.0167,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Lightning Storm is concentrated in branded at 1.0",
+        "Lightning Storm lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Evenly Matched",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 2.1767,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Evenly Matched is concentrated in branded at 1.0",
+        "Evenly Matched lacks cross-archetype breadth."
+      ],
+      "archetype": "branded",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.59,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in kashtira at 1.0",
+        "Infinite Impermanence lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ash Blossom & Joyous Spring",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.9567,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Ash Blossom & Joyous Spring is concentrated in kashtira at 1.0",
+        "Ash Blossom & Joyous Spring lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.6733,
+      "holdout_support_count": 12,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Effect Veiler",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.62,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Effect Veiler is concentrated in kashtira at 1.0",
+        "Effect Veiler lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.7875,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": false
+    },
+    {
+      "card": "Droll & Lock Bird",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.5167,
+          "negative_share": 0.6667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Droll & Lock Bird is concentrated in kashtira at 1.0",
+        "Droll & Lock Bird has unstable or negative score evidence.",
+        "Droll & Lock Bird lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Nibiru, the Primal Being",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.57,
+          "negative_share": 0.3333
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Nibiru, the Primal Being is concentrated in kashtira at 1.0",
+        "Nibiru, the Primal Being has unstable or negative score evidence.",
+        "Nibiru, the Primal Being lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": -0.0717,
+      "holdout_support_count": 7,
+      "holdout_contradiction_count": 5,
+      "activation_ready": false
+    },
+    {
+      "card": "D.D. Crow",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.3067,
+          "negative_share": 0.3333
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "D.D. Crow is concentrated in kashtira at 1.0",
+        "D.D. Crow has unstable or negative score evidence.",
+        "D.D. Crow lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ghost Belle & Haunted Mansion",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.04,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Ghost Belle & Haunted Mansion is concentrated in kashtira at 1.0",
+        "Ghost Belle & Haunted Mansion lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 0.9483,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": false
+    },
+    {
+      "card": "Cosmic Cyclone",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -1.54,
+          "negative_share": 1.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Cosmic Cyclone is concentrated in kashtira at 1.0",
+        "Cosmic Cyclone has unstable or negative score evidence.",
+        "Cosmic Cyclone lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Lightning Storm",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.8833,
+          "negative_share": 1.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Lightning Storm is concentrated in kashtira at 1.0",
+        "Lightning Storm has unstable or negative score evidence.",
+        "Lightning Storm lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Evenly Matched",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.5467,
+          "negative_share": 0.3333
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Evenly Matched is concentrated in kashtira at 1.0",
+        "Evenly Matched has unstable or negative score evidence.",
+        "Evenly Matched lacks cross-archetype breadth."
+      ],
+      "archetype": "kashtira",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.47,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in tearlaments at 1.0",
+        "Infinite Impermanence lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ash Blossom & Joyous Spring",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 1.7933,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Ash Blossom & Joyous Spring is concentrated in tearlaments at 1.0",
+        "Ash Blossom & Joyous Spring lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.6733,
+      "holdout_support_count": 12,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Effect Veiler",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.6833,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Effect Veiler is concentrated in tearlaments at 1.0",
+        "Effect Veiler lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 1.7875,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": false
+    },
+    {
+      "card": "Droll & Lock Bird",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.1167,
+          "negative_share": 0.6667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Droll & Lock Bird is concentrated in tearlaments at 1.0",
+        "Droll & Lock Bird has unstable or negative score evidence.",
+        "Droll & Lock Bird lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Nibiru, the Primal Being",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.05,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Nibiru, the Primal Being is concentrated in tearlaments at 1.0",
+        "Nibiru, the Primal Being has unstable or negative score evidence.",
+        "Nibiru, the Primal Being lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": -0.0717,
+      "holdout_support_count": 7,
+      "holdout_contradiction_count": 5,
+      "activation_ready": false
+    },
+    {
+      "card": "D.D. Crow",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.3967,
+          "negative_share": 0.6667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "D.D. Crow is concentrated in tearlaments at 1.0",
+        "D.D. Crow has unstable or negative score evidence.",
+        "D.D. Crow lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Ghost Belle & Haunted Mansion",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": 0.6333,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Ghost Belle & Haunted Mansion is concentrated in tearlaments at 1.0",
+        "Ghost Belle & Haunted Mansion lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 9,
+      "missing_gate_count": 2,
+      "holdout_required": false,
+      "holdout_passed": true,
+      "holdout_average_delta": 0.9483,
+      "holdout_support_count": 11,
+      "holdout_contradiction_count": 1,
+      "activation_ready": false
+    },
+    {
+      "card": "Cosmic Cyclone",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -0.7633,
+          "negative_share": 0.6667
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Cosmic Cyclone is concentrated in tearlaments at 1.0",
+        "Cosmic Cyclone has unstable or negative score evidence.",
+        "Cosmic Cyclone lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Lightning Storm",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -1.1,
+          "negative_share": 1.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Lightning Storm is concentrated in tearlaments at 1.0",
+        "Lightning Storm has unstable or negative score evidence.",
+        "Lightning Storm lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Evenly Matched",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "score_stability"
+      ],
+      "gate_scores": {
+        "observation_floor": 3,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 1.0,
+        "indeterminate_suppression": 0.0,
+        "confidence_floor": 1.0,
+        "score_stability": {
+          "average_score_delta": -1.3067,
+          "negative_share": 1.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 3,
+          "illegal_observation_count": 0,
+          "times_used": 3,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Evenly Matched is concentrated in tearlaments at 1.0",
+        "Evenly Matched has unstable or negative score evidence.",
+        "Evenly Matched lacks cross-archetype breadth."
+      ],
+      "archetype": "tearlaments",
+      "mode": "meta",
+      "scope": "archetype_local",
+      "times_used": 3,
+      "archetype_breadth": 1,
+      "near_eligible_score": 8,
+      "missing_gate_count": 3,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    }
+  ],
+  "concentration_warnings": [
+    {
+      "card": "Infinite Impermanence",
+      "dominant_archetype": "runick",
+      "single_archetype_share": 0.8846,
+      "total_observations": 78
+    },
+    {
+      "card": "Triple Tactics Talent",
+      "dominant_archetype": "runick",
+      "single_archetype_share": 1.0,
+      "total_observations": 12
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "dominant_archetype": "runick",
+      "single_archetype_share": 1.0,
+      "total_observations": 12
+    }
+  ],
+  "support_failures": [],
+  "archetype_breadth_failures": [
+    {
+      "card": "Triple Tactics Talent",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Talent is concentrated in runick at 1.0",
+        "Triple Tactics Talent lacks enough single-card attribution.",
+        "Triple Tactics Talent has too much indeterminate attribution.",
+        "Triple Tactics Talent has weak attribution confidence.",
+        "Triple Tactics Talent lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Thrust is concentrated in runick at 1.0",
+        "Triple Tactics Thrust lacks enough single-card attribution.",
+        "Triple Tactics Thrust has too much indeterminate attribution.",
+        "Triple Tactics Thrust has weak attribution confidence.",
+        "Triple Tactics Thrust lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    }
+  ],
+  "concentration_failures": [
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 78,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.8846,
+        "attribution_majority": 0.1538,
+        "indeterminate_suppression": 0.7179,
+        "confidence_floor": 0.5833,
+        "score_stability": {
+          "average_score_delta": 1.6017,
+          "negative_share": 0.0128
+        },
+        "provenance_clean": {
+          "legal_observation_count": 78,
+          "illegal_observation_count": 0,
+          "times_used": 78,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in runick at 0.8846",
+        "Infinite Impermanence lacks enough single-card attribution.",
+        "Infinite Impermanence has too much indeterminate attribution.",
+        "Infinite Impermanence has weak attribution confidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 78,
+      "archetype_breadth": 4,
+      "near_eligible_score": 7,
+      "missing_gate_count": 4,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Talent",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Talent is concentrated in runick at 1.0",
+        "Triple Tactics Talent lacks enough single-card attribution.",
+        "Triple Tactics Talent has too much indeterminate attribution.",
+        "Triple Tactics Talent has weak attribution confidence.",
+        "Triple Tactics Talent lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Thrust is concentrated in runick at 1.0",
+        "Triple Tactics Thrust lacks enough single-card attribution.",
+        "Triple Tactics Thrust has too much indeterminate attribution.",
+        "Triple Tactics Thrust has weak attribution confidence.",
+        "Triple Tactics Thrust lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    }
+  ],
+  "attribution_failures": [
+    {
+      "card": "Infinite Impermanence",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "archetype_breadth",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 78,
+        "archetype_breadth": 4,
+        "concentration_clearance": 0.8846,
+        "attribution_majority": 0.1538,
+        "indeterminate_suppression": 0.7179,
+        "confidence_floor": 0.5833,
+        "score_stability": {
+          "average_score_delta": 1.6017,
+          "negative_share": 0.0128
+        },
+        "provenance_clean": {
+          "legal_observation_count": 78,
+          "illegal_observation_count": 0,
+          "times_used": 78,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Infinite Impermanence is concentrated in runick at 0.8846",
+        "Infinite Impermanence lacks enough single-card attribution.",
+        "Infinite Impermanence has too much indeterminate attribution.",
+        "Infinite Impermanence has weak attribution confidence."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 78,
+      "archetype_breadth": 4,
+      "near_eligible_score": 7,
+      "missing_gate_count": 4,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Talent",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Talent is concentrated in runick at 1.0",
+        "Triple Tactics Talent lacks enough single-card attribution.",
+        "Triple Tactics Talent has too much indeterminate attribution.",
+        "Triple Tactics Talent has weak attribution confidence.",
+        "Triple Tactics Talent lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "eligible": false,
+      "passed_gates": [
+        "observation_floor",
+        "score_stability",
+        "provenance_clean",
+        "advisory_budget_available",
+        "kill_switch_enabled",
+        "completion_bias_suppression"
+      ],
+      "failed_gates": [
+        "archetype_breadth",
+        "concentration_clearance",
+        "attribution_majority",
+        "indeterminate_suppression",
+        "confidence_floor"
+      ],
+      "gate_scores": {
+        "observation_floor": 12,
+        "archetype_breadth": 1,
+        "concentration_clearance": 1.0,
+        "attribution_majority": 0.0,
+        "indeterminate_suppression": 0.9167,
+        "confidence_floor": 0.5,
+        "score_stability": {
+          "average_score_delta": 1.5912,
+          "negative_share": 0.0
+        },
+        "provenance_clean": {
+          "legal_observation_count": 12,
+          "illegal_observation_count": 0,
+          "times_used": 12,
+          "validator_generated": false
+        },
+        "advisory_budget_available": 0.15,
+        "kill_switch_enabled": false,
+        "completion_bias_suppression": false
+      },
+      "warnings": [
+        "Triple Tactics Thrust is concentrated in runick at 1.0",
+        "Triple Tactics Thrust lacks enough single-card attribution.",
+        "Triple Tactics Thrust has too much indeterminate attribution.",
+        "Triple Tactics Thrust has weak attribution confidence.",
+        "Triple Tactics Thrust lacks cross-archetype breadth."
+      ],
+      "archetype": "cross_archetype",
+      "mode": "all",
+      "scope": "cross_archetype_aggregate",
+      "times_used": 12,
+      "archetype_breadth": 1,
+      "near_eligible_score": 6,
+      "missing_gate_count": 5,
+      "holdout_required": false,
+      "holdout_passed": false,
+      "holdout_average_delta": 0.0,
+      "holdout_support_count": 0,
+      "holdout_contradiction_count": 0,
+      "activation_ready": false
+    }
+  ],
+  "summary": {
+    "eligible_count": 4,
+    "activation_ready_count": 3,
+    "activation_ready_fillers": [
+      "Ash Blossom & Joyous Spring",
+      "Effect Veiler",
+      "Ghost Belle & Haunted Mansion"
+    ],
+    "near_eligible_count": 8,
+    "failed_count": 8,
+    "failure_counts": {
+      "concentration_clearance": 3,
+      "attribution_majority": 3,
+      "indeterminate_suppression": 3,
+      "confidence_floor": 3,
+      "score_stability": 5,
+      "archetype_breadth": 2
+    },
+    "cards_closest_to_eligibility": [
+      "Droll & Lock Bird",
+      "D.D. Crow",
+      "Cosmic Cyclone",
+      "Lightning Storm",
+      "Evenly Matched"
+    ],
+    "cards_blocked_by_concentration": [
+      "Infinite Impermanence",
+      "Triple Tactics Talent",
+      "Triple Tactics Thrust"
+    ],
+    "cards_blocked_by_support": [],
+    "cards_blocked_by_archetype_breadth": [
+      "Triple Tactics Talent",
+      "Triple Tactics Thrust"
+    ],
+    "cards_blocked_by_attribution": [
+      "Infinite Impermanence",
+      "Triple Tactics Talent",
+      "Triple Tactics Thrust"
+    ],
+    "aggregate_signal_count": 12
+  }
+}

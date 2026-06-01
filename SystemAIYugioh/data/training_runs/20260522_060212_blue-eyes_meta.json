@@ -1,0 +1,358 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "runs": 2
+  },
+  "created_at_utc": "2026-05-22T06:02:12.058506+00:00",
+  "summary": {
+    "successful_runs": 2,
+    "failed_runs": 0,
+    "best_score": 142.93,
+    "average_score": 138.65,
+    "average_score_breakdown": {
+      "consistency_score": 41.6,
+      "starter_score": 25.0,
+      "extender_score": 25.0,
+      "interruption_score": 30.0,
+      "brick_penalty": 5.3,
+      "endboard_score": 19.7,
+      "learned_card_bonus": 2.65,
+      "final_score": 138.65
+    },
+    "most_common_main_deck_cards": [
+      [
+        "The White Stone of Ancients",
+        5
+      ],
+      [
+        "Maiden with Eyes of Blue",
+        5
+      ],
+      [
+        "The White Stone of Legend",
+        5
+      ],
+      [
+        "Master with Eyes of Blue",
+        4
+      ],
+      [
+        "Dictator of D.",
+        3
+      ],
+      [
+        "The Ultimate Creature of Destruction",
+        3
+      ],
+      [
+        "Dragon Spirit of White",
+        3
+      ],
+      [
+        "True Light",
+        3
+      ],
+      [
+        "Blue-Eyes White Dragon",
+        3
+      ],
+      [
+        "Deep-Eyes White Dragon",
+        3
+      ],
+      [
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        2
+      ],
+      [
+        "Kaibaman",
+        2
+      ],
+      [
+        "Blue-Eyes Shining Dragon",
+        2
+      ],
+      [
+        "Blue-Eyes Toon Ultimate Dragon",
+        2
+      ],
+      [
+        "Blue-Eyes Chaos Dragon",
+        2
+      ]
+    ],
+    "most_common_extra_deck_cards": [
+      [
+        "Blue-Eyes Alternative Ultimate Dragon",
+        4
+      ],
+      [
+        "Neo Blue-Eyes Ultimate Dragon",
+        3
+      ],
+      [
+        "Blue-Eyes Twin Burst Dragon",
+        3
+      ],
+      [
+        "Dragon Master Knight",
+        2
+      ],
+      [
+        "Blue-Eyes Ultimate Dragon",
+        1
+      ]
+    ],
+    "most_common_critique_issues": [],
+    "best_deck_list": {
+      "main_deck": [
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Dictator of D.",
+        "Dictator of D.",
+        "The White Stone of Ancients",
+        "Maiden with Eyes of Blue",
+        "Kaibaman",
+        "The White Stone of Legend",
+        "The Ultimate Creature of Destruction",
+        "The White Stone of Ancients",
+        "Majesty with Eyes of Blue",
+        "The White Stone of Ancients",
+        "Dragon Spirit of White",
+        "Blue-Eyes Shining Dragon",
+        "Dictator of D.",
+        "True Light",
+        "Blue-Eyes Toon Ultimate Dragon",
+        "Burst Stream of Destruction",
+        "Blue-Eyes Chaos Dragon",
+        "Maiden with Eyes of Blue",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "Blue-Eyes White Dragon",
+        "Dragon Spirit of White",
+        "Master with Eyes of Blue",
+        "The White Stone of Legend",
+        "Maiden with Eyes of Blue",
+        "Priestess with Eyes of Blue",
+        "Beacon of White",
+        "Blue-Eyes Shining Dragon",
+        "Sage with Eyes of Blue",
+        "The Ultimate Creature of Destruction"
+      ],
+      "extra_deck": [
+        "Dragon Master Knight",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon"
+      ]
+    }
+  },
+  "runs": [
+    {
+      "run": 1,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "meta",
+      "final_score": 142.93,
+      "score_breakdown": {
+        "consistency_score": 41.0,
+        "starter_score": 25.0,
+        "extender_score": 25.0,
+        "interruption_score": 30.0,
+        "brick_penalty": 5.4,
+        "endboard_score": 25.0,
+        "learned_card_bonus": 2.33,
+        "final_score": 142.93
+      },
+      "detected_engines": {
+        "Blue-Eyes core": [
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Blue-Eyes Chaos Dragon",
+          "Blue-Eyes Shining Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Toon Ultimate Dragon",
+          "Blue-Eyes Twin Burst Dragon",
+          "Blue-Eyes White Dragon",
+          "Blue-Eyes White Dragon, the White Phantom Beast",
+          "Dictator of D.",
+          "Maiden with Eyes of Blue",
+          "Majesty with Eyes of Blue",
+          "Master with Eyes of Blue",
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Priestess with Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "The White Stone of Ancients",
+          "The White Stone of Legend",
+          "True Light"
+        ],
+        "Blue-Eyes ritual": [
+          "Blue-Eyes Chaos Dragon",
+          "Deep-Eyes White Dragon, the Blue Abyss",
+          "The Ultimate Creature of Destruction"
+        ],
+        "Chaos": [
+          "Blue-Eyes Chaos Dragon"
+        ]
+      },
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "Dictator of D.",
+        "Dictator of D.",
+        "The White Stone of Ancients",
+        "Maiden with Eyes of Blue",
+        "Kaibaman",
+        "The White Stone of Legend",
+        "The Ultimate Creature of Destruction",
+        "The White Stone of Ancients",
+        "Majesty with Eyes of Blue",
+        "The White Stone of Ancients",
+        "Dragon Spirit of White",
+        "Blue-Eyes Shining Dragon",
+        "Dictator of D.",
+        "True Light",
+        "Blue-Eyes Toon Ultimate Dragon",
+        "Burst Stream of Destruction",
+        "Blue-Eyes Chaos Dragon",
+        "Maiden with Eyes of Blue",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "Blue-Eyes White Dragon",
+        "Dragon Spirit of White",
+        "Master with Eyes of Blue",
+        "The White Stone of Legend",
+        "Maiden with Eyes of Blue",
+        "Priestess with Eyes of Blue",
+        "Beacon of White",
+        "Blue-Eyes Shining Dragon",
+        "Sage with Eyes of Blue",
+        "The Ultimate Creature of Destruction"
+      ],
+      "extra_deck": [
+        "Dragon Master Knight",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 11,
+        "draw_cards": 0,
+        "special_summon_cards": 28,
+        "disruption_cards": 28,
+        "graveyard_cards": 31
+      }
+    },
+    {
+      "run": 2,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "meta",
+      "final_score": 134.37,
+      "score_breakdown": {
+        "consistency_score": 42.2,
+        "starter_score": 25.0,
+        "extender_score": 25.0,
+        "interruption_score": 30.0,
+        "brick_penalty": 5.2,
+        "endboard_score": 14.4,
+        "learned_card_bonus": 2.97,
+        "final_score": 134.37
+      },
+      "detected_engines": {
+        "Blue-Eyes core": [
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Blue-Eyes Chaos Dragon",
+          "Blue-Eyes Chaos MAX Dragon",
+          "Blue-Eyes Toon Ultimate Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes White Dragon",
+          "Blue-Eyes White Dragon, the White Phantom Beast",
+          "Heart of the Blue-Eyes",
+          "Maiden with Eyes of Blue",
+          "Master with Eyes of Blue",
+          "The White Stone of Ancients",
+          "The White Stone of Legend",
+          "True Light"
+        ],
+        "Blue-Eyes ritual": [
+          "Blue-Eyes Chaos Dragon",
+          "Blue-Eyes Chaos MAX Dragon",
+          "Chaos Form",
+          "Deep-Eyes White Dragon, the Blue Abyss",
+          "Paladin of White Dragon",
+          "The Ultimate Creature of Destruction"
+        ],
+        "Chaos": [
+          "Blue-Eyes Chaos Dragon",
+          "Blue-Eyes Chaos MAX Dragon",
+          "Chaos Form"
+        ]
+      },
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Chaos Form",
+        "The White Stone of Legend",
+        "The White Stone of Ancients",
+        "Beacon of White",
+        "Blue-Eyes White Dragon",
+        "Deep-Eyes White Dragon, the Blue Abyss",
+        "Dragon Spirit of White",
+        "Blue-Eyes Chaos Dragon",
+        "Master with Eyes of Blue",
+        "Blue-Eyes White Dragon",
+        "Neutron Blast",
+        "The White Stone of Legend",
+        "Chaos Form",
+        "Ultimate Fusion",
+        "True Light",
+        "Maiden with Eyes of Blue",
+        "Master with Eyes of Blue",
+        "Heart of the Blue-Eyes",
+        "Blue-Eyes Abyss Dragon",
+        "Kaibaman",
+        "Deep-Eyes White Dragon",
+        "Blue-Eyes Chaos MAX Dragon",
+        "Deep-Eyes White Dragon",
+        "Deep-Eyes White Dragon",
+        "Blue-Eyes Toon Ultimate Dragon",
+        "The White Stone of Ancients",
+        "Maiden with Eyes of Blue",
+        "Master with Eyes of Blue",
+        "Paladin of White Dragon",
+        "True Light",
+        "The White Stone of Legend",
+        "Ultimate Fusion",
+        "Blue-Eyes Chaos MAX Dragon",
+        "Blue-Eyes White Dragon, the White Phantom Beast",
+        "The Ultimate Creature of Destruction",
+        "Heart of the Blue-Eyes"
+      ],
+      "extra_deck": [
+        "Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Dragon Master Knight"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 14,
+        "draw_cards": 0,
+        "special_summon_cards": 23,
+        "disruption_cards": 26,
+        "graveyard_cards": 27
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "report_type": "filler_influence_ab_test",
+  "report_version": "phase6u-v1",
+  "created_at_utc": "2026-05-30T07:20:57.683728+00:00",
+  "config": {
+    "archetypes": [
+      "Runick"
+    ],
+    "mode": "meta",
+    "runs": 1,
+    "trials": 2,
+    "control_filler_memory_influence": false,
+    "experiment_filler_memory_influence": true
+  },
+  "provenance": {
+    "source": "filler_influence_ab_test",
+    "validator_generated": true,
+    "smoke": true,
+    "legal": true,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-05-30T07:20:31.397649+00:00"
+  },
+  "summary": {
+    "total_trials": 2,
+    "average_control_score": 2.485,
+    "average_control_improvement": 2.485,
+    "average_experiment_score": 0.965,
+    "average_experiment_improvement": 0.965,
+    "average_experiment_minus_control_delta": -1.52,
+    "positive_trial_count": 1,
+    "negative_trial_count": 1,
+    "neutral_trial_count": 0,
+    "ordering_change_count": 0,
+    "selection_change_count": 0,
+    "benchmark_filler_distribution_change_count": 2,
+    "legality_failures": 0,
+    "control_rejected_decks": 0,
+    "experiment_rejected_decks": 0,
+    "classification_counts": {
+      "no_effect": 2
+    },
+    "overall_classification": "no_effect",
+    "bias_applied_totals": {
+      "Ash Blossom & Joyous Spring": 0.05,
+      "Effect Veiler": 0.01
+    },
+    "recommendation": "Keep filler-memory influence experimental; current evidence is no-op because filler ordering/selection did not change."
+  },
+  "trials": [
+    {
+      "trial": 1,
+      "control": {
+        "filler_memory_influence_enabled": false,
+        "average_improvement": 4.04,
+        "repair_success_rate": 1.0,
+        "decks_still_rejected": 0,
+        "selected_filler_counts": {
+          "Infinite Impermanence": 2
+        },
+        "filler_memory_influence": {
+          "enabled_archetype_count": 0,
+          "fillers_allowed_for_influence": [
+            "Ash Blossom & Joyous Spring",
+            "Effect Veiler",
+            "Ghost Belle & Haunted Mansion"
+          ],
+          "fillers_blocked_from_influence": [
+            "Infinite Impermanence",
+            "Nibiru, the Primal Being"
+          ],
+          "rejected_due_to_not_activation_ready": [],
+          "filler_memory_bias_applied": {},
+          "influence_changed_order_count": 0,
+          "selection_before_after": []
+        },
+        "archetype_results": [
+          {
+            "archetype": "Runick",
+            "improvement": 4.04,
+            "tuned_legal": true,
+            "selected_filler_counts": {
+              "Infinite Impermanence": 2
+            }
+          }
+        ]
+      },
+      "experiment": {
+        "filler_memory_influence_enabled": true,
+        "average_improvement": -1.91,
+        "repair_success_rate": 1.0,
+        "decks_still_rejected": 0,
+        "selected_filler_counts": {
+          "Triple Tactics Talent": 1,
+          "Triple Tactics Thrust": 1
+        },
+        "filler_memory_influence": {
+          "enabled_archetype_count": 1,
+          "fillers_allowed_for_influence": [
+            "Ash Blossom & Joyous Spring",
+            "Effect Veiler",
+            "Ghost Belle & Haunted Mansion"
+          ],
+          "fillers_blocked_from_influence": [
+            "Infinite Impermanence",
+            "Nibiru, the Primal Being"
+          ],
+          "rejected_due_to_not_activation_ready": [
+            "Anti-Spell Fragrance",
+            "Book of Eclipse",
+            "Book of Lunar Eclipse",
+            "Book of Moon",
+            "Called by the Grave",
+            "Cosmic Cyclone",
+            "Crossout Designator",
+            "D.D. Crow",
+            "Dark Ruler No More",
+            "Droll & Lock Bird",
+            "Evenly Matched",
+            "Forbidden Droplet",
+            "Ghost Ogre & Snow Rabbit",
+            "Harpie's Feather Duster",
+            "Infinite Impermanence",
+            "Lightning Storm",
+            "Nibiru, the Primal Being",
+            "Pot of Desires",
+            "Pot of Duality",
+            "Pot of Extravagance",
+            "Pot of Prosperity",
+            "Raigeki",
+            "Small World",
+            "Solemn Judgment",
+            "Solemn Strike",
+            "Solemn Warning",
+            "Terraforming",
+            "Triple Tactics Talent",
+            "Triple Tactics Thrust",
+            "Upstart Goblin"
+          ],
+          "filler_memory_bias_applied": {
+            "Ash Blossom & Joyous Spring": 0.025,
+            "Effect Veiler": 0.005
+          },
+          "influence_changed_order_count": 0,
+          "selection_before_after": [
+            {
+              "run": 1,
+              "before": "Triple Tactics Talent",
+              "after": "Triple Tactics Talent",
+              "changed": false
+            }
+          ]
+        },
+        "archetype_results": [
+          {
+            "archetype": "Runick",
+            "improvement": -1.91,
+            "tuned_legal": true,
+            "selected_filler_counts": {
+              "Triple Tactics Talent": 1,
+              "Triple Tactics Thrust": 1
+            }
+          }
+        ]
+      },
+      "control_average_improvement": 4.04,
+      "experiment_average_improvement": -1.91,
+      "experiment_minus_control_delta": -5.95,
+      "repair_success_delta": 0.0,
+      "control_rejected_decks": 0,
+      "experiment_rejected_decks": 0,
+      "legality_failures": 0,
+      "ordering_change_count": 0,
+      "selection_change_count": 0,
+      "benchmark_filler_distribution_changed": true,
+      "filler_memory_bias_applied": {
+        "Ash Blossom & Joyous Spring": 0.025,
+        "Effect Veiler": 0.005
+      },
+      "selected_filler_before_after": [
+        {
+          "run": 1,
+          "before": "Triple Tactics Talent",
+          "after": "Triple Tactics Talent",
+          "changed": false
+        }
+      ],
+      "classification": "no_effect"
+    },
+    {
+      "trial": 2,
+      "control": {
+        "filler_memory_influence_enabled": false,
+        "average_improvement": 0.93,
+        "repair_success_rate": 1.0,
+        "decks_still_rejected": 0,
+        "selected_filler_counts": {
+          "Infinite Impermanence": 2
+        },
+        "filler_memory_influence": {
+          "enabled_archetype_count": 0,
+          "fillers_allowed_for_influence": [
+            "Ash Blossom & Joyous Spring",
+            "Effect Veiler",
+            "Ghost Belle & Haunted Mansion"
+          ],
+          "fillers_blocked_from_influence": [
+            "Infinite Impermanence",
+            "Nibiru, the Primal Being"
+          ],
+          "rejected_due_to_not_activation_ready": [],
+          "filler_memory_bias_applied": {},
+          "influence_changed_order_count": 0,
+          "selection_before_after": []
+        },
+        "archetype_results": [
+          {
+            "archetype": "Runick",
+            "improvement": 0.93,
+            "tuned_legal": true,
+            "selected_filler_counts": {
+              "Infinite Impermanence": 2
+            }
+          }
+        ]
+      },
+      "experiment": {
+        "filler_memory_influence_enabled": true,
+        "average_improvement": 3.84,
+        "repair_success_rate": 1.0,
+        "decks_still_rejected": 0,
+        "selected_filler_counts": {
+          "Triple Tactics Talent": 1,
+          "Triple Tactics Thrust": 1
+        },
+        "filler_memory_influence": {
+          "enabled_archetype_count": 1,
+          "fillers_allowed_for_influence": [
+            "Ash Blossom & Joyous Spring",
+            "Effect Veiler",
+            "Ghost Belle & Haunted Mansion"
+          ],
+          "fillers_blocked_from_influence": [
+            "Infinite Impermanence",
+            "Nibiru, the Primal Being"
+          ],
+          "rejected_due_to_not_activation_ready": [
+            "Anti-Spell Fragrance",
+            "Book of Eclipse",
+            "Book of Lunar Eclipse",
+            "Book of Moon",
+            "Called by the Grave",
+            "Cosmic Cyclone",
+            "Crossout Designator",
+            "D.D. Crow",
+            "Dark Ruler No More",
+            "Droll & Lock Bird",
+            "Evenly Matched",
+            "Forbidden Droplet",
+            "Ghost Ogre & Snow Rabbit",
+            "Harpie's Feather Duster",
+            "Infinite Impermanence",
+            "Lightning Storm",
+            "Nibiru, the Primal Being",
+            "Pot of Desires",
+            "Pot of Duality",
+            "Pot of Extravagance",
+            "Pot of Prosperity",
+            "Raigeki",
+            "Small World",
+            "Solemn Judgment",
+            "Solemn Strike",
+            "Solemn Warning",
+            "Terraforming",
+            "Triple Tactics Talent",
+            "Triple Tactics Thrust",
+            "Upstart Goblin"
+          ],
+          "filler_memory_bias_applied": {
+            "Ash Blossom & Joyous Spring": 0.025,
+            "Effect Veiler": 0.005
+          },
+          "influence_changed_order_count": 0,
+          "selection_before_after": [
+            {
+              "run": 1,
+              "before": "Triple Tactics Talent",
+              "after": "Triple Tactics Talent",
+              "changed": false
+            }
+          ]
+        },
+        "archetype_results": [
+          {
+            "archetype": "Runick",
+            "improvement": 3.84,
+            "tuned_legal": true,
+            "selected_filler_counts": {
+              "Triple Tactics Talent": 1,
+              "Triple Tactics Thrust": 1
+            }
+          }
+        ]
+      },
+      "control_average_improvement": 0.93,
+      "experiment_average_improvement": 3.84,
+      "experiment_minus_control_delta": 2.91,
+      "repair_success_delta": 0.0,
+      "control_rejected_decks": 0,
+      "experiment_rejected_decks": 0,
+      "legality_failures": 0,
+      "ordering_change_count": 0,
+      "selection_change_count": 0,
+      "benchmark_filler_distribution_changed": true,
+      "filler_memory_bias_applied": {
+        "Ash Blossom & Joyous Spring": 0.025,
+        "Effect Veiler": 0.005
+      },
+      "selected_filler_before_after": [
+        {
+          "run": 1,
+          "before": "Triple Tactics Talent",
+          "after": "Triple Tactics Talent",
+          "changed": false
+        }
+      ],
+      "classification": "no_effect"
+    }
+  ]
+}

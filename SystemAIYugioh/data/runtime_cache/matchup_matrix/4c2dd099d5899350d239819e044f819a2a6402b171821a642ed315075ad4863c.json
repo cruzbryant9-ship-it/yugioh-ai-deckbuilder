@@ -1,0 +1,346 @@
+{
+  "cache_version": "stabilization-a-v1",
+  "fingerprint": "e16a8553611ffe6aa799a0b4ab72b130a9af78d3fd57192f9aa88dca2a1eab06",
+  "fingerprint_parts": {
+    "fingerprint_version": 1,
+    "cache_version": "stabilization-a-v1",
+    "report_version": "stabilization-a-v1",
+    "card_database": {
+      "cards.json": {
+        "exists": true,
+        "size": 27933092,
+        "mtime_ns": 1779835189814724700,
+        "sha256": "ca3a8eb6fe38c3b3f030549637ae15dc5441309bdccd1f0830dce6557cb7451d"
+      },
+      "metadata.json": {
+        "exists": true,
+        "size": 422,
+        "mtime_ns": 1779835190036094200,
+        "sha256": "5480178e6e6c69798b5d62b7bd73782e16b248be86936b8754d646589a7d2bcd"
+      },
+      "latest_update_analysis.json": {
+        "exists": true,
+        "size": 375,
+        "mtime_ns": 1779835190038163100,
+        "sha256": "80c53adedb7d187300f8097d97cd0d52bc77916a72f5c0d79171e37f3558f79b"
+      }
+    },
+    "custom_card_limits": {
+      "Pot of Greed": 0,
+      "Protector with Eyes of Blue": 0,
+      "Strength in Unity": 0
+    },
+    "engine_variants": [
+      "pure",
+      "ritual",
+      "chaos",
+      "bystial",
+      "horus",
+      "branded",
+      "board_breaker_heavy",
+      "handtrap_heavy"
+    ],
+    "side_plan_settings": {
+      "matrix_smoke_side_candidates": 4,
+      "matrix_full_side_candidates": 6,
+      "matrix_smoke_engine_limit": 4,
+      "matrix_smoke_matchup_limit": 4
+    }
+  },
+  "schema_version": 1,
+  "value": {
+    "engine_variant": "pure",
+    "matchup": "stun",
+    "going": "second",
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "failed_cell": false,
+    "failure_rate": 0.0,
+    "average_final_score": 276.27,
+    "best_score": 276.27,
+    "package_quality": 97.8,
+    "playable_hand_rate": 1.0,
+    "brick_rate": 0.0,
+    "resilience_score": 8.7,
+    "side_deck_score": 92.8,
+    "game1_score": 275.38,
+    "post_side_score": 278.22,
+    "post_side_delta": 2.84,
+    "post_side_valid_rate": 1.0,
+    "valid_candidate_rate": 1.0,
+    "side_optimization_success_rate": 1.0,
+    "post_side_memory_used_rate": 0.0,
+    "memory_aided_post_side_delta": 0,
+    "matchup_coverage_score": 27.0,
+    "choke_stop_rate": 0.0,
+    "opponent_recovery_rate": 0.0,
+    "choke_coverage_score": 0.0,
+    "best_interruption_overlap": 0,
+    "poor_interruption_count": 0,
+    "timing_precision_score": 0.0,
+    "pivot_risk_score": 0.0,
+    "best_timing_window_count": 0,
+    "late_interruption_risk": 0.0,
+    "early_interruption_risk": 0.0,
+    "backup_line_success_rate": 0.0,
+    "graph_stop_rate": 0.0,
+    "graph_pivot_rate": 0.0,
+    "graph_endboard_reduction_score": 0.0,
+    "graph_best_interruption_count": 0,
+    "graph_poor_interruption_count": 0,
+    "graph_timing_precision_score": 0.0,
+    "opponent_resource_valid_rate": 0.0,
+    "opponent_resource_failure_rate": 0.0,
+    "opponent_pivot_success_rate": 0.0,
+    "opponent_backup_success_rate": 0.0,
+    "opponent_starter_open_rate": 0.0,
+    "opponent_extender_open_rate": 0.0,
+    "opponent_interruption_open_rate": 0.0,
+    "opponent_brick_rate": 0.0,
+    "probability_weighted_resource_valid_rate": 0.0,
+    "probability_weighted_stop_rate": 0.0,
+    "probability_weighted_pivot_rate": 0.0,
+    "probability_weighted_backup_rate": 0.0,
+    "going_first_side_score": 4.8,
+    "going_second_side_score": 12.0,
+    "blocked_card_violations": [],
+    "best_deck": {
+      "main_deck": [
+        "Dragon Spirit of White",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Dragon Spirit of White",
+        "Dragon Spirit of White",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Maiden with Eyes of Blue",
+        "The White Stone of Legend",
+        "Maiden with Eyes of Blue",
+        "Dictator of D.",
+        "Dictator of D.",
+        "Dictator of D.",
+        "Sage with Eyes of Blue",
+        "Bingo Machine, Go!!!",
+        "Wishes for Eyes of Blue",
+        "Wishes for Eyes of Blue",
+        "The Ultimate Creature of Destruction",
+        "Destined Rivals",
+        "Droll & Lock Bird",
+        "Ghost Belle & Haunted Mansion",
+        "Ash Blossom & Joyous Spring",
+        "Nibiru, the Primal Being",
+        "D.D. Crow",
+        "Ghost Ogre & Snow Rabbit",
+        "Raigeki",
+        "Forbidden Droplet",
+        "Solemn Judgment",
+        "Solemn Strike"
+      ],
+      "extra_deck": [
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Dragon Master Knight",
+        "Blue-Eyes Spirit Dragon",
+        "Blue-Eyes Tyrant Dragon",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Neo Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Tyrant Dragon",
+        "Blue-Eyes Spirit Dragon",
+        "Blue-Eyes Spirit Dragon",
+        "Blue-Eyes Ultimate Spirit Dragon"
+      ]
+    },
+    "recommended_side_deck": [
+      [
+        "Lightning Storm",
+        1
+      ],
+      [
+        "Harpie's Feather Duster",
+        1
+      ],
+      [
+        "Evenly Matched",
+        1
+      ],
+      [
+        "Dark Ruler No More",
+        1
+      ],
+      [
+        "Book of Eclipse",
+        1
+      ],
+      [
+        "Gryphon Wing",
+        1
+      ],
+      [
+        "Zexal Entrust",
+        1
+      ],
+      [
+        "Zefraniu, Secret of the Yang Zing",
+        1
+      ],
+      [
+        "Zefra Divine Strike",
+        1
+      ],
+      [
+        "Zapper Shrimp",
+        1
+      ],
+      [
+        "ZW - Dragonic Halberd",
+        1
+      ],
+      [
+        "Yosenjus' Secret Move",
+        1
+      ],
+      [
+        "Yamato-no-Kami",
+        1
+      ],
+      [
+        "Yad'al-Hecahands",
+        1
+      ],
+      [
+        "XZ-Tank Cannon",
+        1
+      ]
+    ],
+    "best_remembered_side_cards": [],
+    "best_remembered_side_out_cards": [],
+    "runs": [
+      {
+        "run": 1,
+        "ok": true,
+        "engine_variant": "pure",
+        "final_score": 276.27,
+        "package_quality": 97.8,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 8.7,
+        "side_deck_score": 92.8,
+        "game1_score": 275.38,
+        "post_side_score": 278.22,
+        "post_side_delta": 2.84,
+        "post_side_valid": true,
+        "valid_candidate_rate": 1.0,
+        "optimization_used": true,
+        "post_side_memory_used": false,
+        "remembered_side_cards": [],
+        "remembered_side_out_cards": [],
+        "memory_aided_post_side_delta": 0,
+        "matchup_coverage_score": 27.0,
+        "choke_stop_rate": 0.0,
+        "opponent_recovery_rate": 0.0,
+        "choke_coverage_score": 0.0,
+        "best_interruption_overlap": 0,
+        "poor_interruption_count": 0,
+        "timing_precision_score": 0.0,
+        "pivot_risk_score": 0.0,
+        "best_timing_window_count": 0,
+        "late_interruption_risk": 0.0,
+        "early_interruption_risk": 0.0,
+        "backup_line_success_rate": 0.0,
+        "graph_stop_rate": 0.0,
+        "graph_pivot_rate": 0.0,
+        "graph_endboard_reduction_score": 0.0,
+        "graph_best_interruption_count": 0,
+        "graph_poor_interruption_count": 0,
+        "graph_timing_precision_score": 0.0,
+        "opponent_resource_valid_rate": 0.0,
+        "opponent_resource_failure_rate": 0.0,
+        "opponent_pivot_success_rate": 0.0,
+        "opponent_backup_success_rate": 0.0,
+        "opponent_starter_open_rate": 0.0,
+        "opponent_extender_open_rate": 0.0,
+        "opponent_interruption_open_rate": 0.0,
+        "opponent_brick_rate": 0.0,
+        "probability_weighted_resource_valid_rate": 0.0,
+        "probability_weighted_stop_rate": 0.0,
+        "probability_weighted_pivot_rate": 0.0,
+        "probability_weighted_backup_rate": 0.0,
+        "going_first_side_score": 4.8,
+        "going_second_side_score": 12.0,
+        "blocked_card_violations": [],
+        "main_deck": [
+          "Dragon Spirit of White",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Dragon Spirit of White",
+          "Dragon Spirit of White",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Maiden with Eyes of Blue",
+          "The White Stone of Legend",
+          "Maiden with Eyes of Blue",
+          "Dictator of D.",
+          "Dictator of D.",
+          "Dictator of D.",
+          "Sage with Eyes of Blue",
+          "Bingo Machine, Go!!!",
+          "Wishes for Eyes of Blue",
+          "Wishes for Eyes of Blue",
+          "The Ultimate Creature of Destruction",
+          "Destined Rivals",
+          "Droll & Lock Bird",
+          "Ghost Belle & Haunted Mansion",
+          "Ash Blossom & Joyous Spring",
+          "Nibiru, the Primal Being",
+          "D.D. Crow",
+          "Ghost Ogre & Snow Rabbit",
+          "Raigeki",
+          "Forbidden Droplet",
+          "Solemn Judgment",
+          "Solemn Strike"
+        ],
+        "extra_deck": [
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Dragon Master Knight",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Tyrant Dragon",
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Tyrant Dragon",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Ultimate Spirit Dragon"
+        ],
+        "recommended_side_deck": [
+          "Lightning Storm",
+          "Harpie's Feather Duster",
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Book of Eclipse",
+          "Gryphon Wing",
+          "Zexal Entrust",
+          "Zefraniu, Secret of the Yang Zing",
+          "Zefra Divine Strike",
+          "Zapper Shrimp",
+          "ZW - Dragonic Halberd",
+          "Yosenjus' Secret Move",
+          "Yamato-no-Kami",
+          "Yad'al-Hecahands",
+          "XZ-Tank Cannon"
+        ],
+        "side_cards_used": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Book of Eclipse"
+        ],
+        "cards_sided_out": [
+          "Dragon Spirit of White",
+          "The Ultimate Creature of Destruction",
+          "Solemn Strike"
+        ]
+      }
+    ],
+    "cache_hit": false
+  }
+}

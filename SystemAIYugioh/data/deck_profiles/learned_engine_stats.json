@@ -1,0 +1,111 @@
+{
+  "profiles": {
+    "blue-eyes": {
+      "meta": {
+        "archetype": "Blue-Eyes",
+        "mode": "meta",
+        "total_runs": 989,
+        "detected_engines": [
+          "Blue-Eyes core",
+          "Blue-Eyes ritual",
+          "Branded",
+          "Bystial",
+          "Chaos",
+          "Horus",
+          "board breaker package",
+          "handtrap package"
+        ],
+        "average_score_per_engine": {
+          "board breaker package": 260.38,
+          "handtrap package": 260.38,
+          "Blue-Eyes core": 229.82,
+          "Branded": 291.62,
+          "Chaos": 191.91,
+          "Blue-Eyes ritual": 213.17,
+          "Bystial": 291.3,
+          "Horus": 294.08
+        },
+        "best_score_per_engine": {
+          "Blue-Eyes core": 313.3,
+          "Blue-Eyes ritual": 310.07,
+          "Branded": 310.07,
+          "Bystial": 309.64,
+          "Chaos": 309.81,
+          "Horus": 307.06,
+          "board breaker package": 313.3,
+          "handtrap package": 313.3
+        },
+        "engine_appearance_count": {
+          "Blue-Eyes core": 989,
+          "board breaker package": 728,
+          "handtrap package": 728,
+          "Blue-Eyes ritual": 674,
+          "Chaos": 369,
+          "Branded": 78,
+          "Bystial": 48,
+          "Horus": 6
+        },
+        "top_deck_engine_counts": {
+          "handtrap package": 99,
+          "Blue-Eyes core": 99,
+          "board breaker package": 99,
+          "Blue-Eyes ritual": 27,
+          "Chaos": 26,
+          "Branded": 18,
+          "Bystial": 10,
+          "Horus": 1
+        },
+        "bottom_deck_engine_counts": {
+          "Blue-Eyes ritual": 248,
+          "Blue-Eyes core": 248,
+          "Chaos": 236
+        },
+        "average_brick_penalty_per_engine": {
+          "board breaker package": 3.12,
+          "handtrap package": 3.12,
+          "Blue-Eyes core": 3.28,
+          "Branded": 2.58,
+          "Chaos": 3.39,
+          "Blue-Eyes ritual": 3.33,
+          "Bystial": 2.7,
+          "Horus": 2.93
+        },
+        "average_endboard_score_per_engine": {
+          "board breaker package": 24.66,
+          "handtrap package": 24.66,
+          "Blue-Eyes core": 24.16,
+          "Branded": 24.06,
+          "Chaos": 23.04,
+          "Blue-Eyes ritual": 23.95,
+          "Bystial": 23.76,
+          "Horus": 23.58
+        },
+        "average_interruption_score_per_engine": {
+          "board breaker package": 30.0,
+          "handtrap package": 30.0,
+          "Blue-Eyes core": 29.73,
+          "Branded": 30.0,
+          "Chaos": 29.27,
+          "Blue-Eyes ritual": 29.6,
+          "Bystial": 30.0,
+          "Horus": 30.0
+        },
+        "engine_adjustments": {
+          "Blue-Eyes core": -0.006,
+          "Blue-Eyes ritual": -0.0312,
+          "Branded": 0.0382,
+          "Bystial": 0.0376,
+          "Chaos": -0.064,
+          "Horus": 0.0383,
+          "board breaker package": 0.0387,
+          "handtrap package": 0.0387
+        },
+        "global_average_score": 229.82,
+        "max_adjustment": 0.1,
+        "updated_at_utc": "2026-05-24T21:32:53.579179+00:00"
+      }
+    }
+  },
+  "version": 1,
+  "updated_at_utc": "2026-05-24T21:32:53.582719+00:00"
+}

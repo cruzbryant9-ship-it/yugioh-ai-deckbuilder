@@ -1,0 +1,3248 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "runs": 2,
+    "matchup": "combo",
+    "going": "second"
+  },
+  "created_at_utc": "2026-05-23T06:55:33.767341+00:00",
+  "summary": {
+    "successful_runs": 2,
+    "failed_runs": 0,
+    "best_score": 303.99,
+    "average_score": 291.59,
+    "average_score_breakdown": {
+      "consistency_score": 40.4,
+      "starter_score": 25.0,
+      "extender_score": 25.0,
+      "interruption_score": 30.0,
+      "brick_penalty": 2.8,
+      "endboard_score": 25.0,
+      "learned_card_bonus": 5.03,
+      "playable_hand_rate": 1.0,
+      "brick_rate": 0.0,
+      "combo_line_score": 28.76,
+      "interruption_resilience_score": 6.33,
+      "follow_up_score": 5.56,
+      "normal_summon_conflict_rate": 0.01,
+      "once_per_turn_conflict_rate": 0.0,
+      "dead_duplicate_rate": 0.08,
+      "payoff_without_enabler_rate": 0.0,
+      "enabler_without_payoff_rate": 0.26,
+      "best_line_average_score": 13.49,
+      "graph_valid_line_rate": 1.0,
+      "graph_average_line_score": 13.49,
+      "graph_average_payoff_score": 5.65,
+      "graph_average_resource_score": 8.0,
+      "graph_average_risk_score": 0.17,
+      "graph_failed_line_rate": 0.0,
+      "optional_line_failure_rate": 1.0,
+      "best_line_failure_rate": 0.0,
+      "no_valid_line_rate": 0.0,
+      "branch_valid_rate": 1.0,
+      "no_valid_branch_rate": 0.0,
+      "average_branch_score": 9.0,
+      "interruption_window_count": 0.5,
+      "average_interruption_risk": 2.52,
+      "ash_vulnerability_rate": 0.5,
+      "imperm_vulnerability_rate": 0.0,
+      "veiler_vulnerability_rate": 0.0,
+      "droll_vulnerability_rate": 0.5,
+      "crow_vulnerability_rate": 0.0,
+      "nibiru_vulnerability_rate": 0.0,
+      "recovery_route_rate": 1.0,
+      "interrupted_line_success_rate": 1.0,
+      "resilience_score": 9.97,
+      "resource_valid_line_rate": 1.0,
+      "material_failure_rate": 0.0,
+      "search_failure_rate": 1.0,
+      "extra_deck_failure_rate": 0.0,
+      "cost_failure_rate": 0.0,
+      "normalized_search_failure_rate": 0.0,
+      "normalized_cost_failure_rate": 0.0,
+      "normalized_material_failure_rate": 0.0,
+      "normalized_extra_deck_failure_rate": 0.0,
+      "cost_condition_valid_rate": 1.0,
+      "cost_failure_rate_normalized": 0.0,
+      "condition_failure_rate_normalized": 0.0,
+      "reveal_cost_failure_rate": 0.0,
+      "discard_cost_failure_rate": 0.0,
+      "gy_condition_failure_rate": 0.0,
+      "control_condition_failure_rate": 0.0,
+      "history_condition_failure_rate": 0.0,
+      "summon_history_failure_rate": 0.0,
+      "gy_history_failure_rate": 0.0,
+      "activation_history_failure_rate": 0.0,
+      "resolution_history_failure_rate": 0.0,
+      "typed_material_valid_rate": 1.0,
+      "synchro_material_failure_rate": 0.0,
+      "fusion_material_failure_rate": 0.0,
+      "ritual_material_failure_rate": 0.0,
+      "link_material_failure_rate": 0.0,
+      "named_material_failure_rate": 0.0,
+      "synchro_exact_level_valid_rate": 1.0,
+      "synchro_level_failure_rate": 0.0,
+      "ritual_level_valid_rate": 1.0,
+      "ritual_level_failure_rate": 0.0,
+      "xyz_material_valid_rate": 1.0,
+      "link_material_valid_rate": 1.0,
+      "final_score": 291.59,
+      "package_quality_score": 92.69,
+      "quota_violation_penalty": 0.0
+    },
+    "most_common_main_deck_cards": [
+      [
+        "Blue-Eyes Solid Dragon",
+        6
+      ],
+      [
+        "Dictator of D.",
+        6
+      ],
+      [
+        "Blue-Eyes Abyss Dragon",
+        5
+      ],
+      [
+        "Blue-Eyes Jet Dragon",
+        4
+      ],
+      [
+        "Sage with Eyes of Blue",
+        4
+      ],
+      [
+        "Branded Regained",
+        4
+      ],
+      [
+        "Bingo Machine, Go!!!",
+        3
+      ],
+      [
+        "Maiden with Eyes of Blue",
+        3
+      ],
+      [
+        "The Bystial Lubellion",
+        3
+      ],
+      [
+        "Dragon Spirit of White",
+        2
+      ],
+      [
+        "The White Stone of Legend",
+        2
+      ],
+      [
+        "The Ultimate Creature of Destruction",
+        2
+      ],
+      [
+        "D.D. Crow",
+        2
+      ],
+      [
+        "Ash Blossom & Joyous Spring",
+        2
+      ],
+      [
+        "Droll & Lock Bird",
+        2
+      ]
+    ],
+    "most_common_extra_deck_cards": [
+      [
+        "Blue-Eyes Twin Burst Dragon",
+        3
+      ],
+      [
+        "Blue-Eyes Spirit Dragon",
+        2
+      ],
+      [
+        "Dragon Master Knight",
+        2
+      ],
+      [
+        "Blue-Eyes Ultimate Dragon",
+        2
+      ],
+      [
+        "Blue-Eyes Ultimate Spirit Dragon",
+        1
+      ],
+      [
+        "Blue-Eyes Alternative Ultimate Dragon",
+        1
+      ],
+      [
+        "Blue-Eyes Tyrant Dragon",
+        1
+      ]
+    ],
+    "most_common_critique_issues": [],
+    "average_real_combo_values": {
+      "playable_hand_rate": 1.0,
+      "brick_rate": 0.0,
+      "average_brick_count": 0.0,
+      "average_starter_count": 1.94,
+      "average_extender_count": 3.95,
+      "average_interruption_count": 3.85,
+      "average_endboard_score": 2.3,
+      "combo_line_score": 28.585,
+      "interruption_resilience_score": 6.185,
+      "follow_up_score": 5.635,
+      "recovery_route_frequency": 0.21,
+      "normal_summon_conflict_rate": 0.02,
+      "once_per_turn_conflict_rate": 0.0,
+      "dead_duplicate_rate": 0.07,
+      "payoff_without_enabler_rate": 0.0,
+      "enabler_without_payoff_rate": 0.235,
+      "best_line_average_score": 13.49,
+      "graph_valid_line_rate": 1.0,
+      "graph_average_line_score": 13.49,
+      "graph_average_payoff_score": 5.65,
+      "graph_average_resource_score": 8.0,
+      "graph_average_risk_score": 0.175,
+      "graph_failed_line_rate": 0.0,
+      "optional_line_failure_rate": 1.0,
+      "best_line_failure_rate": 0.0,
+      "no_valid_line_rate": 0.0,
+      "branch_valid_rate": 1.0,
+      "no_valid_branch_rate": 0.0,
+      "average_branch_score": 9.0,
+      "interruption_window_count": 0.5,
+      "average_interruption_risk": 2.525,
+      "ash_vulnerability_rate": 0.5,
+      "imperm_vulnerability_rate": 0.0,
+      "veiler_vulnerability_rate": 0.0,
+      "droll_vulnerability_rate": 0.5,
+      "crow_vulnerability_rate": 0.0,
+      "nibiru_vulnerability_rate": 0.0,
+      "recovery_route_rate": 1.0,
+      "interrupted_line_success_rate": 1.0,
+      "resilience_score": 9.975,
+      "resource_valid_line_rate": 1.0,
+      "missing_material_rate": 0.0,
+      "missing_search_target_rate": 1.0,
+      "missing_extra_deck_rate": 0.0,
+      "cost_failure_rate": 0.0,
+      "normalized_search_failure_rate": 0.0,
+      "normalized_cost_failure_rate": 0.0,
+      "normalized_material_failure_rate": 0.0,
+      "normalized_extra_deck_failure_rate": 0.0,
+      "cost_condition_valid_rate": 1.0,
+      "cost_failure_rate_normalized": 0.0,
+      "condition_failure_rate_normalized": 0.0,
+      "reveal_cost_failure_rate": 0.0,
+      "discard_cost_failure_rate": 0.0,
+      "gy_condition_failure_rate": 0.0,
+      "control_condition_failure_rate": 0.0,
+      "history_condition_failure_rate": 0.0,
+      "summon_history_failure_rate": 0.0,
+      "gy_history_failure_rate": 0.0,
+      "activation_history_failure_rate": 0.0,
+      "resolution_history_failure_rate": 0.0,
+      "normal_summon_failure_rate": 0.0,
+      "once_per_turn_failure_rate": 0.0,
+      "typed_material_valid_rate": 1.0,
+      "synchro_material_failure_rate": 0.0,
+      "fusion_material_failure_rate": 0.0,
+      "ritual_material_failure_rate": 0.0,
+      "link_material_failure_rate": 0.0,
+      "named_material_failure_rate": 0.0,
+      "synchro_exact_level_valid_rate": 1.0,
+      "synchro_level_failure_rate": 0.0,
+      "ritual_level_valid_rate": 1.0,
+      "ritual_level_failure_rate": 0.0,
+      "xyz_material_valid_rate": 1.0,
+      "link_material_valid_rate": 1.0
+    },
+    "most_common_combo_lines": [
+      [
+        "Abyss Dragon follow-up line",
+        15
+      ],
+      [
+        "Dictator of D. + Blue-Eyes access -> setup line",
+        12
+      ],
+      [
+        "Bingo Machine access -> Blue-Eyes consistency line",
+        9
+      ],
+      [
+        "Spirit Dragon synchro line",
+        7
+      ],
+      [
+        "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+        6
+      ],
+      [
+        "Alternative White Dragon pressure line",
+        3
+      ],
+      [
+        "Wishes for Eyes of Blue access line",
+        2
+      ]
+    ],
+    "best_line_frequency": [
+      [
+        "Bingo Machine -> search line",
+        100
+      ],
+      [
+        "True Light + Jet loop",
+        100
+      ]
+    ],
+    "package_counts": {
+      "board_breakers": 4,
+      "extenders": 15,
+      "extra_deck": 12,
+      "handtraps": 11,
+      "searchers": 14,
+      "starters": 18,
+      "traps": 6
+    },
+    "package_quota_violations": [],
+    "average_package_quality_score": 92.69,
+    "average_side_deck_score": 102.25,
+    "average_matchup_coverage_score": 35.0,
+    "average_going_first_side_score": 8.0,
+    "average_going_second_side_score": 20.0,
+    "recommended_side_cards": [
+      [
+        "Evenly Matched",
+        2
+      ],
+      [
+        "Dark Ruler No More",
+        2
+      ],
+      [
+        "Nibiru, the Primal Being",
+        2
+      ],
+      [
+        "Infinite Impermanence",
+        2
+      ],
+      [
+        "Effect Veiler",
+        2
+      ],
+      [
+        "Droll & Lock Bird",
+        2
+      ],
+      [
+        "Ash Blossom & Joyous Spring",
+        2
+      ],
+      [
+        "Droll Bird",
+        2
+      ],
+      [
+        "Book of Eclipse",
+        2
+      ],
+      [
+        "Zuttomozaurus",
+        2
+      ],
+      [
+        "Zuijin of the Ice Barrier",
+        2
+      ],
+      [
+        "Zubababa Knight",
+        2
+      ],
+      [
+        "Zubaba Knight",
+        2
+      ],
+      [
+        "Zubaba Buster",
+        2
+      ],
+      [
+        "Zoroa, the Magistus Verethragna",
+        2
+      ]
+    ],
+    "average_game1_score": 291.38,
+    "average_post_side_score": 278.24,
+    "average_post_side_delta": -13.13,
+    "post_side_valid_rate": 1.0,
+    "matchup_weighting": [
+      true,
+      true
+    ],
+    "best_deck_list": {
+      "main_deck": [
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Dragon Spirit of White",
+        "Dictator of D.",
+        "The White Stone of Legend",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Dictator of D.",
+        "Wishes for Eyes of Blue",
+        "Bingo Machine, Go!!!",
+        "The White Stone of Ancients",
+        "Maiden with Eyes of Blue",
+        "Wishes for Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "True Light",
+        "The Ultimate Creature of Destruction",
+        "The Bystial Lubellion",
+        "The Bystial Lubellion",
+        "Branded Regained",
+        "Branded Regained",
+        "Ash Blossom & Joyous Spring",
+        "Ghost Belle & Haunted Mansion",
+        "Droll & Lock Bird",
+        "Effect Veiler",
+        "Infinite Impermanence",
+        "Harpie's Feather Duster",
+        "Evenly Matched",
+        "Solemn Judgment"
+      ],
+      "extra_deck": [
+        "Dragon Master Knight",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Tyrant Dragon",
+        "Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Ultimate Dragon"
+      ]
+    }
+  },
+  "runs": [
+    {
+      "run": 1,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "meta",
+      "matchup": "combo",
+      "going": "second",
+      "matchup_aware_weighting_used": true,
+      "matchup_recommended_engine_variant": "bystial",
+      "final_score": 279.19,
+      "score_breakdown": {
+        "consistency_score": 40.4,
+        "starter_score": 25.0,
+        "extender_score": 25.0,
+        "interruption_score": 30.0,
+        "brick_penalty": 3.2,
+        "endboard_score": 25.0,
+        "learned_card_bonus": 5.07,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "combo_line_score": 26.59,
+        "interruption_resilience_score": 6.54,
+        "follow_up_score": 5.84,
+        "normal_summon_conflict_rate": 0.0,
+        "once_per_turn_conflict_rate": 0.0,
+        "dead_duplicate_rate": 0.1,
+        "payoff_without_enabler_rate": 0.0,
+        "enabler_without_payoff_rate": 0.3,
+        "best_line_average_score": 11.28,
+        "graph_valid_line_rate": 1.0,
+        "graph_average_line_score": 11.28,
+        "graph_average_payoff_score": 5.5,
+        "graph_average_resource_score": 5.2,
+        "graph_average_risk_score": 0.35,
+        "graph_failed_line_rate": 0.0,
+        "optional_line_failure_rate": 1.0,
+        "best_line_failure_rate": 0.0,
+        "no_valid_line_rate": 0.0,
+        "branch_valid_rate": 1.0,
+        "no_valid_branch_rate": 0.0,
+        "average_branch_score": 7.0,
+        "interruption_window_count": 1.0,
+        "average_interruption_risk": 5.05,
+        "ash_vulnerability_rate": 1.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 1.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "recovery_route_rate": 1.0,
+        "interrupted_line_success_rate": 1.0,
+        "resilience_score": 8.7,
+        "most_common_graph_failure_reason": "missing_search_target: The White Stone of Ancients",
+        "resource_valid_line_rate": 1.0,
+        "material_failure_rate": 0.0,
+        "search_failure_rate": 1.0,
+        "extra_deck_failure_rate": 0.0,
+        "cost_failure_rate": 0.0,
+        "normalized_search_failure_rate": 0.0,
+        "normalized_cost_failure_rate": 0.0,
+        "normalized_material_failure_rate": 0.0,
+        "normalized_extra_deck_failure_rate": 0.0,
+        "cost_condition_valid_rate": 1.0,
+        "cost_failure_rate_normalized": 0.0,
+        "condition_failure_rate_normalized": 0.0,
+        "reveal_cost_failure_rate": 0.0,
+        "discard_cost_failure_rate": 0.0,
+        "gy_condition_failure_rate": 0.0,
+        "control_condition_failure_rate": 0.0,
+        "history_condition_failure_rate": 0.0,
+        "summon_history_failure_rate": 0.0,
+        "gy_history_failure_rate": 0.0,
+        "activation_history_failure_rate": 0.0,
+        "resolution_history_failure_rate": 0.0,
+        "typed_material_valid_rate": 1.0,
+        "synchro_material_failure_rate": 0.0,
+        "fusion_material_failure_rate": 0.0,
+        "ritual_material_failure_rate": 0.0,
+        "link_material_failure_rate": 0.0,
+        "named_material_failure_rate": 0.0,
+        "synchro_exact_level_valid_rate": 1.0,
+        "synchro_level_failure_rate": 0.0,
+        "ritual_level_valid_rate": 1.0,
+        "ritual_level_failure_rate": 0.0,
+        "xyz_material_valid_rate": 1.0,
+        "link_material_valid_rate": 1.0,
+        "final_score": 279.19,
+        "package_quality_score": 92.65,
+        "quota_violation_penalty": 0.0
+      },
+      "detected_engines": {
+        "Blue-Eyes core": [
+          "Bingo Machine, Go!!!",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Twin Burst Dragon",
+          "Blue-Eyes Ultimate Spirit Dragon",
+          "Dictator of D.",
+          "Maiden with Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "The White Stone of Legend"
+        ],
+        "Blue-Eyes ritual": [
+          "The Ultimate Creature of Destruction"
+        ],
+        "Branded": [
+          "Branded Regained"
+        ],
+        "Bystial": [
+          "Branded Regained",
+          "Bystial Druiswurm",
+          "The Bystial Lubellion"
+        ],
+        "Chaos": [
+          "Branded Regained",
+          "Bystial Druiswurm"
+        ],
+        "board breaker package": [
+          "Evenly Matched",
+          "Lightning Storm"
+        ],
+        "handtrap package": [
+          "Ash Blossom & Joyous Spring",
+          "D.D. Crow",
+          "Droll & Lock Bird",
+          "Ghost Ogre & Snow Rabbit",
+          "Infinite Impermanence"
+        ]
+      },
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Bingo Machine, Go!!!",
+        "Bingo Machine, Go!!!",
+        "Dictator of D.",
+        "Sage with Eyes of Blue",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Dictator of D.",
+        "Sage with Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "The White Stone of Legend",
+        "The Ultimate Creature of Destruction",
+        "Destined Rivals",
+        "Bystial Druiswurm",
+        "Branded Regained",
+        "Branded Regained",
+        "The Bystial Lubellion",
+        "D.D. Crow",
+        "Ghost Ogre & Snow Rabbit",
+        "Ash Blossom & Joyous Spring",
+        "Droll & Lock Bird",
+        "D.D. Crow",
+        "Lightning Storm",
+        "Evenly Matched",
+        "Solemn Judgment",
+        "Infinite Impermanence"
+      ],
+      "extra_deck": [
+        "Blue-Eyes Spirit Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Ultimate Spirit Dragon",
+        "Blue-Eyes Spirit Dragon",
+        "Dragon Master Knight"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 11,
+        "draw_cards": 3,
+        "special_summon_cards": 27,
+        "disruption_cards": 28,
+        "graveyard_cards": 29
+      },
+      "real_combo_report": {
+        "samples": 100,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "average_brick_count": 0,
+        "average_starter_count": 1.79,
+        "average_extender_count": 3.93,
+        "average_interruption_count": 4.04,
+        "most_common_combo_lines": [
+          [
+            "Abyss Dragon follow-up line",
+            8
+          ],
+          [
+            "Bingo Machine access -> Blue-Eyes consistency line",
+            6
+          ],
+          [
+            "Dictator of D. + Blue-Eyes access -> setup line",
+            4
+          ],
+          [
+            "Alternative White Dragon pressure line",
+            3
+          ],
+          [
+            "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+            2
+          ]
+        ],
+        "best_line_frequency": [
+          [
+            "Bingo Machine -> search line",
+            100
+          ]
+        ],
+        "average_endboard_score": 1.23,
+        "combo_line_score": 26.57,
+        "normal_summon_conflict_rate": 0.0,
+        "once_per_turn_conflict_rate": 0.0,
+        "dead_duplicate_rate": 0.11,
+        "payoff_without_enabler_rate": 0.0,
+        "enabler_without_payoff_rate": 0.23,
+        "best_line_average_score": 11.28,
+        "graph_valid_line_rate": 1.0,
+        "graph_average_line_score": 11.28,
+        "graph_average_payoff_score": 5.5,
+        "graph_average_resource_score": 5.2,
+        "graph_average_risk_score": 0.35,
+        "graph_failed_line_rate": 0.0,
+        "optional_line_failure_rate": 1.0,
+        "best_line_failure_rate": 0.0,
+        "no_valid_line_rate": 0.0,
+        "branch_valid_rate": 1.0,
+        "no_valid_branch_rate": 0.0,
+        "average_branch_score": 7.0,
+        "interruption_window_count": 1,
+        "average_interruption_risk": 5.05,
+        "ash_vulnerability_rate": 1.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 1.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "recovery_route_rate": 1.0,
+        "interrupted_line_success_rate": 1.0,
+        "resilience_score": 8.7,
+        "most_common_graph_failure_reason": "missing_search_target: The White Stone of Ancients",
+        "resource_valid_line_rate": 1.0,
+        "missing_material_rate": 0.0,
+        "missing_search_target_rate": 1.0,
+        "missing_extra_deck_rate": 0.0,
+        "cost_failure_rate": 0.0,
+        "normalized_search_failure_rate": 0.0,
+        "normalized_cost_failure_rate": 0.0,
+        "normalized_material_failure_rate": 0.0,
+        "normalized_extra_deck_failure_rate": 0.0,
+        "cost_condition_valid_rate": 1.0,
+        "cost_failure_rate_normalized": 0.0,
+        "condition_failure_rate_normalized": 0.0,
+        "reveal_cost_failure_rate": 0.0,
+        "discard_cost_failure_rate": 0.0,
+        "gy_condition_failure_rate": 0.0,
+        "control_condition_failure_rate": 0.0,
+        "history_condition_failure_rate": 0.0,
+        "summon_history_failure_rate": 0.0,
+        "gy_history_failure_rate": 0.0,
+        "activation_history_failure_rate": 0.0,
+        "resolution_history_failure_rate": 0.0,
+        "normal_summon_failure_rate": 0.0,
+        "once_per_turn_failure_rate": 0.0,
+        "typed_material_valid_rate": 1.0,
+        "synchro_material_failure_rate": 0.0,
+        "fusion_material_failure_rate": 0.0,
+        "ritual_material_failure_rate": 0.0,
+        "link_material_failure_rate": 0.0,
+        "named_material_failure_rate": 0.0,
+        "synchro_exact_level_valid_rate": 1.0,
+        "synchro_level_failure_rate": 0.0,
+        "ritual_level_valid_rate": 1.0,
+        "ritual_level_failure_rate": 0.0,
+        "xyz_material_valid_rate": 1.0,
+        "link_material_valid_rate": 1.0,
+        "interruption_resilience_score": 6.42,
+        "follow_up_score": 5.79,
+        "recovery_route_frequency": 0.2,
+        "choke_point_frequency": [
+          [
+            "Ash Blossom & Joyous Spring",
+            17
+          ],
+          [
+            "D.D. Crow",
+            11
+          ],
+          [
+            "Droll & Lock Bird",
+            6
+          ],
+          [
+            "Effect Veiler",
+            5
+          ],
+          [
+            "Infinite Impermanence",
+            5
+          ],
+          [
+            "Called by the Grave",
+            4
+          ],
+          [
+            "Book of Moon",
+            3
+          ]
+        ]
+      },
+      "playable_hand_rate": 1.0,
+      "brick_rate": 0.0,
+      "most_common_combo_lines": [
+        [
+          "Abyss Dragon follow-up line",
+          8
+        ],
+        [
+          "Bingo Machine access -> Blue-Eyes consistency line",
+          6
+        ],
+        [
+          "Dictator of D. + Blue-Eyes access -> setup line",
+          4
+        ],
+        [
+          "Alternative White Dragon pressure line",
+          3
+        ],
+        [
+          "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+          2
+        ]
+      ],
+      "best_line_frequency": [
+        [
+          "Bingo Machine -> search line",
+          100
+        ]
+      ],
+      "average_endboard_score": 1.23,
+      "interruption_resilience_score": 6.42,
+      "follow_up_score": 5.79,
+      "package_report": {
+        "package_counts": {
+          "board_breakers": 2,
+          "extenders": 9,
+          "extra_deck": 5,
+          "handtraps": 6,
+          "searchers": 6,
+          "starters": 9,
+          "traps": 3
+        },
+        "chosen_engine_variant": "pure",
+        "starter_count": 15,
+        "brick_count": 0,
+        "non_engine_count": 11,
+        "package_quota_violations": []
+      },
+      "package_quality": {
+        "package_balance_score": 16.4,
+        "starter_quota_score": 20.0,
+        "brick_quota_score": 18.0,
+        "non_engine_score": 16.0,
+        "engine_coherence_score": 14.0,
+        "extra_deck_score": 8.25,
+        "quota_violation_penalty": 0.0,
+        "final_package_quality_score": 92.65
+      },
+      "package_quality_score": 92.65,
+      "quota_violation_penalty": 0.0,
+      "package_counts": {
+        "board_breakers": 2,
+        "extenders": 9,
+        "extra_deck": 5,
+        "handtraps": 6,
+        "searchers": 6,
+        "starters": 9,
+        "traps": 3
+      },
+      "chosen_engine_variant": "pure",
+      "package_starter_count": 15,
+      "package_brick_count": 0,
+      "non_engine_count": 11,
+      "package_quota_violations": [],
+      "side_deck_report": {
+        "side_deck": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Droll & Lock Bird",
+          "Ash Blossom & Joyous Spring",
+          "Droll Bird",
+          "Book of Eclipse",
+          "Zuttomozaurus",
+          "Zuijin of the Ice Barrier",
+          "Zubababa Knight",
+          "Zubaba Knight",
+          "Zubaba Buster",
+          "Zoroa, the Magistus Verethragna"
+        ],
+        "reasons": {
+          "Evenly Matched": [
+            "Evenly Matched",
+            "anti_combo",
+            "going_second",
+            "profile_high_value"
+          ],
+          "Dark Ruler No More": [
+            "Dark Ruler No More",
+            "anti_combo",
+            "going_second",
+            "profile_high_value"
+          ],
+          "Nibiru, the Primal Being": [
+            "Nibiru",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Infinite Impermanence": [
+            "Infinite Impermanence",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Effect Veiler": [
+            "Effect Veiler",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Droll & Lock Bird": [
+            "Droll & Lock Bird",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Ash Blossom & Joyous Spring": [
+            "Ash Blossom",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Droll Bird": [
+            "Droll & Lock Bird",
+            "anti_combo"
+          ],
+          "Book of Eclipse": [
+            "Book of Eclipse",
+            "anti_combo",
+            "going_second"
+          ],
+          "Zuttomozaurus": [
+            "going_second"
+          ],
+          "Zuijin of the Ice Barrier": [
+            "going_second"
+          ],
+          "Zubababa Knight": [
+            "going_second"
+          ],
+          "Zubaba Knight": [
+            "going_second"
+          ],
+          "Zubaba Buster": [
+            "going_second"
+          ],
+          "Zoroa, the Magistus Verethragna": [
+            "going_second"
+          ]
+        },
+        "matchup": "combo",
+        "going_first_plan": [
+          "hand traps",
+          "turn-ending traps"
+        ],
+        "going_second_plan": [
+          "board breakers",
+          "hand traps"
+        ],
+        "side_in": [
+          {
+            "id": 15693423,
+            "name": "Evenly Matched",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "At the end of the Battle Phase, if your opponent controls more cards than you do: You can make your opponent banish cards from their field face-down so they control the same number of cards as you do. If you control no cards, you can activate this card from your hand.",
+            "race": "Normal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/evenly-matched-8591",
+            "card_sets": [
+              {
+                "set_name": "2018 Mega-Tin Mega Pack",
+                "set_code": "MP18-EN154",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "(ScR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN074",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN074",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Circuit Break",
+                "set_code": "CIBR-EN077",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "(ScR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duel Power",
+                "set_code": "DUPO-EN099",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "32.1"
+              },
+              {
+                "set_name": "Ghosts From the Past",
+                "set_code": "GFTP-EN126",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "26.96"
+              },
+              {
+                "set_name": "Magnificent Mavens",
+                "set_code": "MAMA-EN099",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Beware of Traptrix",
+                "set_code": "SDBT-EN038",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 15693423,
+                "image_url": "https://images.ygoprodeck.com/images/cards/15693423.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/15693423.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/15693423.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "1.62",
+                "tcgplayer_price": "2.32",
+                "ebay_price": "1.20",
+                "amazon_price": "30.49",
+                "coolstuffinc_price": "5.99"
+              }
+            ]
+          },
+          {
+            "id": 54693926,
+            "name": "Dark Ruler No More",
+            "type": "Spell Card",
+            "humanReadableCardType": "Normal Spell",
+            "frameType": "spell",
+            "desc": "Negate the effects of all face-up monsters your opponent currently controls, until the end of this turn, also, for the rest of this turn after this card resolves, your opponent takes no damage. Neither player can activate monster effects in response to this card's activation.",
+            "race": "Normal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/dark-ruler-no-more-10565",
+            "card_sets": [
+              {
+                "set_name": "2019 Gold Sarcophagus Tin",
+                "set_code": "TN19-EN014",
+                "set_rarity": "Prismatic Secret Rare",
+                "set_rarity_code": "(PScR)",
+                "set_price": "20.33"
+              },
+              {
+                "set_name": "2022 Tin of the Pharaoh's Gods",
+                "set_code": "MP22-EN262",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN060",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN060",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Albaz Strike",
+                "set_code": "SDAZ-EN030",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "4.07"
+              },
+              {
+                "set_name": "Structure Deck: Spirit Charmers",
+                "set_code": "SDCH-EN027",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "4.4"
+              },
+              {
+                "set_name": "THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition)",
+                "set_code": "CH02-EN035",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "The Lost Art Promotion (series)",
+                "set_code": "LART-EN063",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "The Lost Art Promotion 2023",
+                "set_code": "LART-EN063",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 54693926,
+                "image_url": "https://images.ygoprodeck.com/images/cards/54693926.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/54693926.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/54693926.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "0.32",
+                "tcgplayer_price": "0.54",
+                "ebay_price": "2.34",
+                "amazon_price": "3.46",
+                "coolstuffinc_price": "1.99"
+              }
+            ]
+          },
+          {
+            "id": 27204311,
+            "name": "Nibiru, the Primal Being",
+            "typeline": [
+              "Rock",
+              "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "During the Main Phase, if your opponent Normal or Special Summoned 5 or more monsters this turn (Quick Effect): You can Tribute as many face-up monsters on the field as possible, and if you do, Special Summon this card from your hand, then Special Summon 1 \"Primal Being Token\" (Rock/LIGHT/Level 11/ATK ?/DEF ?) to your opponent's field. (This Token's ATK/DEF become the combined original ATK/DEF of the Tributed monsters.) You can only use this effect of \"Nibiru, the Primal Being\" once per turn.",
+            "race": "Rock",
+            "atk": 3000,
+            "def": 600,
+            "level": 11,
+            "attribute": "LIGHT",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/nibiru-the-primal-being-10564",
+            "card_sets": [
+              {
+                "set_name": "2019 Gold Sarcophagus Tin",
+                "set_code": "TN19-EN013",
+                "set_rarity": "Prismatic Secret Rare",
+                "set_rarity_code": "(PScR)",
+                "set_price": "14.41"
+              },
+              {
+                "set_name": "2022 Tin of the Pharaoh's Gods",
+                "set_code": "MP22-EN261",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN015",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN015",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Brothers of Legend",
+                "set_code": "BROL-EN080",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "(ScR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary Modern Decks 2026",
+                "set_code": "L26D-ENS02",
+                "set_rarity": "2",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Maximum Gold",
+                "set_code": "MAGO-EN019",
+                "set_rarity": "Premium Gold Rare",
+                "set_rarity_code": "(PG)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "OTS Tournament Pack 14",
+                "set_code": "OP14-EN003",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "OTS Tournament Pack 14 (POR)",
+                "set_code": "OP14-PT003",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0.00"
+              },
+              {
+                "set_name": "Quarter Century Stampede",
+                "set_code": "RA04-EN030",
+                "set_rarity": "Quarter Century Secret Rare",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Rarity Collection 5",
+                "set_code": "RA05-EN094",
+                "set_rarity": "Starlight Rare",
+                "set_rarity_code": "(StR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Rarity Collection 5",
+                "set_code": "RA05-EN094",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Blue-Eyes White Destiny",
+                "set_code": "SDWD-EN016",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition)",
+                "set_code": "CH01-EN017",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 27204311,
+                "image_url": "https://images.ygoprodeck.com/images/cards/27204311.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/27204311.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/27204311.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "0.21",
+                "tcgplayer_price": "0.28",
+                "ebay_price": "2.75",
+                "amazon_price": "14.25",
+                "coolstuffinc_price": "2.99"
+              }
+            ]
+          },
+          {
+            "id": 10045474,
+            "name": "Infinite Impermanence",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+            "race": "Normal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/infinite-impermanence-9220",
+            "card_sets": [
+              {
+                "set_name": "2025 Mega-Pack Tin",
+                "set_code": "MP25-EN032",
+                "set_rarity": "Starlight Rare",
+                "set_rarity_code": "(StR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN075",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN075",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duel Overload",
+                "set_code": "DUOV-EN099",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "17.5"
+              },
+              {
+                "set_name": "Duel Power",
+                "set_code": "DUPO-EN100",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "15.85"
+              },
+              {
+                "set_name": "Flames of Destruction",
+                "set_code": "FLOD-EN077",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "(ScR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary 5D&apos;s Decks",
+                "set_code": "L5DD-ENA24",
+                "set_rarity": "2",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary 5D&apos;s Decks",
+                "set_code": "L5DD-ENY31",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary Modern Decks 2026",
+                "set_code": "L26D-ENM19",
+                "set_rarity": "3",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Magnificent Mavens",
+                "set_code": "MAMA-EN100",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Maximum Gold",
+                "set_code": "MAGO-EN052",
+                "set_rarity": "Premium Gold Rare",
+                "set_rarity_code": "(PG)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "OTS Tournament Pack 17",
+                "set_code": "OP17-EN002",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "OTS Tournament Pack 17 (POR)",
+                "set_code": "OP17-PT002",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Rarity Collection 5",
+                "set_code": "RA05-EN140",
+                "set_rarity": "Starlight Rare",
+                "set_rarity_code": "(StR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Rarity Collection 5",
+                "set_code": "RA05-EN140",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Blue-Eyes White Destiny",
+                "set_code": "SDWD-EN031",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Cyber Strike",
+                "set_code": "SDCS-EN036",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "11.81"
+              },
+              {
+                "set_name": "Structure Deck: Fire Kings",
+                "set_code": "SR14-EN039",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 10045474,
+                "image_url": "https://images.ygoprodeck.com/images/cards/10045474.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/10045474.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/10045474.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "0.32",
+                "tcgplayer_price": "0.64",
+                "ebay_price": "3.29",
+                "amazon_price": "14.46",
+                "coolstuffinc_price": "7.99"
+              }
+            ]
+          },
+          {
+            "id": 97268402,
+            "name": "Effect Veiler",
+            "typeline": [
+              "Spellcaster",
+              "Tuner",
+              "Effect"
+            ],
+            "type": "Tuner Monster",
+            "humanReadableCardType": "Tuner Effect Monster",
+            "frameType": "effect",
+            "desc": "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; negate the effects of that face-up monster your opponent controls, until the end of this turn.",
+            "race": "Spellcaster",
+            "atk": 0,
+            "def": 0,
+            "level": 1,
+            "attribute": "LIGHT",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/effect-veiler-8093",
+            "card_sets": [
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN003",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN003",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duel Devastator",
+                "set_code": "DUDE-EN028",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "5.91"
+              },
+              {
+                "set_name": "Duelist Pack: Yusei 3",
+                "set_code": "DP10-EN007",
+                "set_rarity": "Rare",
+                "set_rarity_code": "(R)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duelist Revolution",
+                "set_code": "DREV-EN002",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duelist Revolution",
+                "set_code": "DREV-EN002",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duelist Saga",
+                "set_code": "DUSA-EN083",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "10.28"
+              },
+              {
+                "set_name": "Eternity Code",
+                "set_code": "ETCO-EN100",
+                "set_rarity": "Starlight Rare",
+                "set_rarity_code": "(StR)",
+                "set_price": "821.87"
+              },
+              {
+                "set_name": "Legendary 5D&apos;s Decks",
+                "set_code": "L5DD-ENY16",
+                "set_rarity": "2",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary Collection 5D's Mega Pack",
+                "set_code": "LC5D-EN018",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "3.36"
+              },
+              {
+                "set_name": "Legendary Hero Decks",
+                "set_code": "LEHD-ENC12",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "3.19"
+              },
+              {
+                "set_name": "Noble Knights of the Round Table Power-Up Pack",
+                "set_code": "NKRT-EN039",
+                "set_rarity": "Platinum Rare",
+                "set_rarity_code": "(PIR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Order of Chaos: Special Edition",
+                "set_code": "ORCS-ENSE1",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "7.5"
+              },
+              {
+                "set_name": "Premium Gold",
+                "set_code": "PGLD-EN036",
+                "set_rarity": "Gold Rare",
+                "set_rarity_code": "(GUR)",
+                "set_price": "11.44"
+              },
+              {
+                "set_name": "Quarter Century Stampede",
+                "set_code": "RA04-EN004",
+                "set_rarity": "Quarter Century Secret Rare",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Starter Deck: Link Strike",
+                "set_code": "YS17-EN020",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Albaz Strike",
+                "set_code": "SDAZ-EN018",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "2.34"
+              },
+              {
+                "set_name": "Structure Deck: Blue-Eyes White Destiny",
+                "set_code": "SDWD-EN018",
+                "set_rarity": "2",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Powercode Link",
+                "set_code": "SDPL-EN017",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Spirit Charmers",
+                "set_code": "SDCH-EN017",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "2.71"
+              },
+              {
+                "set_name": "Synchron Extreme Structure Deck",
+                "set_code": "SDSE-EN018",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "2.94"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 97268402,
+                "image_url": "https://images.ygoprodeck.com/images/cards/97268402.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/97268402.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/97268402.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "0.18",
+                "tcgplayer_price": "0.38",
+                "ebay_price": "6.97",
+                "amazon_price": "2.52",
+                "coolstuffinc_price": "0.99"
+              }
+            ]
+          }
+        ],
+        "side_out": [
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Maiden with Eyes of Blue",
+          "The Ultimate Creature of Destruction"
+        ],
+        "priority_order": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Droll & Lock Bird",
+          "Ash Blossom & Joyous Spring",
+          "Droll Bird",
+          "Book of Eclipse",
+          "Zuttomozaurus",
+          "Zuijin of the Ice Barrier",
+          "Zubababa Knight",
+          "Zubaba Knight",
+          "Zubaba Buster",
+          "Zoroa, the Magistus Verethragna"
+        ],
+        "matchup_reason": [
+          "explosive endboards",
+          "monster effect chains"
+        ],
+        "going_reason": [
+          "board breakers",
+          "hand traps"
+        ],
+        "cards_to_side_out": [
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Maiden with Eyes of Blue",
+          "The Ultimate Creature of Destruction"
+        ],
+        "scoring": {
+          "side_deck_score": 103.0,
+          "matchup_coverage_score": 35.0,
+          "going_first_side_score": 8.0,
+          "going_second_side_score": 20.0,
+          "anti_graveyard_coverage": 10.0,
+          "anti_backrow_coverage": 8.0,
+          "anti_combo_coverage": 15.0,
+          "anti_control_coverage": 3.0,
+          "overlap_penalty": 6.0,
+          "legality_score": 10.0
+        },
+        "side_deck_score": 103.0,
+        "matchup_coverage_score": 35.0,
+        "going_first_side_score": 8.0,
+        "going_second_side_score": 20.0
+      },
+      "side_deck_score": 103.0,
+      "matchup_coverage_score": 35.0,
+      "going_first_side_score": 8.0,
+      "going_second_side_score": 20.0,
+      "recommended_side_cards": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Droll Bird",
+        "Book of Eclipse",
+        "Zuttomozaurus",
+        "Zuijin of the Ice Barrier",
+        "Zubababa Knight",
+        "Zubaba Knight",
+        "Zubaba Buster",
+        "Zoroa, the Magistus Verethragna"
+      ],
+      "post_side_report": {
+        "game1_score": 278.77,
+        "post_side_score": 279.61,
+        "post_side_delta": 0.84,
+        "post_side_valid": true,
+        "side_cards_used": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler"
+        ],
+        "cards_sided_out": [
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Maiden with Eyes of Blue",
+          "The Ultimate Creature of Destruction"
+        ],
+        "post_side_warnings": [],
+        "side_deck_score": 103.0,
+        "matchup_coverage_score": 35.0,
+        "game1_metrics": {
+          "final_score": 278.77,
+          "playable_hand_rate": 1.0,
+          "brick_rate": 0.0,
+          "resilience_score": 8.7,
+          "ash_vulnerability_rate": 1.0,
+          "imperm_vulnerability_rate": 0.0,
+          "veiler_vulnerability_rate": 0.0,
+          "droll_vulnerability_rate": 1.0,
+          "crow_vulnerability_rate": 0.0,
+          "nibiru_vulnerability_rate": 0.0,
+          "package_quality_score": 92.65
+        },
+        "post_side_metrics": {
+          "final_score": 279.61,
+          "playable_hand_rate": 1.0,
+          "brick_rate": 0.0,
+          "resilience_score": 8.7,
+          "ash_vulnerability_rate": 1.0,
+          "imperm_vulnerability_rate": 0.0,
+          "veiler_vulnerability_rate": 0.0,
+          "droll_vulnerability_rate": 1.0,
+          "crow_vulnerability_rate": 0.0,
+          "nibiru_vulnerability_rate": 0.0,
+          "package_quality_score": 91.25
+        },
+        "post_side_main": [
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Bingo Machine, Go!!!",
+          "Bingo Machine, Go!!!",
+          "Dictator of D.",
+          "Sage with Eyes of Blue",
+          "Dictator of D.",
+          "Dictator of D.",
+          "Sage with Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "The White Stone of Legend",
+          "Destined Rivals",
+          "Bystial Druiswurm",
+          "Branded Regained",
+          "Branded Regained",
+          "The Bystial Lubellion",
+          "D.D. Crow",
+          "Ghost Ogre & Snow Rabbit",
+          "Ash Blossom & Joyous Spring",
+          "Droll & Lock Bird",
+          "D.D. Crow",
+          "Lightning Storm",
+          "Evenly Matched",
+          "Solemn Judgment",
+          "Infinite Impermanence",
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler"
+        ],
+        "recommended_side_deck": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Droll & Lock Bird",
+          "Ash Blossom & Joyous Spring",
+          "Droll Bird",
+          "Book of Eclipse",
+          "Zuttomozaurus",
+          "Zuijin of the Ice Barrier",
+          "Zubababa Knight",
+          "Zubaba Knight",
+          "Zubaba Buster",
+          "Zoroa, the Magistus Verethragna"
+        ],
+        "blocked_card_violations_after_siding": [],
+        "post_side_deck_size_valid": true
+      },
+      "game1_score": 278.77,
+      "post_side_score": 279.61,
+      "post_side_delta": 0.84,
+      "post_side_valid": true,
+      "side_cards_used": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler"
+      ],
+      "cards_sided_out": [
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Dragon Spirit of White",
+        "Maiden with Eyes of Blue",
+        "The Ultimate Creature of Destruction"
+      ]
+    },
+    {
+      "run": 2,
+      "ok": true,
+      "archetype": "Blue-Eyes",
+      "mode": "meta",
+      "matchup": "combo",
+      "going": "second",
+      "matchup_aware_weighting_used": true,
+      "matchup_recommended_engine_variant": "bystial",
+      "final_score": 303.99,
+      "score_breakdown": {
+        "consistency_score": 40.4,
+        "starter_score": 25.0,
+        "extender_score": 25.0,
+        "interruption_score": 30.0,
+        "brick_penalty": 2.4,
+        "endboard_score": 25.0,
+        "learned_card_bonus": 4.98,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "combo_line_score": 30.93,
+        "interruption_resilience_score": 6.12,
+        "follow_up_score": 5.29,
+        "normal_summon_conflict_rate": 0.025,
+        "once_per_turn_conflict_rate": 0.0,
+        "dead_duplicate_rate": 0.05,
+        "payoff_without_enabler_rate": 0.0,
+        "enabler_without_payoff_rate": 0.225,
+        "best_line_average_score": 15.7,
+        "graph_valid_line_rate": 1.0,
+        "graph_average_line_score": 15.7,
+        "graph_average_payoff_score": 5.8,
+        "graph_average_resource_score": 10.8,
+        "graph_average_risk_score": 0.0,
+        "graph_failed_line_rate": 0.0,
+        "optional_line_failure_rate": 1.0,
+        "best_line_failure_rate": 0.0,
+        "no_valid_line_rate": 0.0,
+        "branch_valid_rate": 1.0,
+        "no_valid_branch_rate": 0.0,
+        "average_branch_score": 11.0,
+        "interruption_window_count": 0.0,
+        "average_interruption_risk": 0.0,
+        "ash_vulnerability_rate": 0.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 0.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "recovery_route_rate": 1.0,
+        "interrupted_line_success_rate": 1.0,
+        "resilience_score": 11.25,
+        "most_common_graph_failure_reason": "missing_search_target: Blue-Eyes White Dragon",
+        "resource_valid_line_rate": 1.0,
+        "material_failure_rate": 0.0,
+        "search_failure_rate": 1.0,
+        "extra_deck_failure_rate": 0.0,
+        "cost_failure_rate": 0.0,
+        "normalized_search_failure_rate": 0.0,
+        "normalized_cost_failure_rate": 0.0,
+        "normalized_material_failure_rate": 0.0,
+        "normalized_extra_deck_failure_rate": 0.0,
+        "cost_condition_valid_rate": 1.0,
+        "cost_failure_rate_normalized": 0.0,
+        "condition_failure_rate_normalized": 0.0,
+        "reveal_cost_failure_rate": 0.0,
+        "discard_cost_failure_rate": 0.0,
+        "gy_condition_failure_rate": 0.0,
+        "control_condition_failure_rate": 0.0,
+        "history_condition_failure_rate": 0.0,
+        "summon_history_failure_rate": 0.0,
+        "gy_history_failure_rate": 0.0,
+        "activation_history_failure_rate": 0.0,
+        "resolution_history_failure_rate": 0.0,
+        "typed_material_valid_rate": 1.0,
+        "synchro_material_failure_rate": 0.0,
+        "fusion_material_failure_rate": 0.0,
+        "ritual_material_failure_rate": 0.0,
+        "link_material_failure_rate": 0.0,
+        "named_material_failure_rate": 0.0,
+        "synchro_exact_level_valid_rate": 1.0,
+        "synchro_level_failure_rate": 0.0,
+        "ritual_level_valid_rate": 1.0,
+        "ritual_level_failure_rate": 0.0,
+        "xyz_material_valid_rate": 1.0,
+        "link_material_valid_rate": 1.0,
+        "final_score": 303.99,
+        "package_quality_score": 92.72,
+        "quota_violation_penalty": 0.0
+      },
+      "detected_engines": {
+        "Blue-Eyes core": [
+          "Bingo Machine, Go!!!",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Twin Burst Dragon",
+          "Blue-Eyes Tyrant Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Dictator of D.",
+          "Maiden with Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "The White Stone of Ancients",
+          "The White Stone of Legend",
+          "True Light",
+          "Wishes for Eyes of Blue"
+        ],
+        "Blue-Eyes ritual": [
+          "The Ultimate Creature of Destruction"
+        ],
+        "Branded": [
+          "Branded Regained"
+        ],
+        "Bystial": [
+          "Branded Regained",
+          "The Bystial Lubellion"
+        ],
+        "Chaos": [
+          "Branded Regained"
+        ],
+        "board breaker package": [
+          "Evenly Matched",
+          "Harpie's Feather Duster"
+        ],
+        "handtrap package": [
+          "Ash Blossom & Joyous Spring",
+          "Droll & Lock Bird",
+          "Effect Veiler",
+          "Ghost Belle & Haunted Mansion",
+          "Infinite Impermanence"
+        ]
+      },
+      "archetype_pool_size": 43,
+      "main_deck": [
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Dragon Spirit of White",
+        "Dictator of D.",
+        "The White Stone of Legend",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Dictator of D.",
+        "Wishes for Eyes of Blue",
+        "Bingo Machine, Go!!!",
+        "The White Stone of Ancients",
+        "Maiden with Eyes of Blue",
+        "Wishes for Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "True Light",
+        "The Ultimate Creature of Destruction",
+        "The Bystial Lubellion",
+        "The Bystial Lubellion",
+        "Branded Regained",
+        "Branded Regained",
+        "Ash Blossom & Joyous Spring",
+        "Ghost Belle & Haunted Mansion",
+        "Droll & Lock Bird",
+        "Effect Veiler",
+        "Infinite Impermanence",
+        "Harpie's Feather Duster",
+        "Evenly Matched",
+        "Solemn Judgment"
+      ],
+      "extra_deck": [
+        "Dragon Master Knight",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Alternative Ultimate Dragon",
+        "Blue-Eyes Twin Burst Dragon",
+        "Blue-Eyes Tyrant Dragon",
+        "Blue-Eyes Ultimate Dragon",
+        "Blue-Eyes Ultimate Dragon"
+      ],
+      "critique_issues": [],
+      "combo_report": {
+        "search_cards": 14,
+        "draw_cards": 3,
+        "special_summon_cards": 26,
+        "disruption_cards": 27,
+        "graveyard_cards": 28
+      },
+      "real_combo_report": {
+        "samples": 100,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "average_brick_count": 0,
+        "average_starter_count": 2.09,
+        "average_extender_count": 3.97,
+        "average_interruption_count": 3.66,
+        "most_common_combo_lines": [
+          [
+            "Dictator of D. + Blue-Eyes access -> setup line",
+            8
+          ],
+          [
+            "Abyss Dragon follow-up line",
+            7
+          ],
+          [
+            "Spirit Dragon synchro line",
+            7
+          ],
+          [
+            "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+            4
+          ],
+          [
+            "Bingo Machine access -> Blue-Eyes consistency line",
+            3
+          ],
+          [
+            "Wishes for Eyes of Blue access line",
+            2
+          ]
+        ],
+        "best_line_frequency": [
+          [
+            "True Light + Jet loop",
+            100
+          ]
+        ],
+        "average_endboard_score": 3.37,
+        "combo_line_score": 30.6,
+        "normal_summon_conflict_rate": 0.04,
+        "once_per_turn_conflict_rate": 0.0,
+        "dead_duplicate_rate": 0.03,
+        "payoff_without_enabler_rate": 0.0,
+        "enabler_without_payoff_rate": 0.24,
+        "best_line_average_score": 15.7,
+        "graph_valid_line_rate": 1.0,
+        "graph_average_line_score": 15.7,
+        "graph_average_payoff_score": 5.8,
+        "graph_average_resource_score": 10.8,
+        "graph_average_risk_score": 0.0,
+        "graph_failed_line_rate": 0.0,
+        "optional_line_failure_rate": 1.0,
+        "best_line_failure_rate": 0.0,
+        "no_valid_line_rate": 0.0,
+        "branch_valid_rate": 1.0,
+        "no_valid_branch_rate": 0.0,
+        "average_branch_score": 11.0,
+        "interruption_window_count": 0,
+        "average_interruption_risk": 0.0,
+        "ash_vulnerability_rate": 0.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 0.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "recovery_route_rate": 1.0,
+        "interrupted_line_success_rate": 1.0,
+        "resilience_score": 11.25,
+        "most_common_graph_failure_reason": "missing_search_target: Blue-Eyes White Dragon",
+        "resource_valid_line_rate": 1.0,
+        "missing_material_rate": 0.0,
+        "missing_search_target_rate": 1.0,
+        "missing_extra_deck_rate": 0.0,
+        "cost_failure_rate": 0.0,
+        "normalized_search_failure_rate": 0.0,
+        "normalized_cost_failure_rate": 0.0,
+        "normalized_material_failure_rate": 0.0,
+        "normalized_extra_deck_failure_rate": 0.0,
+        "cost_condition_valid_rate": 1.0,
+        "cost_failure_rate_normalized": 0.0,
+        "condition_failure_rate_normalized": 0.0,
+        "reveal_cost_failure_rate": 0.0,
+        "discard_cost_failure_rate": 0.0,
+        "gy_condition_failure_rate": 0.0,
+        "control_condition_failure_rate": 0.0,
+        "history_condition_failure_rate": 0.0,
+        "summon_history_failure_rate": 0.0,
+        "gy_history_failure_rate": 0.0,
+        "activation_history_failure_rate": 0.0,
+        "resolution_history_failure_rate": 0.0,
+        "normal_summon_failure_rate": 0.0,
+        "once_per_turn_failure_rate": 0.0,
+        "typed_material_valid_rate": 1.0,
+        "synchro_material_failure_rate": 0.0,
+        "fusion_material_failure_rate": 0.0,
+        "ritual_material_failure_rate": 0.0,
+        "link_material_failure_rate": 0.0,
+        "named_material_failure_rate": 0.0,
+        "synchro_exact_level_valid_rate": 1.0,
+        "synchro_level_failure_rate": 0.0,
+        "ritual_level_valid_rate": 1.0,
+        "ritual_level_failure_rate": 0.0,
+        "xyz_material_valid_rate": 1.0,
+        "link_material_valid_rate": 1.0,
+        "interruption_resilience_score": 5.95,
+        "follow_up_score": 5.48,
+        "recovery_route_frequency": 0.22,
+        "choke_point_frequency": [
+          [
+            "Ash Blossom & Joyous Spring",
+            22
+          ],
+          [
+            "D.D. Crow",
+            14
+          ],
+          [
+            "Called by the Grave",
+            8
+          ],
+          [
+            "Effect Veiler",
+            7
+          ],
+          [
+            "Infinite Impermanence",
+            7
+          ],
+          [
+            "Nibiru, the Primal Being",
+            7
+          ],
+          [
+            "Droll & Lock Bird",
+            5
+          ]
+        ]
+      },
+      "playable_hand_rate": 1.0,
+      "brick_rate": 0.0,
+      "most_common_combo_lines": [
+        [
+          "Dictator of D. + Blue-Eyes access -> setup line",
+          8
+        ],
+        [
+          "Abyss Dragon follow-up line",
+          7
+        ],
+        [
+          "Spirit Dragon synchro line",
+          7
+        ],
+        [
+          "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+          4
+        ],
+        [
+          "Bingo Machine access -> Blue-Eyes consistency line",
+          3
+        ],
+        [
+          "Wishes for Eyes of Blue access line",
+          2
+        ]
+      ],
+      "best_line_frequency": [
+        [
+          "True Light + Jet loop",
+          100
+        ]
+      ],
+      "average_endboard_score": 3.37,
+      "interruption_resilience_score": 5.95,
+      "follow_up_score": 5.48,
+      "package_report": {
+        "package_counts": {
+          "board_breakers": 2,
+          "extenders": 6,
+          "extra_deck": 7,
+          "handtraps": 5,
+          "searchers": 8,
+          "starters": 9,
+          "traps": 3
+        },
+        "chosen_engine_variant": "pure",
+        "starter_count": 17,
+        "brick_count": 0,
+        "non_engine_count": 10,
+        "package_quota_violations": []
+      },
+      "package_quality": {
+        "package_balance_score": 15.0,
+        "starter_quota_score": 20.0,
+        "brick_quota_score": 18.0,
+        "non_engine_score": 15.67,
+        "engine_coherence_score": 14.0,
+        "extra_deck_score": 10.05,
+        "quota_violation_penalty": 0.0,
+        "final_package_quality_score": 92.72
+      },
+      "package_quality_score": 92.72,
+      "quota_violation_penalty": 0.0,
+      "package_counts": {
+        "board_breakers": 2,
+        "extenders": 6,
+        "extra_deck": 7,
+        "handtraps": 5,
+        "searchers": 8,
+        "starters": 9,
+        "traps": 3
+      },
+      "chosen_engine_variant": "pure",
+      "package_starter_count": 17,
+      "package_brick_count": 0,
+      "non_engine_count": 10,
+      "package_quota_violations": [],
+      "side_deck_report": {
+        "side_deck": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Droll & Lock Bird",
+          "Ash Blossom & Joyous Spring",
+          "Droll Bird",
+          "Book of Eclipse",
+          "Zuttomozaurus",
+          "Zuijin of the Ice Barrier",
+          "Zubababa Knight",
+          "Zubaba Knight",
+          "Zubaba Buster",
+          "Zoroa, the Magistus Verethragna"
+        ],
+        "reasons": {
+          "Evenly Matched": [
+            "Evenly Matched",
+            "anti_combo",
+            "going_second",
+            "profile_high_value"
+          ],
+          "Dark Ruler No More": [
+            "Dark Ruler No More",
+            "anti_combo",
+            "going_second",
+            "profile_high_value"
+          ],
+          "Nibiru, the Primal Being": [
+            "Nibiru",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Infinite Impermanence": [
+            "Infinite Impermanence",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Effect Veiler": [
+            "Effect Veiler",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Droll & Lock Bird": [
+            "Droll & Lock Bird",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Ash Blossom & Joyous Spring": [
+            "Ash Blossom",
+            "anti_combo",
+            "profile_high_value"
+          ],
+          "Droll Bird": [
+            "Droll & Lock Bird",
+            "anti_combo"
+          ],
+          "Book of Eclipse": [
+            "Book of Eclipse",
+            "anti_combo",
+            "going_second"
+          ],
+          "Zuttomozaurus": [
+            "going_second"
+          ],
+          "Zuijin of the Ice Barrier": [
+            "going_second"
+          ],
+          "Zubababa Knight": [
+            "going_second"
+          ],
+          "Zubaba Knight": [
+            "going_second"
+          ],
+          "Zubaba Buster": [
+            "going_second"
+          ],
+          "Zoroa, the Magistus Verethragna": [
+            "going_second"
+          ]
+        },
+        "matchup": "combo",
+        "going_first_plan": [
+          "hand traps",
+          "turn-ending traps"
+        ],
+        "going_second_plan": [
+          "board breakers",
+          "hand traps"
+        ],
+        "side_in": [
+          {
+            "id": 15693423,
+            "name": "Evenly Matched",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "At the end of the Battle Phase, if your opponent controls more cards than you do: You can make your opponent banish cards from their field face-down so they control the same number of cards as you do. If you control no cards, you can activate this card from your hand.",
+            "race": "Normal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/evenly-matched-8591",
+            "card_sets": [
+              {
+                "set_name": "2018 Mega-Tin Mega Pack",
+                "set_code": "MP18-EN154",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "(ScR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN074",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN074",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Circuit Break",
+                "set_code": "CIBR-EN077",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "(ScR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duel Power",
+                "set_code": "DUPO-EN099",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "32.1"
+              },
+              {
+                "set_name": "Ghosts From the Past",
+                "set_code": "GFTP-EN126",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "26.96"
+              },
+              {
+                "set_name": "Magnificent Mavens",
+                "set_code": "MAMA-EN099",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Beware of Traptrix",
+                "set_code": "SDBT-EN038",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 15693423,
+                "image_url": "https://images.ygoprodeck.com/images/cards/15693423.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/15693423.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/15693423.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "1.62",
+                "tcgplayer_price": "2.32",
+                "ebay_price": "1.20",
+                "amazon_price": "30.49",
+                "coolstuffinc_price": "5.99"
+              }
+            ]
+          },
+          {
+            "id": 54693926,
+            "name": "Dark Ruler No More",
+            "type": "Spell Card",
+            "humanReadableCardType": "Normal Spell",
+            "frameType": "spell",
+            "desc": "Negate the effects of all face-up monsters your opponent currently controls, until the end of this turn, also, for the rest of this turn after this card resolves, your opponent takes no damage. Neither player can activate monster effects in response to this card's activation.",
+            "race": "Normal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/dark-ruler-no-more-10565",
+            "card_sets": [
+              {
+                "set_name": "2019 Gold Sarcophagus Tin",
+                "set_code": "TN19-EN014",
+                "set_rarity": "Prismatic Secret Rare",
+                "set_rarity_code": "(PScR)",
+                "set_price": "20.33"
+              },
+              {
+                "set_name": "2022 Tin of the Pharaoh's Gods",
+                "set_code": "MP22-EN262",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN060",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN060",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Albaz Strike",
+                "set_code": "SDAZ-EN030",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "4.07"
+              },
+              {
+                "set_name": "Structure Deck: Spirit Charmers",
+                "set_code": "SDCH-EN027",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "4.4"
+              },
+              {
+                "set_name": "THE CHRONICLES DECK: Spirit Charmers (All-Foil Edition)",
+                "set_code": "CH02-EN035",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "The Lost Art Promotion (series)",
+                "set_code": "LART-EN063",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "The Lost Art Promotion 2023",
+                "set_code": "LART-EN063",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 54693926,
+                "image_url": "https://images.ygoprodeck.com/images/cards/54693926.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/54693926.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/54693926.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "0.32",
+                "tcgplayer_price": "0.54",
+                "ebay_price": "2.34",
+                "amazon_price": "3.46",
+                "coolstuffinc_price": "1.99"
+              }
+            ]
+          },
+          {
+            "id": 27204311,
+            "name": "Nibiru, the Primal Being",
+            "typeline": [
+              "Rock",
+              "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "During the Main Phase, if your opponent Normal or Special Summoned 5 or more monsters this turn (Quick Effect): You can Tribute as many face-up monsters on the field as possible, and if you do, Special Summon this card from your hand, then Special Summon 1 \"Primal Being Token\" (Rock/LIGHT/Level 11/ATK ?/DEF ?) to your opponent's field. (This Token's ATK/DEF become the combined original ATK/DEF of the Tributed monsters.) You can only use this effect of \"Nibiru, the Primal Being\" once per turn.",
+            "race": "Rock",
+            "atk": 3000,
+            "def": 600,
+            "level": 11,
+            "attribute": "LIGHT",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/nibiru-the-primal-being-10564",
+            "card_sets": [
+              {
+                "set_name": "2019 Gold Sarcophagus Tin",
+                "set_code": "TN19-EN013",
+                "set_rarity": "Prismatic Secret Rare",
+                "set_rarity_code": "(PScR)",
+                "set_price": "14.41"
+              },
+              {
+                "set_name": "2022 Tin of the Pharaoh's Gods",
+                "set_code": "MP22-EN261",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN015",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN015",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Brothers of Legend",
+                "set_code": "BROL-EN080",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "(ScR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary Modern Decks 2026",
+                "set_code": "L26D-ENS02",
+                "set_rarity": "2",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Maximum Gold",
+                "set_code": "MAGO-EN019",
+                "set_rarity": "Premium Gold Rare",
+                "set_rarity_code": "(PG)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "OTS Tournament Pack 14",
+                "set_code": "OP14-EN003",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "OTS Tournament Pack 14 (POR)",
+                "set_code": "OP14-PT003",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0.00"
+              },
+              {
+                "set_name": "Quarter Century Stampede",
+                "set_code": "RA04-EN030",
+                "set_rarity": "Quarter Century Secret Rare",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Rarity Collection 5",
+                "set_code": "RA05-EN094",
+                "set_rarity": "Starlight Rare",
+                "set_rarity_code": "(StR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Rarity Collection 5",
+                "set_code": "RA05-EN094",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Blue-Eyes White Destiny",
+                "set_code": "SDWD-EN016",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "THE CHRONICLES DECK: The Fallen & The Virtuous (All-Foil Edition)",
+                "set_code": "CH01-EN017",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 27204311,
+                "image_url": "https://images.ygoprodeck.com/images/cards/27204311.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/27204311.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/27204311.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "0.21",
+                "tcgplayer_price": "0.28",
+                "ebay_price": "2.75",
+                "amazon_price": "14.25",
+                "coolstuffinc_price": "2.99"
+              }
+            ]
+          },
+          {
+            "id": 10045474,
+            "name": "Infinite Impermanence",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+            "race": "Normal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/infinite-impermanence-9220",
+            "card_sets": [
+              {
+                "set_name": "2025 Mega-Pack Tin",
+                "set_code": "MP25-EN032",
+                "set_rarity": "Starlight Rare",
+                "set_rarity_code": "(StR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN075",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN075",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duel Overload",
+                "set_code": "DUOV-EN099",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "17.5"
+              },
+              {
+                "set_name": "Duel Power",
+                "set_code": "DUPO-EN100",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "15.85"
+              },
+              {
+                "set_name": "Flames of Destruction",
+                "set_code": "FLOD-EN077",
+                "set_rarity": "Secret Rare",
+                "set_rarity_code": "(ScR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary 5D&apos;s Decks",
+                "set_code": "L5DD-ENA24",
+                "set_rarity": "2",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary 5D&apos;s Decks",
+                "set_code": "L5DD-ENY31",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary Modern Decks 2026",
+                "set_code": "L26D-ENM19",
+                "set_rarity": "3",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Magnificent Mavens",
+                "set_code": "MAMA-EN100",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Maximum Gold",
+                "set_code": "MAGO-EN052",
+                "set_rarity": "Premium Gold Rare",
+                "set_rarity_code": "(PG)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "OTS Tournament Pack 17",
+                "set_code": "OP17-EN002",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "OTS Tournament Pack 17 (POR)",
+                "set_code": "OP17-PT002",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Rarity Collection 5",
+                "set_code": "RA05-EN140",
+                "set_rarity": "Starlight Rare",
+                "set_rarity_code": "(StR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Rarity Collection 5",
+                "set_code": "RA05-EN140",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Blue-Eyes White Destiny",
+                "set_code": "SDWD-EN031",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Cyber Strike",
+                "set_code": "SDCS-EN036",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "11.81"
+              },
+              {
+                "set_name": "Structure Deck: Fire Kings",
+                "set_code": "SR14-EN039",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 10045474,
+                "image_url": "https://images.ygoprodeck.com/images/cards/10045474.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/10045474.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/10045474.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "0.32",
+                "tcgplayer_price": "0.64",
+                "ebay_price": "3.29",
+                "amazon_price": "14.46",
+                "coolstuffinc_price": "7.99"
+              }
+            ]
+          },
+          {
+            "id": 97268402,
+            "name": "Effect Veiler",
+            "typeline": [
+              "Spellcaster",
+              "Tuner",
+              "Effect"
+            ],
+            "type": "Tuner Monster",
+            "humanReadableCardType": "Tuner Effect Monster",
+            "frameType": "effect",
+            "desc": "During your opponent's Main Phase (Quick Effect): You can send this card from your hand to the GY, then target 1 Effect Monster your opponent controls; negate the effects of that face-up monster your opponent controls, until the end of this turn.",
+            "race": "Spellcaster",
+            "atk": 0,
+            "def": 0,
+            "level": 1,
+            "attribute": "LIGHT",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/effect-veiler-8093",
+            "card_sets": [
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN003",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "25th Anniversary Rarity Collection",
+                "set_code": "RA01-EN003",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duel Devastator",
+                "set_code": "DUDE-EN028",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "5.91"
+              },
+              {
+                "set_name": "Duelist Pack: Yusei 3",
+                "set_code": "DP10-EN007",
+                "set_rarity": "Rare",
+                "set_rarity_code": "(R)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duelist Revolution",
+                "set_code": "DREV-EN002",
+                "set_rarity": "Ultimate Rare",
+                "set_rarity_code": "(UtR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duelist Revolution",
+                "set_code": "DREV-EN002",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Duelist Saga",
+                "set_code": "DUSA-EN083",
+                "set_rarity": "Ultra Rare",
+                "set_rarity_code": "(UR)",
+                "set_price": "10.28"
+              },
+              {
+                "set_name": "Eternity Code",
+                "set_code": "ETCO-EN100",
+                "set_rarity": "Starlight Rare",
+                "set_rarity_code": "(StR)",
+                "set_price": "821.87"
+              },
+              {
+                "set_name": "Legendary 5D&apos;s Decks",
+                "set_code": "L5DD-ENY16",
+                "set_rarity": "2",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Legendary Collection 5D's Mega Pack",
+                "set_code": "LC5D-EN018",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "3.36"
+              },
+              {
+                "set_name": "Legendary Hero Decks",
+                "set_code": "LEHD-ENC12",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "3.19"
+              },
+              {
+                "set_name": "Noble Knights of the Round Table Power-Up Pack",
+                "set_code": "NKRT-EN039",
+                "set_rarity": "Platinum Rare",
+                "set_rarity_code": "(PIR)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Order of Chaos: Special Edition",
+                "set_code": "ORCS-ENSE1",
+                "set_rarity": "Super Rare",
+                "set_rarity_code": "(SR)",
+                "set_price": "7.5"
+              },
+              {
+                "set_name": "Premium Gold",
+                "set_code": "PGLD-EN036",
+                "set_rarity": "Gold Rare",
+                "set_rarity_code": "(GUR)",
+                "set_price": "11.44"
+              },
+              {
+                "set_name": "Quarter Century Stampede",
+                "set_code": "RA04-EN004",
+                "set_rarity": "Quarter Century Secret Rare",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Starter Deck: Link Strike",
+                "set_code": "YS17-EN020",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Albaz Strike",
+                "set_code": "SDAZ-EN018",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "2.34"
+              },
+              {
+                "set_name": "Structure Deck: Blue-Eyes White Destiny",
+                "set_code": "SDWD-EN018",
+                "set_rarity": "2",
+                "set_rarity_code": "",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Powercode Link",
+                "set_code": "SDPL-EN017",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "0"
+              },
+              {
+                "set_name": "Structure Deck: Spirit Charmers",
+                "set_code": "SDCH-EN017",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "2.71"
+              },
+              {
+                "set_name": "Synchron Extreme Structure Deck",
+                "set_code": "SDSE-EN018",
+                "set_rarity": "Common",
+                "set_rarity_code": "(C)",
+                "set_price": "2.94"
+              }
+            ],
+            "card_images": [
+              {
+                "id": 97268402,
+                "image_url": "https://images.ygoprodeck.com/images/cards/97268402.jpg",
+                "image_url_small": "https://images.ygoprodeck.com/images/cards_small/97268402.jpg",
+                "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/97268402.jpg"
+              }
+            ],
+            "card_prices": [
+              {
+                "cardmarket_price": "0.18",
+                "tcgplayer_price": "0.38",
+                "ebay_price": "6.97",
+                "amazon_price": "2.52",
+                "coolstuffinc_price": "0.99"
+              }
+            ]
+          }
+        ],
+        "side_out": [
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Maiden with Eyes of Blue",
+          "The Ultimate Creature of Destruction"
+        ],
+        "priority_order": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Droll & Lock Bird",
+          "Ash Blossom & Joyous Spring",
+          "Droll Bird",
+          "Book of Eclipse",
+          "Zuttomozaurus",
+          "Zuijin of the Ice Barrier",
+          "Zubababa Knight",
+          "Zubaba Knight",
+          "Zubaba Buster",
+          "Zoroa, the Magistus Verethragna"
+        ],
+        "matchup_reason": [
+          "explosive endboards",
+          "monster effect chains"
+        ],
+        "going_reason": [
+          "board breakers",
+          "hand traps"
+        ],
+        "cards_to_side_out": [
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Maiden with Eyes of Blue",
+          "The Ultimate Creature of Destruction"
+        ],
+        "scoring": {
+          "side_deck_score": 101.5,
+          "matchup_coverage_score": 35.0,
+          "going_first_side_score": 8.0,
+          "going_second_side_score": 20.0,
+          "anti_graveyard_coverage": 10.0,
+          "anti_backrow_coverage": 8.0,
+          "anti_combo_coverage": 15.0,
+          "anti_control_coverage": 3.0,
+          "overlap_penalty": 7.5,
+          "legality_score": 10.0
+        },
+        "side_deck_score": 101.5,
+        "matchup_coverage_score": 35.0,
+        "going_first_side_score": 8.0,
+        "going_second_side_score": 20.0
+      },
+      "side_deck_score": 101.5,
+      "matchup_coverage_score": 35.0,
+      "going_first_side_score": 8.0,
+      "going_second_side_score": 20.0,
+      "recommended_side_cards": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Droll Bird",
+        "Book of Eclipse",
+        "Zuttomozaurus",
+        "Zuijin of the Ice Barrier",
+        "Zubababa Knight",
+        "Zubaba Knight",
+        "Zubaba Buster",
+        "Zoroa, the Magistus Verethragna"
+      ],
+      "post_side_report": {
+        "game1_score": 303.98,
+        "post_side_score": 276.87,
+        "post_side_delta": -27.11,
+        "post_side_valid": true,
+        "side_cards_used": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler"
+        ],
+        "cards_sided_out": [
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Maiden with Eyes of Blue",
+          "The Ultimate Creature of Destruction"
+        ],
+        "post_side_warnings": [],
+        "side_deck_score": 101.5,
+        "matchup_coverage_score": 35.0,
+        "game1_metrics": {
+          "final_score": 303.98,
+          "playable_hand_rate": 1.0,
+          "brick_rate": 0.0,
+          "resilience_score": 11.25,
+          "ash_vulnerability_rate": 0.0,
+          "imperm_vulnerability_rate": 0.0,
+          "veiler_vulnerability_rate": 0.0,
+          "droll_vulnerability_rate": 0.0,
+          "crow_vulnerability_rate": 0.0,
+          "nibiru_vulnerability_rate": 0.0,
+          "package_quality_score": 92.61
+        },
+        "post_side_metrics": {
+          "final_score": 276.87,
+          "playable_hand_rate": 1.0,
+          "brick_rate": 0.0,
+          "resilience_score": 8.7,
+          "ash_vulnerability_rate": 1.0,
+          "imperm_vulnerability_rate": 0.0,
+          "veiler_vulnerability_rate": 0.0,
+          "droll_vulnerability_rate": 1.0,
+          "crow_vulnerability_rate": 0.0,
+          "nibiru_vulnerability_rate": 0.0,
+          "package_quality_score": 91.65
+        },
+        "post_side_main": [
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Dictator of D.",
+          "The White Stone of Legend",
+          "Dictator of D.",
+          "Dictator of D.",
+          "Wishes for Eyes of Blue",
+          "Bingo Machine, Go!!!",
+          "The White Stone of Ancients",
+          "Maiden with Eyes of Blue",
+          "Wishes for Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "True Light",
+          "The Bystial Lubellion",
+          "The Bystial Lubellion",
+          "Branded Regained",
+          "Branded Regained",
+          "Ash Blossom & Joyous Spring",
+          "Ghost Belle & Haunted Mansion",
+          "Droll & Lock Bird",
+          "Effect Veiler",
+          "Infinite Impermanence",
+          "Harpie's Feather Duster",
+          "Evenly Matched",
+          "Solemn Judgment",
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler"
+        ],
+        "recommended_side_deck": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Droll & Lock Bird",
+          "Ash Blossom & Joyous Spring",
+          "Droll Bird",
+          "Book of Eclipse",
+          "Zuttomozaurus",
+          "Zuijin of the Ice Barrier",
+          "Zubababa Knight",
+          "Zubaba Knight",
+          "Zubaba Buster",
+          "Zoroa, the Magistus Verethragna"
+        ],
+        "blocked_card_violations_after_siding": [],
+        "post_side_deck_size_valid": true
+      },
+      "game1_score": 303.98,
+      "post_side_score": 276.87,
+      "post_side_delta": -27.11,
+      "post_side_valid": true,
+      "side_cards_used": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler"
+      ],
+      "cards_sided_out": [
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Dragon Spirit of White",
+        "Maiden with Eyes of Blue",
+        "The Ultimate Creature of Destruction"
+      ]
+    }
+  ],
+  "regression_gate": {
+    "accepted": false,
+    "reasons": [
+      "post-side delta is strongly negative",
+      "enabler without payoff rate rose too much: 0.235 > 0.1442",
+      "average interruption risk rose too much: 2.525 > 1.67",
+      "Ash vulnerability rate rose too much: 0.5 > 0.1831",
+      "Droll vulnerability rate rose too much: 0.5 > 0.1831"
+    ],
+    "metrics": {
+      "average_score": 291.59,
+      "previous_average_score": 195.43,
+      "playable_hand_rate": 1.0,
+      "previous_playable_hand_rate": 0.5927,
+      "brick_rate": 0.0,
+      "previous_brick_rate": 0.0002,
+      "package_violation_rate": 0.0,
+      "package_quality_score": 92.69,
+      "side_deck_score": 102.25,
+      "matchup_coverage_score": 35.0,
+      "post_side_score": 278.24,
+      "post_side_delta": -13.13,
+      "post_side_valid_rate": 1.0,
+      "normal_summon_conflict_rate": 0.02,
+      "once_per_turn_conflict_rate": 0.0,
+      "dead_duplicate_rate": 0.07,
+      "payoff_without_enabler_rate": 0.0,
+      "enabler_without_payoff_rate": 0.235,
+      "best_line_average_score": 13.49,
+      "graph_valid_line_rate": 1.0,
+      "graph_average_line_score": 13.49,
+      "graph_failed_line_rate": 0.0,
+      "optional_line_failure_rate": 1.0,
+      "best_line_failure_rate": 0.0,
+      "no_valid_line_rate": 0.0,
+      "graph_average_risk_score": 0.175,
+      "resource_valid_line_rate": 1.0,
+      "missing_material_rate": 0.0,
+      "missing_search_target_rate": 1.0,
+      "missing_extra_deck_rate": 0.0,
+      "cost_failure_rate": 0.0,
+      "normalized_material_failure_rate": 0.0,
+      "normalized_search_failure_rate": 0.0,
+      "normalized_extra_deck_failure_rate": 0.0,
+      "normalized_cost_failure_rate": 0.0,
+      "cost_condition_valid_rate": 1.0,
+      "cost_failure_rate_normalized": 0.0,
+      "condition_failure_rate_normalized": 0.0,
+      "reveal_cost_failure_rate": 0.0,
+      "discard_cost_failure_rate": 0.0,
+      "gy_condition_failure_rate": 0.0,
+      "control_condition_failure_rate": 0.0,
+      "branch_valid_rate": 1.0,
+      "no_valid_branch_rate": 0.0,
+      "average_branch_score": 9.0,
+      "history_condition_failure_rate": 0.0,
+      "summon_history_failure_rate": 0.0,
+      "gy_history_failure_rate": 0.0,
+      "activation_history_failure_rate": 0.0,
+      "resolution_history_failure_rate": 0.0,
+      "resilience_score": 9.975,
+      "interrupted_line_success_rate": 1.0,
+      "average_interruption_risk": 2.525,
+      "ash_vulnerability_rate": 0.5,
+      "imperm_vulnerability_rate": 0.0,
+      "droll_vulnerability_rate": 0.5,
+      "typed_material_valid_rate": 1.0,
+      "synchro_material_failure_rate": 0.0,
+      "fusion_material_failure_rate": 0.0,
+      "ritual_material_failure_rate": 0.0,
+      "named_material_failure_rate": 0.0
+    },
+    "config": {
+      "max_average_score_drop": 8.0,
+      "max_playable_rate_drop": 0.12,
+      "max_brick_rate_increase": 0.1,
+      "max_package_violation_rate": 0.35,
+      "min_package_quality_score": 45.0,
+      "max_normal_summon_conflict_increase": 0.12,
+      "max_once_per_turn_conflict_increase": 0.12,
+      "max_dead_duplicate_rate_increase": 0.12,
+      "max_payoff_enabler_mismatch_increase": 0.12,
+      "max_best_line_score_drop": 2.0,
+      "max_graph_valid_line_rate_drop": 0.12,
+      "max_graph_line_score_drop": 2.0,
+      "max_graph_failed_line_rate_increase": 0.15,
+      "max_graph_risk_score_increase": 1.5,
+      "max_resource_valid_line_rate_drop": 0.12,
+      "max_material_failure_rate_increase": 0.15,
+      "max_search_failure_rate_increase": 0.15,
+      "max_extra_deck_failure_rate_increase": 0.15,
+      "max_cost_failure_rate_increase": 0.15,
+      "max_typed_material_valid_rate_drop": 0.12,
+      "max_typed_material_failure_rate_increase": 0.15,
+      "max_no_valid_line_rate_increase": 0.15,
+      "max_best_line_failure_rate_increase": 0.15,
+      "max_normalized_failure_rate_increase": 0.15,
+      "max_cost_condition_valid_rate_drop": 0.12,
+      "max_cost_condition_failure_increase": 0.15,
+      "max_branch_valid_rate_drop": 0.15,
+      "max_branch_failure_rate_increase": 0.15,
+      "max_history_failure_rate_increase": 0.15,
+      "max_resilience_score_drop": 1.5,
+      "max_interrupted_success_rate_drop": 0.12,
+      "max_interruption_risk_increase": 1.5,
+      "max_vulnerability_rate_increase": 0.15,
+      "max_side_deck_score_drop": 8.0,
+      "max_matchup_coverage_drop": 6.0,
+      "max_post_side_score_drop": 8.0,
+      "min_post_side_delta": -8.0,
+      "min_post_side_valid_rate": 0.7
+    }
+  }
+}

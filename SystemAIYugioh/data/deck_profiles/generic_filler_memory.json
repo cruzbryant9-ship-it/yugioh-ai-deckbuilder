@@ -1,0 +1,2899 @@
+{
+  "version": 1,
+  "profiles": {
+    "runick": {
+      "meta": {
+        "fillers": {
+          "Infinite Impermanence": {
+            "times_used": 87,
+            "completion_only_count": 8,
+            "performance_positive_count": 5,
+            "performance_neutral_count": 1,
+            "performance_negative_count": 1,
+            "average_score_delta": 1.686,
+            "average_confidence_delta": 0.0414,
+            "package_pressure_relief": {
+              "interruptions": 423,
+              "recovery": 168
+            },
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T07:29:22.715655+00:00",
+            "average_score_delta_total": 146.67999999999998,
+            "average_score_delta_count": 87,
+            "average_confidence_delta_total": 3.6000000000000028,
+            "average_confidence_delta_count": 87,
+            "indeterminate_count": 72,
+            "shared_attribution_count": 78,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 0.5185,
+            "legal_observation_count": 87,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 87,
+              "archetype_breadth": 1,
+              "legal_observation_count": 87,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 87
+            },
+            "archetype_breadth": 1,
+            "average_attribution_confidence_total": 42.0,
+            "average_attribution_confidence_count": 81,
+            "last_observation_provenance": {
+              "source": "benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T07:26:34.236178+00:00"
+            }
+          },
+          "Ash Blossom & Joyous Spring": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 1.7933,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "extenders": 3
+            },
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 5.380000000000001,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Effect Veiler": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 2,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 1,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 1.2033,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 3.6100000000000003,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Droll & Lock Bird": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 2,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 1,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.2833,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -0.8499999999999998,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Nibiru, the Primal Being": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 2,
+            "performance_negative_count": 1,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.64,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "extenders": 3
+            },
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -1.92,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "D.D. Crow": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 3,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -2.0933,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -6.279999999999999,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Ghost Belle & Haunted Mansion": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 1,
+            "performance_neutral_count": 2,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 0.69,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "extenders": 3
+            },
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 2.0700000000000003,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Cosmic Cyclone": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 3,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -2.0333,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -6.1,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Lightning Storm": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 3,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -2.9933,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -8.98,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Evenly Matched": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 3,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -2.2433,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T05:14:03.285922+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -6.73,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Triple Tactics Talent": {
+            "times_used": 21,
+            "completion_only_count": 1,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 20,
+            "shared_attribution_count": 21,
+            "single_card_attribution_count": 0,
+            "average_attribution_confidence": 0.5,
+            "legal_observation_count": 21,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": false,
+              "failures": [
+                "min_archetype_breadth"
+              ],
+              "times_used": 21,
+              "archetype_breadth": 1,
+              "legal_observation_count": 21,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 21
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 1.691,
+            "average_confidence_delta": 0.04,
+            "package_pressure_relief": {
+              "interruptions": 63,
+              "recovery": 42
+            },
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T07:29:55.352028+00:00",
+            "average_attribution_confidence_total": 10.5,
+            "average_attribution_confidence_count": 21,
+            "average_score_delta_total": 35.50999999999999,
+            "average_score_delta_count": 21,
+            "average_confidence_delta_total": 0.8400000000000002,
+            "average_confidence_delta_count": 21,
+            "last_observation_provenance": {
+              "source": "benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T07:26:34.236178+00:00"
+            }
+          },
+          "Triple Tactics Thrust": {
+            "times_used": 21,
+            "completion_only_count": 1,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 20,
+            "shared_attribution_count": 21,
+            "single_card_attribution_count": 0,
+            "average_attribution_confidence": 0.5,
+            "legal_observation_count": 21,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": false,
+              "failures": [
+                "min_archetype_breadth"
+              ],
+              "times_used": 21,
+              "archetype_breadth": 1,
+              "legal_observation_count": 21,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "runick": 21
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 1.691,
+            "average_confidence_delta": 0.04,
+            "package_pressure_relief": {
+              "interruptions": 63,
+              "recovery": 42
+            },
+            "affected_archetypes": [
+              "runick"
+            ],
+            "last_seen": "2026-05-30T07:29:55.352028+00:00",
+            "average_attribution_confidence_total": 10.5,
+            "average_attribution_confidence_count": 21,
+            "average_score_delta_total": 35.50999999999999,
+            "average_score_delta_count": 21,
+            "average_confidence_delta_total": 0.8400000000000002,
+            "average_confidence_delta_count": 21,
+            "last_observation_provenance": {
+              "source": "benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T07:26:34.236178+00:00"
+            }
+          }
+        },
+        "updated_at_utc": "2026-05-30T07:29:55.352028+00:00",
+        "last_update_provenance": {
+          "source": "benchmark",
+          "validator_generated": false,
+          "smoke": false,
+          "legal": null,
+          "confidence_score": null,
+          "improvement": null,
+          "timestamp": "2026-05-30T07:26:34.236178+00:00"
+        }
+      }
+    },
+    "branded": {
+      "meta": {
+        "fillers": {
+          "Infinite Impermanence": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 3.4733,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 10.42,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Ash Blossom & Joyous Spring": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 4.1633,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 12.49,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Effect Veiler": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 3.7567,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 11.27,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Droll & Lock Bird": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 2.42,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 7.26,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Nibiru, the Primal Being": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 2.5933,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 7.78,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "D.D. Crow": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 2,
+            "performance_neutral_count": 1,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 1.68,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 5.04,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Ghost Belle & Haunted Mansion": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 4.07,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 12.21,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Cosmic Cyclone": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 1.5933,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 4.779999999999999,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Lightning Storm": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 3.0167,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 9.05,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Evenly Matched": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 2,
+            "performance_neutral_count": 1,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "branded": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 2.1767,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "branded"
+            ],
+            "last_seen": "2026-05-30T05:14:03.247486+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 6.529999999999999,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          }
+        },
+        "updated_at_utc": "2026-05-30T05:14:03.247486+00:00",
+        "last_update_provenance": {
+          "source": "filler_attribution_benchmark",
+          "validator_generated": false,
+          "smoke": false,
+          "legal": null,
+          "confidence_score": null,
+          "improvement": null,
+          "timestamp": "2026-05-30T05:13:53.520527+00:00"
+        }
+      }
+    },
+    "kashtira": {
+      "meta": {
+        "fillers": {
+          "Infinite Impermanence": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 0.59,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 1.77,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Ash Blossom & Joyous Spring": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 0.9567,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "extenders": 3
+            },
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 2.87,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Effect Veiler": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 1,
+            "performance_neutral_count": 2,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 0.62,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 1.8599999999999999,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Droll & Lock Bird": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 1,
+            "performance_negative_count": 2,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.5167,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -1.55,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Nibiru, the Primal Being": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 2,
+            "performance_negative_count": 1,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.57,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "extenders": 3
+            },
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -1.71,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "D.D. Crow": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 2,
+            "performance_negative_count": 1,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.3067,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -0.92,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Ghost Belle & Haunted Mansion": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 1.04,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "extenders": 3
+            },
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 3.12,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Cosmic Cyclone": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 3,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -1.54,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -4.62,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Lightning Storm": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 3,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.8833,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -2.65,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Evenly Matched": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 2,
+            "performance_negative_count": 1,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "kashtira": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.5467,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "kashtira"
+            ],
+            "last_seen": "2026-05-30T05:14:03.266632+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -1.64,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          }
+        },
+        "updated_at_utc": "2026-05-30T05:14:03.266632+00:00",
+        "last_update_provenance": {
+          "source": "filler_attribution_benchmark",
+          "validator_generated": false,
+          "smoke": false,
+          "legal": null,
+          "confidence_score": null,
+          "improvement": null,
+          "timestamp": "2026-05-30T05:13:53.520527+00:00"
+        }
+      }
+    },
+    "tearlaments": {
+      "meta": {
+        "fillers": {
+          "Infinite Impermanence": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 1,
+            "performance_neutral_count": 2,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 0.47,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 1.41,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Ash Blossom & Joyous Spring": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 3,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 1.7933,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 5.38,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Effect Veiler": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 2,
+            "performance_neutral_count": 1,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 0.6833,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 2.05,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Droll & Lock Bird": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 1,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 2,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.1167,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -0.3500000000000001,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Nibiru, the Primal Being": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 3,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.05,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -0.15,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "D.D. Crow": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 1,
+            "performance_negative_count": 2,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.3967,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -1.19,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Ghost Belle & Haunted Mansion": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 2,
+            "performance_neutral_count": 1,
+            "performance_negative_count": 0,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": 0.6333,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {},
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": 1.9,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Cosmic Cyclone": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 1,
+            "performance_negative_count": 2,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -0.7633,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -2.29,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Lightning Storm": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 3,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -1.1,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -3.3,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          },
+          "Evenly Matched": {
+            "times_used": 3,
+            "completion_only_count": 0,
+            "performance_positive_count": 0,
+            "performance_neutral_count": 0,
+            "performance_negative_count": 3,
+            "indeterminate_count": 0,
+            "shared_attribution_count": 0,
+            "single_card_attribution_count": 3,
+            "average_attribution_confidence": 1.0,
+            "legal_observation_count": 3,
+            "illegal_observation_count": 0,
+            "completion_bias_flag": false,
+            "eligibility": {
+              "eligible": true,
+              "failures": [],
+              "times_used": 3,
+              "archetype_breadth": 1,
+              "legal_observation_count": 3,
+              "completion_bias_flag": false,
+              "provenance_valid": true
+            },
+            "archetype_observations": {
+              "tearlaments": 3
+            },
+            "archetype_breadth": 1,
+            "average_score_delta": -1.3067,
+            "average_confidence_delta": 0.0,
+            "package_pressure_relief": {
+              "interruptions": 3
+            },
+            "affected_archetypes": [
+              "tearlaments"
+            ],
+            "last_seen": "2026-05-30T05:14:03.304614+00:00",
+            "average_attribution_confidence_total": 3.0,
+            "average_attribution_confidence_count": 3,
+            "average_score_delta_total": -3.92,
+            "average_score_delta_count": 3,
+            "average_confidence_delta_total": 0.0,
+            "average_confidence_delta_count": 3,
+            "last_observation_provenance": {
+              "source": "filler_attribution_benchmark",
+              "validator_generated": false,
+              "smoke": false,
+              "legal": null,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-05-30T05:13:53.520527+00:00"
+            }
+          }
+        },
+        "updated_at_utc": "2026-05-30T05:14:03.304614+00:00",
+        "last_update_provenance": {
+          "source": "filler_attribution_benchmark",
+          "validator_generated": false,
+          "smoke": false,
+          "legal": null,
+          "confidence_score": null,
+          "improvement": null,
+          "timestamp": "2026-05-30T05:13:53.520527+00:00"
+        }
+      }
+    }
+  },
+  "provenance_log": [
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-29T20:01:58.944707+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:03:53.125488+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:12:06.045116+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T00:27:53.976838+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T04:28:30.027273+00:00"
+    },
+    {
+      "source": "filler_attribution_benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T05:13:53.520527+00:00"
+    },
+    {
+      "source": "filler_attribution_benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T05:13:53.520527+00:00"
+    },
+    {
+      "source": "filler_attribution_benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T05:13:53.520527+00:00"
+    },
+    {
+      "source": "filler_attribution_benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T05:13:53.520527+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T06:59:23.052705+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:00:11.475440+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:03:16.711038+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:03:57.782466+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:21:43.722534+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    },
+    {
+      "source": "benchmark",
+      "validator_generated": false,
+      "smoke": false,
+      "legal": null,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-05-30T07:26:34.236178+00:00"
+    }
+  ],
+  "updated_at_utc": "2026-05-30T07:29:55.353086+00:00",
+  "last_update_provenance": {
+    "source": "benchmark",
+    "validator_generated": false,
+    "smoke": false,
+    "legal": null,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-05-30T07:26:34.236178+00:00"
+  },
+  "cross_archetype_index": {
+    "Ash Blossom & Joyous Spring": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 12,
+      "performance_neutral_count": 0,
+      "performance_negative_count": 0,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": 2.1767,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": 26.12,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    },
+    "Cosmic Cyclone": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 3,
+      "performance_neutral_count": 1,
+      "performance_negative_count": 8,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": -0.6858,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": -8.23,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    },
+    "D.D. Crow": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 2,
+      "performance_neutral_count": 4,
+      "performance_negative_count": 6,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": -0.2792,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": -3.349999999999999,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    },
+    "Droll & Lock Bird": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 6,
+      "performance_neutral_count": 1,
+      "performance_negative_count": 5,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": 0.3758,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": 4.51,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    },
+    "Effect Veiler": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 8,
+      "performance_neutral_count": 3,
+      "performance_negative_count": 1,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": 1.5658,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": 18.79,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    },
+    "Evenly Matched": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 2,
+      "performance_neutral_count": 3,
+      "performance_negative_count": 7,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": -0.48,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": -5.760000000000001,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    },
+    "Ghost Belle & Haunted Mansion": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 9,
+      "performance_neutral_count": 3,
+      "performance_negative_count": 0,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": 1.6083,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": 19.3,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    },
+    "Infinite Impermanence": {
+      "times_used": 96,
+      "completion_only_count": 8,
+      "performance_positive_count": 12,
+      "performance_neutral_count": 3,
+      "performance_negative_count": 1,
+      "indeterminate_count": 72,
+      "shared_attribution_count": 78,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 0.5667,
+      "legal_observation_count": 96,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 96,
+        "archetype_breadth": 4,
+        "legal_observation_count": 96,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 87,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": 1.6696,
+      "average_confidence_delta": 0.0375,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": 160.27999999999997,
+      "average_score_delta_count": 96,
+      "average_confidence_delta_total": 3.6000000000000028,
+      "average_confidence_delta_count": 96,
+      "average_attribution_confidence_total": 51.0,
+      "average_attribution_confidence_count": 90
+    },
+    "Lightning Storm": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 3,
+      "performance_neutral_count": 0,
+      "performance_negative_count": 9,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": -0.49,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": -5.879999999999999,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    },
+    "Nibiru, the Primal Being": {
+      "times_used": 12,
+      "completion_only_count": 0,
+      "performance_positive_count": 3,
+      "performance_neutral_count": 7,
+      "performance_negative_count": 2,
+      "indeterminate_count": 0,
+      "shared_attribution_count": 0,
+      "single_card_attribution_count": 12,
+      "average_attribution_confidence": 1.0,
+      "legal_observation_count": 12,
+      "illegal_observation_count": 0,
+      "completion_bias_flag": false,
+      "eligibility": {
+        "eligible": true,
+        "failures": [],
+        "times_used": 12,
+        "archetype_breadth": 4,
+        "legal_observation_count": 12,
+        "completion_bias_flag": false,
+        "provenance_valid": true
+      },
+      "archetype_observations": {
+        "runick": 3,
+        "branded": 3,
+        "kashtira": 3,
+        "tearlaments": 3
+      },
+      "archetype_breadth": 4,
+      "average_score_delta": 0.3333,
+      "average_confidence_delta": 0.0,
+      "package_pressure_relief": {},
+      "affected_archetypes": [
+        "branded",
+        "kashtira",
+        "runick",
+        "tearlaments"
+      ],
+      "last_seen": null,
+      "average_score_delta_total": 4.0,
+      "average_score_delta_count": 12,
+      "average_confidence_delta_total": 0.0,
+      "average_confidence_delta_count": 12,
+      "average_attribution_confidence_total": 12.0,
+      "average_attribution_confidence_count": 12
+    }
+  },
+  "concentration_warnings": [
+    {
+      "card": "Infinite Impermanence",
+      "dominant_archetype": "runick",
+      "single_archetype_share": 0.9062,
+      "total_observations": 96
+    },
+    {
+      "card": "Triple Tactics Talent",
+      "dominant_archetype": "runick",
+      "single_archetype_share": 1.0,
+      "total_observations": 21
+    },
+    {
+      "card": "Triple Tactics Thrust",
+      "dominant_archetype": "runick",
+      "single_archetype_share": 1.0,
+      "total_observations": 21
+    }
+  ]
+}

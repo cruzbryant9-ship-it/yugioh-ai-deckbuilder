@@ -1,0 +1,3655 @@
+{
+  "report_type": "generic_archetype_benchmark",
+  "report_version": "phase6j-v1",
+  "created_at_utc": "2026-05-27T23:54:34.133119+00:00",
+  "config": {
+    "archetypes": [
+      "Branded",
+      "Kashtira"
+    ],
+    "mode": "meta",
+    "runs": 3,
+    "show_replay": true
+  },
+  "summary": {
+    "archetype_count": 2,
+    "average_improvement": 0.23,
+    "best_improved_archetype": "Branded",
+    "best_improvement": 0.43,
+    "worst_improved_archetype": "Kashtira",
+    "worst_improvement": 0.02,
+    "tuning_hurt_archetypes": [],
+    "improved_archetypes": [
+      "Branded",
+      "Kashtira"
+    ],
+    "most_reliable_ratio_patterns": [
+      [
+        "board_breakers:2|extenders:6|interruptions:10|max_bricks:2|payoffs:3|recovery:2|starters_searchers:11",
+        1
+      ],
+      [
+        "board_breakers:2|extenders:5|interruptions:10|max_bricks:3|payoffs:3|recovery:2|starters_searchers:13",
+        1
+      ]
+    ],
+    "common_package_weaknesses": [
+      [
+        "low interruption count",
+        2
+      ]
+    ],
+    "common_quota_warnings": [],
+    "repair_success_rate": 1.0,
+    "average_repair_actions": 1.17,
+    "decks_saved_by_repair": 6,
+    "decks_still_rejected": 0,
+    "common_repair_warnings": [],
+    "memory_updates": {
+      "updated": 2
+    },
+    "diagnosis_severity_counts": {
+      "medium": 1,
+      "low": 1
+    },
+    "diagnosis_influenced_tuning_count": 2,
+    "targeted_retest_count": 1,
+    "accepted_targeted_retests": 0,
+    "targeted_retest_improvements": {
+      "Branded": -1.165,
+      "Kashtira": 0
+    },
+    "card_shift_summary": {
+      "accepted_shift_count": 0,
+      "rejected_shift_count": 5,
+      "most_common_helpful_additions": [],
+      "most_common_helpful_removals": [],
+      "most_common_harmful_additions": [
+        [
+          "Branded in Central Dogmatika",
+          5
+        ],
+        [
+          "Albion the Shrouded Dragon",
+          4
+        ],
+        [
+          "Branded Loss",
+          1
+        ],
+        [
+          "Branded Regained",
+          1
+        ]
+      ],
+      "most_common_harmful_removals": [
+        [
+          "Branded Disciple",
+          4
+        ],
+        [
+          "Branded Befallen",
+          3
+        ],
+        [
+          "The Fallen &amp; The Virtuous",
+          2
+        ],
+        [
+          "Screams of the Branded",
+          1
+        ],
+        [
+          "Springans Kitt",
+          1
+        ]
+      ],
+      "package_movement_summary": [
+        [
+          "board_breakers:-1",
+          4
+        ],
+        [
+          "extenders:+1",
+          1
+        ]
+      ]
+    },
+    "package_replay_summary": {
+      "accepted_replay_count": 0,
+      "rejected_replay_count": 5,
+      "package_delta_counts": [
+        [
+          "board_breakers:-1",
+          4
+        ],
+        [
+          "engine_requirement:+1",
+          3
+        ],
+        [
+          "extenders:+1",
+          1
+        ]
+      ],
+      "risk_flag_counts": [
+        [
+          "package_instability",
+          1
+        ]
+      ]
+    },
+    "historical_average_improvement": 0.3041,
+    "recent_average_improvement": 0.3041,
+    "average_repair_reliability": 1.0,
+    "recommended_follow_up_archetypes": [
+      "Branded"
+    ]
+  },
+  "results": [
+    {
+      "archetype": "Branded",
+      "normal_score": 189.95,
+      "tuned_score": 190.38,
+      "improvement": 0.43,
+      "normal_confidence": 0.7498,
+      "tuned_confidence": 0.7498,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 19,
+        "starters_searchers": 21
+      },
+      "tuned_package_counts": {
+        "extenders": 19,
+        "starters_searchers": 21
+      },
+      "normal_deck_sections": {
+        "main": [
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "Bystial Saronir",
+          "Branded Opening",
+          "The Bystial Lubellion",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Lost",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Opening",
+          "Branded Retribution",
+          "Bystial Saronir",
+          "Branded Opening",
+          "Despian Tragedy",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Regained",
+          "Branded Sword",
+          "Despia, Theater of the Branded",
+          "Bystial Saronir",
+          "Branded in Central Dogmatika",
+          "Branded in High Spirits",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Fusion",
+          "Branded in Central Dogmatika",
+          "Branded Loss",
+          "Branded Regained"
+        ],
+        "extra": [
+          "Albion the Branded Dragon",
+          "Albion the Branded Dragon"
+        ]
+      },
+      "tuned_deck_sections": {
+        "main": [
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "Bystial Saronir",
+          "Branded Opening",
+          "The Bystial Lubellion",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Lost",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Opening",
+          "Branded Retribution",
+          "Bystial Saronir",
+          "Branded Opening",
+          "Despian Tragedy",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Regained",
+          "Branded Sword",
+          "Despia, Theater of the Branded",
+          "Screams of the Branded",
+          "Springans Kitt",
+          "Bystial Saronir",
+          "Branded in Central Dogmatika",
+          "Branded in High Spirits",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Fusion",
+          "Branded in Central Dogmatika"
+        ],
+        "extra": [
+          "Albion the Branded Dragon",
+          "Albion the Branded Dragon"
+        ]
+      },
+      "normal_deck_names": [
+        "Aluber the Jester of Despia",
+        "The Bystial Lubellion",
+        "Branded Lost",
+        "Branded in High Spirits",
+        "Despian Tragedy",
+        "Aluber the Jester of Despia",
+        "The Bystial Lubellion",
+        "Branded Lost",
+        "Branded in High Spirits",
+        "Despian Tragedy",
+        "Aluber the Jester of Despia",
+        "Bystial Saronir",
+        "Branded Opening",
+        "The Bystial Lubellion",
+        "Branded Retribution",
+        "Albion the Shrouded Dragon",
+        "Branded Banishment",
+        "Branded Lost",
+        "Branded Retribution",
+        "Albion the Shrouded Dragon",
+        "Branded Opening",
+        "Branded Retribution",
+        "Bystial Saronir",
+        "Branded Opening",
+        "Despian Tragedy",
+        "Branded Banishment",
+        "Branded Bond",
+        "Branded Regained",
+        "Branded Sword",
+        "Despia, Theater of the Branded",
+        "Bystial Saronir",
+        "Branded in Central Dogmatika",
+        "Branded in High Spirits",
+        "Albion the Shrouded Dragon",
+        "Branded Banishment",
+        "Branded Bond",
+        "Branded Fusion",
+        "Branded in Central Dogmatika",
+        "Branded Loss",
+        "Branded Regained",
+        "Albion the Branded Dragon",
+        "Albion the Branded Dragon"
+      ],
+      "tuned_deck_names": [
+        "Aluber the Jester of Despia",
+        "The Bystial Lubellion",
+        "Branded Lost",
+        "Branded in High Spirits",
+        "Despian Tragedy",
+        "Aluber the Jester of Despia",
+        "The Bystial Lubellion",
+        "Branded Lost",
+        "Branded in High Spirits",
+        "Despian Tragedy",
+        "Aluber the Jester of Despia",
+        "Bystial Saronir",
+        "Branded Opening",
+        "The Bystial Lubellion",
+        "Branded Retribution",
+        "Albion the Shrouded Dragon",
+        "Branded Banishment",
+        "Branded Lost",
+        "Branded Retribution",
+        "Albion the Shrouded Dragon",
+        "Branded Opening",
+        "Branded Retribution",
+        "Bystial Saronir",
+        "Branded Opening",
+        "Despian Tragedy",
+        "Branded Banishment",
+        "Branded Bond",
+        "Branded Regained",
+        "Branded Sword",
+        "Despia, Theater of the Branded",
+        "Screams of the Branded",
+        "Springans Kitt",
+        "Bystial Saronir",
+        "Branded in Central Dogmatika",
+        "Branded in High Spirits",
+        "Albion the Shrouded Dragon",
+        "Branded Banishment",
+        "Branded Bond",
+        "Branded Fusion",
+        "Branded in Central Dogmatika",
+        "Albion the Branded Dragon",
+        "Albion the Branded Dragon"
+      ],
+      "normal_repair_actions": [
+        "added Extra Deck repair card: Albion the Branded Dragon"
+      ],
+      "tuned_repair_actions": [
+        "added Extra Deck repair card: Albion the Branded Dragon"
+      ],
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 3,
+      "legal_variant_count": 3,
+      "best_ratio_profile": {
+        "starters_searchers": 11,
+        "extenders": 6,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 10,
+        "board_breakers": 2,
+        "max_bricks": 2
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 3,
+      "fallback_used_count": 0,
+      "average_repair_actions": 1,
+      "common_repair_warnings": [],
+      "memory_action": "updated",
+      "diagnosis_influenced_tuning": true,
+      "diagnosis_bias": {
+        "interruptions": 1,
+        "max_bricks": -1
+      },
+      "diagnosis_used": {
+        "archetype": "Branded",
+        "mode": "meta",
+        "diagnosis": "Branded trend is improving; likely pressure from interruption shortage, ratio overfitting.",
+        "severity": "medium",
+        "suspected_causes": [
+          "interruption_shortage",
+          "ratio_overfitting"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds.",
+          "Retest safer baseline-adjacent ratios before trusting narrow improvements."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 19,
+          "payoffs": 3,
+          "interruptions": 0,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 10,
+          "max_bricks": 2,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.0875,
+        "bad_pattern_recurrence": 1.0,
+        "last_diagnosed_utc": "2026-05-27T23:53:57.741843+00:00"
+      },
+      "trend_diagnosis": {
+        "archetype": "Branded",
+        "mode": "meta",
+        "diagnosis": "Branded trend is improving; likely pressure from interruption shortage, ratio overfitting.",
+        "severity": "medium",
+        "suspected_causes": [
+          "interruption_shortage",
+          "ratio_overfitting"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds.",
+          "Retest safer baseline-adjacent ratios before trusting narrow improvements."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 19,
+          "payoffs": 3,
+          "interruptions": 0,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 10,
+          "max_bricks": 2,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.0875,
+        "bad_pattern_recurrence": 1.0,
+        "last_diagnosed_utc": "2026-05-27T23:54:34.139103+00:00"
+      },
+      "ratio_recommendations": [
+        {
+          "ratio_profile": {
+            "starters_searchers": 11,
+            "extenders": 6,
+            "payoffs": 3,
+            "recovery": 2,
+            "interruptions": 11,
+            "board_breakers": 1,
+            "max_bricks": 2
+          },
+          "reason": "Increase non-engine interruption count by 1.",
+          "diagnosis_causes": [
+            "interruption_shortage"
+          ],
+          "risk_level": "low"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 11,
+            "extenders": 6,
+            "payoffs": 3,
+            "recovery": 2,
+            "interruptions": 12,
+            "board_breakers": 0,
+            "max_bricks": 2
+          },
+          "reason": "Increase non-engine interruption count by 2.",
+          "diagnosis_causes": [
+            "interruption_shortage"
+          ],
+          "risk_level": "low"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 11,
+            "extenders": 6,
+            "payoffs": 2,
+            "recovery": 2,
+            "interruptions": 13,
+            "board_breakers": 0,
+            "max_bricks": 2
+          },
+          "reason": "Increase non-engine interruption count by 3.",
+          "diagnosis_causes": [
+            "interruption_shortage"
+          ],
+          "risk_level": "medium"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 11,
+            "extenders": 6,
+            "payoffs": 3,
+            "recovery": 2,
+            "interruptions": 10,
+            "board_breakers": 2,
+            "max_bricks": 2
+          },
+          "reason": "Retest a small conservative change around the current ratio.",
+          "diagnosis_causes": [
+            "ratio_overfitting"
+          ],
+          "risk_level": "low"
+        },
+        {
+          "ratio_profile": {
+            "starters_searchers": 11,
+            "extenders": 6,
+            "payoffs": 3,
+            "recovery": 2,
+            "interruptions": 8,
+            "board_breakers": 2,
+            "max_bricks": 4
+          },
+          "reason": "Retest the baseline-like ratio to guard against overfitting.",
+          "diagnosis_causes": [
+            "ratio_overfitting"
+          ],
+          "risk_level": "low"
+        }
+      ],
+      "targeted_retest": {
+        "archetype": "Branded",
+        "mode": "meta",
+        "tested_recommendations": 5,
+        "accepted_recommendation": null,
+        "best_score": 193.25,
+        "baseline_score": 194.415,
+        "actual_baseline_score": 192.87,
+        "baseline_deck_names": [
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "The Bystial Lubellion",
+          "Branded Lost",
+          "Branded in High Spirits",
+          "Despian Tragedy",
+          "Aluber the Jester of Despia",
+          "Bystial Saronir",
+          "Branded Opening",
+          "The Bystial Lubellion",
+          "Branded Retribution",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Lost",
+          "Branded Retribution",
+          "Branded Opening",
+          "Branded Retribution",
+          "Bystial Saronir",
+          "Branded Opening",
+          "Despian Tragedy",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Regained",
+          "Branded Sword",
+          "Despia, Theater of the Branded",
+          "Screams of the Branded",
+          "Springans Kitt",
+          "The Fallen &amp; The Virtuous",
+          "Branded Befallen",
+          "Branded Disciple",
+          "Bystial Saronir",
+          "Branded in High Spirits",
+          "Albion the Shrouded Dragon",
+          "Branded Banishment",
+          "Branded Bond",
+          "Branded Fusion",
+          "Albion the Branded Dragon",
+          "Albion the Branded Dragon"
+        ],
+        "baseline_package_counts": {
+          "extenders": 17,
+          "interruptions": 2,
+          "starters_searchers": 21
+        },
+        "improvement": -1.165,
+        "rejected_recommendations": [
+          {
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 11,
+                "board_breakers": 1,
+                "max_bricks": 2
+              },
+              "reason": "Increase non-engine interruption count by 1.",
+              "diagnosis_causes": [
+                "interruption_shortage"
+              ],
+              "risk_level": "low"
+            },
+            "score": 189.6467,
+            "improvement": -4.7683,
+            "rejection_reason": "no_safe_improvement",
+            "card_shift_explanation": {
+              "cards_added": [
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded in Central Dogmatika": 1
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 2,
+                  "lost": 1,
+                  "net": 1
+                }
+              },
+              "package_delta": {
+                "board_breakers": -1
+              },
+              "explanation": "Candidate declined by -4.7683. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -4.7683,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 36,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded in Central Dogmatika": 1
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 2,
+                  "lost": 1,
+                  "net": 1
+                }
+              },
+              "package_gains_losses": {
+                "board_breakers": -1,
+                "engine_requirement": 1
+              },
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -4.7683. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "compact_card_delta_table": [
+                {
+                  "card": "Albion the Shrouded Dragon",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Befallen",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded Disciple",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded in Central Dogmatika",
+                  "delta": 1,
+                  "change": "added/increased"
+                }
+              ],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -4.7683\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: none\n- Explanation: Candidate declined by -4.7683. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 0 | -1 |\n| engine_requirement | 35 | 36 | +1 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| Albion the Shrouded Dragon | +1 | added/increased |\n| Branded Befallen | -1 | removed/decreased |\n| Branded Disciple | -1 | removed/decreased |\n| Branded in Central Dogmatika | +1 | added/increased |"
+            }
+          },
+          {
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 12,
+                "board_breakers": 0,
+                "max_bricks": 2
+              },
+              "reason": "Increase non-engine interruption count by 2.",
+              "diagnosis_causes": [
+                "interruption_shortage"
+              ],
+              "risk_level": "low"
+            },
+            "score": 191.48,
+            "improvement": -2.935,
+            "rejection_reason": "no_safe_improvement",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [
+                "Branded Disciple"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1
+              },
+              "copy_decreases": {
+                "Branded Disciple": 1
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 1,
+                  "lost": 0,
+                  "net": 1
+                }
+              },
+              "package_delta": {
+                "board_breakers": -1
+              },
+              "explanation": "Candidate declined by -2.935. Added Albion the Shrouded Dragon; removed Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -2.935,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 36,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [],
+              "cards_removed": [
+                "Branded Disciple"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1
+              },
+              "copy_decreases": {
+                "Branded Disciple": 1
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 1,
+                  "lost": 0,
+                  "net": 1
+                }
+              },
+              "package_gains_losses": {
+                "board_breakers": -1,
+                "engine_requirement": 1
+              },
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -2.935. Added Albion the Shrouded Dragon; removed Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "compact_card_delta_table": [
+                {
+                  "card": "Albion the Shrouded Dragon",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Disciple",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                }
+              ],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -2.935\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: none\n- Explanation: Candidate declined by -2.935. Added Albion the Shrouded Dragon; removed Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 0 | -1 |\n| engine_requirement | 35 | 36 | +1 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| Albion the Shrouded Dragon | +1 | added/increased |\n| Branded Disciple | -1 | removed/decreased |"
+            }
+          },
+          {
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 2,
+                "recovery": 2,
+                "interruptions": 13,
+                "board_breakers": 0,
+                "max_bricks": 2
+              },
+              "reason": "Increase non-engine interruption count by 3.",
+              "diagnosis_causes": [
+                "interruption_shortage"
+              ],
+              "risk_level": "medium"
+            },
+            "score": 193.25,
+            "improvement": -1.165,
+            "rejection_reason": "no_safe_improvement",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate declined by -1.165. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -1.165,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -1.165. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -1.165\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: none\n- Explanation: Candidate declined by -1.165. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 1 | +0 |\n| engine_requirement | 35 | 35 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            }
+          },
+          {
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 10,
+                "board_breakers": 2,
+                "max_bricks": 2
+              },
+              "reason": "Retest a small conservative change around the current ratio.",
+              "diagnosis_causes": [
+                "ratio_overfitting"
+              ],
+              "risk_level": "low"
+            },
+            "score": 189.6967,
+            "improvement": -4.7183,
+            "rejection_reason": "no_safe_improvement",
+            "card_shift_explanation": {
+              "cards_added": [
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple",
+                "The Fallen &amp; The Virtuous"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded in Central Dogmatika": 2
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1,
+                "The Fallen &amp; The Virtuous": 1
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 3,
+                  "lost": 2,
+                  "net": 1
+                }
+              },
+              "package_delta": {
+                "board_breakers": -1
+              },
+              "explanation": "Candidate declined by -4.7183. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple, The Fallen &amp; The Virtuous. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -4.7183,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 36,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple",
+                "The Fallen &amp; The Virtuous"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded in Central Dogmatika": 2
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1,
+                "The Fallen &amp; The Virtuous": 1
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 3,
+                  "lost": 2,
+                  "net": 1
+                }
+              },
+              "package_gains_losses": {
+                "board_breakers": -1,
+                "engine_requirement": 1
+              },
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -4.7183. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple, The Fallen &amp; The Virtuous. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "compact_card_delta_table": [
+                {
+                  "card": "Albion the Shrouded Dragon",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Befallen",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded Disciple",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded in Central Dogmatika",
+                  "delta": 2,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "The Fallen &amp; The Virtuous",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                }
+              ],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -4.7183\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: none\n- Explanation: Candidate declined by -4.7183. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple, The Fallen &amp; The Virtuous. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 0 | -1 |\n| engine_requirement | 35 | 36 | +1 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| Albion the Shrouded Dragon | +1 | added/increased |\n| Branded Befallen | -1 | removed/decreased |\n| Branded Disciple | -1 | removed/decreased |\n| Branded in Central Dogmatika | +2 | added/increased |\n| The Fallen &amp; The Virtuous | -1 | removed/decreased |"
+            }
+          },
+          {
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 2,
+                "max_bricks": 4
+              },
+              "reason": "Retest the baseline-like ratio to guard against overfitting.",
+              "diagnosis_causes": [
+                "ratio_overfitting"
+              ],
+              "risk_level": "low"
+            },
+            "score": 188.8933,
+            "improvement": -5.5217,
+            "rejection_reason": "no_safe_improvement",
+            "card_shift_explanation": {
+              "cards_added": [
+                "Branded Loss",
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple",
+                "Screams of the Branded",
+                "Springans Kitt",
+                "The Fallen &amp; The Virtuous"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded Loss": 1,
+                "Branded Regained": 1,
+                "Branded in Central Dogmatika": 2
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1,
+                "Screams of the Branded": 1,
+                "Springans Kitt": 1,
+                "The Fallen &amp; The Virtuous": 1
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 1,
+                  "lost": 0,
+                  "net": 1
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 4,
+                  "lost": 4,
+                  "net": 0
+                }
+              },
+              "package_delta": {
+                "extenders": 1,
+                "board_breakers": -1
+              },
+              "explanation": "Candidate declined by -5.5217. Added Albion the Shrouded Dragon, Branded Loss, Branded Regained; removed Branded Befallen, Branded Disciple, Screams of the Branded. Role gains: +1 extenders. Role losses: -1 board_breakers. Risks: package_instability.",
+              "risk_flags": [
+                "package_instability"
+              ]
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -5.5217,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 35,
+                "extenders": 2,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [
+                "Branded Loss",
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple",
+                "Screams of the Branded",
+                "Springans Kitt",
+                "The Fallen &amp; The Virtuous"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded Loss": 1,
+                "Branded Regained": 1,
+                "Branded in Central Dogmatika": 2
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1,
+                "Screams of the Branded": 1,
+                "Springans Kitt": 1,
+                "The Fallen &amp; The Virtuous": 1
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 1,
+                  "lost": 0,
+                  "net": 1
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 4,
+                  "lost": 4,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {
+                "board_breakers": -1,
+                "extenders": 1
+              },
+              "risk_flags": [
+                "package_instability"
+              ],
+              "short_explanation": "Candidate declined by -5.5217. Added Albion the Shrouded Dragon, Branded Loss, Branded Regained; removed Branded Befallen, Branded Disciple, Screams of the Branded. Role gains: +1 extenders. Role losses: -1 board_breakers. Risks: package_instability.",
+              "compact_card_delta_table": [
+                {
+                  "card": "Albion the Shrouded Dragon",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Befallen",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded Disciple",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded Loss",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Regained",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded in Central Dogmatika",
+                  "delta": 2,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Screams of the Branded",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Springans Kitt",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "The Fallen &amp; The Virtuous",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                }
+              ],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -5.5217\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: package_instability\n- Explanation: Candidate declined by -5.5217. Added Albion the Shrouded Dragon, Branded Loss, Branded Regained; removed Branded Befallen, Branded Disciple, Screams of the Branded. Role gains: +1 extenders. Role losses: -1 board_breakers. Risks: package_instability.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 0 | -1 |\n| engine_requirement | 35 | 35 | +0 |\n| extenders | 1 | 2 | +1 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| Albion the Shrouded Dragon | +1 | added/increased |\n| Branded Befallen | -1 | removed/decreased |\n| Branded Disciple | -1 | removed/decreased |\n| Branded Loss | +1 | added/increased |\n| Branded Regained | +1 | added/increased |\n| Branded in Central Dogmatika | +2 | added/increased |\n| Screams of the Branded | -1 | removed/decreased |\n| Springans Kitt | -1 | removed/decreased |\n| The Fallen &amp; The Virtuous | -1 | removed/decreased |"
+            }
+          }
+        ],
+        "targeted_retest_used": true,
+        "tested_results": [
+          {
+            "recommendation_index": 1,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 11,
+                "board_breakers": 1,
+                "max_bricks": 2
+              },
+              "reason": "Increase non-engine interruption count by 1.",
+              "diagnosis_causes": [
+                "interruption_shortage"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 11,
+              "board_breakers": 1,
+              "max_bricks": 2
+            },
+            "runs": 3,
+            "average_score": 189.6467,
+            "best_score": 190.25,
+            "baseline_score": 194.415,
+            "improvement": -4.7683,
+            "legal_run_count": 3,
+            "blocked_card_violations": [],
+            "quota_warnings": [],
+            "confidence": 0.7498,
+            "package_counts": {
+              "extenders": 19,
+              "starters_searchers": 21
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "added Extra Deck repair card: Albion the Branded Dragon"
+            ],
+            "safe": false,
+            "rejection_reason": "no_safe_improvement",
+            "decision_explanation": "Rejected because no_safe_improvement. Candidate declined by -4.7683. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+            "card_shift_explanation": {
+              "cards_added": [
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded in Central Dogmatika": 1
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 2,
+                  "lost": 1,
+                  "net": 1
+                }
+              },
+              "package_delta": {
+                "board_breakers": -1
+              },
+              "explanation": "Candidate declined by -4.7683. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -4.7683,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 36,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded in Central Dogmatika": 1
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 2,
+                  "lost": 1,
+                  "net": 1
+                }
+              },
+              "package_gains_losses": {
+                "board_breakers": -1,
+                "engine_requirement": 1
+              },
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -4.7683. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "compact_card_delta_table": [
+                {
+                  "card": "Albion the Shrouded Dragon",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Befallen",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded Disciple",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded in Central Dogmatika",
+                  "delta": 1,
+                  "change": "added/increased"
+                }
+              ],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -4.7683\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: none\n- Explanation: Candidate declined by -4.7683. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 0 | -1 |\n| engine_requirement | 35 | 36 | +1 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| Albion the Shrouded Dragon | +1 | added/increased |\n| Branded Befallen | -1 | removed/decreased |\n| Branded Disciple | -1 | removed/decreased |\n| Branded in Central Dogmatika | +1 | added/increased |"
+            },
+            "best_deck_names": [
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "Bystial Saronir",
+              "Branded Opening",
+              "The Bystial Lubellion",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Lost",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Opening",
+              "Branded Retribution",
+              "Bystial Saronir",
+              "Branded Opening",
+              "Despian Tragedy",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Regained",
+              "Branded Sword",
+              "Despia, Theater of the Branded",
+              "Screams of the Branded",
+              "Springans Kitt",
+              "The Fallen &amp; The Virtuous",
+              "Bystial Saronir",
+              "Branded in High Spirits",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Fusion",
+              "Branded in Central Dogmatika",
+              "Albion the Branded Dragon",
+              "Albion the Branded Dragon"
+            ]
+          },
+          {
+            "recommendation_index": 2,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 12,
+                "board_breakers": 0,
+                "max_bricks": 2
+              },
+              "reason": "Increase non-engine interruption count by 2.",
+              "diagnosis_causes": [
+                "interruption_shortage"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 12,
+              "board_breakers": 0,
+              "max_bricks": 2
+            },
+            "runs": 3,
+            "average_score": 191.48,
+            "best_score": 191.98,
+            "baseline_score": 194.415,
+            "improvement": -2.935,
+            "legal_run_count": 3,
+            "blocked_card_violations": [],
+            "quota_warnings": [],
+            "confidence": 0.7498,
+            "package_counts": {
+              "extenders": 18,
+              "interruptions": 1,
+              "starters_searchers": 21
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "added Extra Deck repair card: Albion the Branded Dragon"
+            ],
+            "safe": false,
+            "rejection_reason": "no_safe_improvement",
+            "decision_explanation": "Rejected because no_safe_improvement. Candidate declined by -2.935. Added Albion the Shrouded Dragon; removed Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [
+                "Branded Disciple"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1
+              },
+              "copy_decreases": {
+                "Branded Disciple": 1
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 1,
+                  "lost": 0,
+                  "net": 1
+                }
+              },
+              "package_delta": {
+                "board_breakers": -1
+              },
+              "explanation": "Candidate declined by -2.935. Added Albion the Shrouded Dragon; removed Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -2.935,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 36,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [],
+              "cards_removed": [
+                "Branded Disciple"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1
+              },
+              "copy_decreases": {
+                "Branded Disciple": 1
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 1,
+                  "lost": 0,
+                  "net": 1
+                }
+              },
+              "package_gains_losses": {
+                "board_breakers": -1,
+                "engine_requirement": 1
+              },
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -2.935. Added Albion the Shrouded Dragon; removed Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "compact_card_delta_table": [
+                {
+                  "card": "Albion the Shrouded Dragon",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Disciple",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                }
+              ],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -2.935\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: none\n- Explanation: Candidate declined by -2.935. Added Albion the Shrouded Dragon; removed Branded Disciple. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 0 | -1 |\n| engine_requirement | 35 | 36 | +1 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| Albion the Shrouded Dragon | +1 | added/increased |\n| Branded Disciple | -1 | removed/decreased |"
+            },
+            "best_deck_names": [
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "Bystial Saronir",
+              "Branded Opening",
+              "The Bystial Lubellion",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Lost",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Opening",
+              "Branded Retribution",
+              "Bystial Saronir",
+              "Branded Opening",
+              "Despian Tragedy",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Regained",
+              "Branded Sword",
+              "Despia, Theater of the Branded",
+              "Screams of the Branded",
+              "Springans Kitt",
+              "The Fallen &amp; The Virtuous",
+              "Branded Befallen",
+              "Bystial Saronir",
+              "Branded in High Spirits",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Fusion",
+              "Albion the Branded Dragon",
+              "Albion the Branded Dragon"
+            ]
+          },
+          {
+            "recommendation_index": 3,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 2,
+                "recovery": 2,
+                "interruptions": 13,
+                "board_breakers": 0,
+                "max_bricks": 2
+              },
+              "reason": "Increase non-engine interruption count by 3.",
+              "diagnosis_causes": [
+                "interruption_shortage"
+              ],
+              "risk_level": "medium"
+            },
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 2,
+              "recovery": 2,
+              "interruptions": 13,
+              "board_breakers": 0,
+              "max_bricks": 2
+            },
+            "runs": 3,
+            "average_score": 193.25,
+            "best_score": 194.2,
+            "baseline_score": 194.415,
+            "improvement": -1.165,
+            "legal_run_count": 3,
+            "blocked_card_violations": [],
+            "quota_warnings": [],
+            "confidence": 0.7498,
+            "package_counts": {
+              "extenders": 17,
+              "interruptions": 2,
+              "starters_searchers": 21
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "added Extra Deck repair card: Albion the Branded Dragon"
+            ],
+            "safe": false,
+            "rejection_reason": "no_safe_improvement",
+            "decision_explanation": "Rejected because no_safe_improvement. Candidate declined by -1.165. Added no major additions; removed no major removals.",
+            "card_shift_explanation": {
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_delta": {},
+              "explanation": "Candidate declined by -1.165. Added no major additions; removed no major removals.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -1.165,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [],
+              "cards_removed": [],
+              "copy_increases": {},
+              "copy_decreases": {},
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {},
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -1.165. Added no major additions; removed no major removals.",
+              "compact_card_delta_table": [],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -1.165\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: none\n- Explanation: Candidate declined by -1.165. Added no major additions; removed no major removals.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 1 | +0 |\n| engine_requirement | 35 | 35 | +0 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| None | 0 | no change |"
+            },
+            "best_deck_names": [
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "Bystial Saronir",
+              "Branded Opening",
+              "The Bystial Lubellion",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Lost",
+              "Branded Retribution",
+              "Branded Opening",
+              "Branded Retribution",
+              "Bystial Saronir",
+              "Branded Opening",
+              "Despian Tragedy",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Regained",
+              "Branded Sword",
+              "Despia, Theater of the Branded",
+              "Screams of the Branded",
+              "Springans Kitt",
+              "The Fallen &amp; The Virtuous",
+              "Branded Befallen",
+              "Branded Disciple",
+              "Bystial Saronir",
+              "Branded in High Spirits",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Fusion",
+              "Albion the Branded Dragon",
+              "Albion the Branded Dragon"
+            ]
+          },
+          {
+            "recommendation_index": 4,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 10,
+                "board_breakers": 2,
+                "max_bricks": 2
+              },
+              "reason": "Retest a small conservative change around the current ratio.",
+              "diagnosis_causes": [
+                "ratio_overfitting"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 2
+            },
+            "runs": 3,
+            "average_score": 189.6967,
+            "best_score": 190.34,
+            "baseline_score": 194.415,
+            "improvement": -4.7183,
+            "legal_run_count": 3,
+            "blocked_card_violations": [],
+            "quota_warnings": [],
+            "confidence": 0.7498,
+            "package_counts": {
+              "extenders": 19,
+              "starters_searchers": 21
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "added Extra Deck repair card: Albion the Branded Dragon"
+            ],
+            "safe": false,
+            "rejection_reason": "no_safe_improvement",
+            "decision_explanation": "Rejected because no_safe_improvement. Candidate declined by -4.7183. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple, The Fallen &amp; The Virtuous. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+            "card_shift_explanation": {
+              "cards_added": [
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple",
+                "The Fallen &amp; The Virtuous"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded in Central Dogmatika": 2
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1,
+                "The Fallen &amp; The Virtuous": 1
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 3,
+                  "lost": 2,
+                  "net": 1
+                }
+              },
+              "package_delta": {
+                "board_breakers": -1
+              },
+              "explanation": "Candidate declined by -4.7183. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple, The Fallen &amp; The Virtuous. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "risk_flags": []
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -4.7183,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 36,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple",
+                "The Fallen &amp; The Virtuous"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded in Central Dogmatika": 2
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1,
+                "The Fallen &amp; The Virtuous": 1
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 3,
+                  "lost": 2,
+                  "net": 1
+                }
+              },
+              "package_gains_losses": {
+                "board_breakers": -1,
+                "engine_requirement": 1
+              },
+              "risk_flags": [],
+              "short_explanation": "Candidate declined by -4.7183. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple, The Fallen &amp; The Virtuous. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.",
+              "compact_card_delta_table": [
+                {
+                  "card": "Albion the Shrouded Dragon",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Befallen",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded Disciple",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded in Central Dogmatika",
+                  "delta": 2,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "The Fallen &amp; The Virtuous",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                }
+              ],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -4.7183\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: none\n- Explanation: Candidate declined by -4.7183. Added Albion the Shrouded Dragon, Branded in Central Dogmatika; removed Branded Befallen, Branded Disciple, The Fallen &amp; The Virtuous. Role gains: +1 engine_requirement. Role losses: -1 board_breakers.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 0 | -1 |\n| engine_requirement | 35 | 36 | +1 |\n| extenders | 1 | 1 | +0 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| Albion the Shrouded Dragon | +1 | added/increased |\n| Branded Befallen | -1 | removed/decreased |\n| Branded Disciple | -1 | removed/decreased |\n| Branded in Central Dogmatika | +2 | added/increased |\n| The Fallen &amp; The Virtuous | -1 | removed/decreased |"
+            },
+            "best_deck_names": [
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "Bystial Saronir",
+              "Branded Opening",
+              "The Bystial Lubellion",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Lost",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Opening",
+              "Branded Retribution",
+              "Bystial Saronir",
+              "Branded Opening",
+              "Despian Tragedy",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Regained",
+              "Branded Sword",
+              "Despia, Theater of the Branded",
+              "Screams of the Branded",
+              "Springans Kitt",
+              "Bystial Saronir",
+              "Branded in Central Dogmatika",
+              "Branded in High Spirits",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Fusion",
+              "Branded in Central Dogmatika",
+              "Albion the Branded Dragon",
+              "Albion the Branded Dragon"
+            ]
+          },
+          {
+            "recommendation_index": 5,
+            "recommendation": {
+              "ratio_profile": {
+                "starters_searchers": 11,
+                "extenders": 6,
+                "payoffs": 3,
+                "recovery": 2,
+                "interruptions": 8,
+                "board_breakers": 2,
+                "max_bricks": 4
+              },
+              "reason": "Retest the baseline-like ratio to guard against overfitting.",
+              "diagnosis_causes": [
+                "ratio_overfitting"
+              ],
+              "risk_level": "low"
+            },
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            },
+            "runs": 3,
+            "average_score": 188.8933,
+            "best_score": 189.62,
+            "baseline_score": 194.415,
+            "improvement": -5.5217,
+            "legal_run_count": 3,
+            "blocked_card_violations": [],
+            "quota_warnings": [],
+            "confidence": 0.7498,
+            "package_counts": {
+              "extenders": 19,
+              "starters_searchers": 21
+            },
+            "repair_used": true,
+            "repair_success": true,
+            "repair_actions": [
+              "added Extra Deck repair card: Albion the Branded Dragon"
+            ],
+            "safe": false,
+            "rejection_reason": "no_safe_improvement",
+            "decision_explanation": "Rejected because no_safe_improvement. Candidate declined by -5.5217. Added Albion the Shrouded Dragon, Branded Loss, Branded Regained; removed Branded Befallen, Branded Disciple, Screams of the Branded. Role gains: +1 extenders. Role losses: -1 board_breakers. Risks: package_instability.",
+            "card_shift_explanation": {
+              "cards_added": [
+                "Branded Loss",
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple",
+                "Screams of the Branded",
+                "Springans Kitt",
+                "The Fallen &amp; The Virtuous"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded Loss": 1,
+                "Branded Regained": 1,
+                "Branded in Central Dogmatika": 2
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1,
+                "Screams of the Branded": 1,
+                "Springans Kitt": 1,
+                "The Fallen &amp; The Virtuous": 1
+              },
+              "role_delta": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 1,
+                  "lost": 0,
+                  "net": 1
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 4,
+                  "lost": 4,
+                  "net": 0
+                }
+              },
+              "package_delta": {
+                "extenders": 1,
+                "board_breakers": -1
+              },
+              "explanation": "Candidate declined by -5.5217. Added Albion the Shrouded Dragon, Branded Loss, Branded Regained; removed Branded Befallen, Branded Disciple, Screams of the Branded. Role gains: +1 extenders. Role losses: -1 board_breakers. Risks: package_instability.",
+              "risk_flags": [
+                "package_instability"
+              ]
+            },
+            "package_replay_report": {
+              "archetype": "Branded",
+              "score_delta": -5.5217,
+              "before_main_package_counts": {
+                "board_breakers": 1,
+                "engine_requirement": 35,
+                "extenders": 1,
+                "interruptions": 3
+              },
+              "after_main_package_counts": {
+                "engine_requirement": 35,
+                "extenders": 2,
+                "interruptions": 3
+              },
+              "before_main_count": 40,
+              "after_main_count": 40,
+              "before_extra_count": 2,
+              "after_extra_count": 2,
+              "cards_added": [
+                "Branded Loss",
+                "Branded in Central Dogmatika"
+              ],
+              "cards_removed": [
+                "Branded Befallen",
+                "Branded Disciple",
+                "Screams of the Branded",
+                "Springans Kitt",
+                "The Fallen &amp; The Virtuous"
+              ],
+              "copy_increases": {
+                "Albion the Shrouded Dragon": 1,
+                "Branded Loss": 1,
+                "Branded Regained": 1,
+                "Branded in Central Dogmatika": 2
+              },
+              "copy_decreases": {
+                "Branded Befallen": 1,
+                "Branded Disciple": 1,
+                "Screams of the Branded": 1,
+                "Springans Kitt": 1,
+                "The Fallen &amp; The Virtuous": 1
+              },
+              "role_gains_losses": {
+                "starters_searchers": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "extenders": {
+                  "gained": 1,
+                  "lost": 0,
+                  "net": 1
+                },
+                "payoffs": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "interruptions": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "board_breakers": {
+                  "gained": 0,
+                  "lost": 1,
+                  "net": -1
+                },
+                "bricks": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "recovery": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "core": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "unknown": {
+                  "gained": 0,
+                  "lost": 0,
+                  "net": 0
+                },
+                "engine_requirement": {
+                  "gained": 4,
+                  "lost": 4,
+                  "net": 0
+                }
+              },
+              "package_gains_losses": {
+                "board_breakers": -1,
+                "extenders": 1
+              },
+              "risk_flags": [
+                "package_instability"
+              ],
+              "short_explanation": "Candidate declined by -5.5217. Added Albion the Shrouded Dragon, Branded Loss, Branded Regained; removed Branded Befallen, Branded Disciple, Screams of the Branded. Role gains: +1 extenders. Role losses: -1 board_breakers. Risks: package_instability.",
+              "compact_card_delta_table": [
+                {
+                  "card": "Albion the Shrouded Dragon",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Befallen",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded Disciple",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Branded Loss",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded Regained",
+                  "delta": 1,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Branded in Central Dogmatika",
+                  "delta": 2,
+                  "change": "added/increased"
+                },
+                {
+                  "card": "Screams of the Branded",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "Springans Kitt",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                },
+                {
+                  "card": "The Fallen &amp; The Virtuous",
+                  "delta": -1,
+                  "change": "removed/decreased"
+                }
+              ],
+              "markdown_section": "### Branded Package Replay\n\n- Score delta: -5.5217\n- Main count: 40 -> 40\n- Extra count: 2 -> 2\n- Risk flags: package_instability\n- Explanation: Candidate declined by -5.5217. Added Albion the Shrouded Dragon, Branded Loss, Branded Regained; removed Branded Befallen, Branded Disciple, Screams of the Branded. Role gains: +1 extenders. Role losses: -1 board_breakers. Risks: package_instability.\n\n| Package | Before | After | Delta |\n|---|---:|---:|---:|\n| board_breakers | 1 | 0 | -1 |\n| engine_requirement | 35 | 35 | +0 |\n| extenders | 1 | 2 | +1 |\n| interruptions | 3 | 3 | +0 |\n\n| Card | Delta | Change |\n|---|---:|---|\n| Albion the Shrouded Dragon | +1 | added/increased |\n| Branded Befallen | -1 | removed/decreased |\n| Branded Disciple | -1 | removed/decreased |\n| Branded Loss | +1 | added/increased |\n| Branded Regained | +1 | added/increased |\n| Branded in Central Dogmatika | +2 | added/increased |\n| Screams of the Branded | -1 | removed/decreased |\n| Springans Kitt | -1 | removed/decreased |\n| The Fallen &amp; The Virtuous | -1 | removed/decreased |"
+            },
+            "best_deck_names": [
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "The Bystial Lubellion",
+              "Branded Lost",
+              "Branded in High Spirits",
+              "Despian Tragedy",
+              "Aluber the Jester of Despia",
+              "Bystial Saronir",
+              "Branded Opening",
+              "The Bystial Lubellion",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Lost",
+              "Branded Retribution",
+              "Albion the Shrouded Dragon",
+              "Branded Opening",
+              "Branded Retribution",
+              "Bystial Saronir",
+              "Branded Opening",
+              "Despian Tragedy",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Regained",
+              "Branded Sword",
+              "Despia, Theater of the Branded",
+              "Bystial Saronir",
+              "Branded in Central Dogmatika",
+              "Branded in High Spirits",
+              "Albion the Shrouded Dragon",
+              "Branded Banishment",
+              "Branded Bond",
+              "Branded Fusion",
+              "Branded in Central Dogmatika",
+              "Branded Loss",
+              "Branded Regained",
+              "Albion the Branded Dragon",
+              "Albion the Branded Dragon"
+            ]
+          }
+        ]
+      },
+      "deck_diff_artifacts": {
+        "markdown": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_branded_deck_diff.md",
+        "html": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_branded_deck_diff.html"
+      },
+      "deck_diff_summary": {
+        "score_delta": 0.43,
+        "confidence_delta": 0.0,
+        "risk_flags": [
+          "package_instability"
+        ],
+        "human_review_notes": [
+          "Review baseline-to-tuned card movement before trusting ratio memory.",
+          "Targeted retests raised risk flags: package_instability.",
+          "No targeted recommendation beat the stored safe baseline; inspect rejected replay sections."
+        ]
+      }
+    },
+    {
+      "archetype": "Kashtira",
+      "normal_score": 186.06,
+      "tuned_score": 186.08,
+      "improvement": 0.02,
+      "normal_confidence": 0.7498,
+      "tuned_confidence": 0.7498,
+      "confidence_delta": 0.0,
+      "normal_package_counts": {
+        "extenders": 15,
+        "interruptions": 4,
+        "starters_searchers": 21
+      },
+      "tuned_package_counts": {
+        "extenders": 16,
+        "interruptions": 3,
+        "starters_searchers": 21
+      },
+      "normal_deck_sections": {
+        "main": [
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Unicorn",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Unicorn",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Riseheart",
+          "Kashtira Unicorn",
+          "Kashtiratheosis",
+          "Scareclaw Kashtira",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Kashtira Overlap",
+          "Kashtira Birth",
+          "Kashtira Birth",
+          "Kashtira Riseheart",
+          "Kashtiratheosis",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Akstra",
+          "Kashtira Birth",
+          "Kashtira Preparations",
+          "Kashtira Riseheart",
+          "Kashtira Preparations",
+          "Kashtiratheosis",
+          "Tearlaments Kashtira",
+          "Kashtira Akstra",
+          "Kashtira Preparations",
+          "Kashtira Overlap",
+          "Kashtira Akstra",
+          "Kashtira Overlap",
+          "Anti Raigeki"
+        ],
+        "extra": [
+          "Kashtira Shangri-Ira",
+          "Kashtira Shangri-Ira"
+        ]
+      },
+      "tuned_deck_sections": {
+        "main": [
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Unicorn",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Unicorn",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Big Bang",
+          "Kashtira Fenrir",
+          "Kashtira Ogre",
+          "Kashtira Riseheart",
+          "Kashtira Unicorn",
+          "Kashtiratheosis",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Kashtira Overlap",
+          "Kashtira Birth",
+          "Kashtira Birth",
+          "Kashtira Riseheart",
+          "Kashtiratheosis",
+          "Scareclaw Kashtira",
+          "Tearlaments Kashtira",
+          "Pressured Planet Wraitsoth",
+          "Kashtira Akstra",
+          "Kashtira Birth",
+          "Kashtira Preparations",
+          "Kashtira Overlap",
+          "Ash Blossom & Joyous Spring",
+          "Kashtira Riseheart",
+          "Kashtira Preparations",
+          "Kashtiratheosis",
+          "Kashtira Akstra",
+          "Kashtira Preparations",
+          "Kashtira Overlap",
+          "Kashtira Akstra"
+        ],
+        "extra": [
+          "Kashtira Shangri-Ira",
+          "Kashtira Shangri-Ira"
+        ]
+      },
+      "normal_deck_names": [
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Unicorn",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Unicorn",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Riseheart",
+        "Kashtira Unicorn",
+        "Kashtiratheosis",
+        "Scareclaw Kashtira",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Kashtira Overlap",
+        "Kashtira Birth",
+        "Kashtira Birth",
+        "Kashtira Riseheart",
+        "Kashtiratheosis",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Akstra",
+        "Kashtira Birth",
+        "Kashtira Preparations",
+        "Kashtira Riseheart",
+        "Kashtira Preparations",
+        "Kashtiratheosis",
+        "Tearlaments Kashtira",
+        "Kashtira Akstra",
+        "Kashtira Preparations",
+        "Kashtira Overlap",
+        "Kashtira Akstra",
+        "Kashtira Overlap",
+        "Anti Raigeki",
+        "Kashtira Shangri-Ira",
+        "Kashtira Shangri-Ira"
+      ],
+      "tuned_deck_names": [
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Unicorn",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Unicorn",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Big Bang",
+        "Kashtira Fenrir",
+        "Kashtira Ogre",
+        "Kashtira Riseheart",
+        "Kashtira Unicorn",
+        "Kashtiratheosis",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Kashtira Overlap",
+        "Kashtira Birth",
+        "Kashtira Birth",
+        "Kashtira Riseheart",
+        "Kashtiratheosis",
+        "Scareclaw Kashtira",
+        "Tearlaments Kashtira",
+        "Pressured Planet Wraitsoth",
+        "Kashtira Akstra",
+        "Kashtira Birth",
+        "Kashtira Preparations",
+        "Kashtira Overlap",
+        "Ash Blossom & Joyous Spring",
+        "Kashtira Riseheart",
+        "Kashtira Preparations",
+        "Kashtiratheosis",
+        "Kashtira Akstra",
+        "Kashtira Preparations",
+        "Kashtira Overlap",
+        "Kashtira Akstra",
+        "Kashtira Shangri-Ira",
+        "Kashtira Shangri-Ira"
+      ],
+      "normal_repair_actions": [
+        "filled missing main slot with interruptions: Anti Raigeki",
+        "added Extra Deck repair card: Kashtira Shangri-Ira"
+      ],
+      "tuned_repair_actions": [
+        "added Extra Deck repair card: Kashtira Shangri-Ira"
+      ],
+      "normal_quota_warnings": [],
+      "tuned_quota_warnings": [],
+      "normal_legal": true,
+      "tuned_legal": true,
+      "normal_blocked_card_violations": [],
+      "tuned_blocked_card_violations": [],
+      "skeleton_coverage": 5,
+      "variant_count": 3,
+      "legal_variant_count": 3,
+      "best_ratio_profile": {
+        "starters_searchers": 13,
+        "extenders": 5,
+        "payoffs": 3,
+        "recovery": 2,
+        "interruptions": 10,
+        "board_breakers": 2,
+        "max_bricks": 3
+      },
+      "repair_success_rate": 1.0,
+      "decks_saved_by_repair": 3,
+      "fallback_used_count": 0,
+      "average_repair_actions": 1.33,
+      "common_repair_warnings": [],
+      "memory_action": "updated",
+      "diagnosis_influenced_tuning": true,
+      "diagnosis_bias": {
+        "interruptions": 1,
+        "max_bricks": -1
+      },
+      "diagnosis_used": {
+        "archetype": "Kashtira",
+        "mode": "meta",
+        "diagnosis": "Kashtira trend is stable; likely pressure from interruption shortage, ratio overfitting.",
+        "severity": "medium",
+        "suspected_causes": [
+          "interruption_shortage",
+          "ratio_overfitting"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds.",
+          "Retest safer baseline-adjacent ratios before trusting narrow improvements."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 16,
+          "payoffs": 3,
+          "interruptions": 3,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 11,
+          "target_extenders": 6,
+          "target_interruptions": 10,
+          "max_bricks": 2,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.1312,
+        "bad_pattern_recurrence": 1.0,
+        "last_diagnosed_utc": "2026-05-27T23:53:57.742840+00:00"
+      },
+      "trend_diagnosis": {
+        "archetype": "Kashtira",
+        "mode": "meta",
+        "diagnosis": "Kashtira trend is improving; likely pressure from interruption shortage.",
+        "severity": "low",
+        "suspected_causes": [
+          "interruption_shortage"
+        ],
+        "recommended_adjustments": [
+          "Explore +1 interruption/non-engine slot in meta builds."
+        ],
+        "package_pressure": {
+          "starters_searchers": 21,
+          "extenders": 16,
+          "payoffs": 3,
+          "interruptions": 3,
+          "board_breakers": 2,
+          "bricks": 0,
+          "core": 0,
+          "recovery": 0,
+          "target_starters_searchers": 13,
+          "target_extenders": 5,
+          "target_interruptions": 10,
+          "max_bricks": 3,
+          "brick_pressure": 0.0
+        },
+        "confidence_trend": "stable",
+        "repair_dependency": 0.1263,
+        "bad_pattern_recurrence": 0.13,
+        "last_diagnosed_utc": "2026-05-27T23:54:34.139103+00:00"
+      },
+      "ratio_recommendations": [],
+      "targeted_retest": {
+        "targeted_retest_used": false,
+        "tested_recommendations": 0
+      },
+      "deck_diff_artifacts": {
+        "markdown": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_kashtira_deck_diff.md",
+        "html": "SystemAIYugioh\\data\\training_runs\\generic_benchmarks\\deck_diffs\\latest_kashtira_deck_diff.html"
+      },
+      "deck_diff_summary": {
+        "score_delta": 0.02,
+        "confidence_delta": 0.0,
+        "risk_flags": [],
+        "human_review_notes": [
+          "Review baseline-to-tuned card movement before trusting ratio memory.",
+          "Tuned build reduced at least one access, extender, interaction, or board-breaker package."
+        ]
+      }
+    }
+  ],
+  "benchmark_history": {
+    "profiles": {
+      "Branded": {
+        "total_benchmark_runs": 200,
+        "average_normal_score": 184.8331,
+        "average_tuned_score": 184.9272,
+        "average_improvement": 0.0941,
+        "best_improvement": 2.74,
+        "worst_improvement": -2.13,
+        "tuning_hurt_count": 91,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 0.95,
+        "rejected_deck_count": 0,
+        "memory_update_count": 109,
+        "trend_direction": "improving",
+        "best_ratio_patterns": [
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:8|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 19,
+            "average_improvement": 1.1242,
+            "best_improvement": 3.86,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:8|max_bricks:2|payoffs:3|recovery:2|starters_searchers:13",
+            "count": 1,
+            "average_improvement": 1.09,
+            "best_improvement": 1.09,
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 2
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:9|max_bricks:3|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 88,
+            "average_improvement": 0.6791,
+            "best_improvement": 2.16,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 3
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:10|max_bricks:2|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 94,
+            "average_improvement": 0.6623,
+            "best_improvement": 2.74,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 2
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:5|interruptions:10|max_bricks:3|payoffs:3|recovery:2|starters_searchers:13",
+            "count": 2,
+            "average_improvement": 0.635,
+            "best_improvement": 0.71,
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 5,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 3
+            }
+          }
+        ],
+        "bad_ratio_pattern_count": 50,
+        "latest_diagnosis": {
+          "archetype": "Branded",
+          "mode": "meta",
+          "diagnosis": "Branded trend is improving; likely pressure from interruption shortage, ratio overfitting.",
+          "severity": "medium",
+          "suspected_causes": [
+            "interruption_shortage",
+            "ratio_overfitting"
+          ],
+          "recommended_adjustments": [
+            "Explore +1 interruption/non-engine slot in meta builds.",
+            "Retest safer baseline-adjacent ratios before trusting narrow improvements."
+          ],
+          "package_pressure": {
+            "starters_searchers": 21,
+            "extenders": 19,
+            "payoffs": 3,
+            "interruptions": 0,
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 0,
+            "recovery": 0,
+            "target_starters_searchers": 11,
+            "target_extenders": 6,
+            "target_interruptions": 10,
+            "max_bricks": 2,
+            "brick_pressure": 0.0
+          },
+          "confidence_trend": "stable",
+          "repair_dependency": 0.0875,
+          "bad_pattern_recurrence": 1.0,
+          "last_diagnosed_utc": "2026-05-27T23:54:34.139103+00:00"
+        },
+        "latest_targeted_retest": {
+          "timestamp_utc": "2026-05-27T23:54:37.777091+00:00",
+          "tested_recommendations": 5,
+          "accepted_recommendation": null,
+          "rejected_recommendation_count": 5,
+          "targeted_improvement": -1.165,
+          "best_score": 193.25,
+          "baseline_score": 194.415
+        }
+      },
+      "Kashtira": {
+        "total_benchmark_runs": 200,
+        "average_normal_score": 185.4644,
+        "average_tuned_score": 185.9786,
+        "average_improvement": 0.5141,
+        "best_improvement": 2.44,
+        "worst_improvement": -0.97,
+        "tuning_hurt_count": 38,
+        "repair_reliability": 1.0,
+        "average_repair_actions": 1.5123,
+        "rejected_deck_count": 0,
+        "memory_update_count": 160,
+        "trend_direction": "improving",
+        "best_ratio_patterns": [
+          {
+            "pattern": "board_breakers:2|extenders:5|interruptions:10|max_bricks:4|payoffs:3|recovery:2|starters_searchers:13",
+            "count": 1,
+            "average_improvement": 1.11,
+            "best_improvement": 1.11,
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 5,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:8|interruptions:8|max_bricks:4|payoffs:4|recovery:2|starters_searchers:10",
+            "count": 2,
+            "average_improvement": 0.89,
+            "best_improvement": 1.1,
+            "ratio_profile": {
+              "starters_searchers": 10,
+              "extenders": 8,
+              "payoffs": 4,
+              "recovery": 2,
+              "interruptions": 8,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:5|interruptions:10|max_bricks:3|payoffs:3|recovery:2|starters_searchers:13",
+            "count": 6,
+            "average_improvement": 0.8533,
+            "best_improvement": 1.82,
+            "ratio_profile": {
+              "starters_searchers": 13,
+              "extenders": 5,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 3
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:10|max_bricks:4|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 12,
+            "average_improvement": 0.7333,
+            "best_improvement": 1.64,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 10,
+              "board_breakers": 2,
+              "max_bricks": 4
+            }
+          },
+          {
+            "pattern": "board_breakers:2|extenders:6|interruptions:9|max_bricks:3|payoffs:3|recovery:2|starters_searchers:11",
+            "count": 50,
+            "average_improvement": 0.6184,
+            "best_improvement": 1.81,
+            "ratio_profile": {
+              "starters_searchers": 11,
+              "extenders": 6,
+              "payoffs": 3,
+              "recovery": 2,
+              "interruptions": 9,
+              "board_breakers": 2,
+              "max_bricks": 3
+            }
+          }
+        ],
+        "bad_ratio_pattern_count": 26,
+        "latest_diagnosis": {
+          "archetype": "Kashtira",
+          "mode": "meta",
+          "diagnosis": "Kashtira trend is improving; likely pressure from interruption shortage.",
+          "severity": "low",
+          "suspected_causes": [
+            "interruption_shortage"
+          ],
+          "recommended_adjustments": [
+            "Explore +1 interruption/non-engine slot in meta builds."
+          ],
+          "package_pressure": {
+            "starters_searchers": 21,
+            "extenders": 16,
+            "payoffs": 3,
+            "interruptions": 3,
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 0,
+            "recovery": 0,
+            "target_starters_searchers": 13,
+            "target_extenders": 5,
+            "target_interruptions": 10,
+            "max_bricks": 3,
+            "brick_pressure": 0.0
+          },
+          "confidence_trend": "stable",
+          "repair_dependency": 0.1263,
+          "bad_pattern_recurrence": 0.13,
+          "last_diagnosed_utc": "2026-05-27T23:54:34.139103+00:00"
+        },
+        "latest_targeted_retest": {
+          "timestamp_utc": "2026-05-27T23:54:03.048289+00:00",
+          "tested_recommendations": 5,
+          "accepted_recommendation": null,
+          "rejected_recommendation_count": 5,
+          "targeted_improvement": -0.82,
+          "best_score": 189.555,
+          "baseline_score": 190.375
+        }
+      }
+    },
+    "best_long_term_archetypes": [
+      [
+        "Kashtira",
+        0.5141
+      ],
+      [
+        "Branded",
+        0.0941
+      ]
+    ],
+    "worst_long_term_archetypes": [
+      [
+        "Branded",
+        0.0941
+      ],
+      [
+        "Kashtira",
+        0.5141
+      ]
+    ],
+    "noisy_archetypes": [],
+    "recommended_follow_up_archetypes": [
+      "Branded"
+    ],
+    "historical_average_improvement": 0.3041,
+    "recent_average_improvement": 0.3041,
+    "average_repair_reliability": 1.0
+  }
+}

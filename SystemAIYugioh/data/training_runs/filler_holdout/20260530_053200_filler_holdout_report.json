@@ -1,0 +1,916 @@
+{
+  "report_type": "filler_signal_holdout_review",
+  "report_version": "phase6s-v1",
+  "created_at_utc": "2026-05-30T05:32:00.397306+00:00",
+  "config": {
+    "archetypes": [
+      "Branded",
+      "Kashtira",
+      "Runick",
+      "Tearlaments"
+    ],
+    "mode": "meta",
+    "runs": 1,
+    "fillers": [
+      "Ash Blossom & Joyous Spring",
+      "Effect Veiler",
+      "Nibiru, the Primal Being",
+      "Ghost Belle & Haunted Mansion"
+    ]
+  },
+  "provenance": {
+    "source": "filler_signal_holdout_review",
+    "validator_generated": false,
+    "smoke": true,
+    "legal": null,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-05-30T05:31:52.389501+00:00"
+  },
+  "summary": {
+    "eligible_signals_reviewed": 4,
+    "holdout_passed_count": 2,
+    "holdout_failed_count": 2,
+    "activation_ready_count": 2,
+    "activation_ready_fillers": [
+      "Ash Blossom & Joyous Spring",
+      "Ghost Belle & Haunted Mansion"
+    ],
+    "holdout_failed_fillers": [
+      "Effect Veiler",
+      "Nibiru, the Primal Being"
+    ],
+    "average_holdout_delta_by_filler": {
+      "Ash Blossom & Joyous Spring": 1.7875,
+      "Effect Veiler": 0.0675,
+      "Nibiru, the Primal Being": -0.0775,
+      "Ghost Belle & Haunted Mansion": 0.94
+    }
+  },
+  "eligible_before_holdout": [
+    "Ash Blossom & Joyous Spring",
+    "Effect Veiler",
+    "Nibiru, the Primal Being",
+    "Ghost Belle & Haunted Mansion"
+  ],
+  "results": [
+    {
+      "filler": "Ash Blossom & Joyous Spring",
+      "eligible_before_holdout": true,
+      "holdout_tests": 4,
+      "positive_count": 3,
+      "neutral_count": 1,
+      "negative_count": 0,
+      "clean_single_card_count": 4,
+      "average_holdout_delta": 1.7875,
+      "average_confidence_delta": 0.0,
+      "confidence_stability": "stable",
+      "holdout_passed": true,
+      "contradictions": [],
+      "archetype_results": {
+        "Branded": {
+          "tests": 1,
+          "average_delta": 2.44,
+          "positive": 1,
+          "neutral": 0,
+          "negative": 0
+        },
+        "Kashtira": {
+          "tests": 1,
+          "average_delta": -0.09,
+          "positive": 0,
+          "neutral": 1,
+          "negative": 0
+        },
+        "Runick": {
+          "tests": 1,
+          "average_delta": 2.65,
+          "positive": 1,
+          "neutral": 0,
+          "negative": 0
+        },
+        "Tearlaments": {
+          "tests": 1,
+          "average_delta": 2.15,
+          "positive": 1,
+          "neutral": 0,
+          "negative": 0
+        }
+      }
+    },
+    {
+      "filler": "Effect Veiler",
+      "eligible_before_holdout": true,
+      "holdout_tests": 4,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "clean_single_card_count": 4,
+      "average_holdout_delta": 0.0675,
+      "average_confidence_delta": 0.0,
+      "confidence_stability": "stable",
+      "holdout_passed": false,
+      "contradictions": [
+        {
+          "archetype": "Runick",
+          "run": 1,
+          "score_delta": -2.47,
+          "reason": "negative"
+        },
+        {
+          "archetype": "Tearlaments",
+          "run": 1,
+          "score_delta": -0.83,
+          "reason": "negative"
+        }
+      ],
+      "archetype_results": {
+        "Branded": {
+          "tests": 1,
+          "average_delta": 2.47,
+          "positive": 1,
+          "neutral": 0,
+          "negative": 0
+        },
+        "Kashtira": {
+          "tests": 1,
+          "average_delta": 1.1,
+          "positive": 1,
+          "neutral": 0,
+          "negative": 0
+        },
+        "Runick": {
+          "tests": 1,
+          "average_delta": -2.47,
+          "positive": 0,
+          "neutral": 0,
+          "negative": 1
+        },
+        "Tearlaments": {
+          "tests": 1,
+          "average_delta": -0.83,
+          "positive": 0,
+          "neutral": 0,
+          "negative": 1
+        }
+      }
+    },
+    {
+      "filler": "Nibiru, the Primal Being",
+      "eligible_before_holdout": true,
+      "holdout_tests": 4,
+      "positive_count": 1,
+      "neutral_count": 1,
+      "negative_count": 2,
+      "clean_single_card_count": 4,
+      "average_holdout_delta": -0.0775,
+      "average_confidence_delta": 0.0,
+      "confidence_stability": "stable",
+      "holdout_passed": false,
+      "contradictions": [
+        {
+          "archetype": "Kashtira",
+          "run": 1,
+          "score_delta": -1.83,
+          "reason": "negative"
+        },
+        {
+          "archetype": "Runick",
+          "run": 1,
+          "score_delta": -0.69,
+          "reason": "negative"
+        }
+      ],
+      "archetype_results": {
+        "Branded": {
+          "tests": 1,
+          "average_delta": 2.55,
+          "positive": 1,
+          "neutral": 0,
+          "negative": 0
+        },
+        "Kashtira": {
+          "tests": 1,
+          "average_delta": -1.83,
+          "positive": 0,
+          "neutral": 0,
+          "negative": 1
+        },
+        "Runick": {
+          "tests": 1,
+          "average_delta": -0.69,
+          "positive": 0,
+          "neutral": 0,
+          "negative": 1
+        },
+        "Tearlaments": {
+          "tests": 1,
+          "average_delta": -0.34,
+          "positive": 0,
+          "neutral": 1,
+          "negative": 0
+        }
+      }
+    },
+    {
+      "filler": "Ghost Belle & Haunted Mansion",
+      "eligible_before_holdout": true,
+      "holdout_tests": 4,
+      "positive_count": 2,
+      "neutral_count": 2,
+      "negative_count": 0,
+      "clean_single_card_count": 4,
+      "average_holdout_delta": 0.94,
+      "average_confidence_delta": 0.0,
+      "confidence_stability": "stable",
+      "holdout_passed": true,
+      "contradictions": [],
+      "archetype_results": {
+        "Branded": {
+          "tests": 1,
+          "average_delta": 3.11,
+          "positive": 1,
+          "neutral": 0,
+          "negative": 0
+        },
+        "Kashtira": {
+          "tests": 1,
+          "average_delta": -0.24,
+          "positive": 0,
+          "neutral": 1,
+          "negative": 0
+        },
+        "Runick": {
+          "tests": 1,
+          "average_delta": -0.36,
+          "positive": 0,
+          "neutral": 1,
+          "negative": 0
+        },
+        "Tearlaments": {
+          "tests": 1,
+          "average_delta": 1.25,
+          "positive": 1,
+          "neutral": 0,
+          "negative": 0
+        }
+      }
+    }
+  ],
+  "test_rows": [
+    {
+      "archetype": "Branded",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Ash Blossom & Joyous Spring",
+      "removed_card": "Albion the Shrouded Dragon",
+      "baseline_score": 187.53,
+      "candidate_score": 189.97,
+      "score_delta": 2.44,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Ash Blossom & Joyous Spring": 1
+        },
+        "copy_decreases": {
+          "Albion the Shrouded Dragon": 1
+        },
+        "cards_added": [
+          "Ash Blossom & Joyous Spring"
+        ],
+        "cards_removed": [
+          "Albion the Shrouded Dragon"
+        ]
+      },
+      "impact_classification": {
+        "Ash Blossom & Joyous Spring": "performance_positive"
+      },
+      "event_impact_classification": "performance_positive",
+      "holdout_classification": "positive",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Kashtira",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Ash Blossom & Joyous Spring",
+      "removed_card": "Anti Raigeki",
+      "baseline_score": 184.01,
+      "candidate_score": 183.92,
+      "score_delta": -0.09,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Ash Blossom & Joyous Spring": 1
+        },
+        "copy_decreases": {
+          "Anti Raigeki": 1
+        },
+        "cards_added": [
+          "Ash Blossom & Joyous Spring"
+        ],
+        "cards_removed": [
+          "Anti Raigeki"
+        ]
+      },
+      "impact_classification": {
+        "Ash Blossom & Joyous Spring": "performance_neutral"
+      },
+      "event_impact_classification": "performance_neutral",
+      "holdout_classification": "neutral",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Runick",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Ash Blossom & Joyous Spring",
+      "removed_card": "Infinite Impermanence",
+      "baseline_score": 162.16,
+      "candidate_score": 164.81,
+      "score_delta": 2.65,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Ash Blossom & Joyous Spring": 1
+        },
+        "copy_decreases": {
+          "Infinite Impermanence": 1
+        },
+        "cards_added": [
+          "Ash Blossom & Joyous Spring"
+        ],
+        "cards_removed": [
+          "Infinite Impermanence"
+        ]
+      },
+      "impact_classification": {
+        "Ash Blossom & Joyous Spring": "performance_positive"
+      },
+      "event_impact_classification": "performance_positive",
+      "holdout_classification": "positive",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Tearlaments",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Ash Blossom & Joyous Spring",
+      "removed_card": "Ghost Belle & Haunted Mansion",
+      "baseline_score": 189.9,
+      "candidate_score": 192.05,
+      "score_delta": 2.15,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Ash Blossom & Joyous Spring": 1
+        },
+        "copy_decreases": {
+          "Ghost Belle & Haunted Mansion": 1
+        },
+        "cards_added": [
+          "Ash Blossom & Joyous Spring"
+        ],
+        "cards_removed": [
+          "Ghost Belle & Haunted Mansion"
+        ]
+      },
+      "impact_classification": {
+        "Ash Blossom & Joyous Spring": "performance_positive"
+      },
+      "event_impact_classification": "performance_positive",
+      "holdout_classification": "positive",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Branded",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Effect Veiler",
+      "removed_card": "Albion the Shrouded Dragon",
+      "baseline_score": 187.18,
+      "candidate_score": 189.65,
+      "score_delta": 2.47,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Effect Veiler": 1
+        },
+        "copy_decreases": {
+          "Albion the Shrouded Dragon": 1
+        },
+        "cards_added": [
+          "Effect Veiler"
+        ],
+        "cards_removed": [
+          "Albion the Shrouded Dragon"
+        ]
+      },
+      "impact_classification": {
+        "Effect Veiler": "performance_positive"
+      },
+      "event_impact_classification": "performance_positive",
+      "holdout_classification": "positive",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Kashtira",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Effect Veiler",
+      "removed_card": "Anti Raigeki",
+      "baseline_score": 183.46,
+      "candidate_score": 184.56,
+      "score_delta": 1.1,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Effect Veiler": 1
+        },
+        "copy_decreases": {
+          "Anti Raigeki": 1
+        },
+        "cards_added": [
+          "Effect Veiler"
+        ],
+        "cards_removed": [
+          "Anti Raigeki"
+        ]
+      },
+      "impact_classification": {
+        "Effect Veiler": "performance_positive"
+      },
+      "event_impact_classification": "performance_positive",
+      "holdout_classification": "positive",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Runick",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Effect Veiler",
+      "removed_card": "Infinite Impermanence",
+      "baseline_score": 166.16,
+      "candidate_score": 163.69,
+      "score_delta": -2.47,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Effect Veiler": 1
+        },
+        "copy_decreases": {
+          "Infinite Impermanence": 1
+        },
+        "cards_added": [
+          "Effect Veiler"
+        ],
+        "cards_removed": [
+          "Infinite Impermanence"
+        ]
+      },
+      "impact_classification": {
+        "Effect Veiler": "risky"
+      },
+      "event_impact_classification": "risky",
+      "holdout_classification": "negative",
+      "supports_eligibility": false,
+      "contradicts_eligibility": true
+    },
+    {
+      "archetype": "Tearlaments",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Effect Veiler",
+      "removed_card": "Ash Blossom & Joyous Spring",
+      "baseline_score": 190.83,
+      "candidate_score": 190.0,
+      "score_delta": -0.83,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Effect Veiler": 1
+        },
+        "copy_decreases": {
+          "Ash Blossom & Joyous Spring": 1
+        },
+        "cards_added": [
+          "Effect Veiler"
+        ],
+        "cards_removed": [
+          "Ash Blossom & Joyous Spring"
+        ]
+      },
+      "impact_classification": {
+        "Effect Veiler": "performance_negative"
+      },
+      "event_impact_classification": "performance_negative",
+      "holdout_classification": "negative",
+      "supports_eligibility": false,
+      "contradicts_eligibility": true
+    },
+    {
+      "archetype": "Branded",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Nibiru, the Primal Being",
+      "removed_card": "Albion the Shrouded Dragon",
+      "baseline_score": 186.71,
+      "candidate_score": 189.26,
+      "score_delta": 2.55,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Nibiru, the Primal Being": 1
+        },
+        "copy_decreases": {
+          "Albion the Shrouded Dragon": 1
+        },
+        "cards_added": [
+          "Nibiru, the Primal Being"
+        ],
+        "cards_removed": [
+          "Albion the Shrouded Dragon"
+        ]
+      },
+      "impact_classification": {
+        "Nibiru, the Primal Being": "performance_positive"
+      },
+      "event_impact_classification": "performance_positive",
+      "holdout_classification": "positive",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Kashtira",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Nibiru, the Primal Being",
+      "removed_card": "Anti Raigeki",
+      "baseline_score": 184.51,
+      "candidate_score": 182.68,
+      "score_delta": -1.83,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Nibiru, the Primal Being": 1
+        },
+        "copy_decreases": {
+          "Anti Raigeki": 1
+        },
+        "cards_added": [
+          "Nibiru, the Primal Being"
+        ],
+        "cards_removed": [
+          "Anti Raigeki"
+        ]
+      },
+      "impact_classification": {
+        "Nibiru, the Primal Being": "performance_negative"
+      },
+      "event_impact_classification": "performance_negative",
+      "holdout_classification": "negative",
+      "supports_eligibility": false,
+      "contradicts_eligibility": true
+    },
+    {
+      "archetype": "Runick",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Nibiru, the Primal Being",
+      "removed_card": "Infinite Impermanence",
+      "baseline_score": 163.4,
+      "candidate_score": 162.71,
+      "score_delta": -0.69,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Nibiru, the Primal Being": 1
+        },
+        "copy_decreases": {
+          "Infinite Impermanence": 1
+        },
+        "cards_added": [
+          "Nibiru, the Primal Being"
+        ],
+        "cards_removed": [
+          "Infinite Impermanence"
+        ]
+      },
+      "impact_classification": {
+        "Nibiru, the Primal Being": "performance_negative"
+      },
+      "event_impact_classification": "performance_negative",
+      "holdout_classification": "negative",
+      "supports_eligibility": false,
+      "contradicts_eligibility": true
+    },
+    {
+      "archetype": "Tearlaments",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Nibiru, the Primal Being",
+      "removed_card": "Ash Blossom & Joyous Spring",
+      "baseline_score": 190.6,
+      "candidate_score": 190.26,
+      "score_delta": -0.34,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Nibiru, the Primal Being": 1
+        },
+        "copy_decreases": {
+          "Ash Blossom & Joyous Spring": 1
+        },
+        "cards_added": [
+          "Nibiru, the Primal Being"
+        ],
+        "cards_removed": [
+          "Ash Blossom & Joyous Spring"
+        ]
+      },
+      "impact_classification": {
+        "Nibiru, the Primal Being": "performance_neutral"
+      },
+      "event_impact_classification": "performance_neutral",
+      "holdout_classification": "neutral",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Branded",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Ghost Belle & Haunted Mansion",
+      "removed_card": "Albion the Shrouded Dragon",
+      "baseline_score": 186.31,
+      "candidate_score": 189.42,
+      "score_delta": 3.11,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Ghost Belle & Haunted Mansion": 1
+        },
+        "copy_decreases": {
+          "Albion the Shrouded Dragon": 1
+        },
+        "cards_added": [
+          "Ghost Belle & Haunted Mansion"
+        ],
+        "cards_removed": [
+          "Albion the Shrouded Dragon"
+        ]
+      },
+      "impact_classification": {
+        "Ghost Belle & Haunted Mansion": "performance_positive"
+      },
+      "event_impact_classification": "performance_positive",
+      "holdout_classification": "positive",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Kashtira",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Ghost Belle & Haunted Mansion",
+      "removed_card": "Anti Raigeki",
+      "baseline_score": 183.99,
+      "candidate_score": 183.75,
+      "score_delta": -0.24,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Ghost Belle & Haunted Mansion": 1
+        },
+        "copy_decreases": {
+          "Anti Raigeki": 1
+        },
+        "cards_added": [
+          "Ghost Belle & Haunted Mansion"
+        ],
+        "cards_removed": [
+          "Anti Raigeki"
+        ]
+      },
+      "impact_classification": {
+        "Ghost Belle & Haunted Mansion": "performance_neutral"
+      },
+      "event_impact_classification": "performance_neutral",
+      "holdout_classification": "neutral",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Runick",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Ghost Belle & Haunted Mansion",
+      "removed_card": "Infinite Impermanence",
+      "baseline_score": 164.83,
+      "candidate_score": 164.47,
+      "score_delta": -0.36,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Ghost Belle & Haunted Mansion": 1
+        },
+        "copy_decreases": {
+          "Infinite Impermanence": 1
+        },
+        "cards_added": [
+          "Ghost Belle & Haunted Mansion"
+        ],
+        "cards_removed": [
+          "Infinite Impermanence"
+        ]
+      },
+      "impact_classification": {
+        "Ghost Belle & Haunted Mansion": "performance_neutral"
+      },
+      "event_impact_classification": "performance_neutral",
+      "holdout_classification": "neutral",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    },
+    {
+      "archetype": "Tearlaments",
+      "mode": "meta",
+      "run": 1,
+      "candidate_filler": "Ghost Belle & Haunted Mansion",
+      "removed_card": "Ash Blossom & Joyous Spring",
+      "baseline_score": 190.06,
+      "candidate_score": 191.31,
+      "score_delta": 1.25,
+      "confidence_delta": 0.0,
+      "clean_single_card_attribution": true,
+      "attribution_model": "single_card",
+      "attribution_confidence": 1.0,
+      "failure_reason": null,
+      "legal": true,
+      "blocked_card_violations": [],
+      "copy_limit_violations": [],
+      "deck_delta": {
+        "copy_increases": {
+          "Ghost Belle & Haunted Mansion": 1
+        },
+        "copy_decreases": {
+          "Ash Blossom & Joyous Spring": 1
+        },
+        "cards_added": [
+          "Ghost Belle & Haunted Mansion"
+        ],
+        "cards_removed": [
+          "Ash Blossom & Joyous Spring"
+        ]
+      },
+      "impact_classification": {
+        "Ghost Belle & Haunted Mansion": "performance_positive"
+      },
+      "event_impact_classification": "performance_positive",
+      "holdout_classification": "positive",
+      "supports_eligibility": true,
+      "contradicts_eligibility": false
+    }
+  ],
+  "gate_report_before": {
+    "eligible_count": 4,
+    "activation_ready_count": 0,
+    "activation_ready_fillers": [],
+    "near_eligible_count": 6,
+    "failed_count": 6,
+    "failure_counts": {
+      "concentration_clearance": 1,
+      "attribution_majority": 1,
+      "indeterminate_suppression": 1,
+      "confidence_floor": 1,
+      "score_stability": 5
+    },
+    "cards_closest_to_eligibility": [
+      "Droll & Lock Bird",
+      "D.D. Crow",
+      "Cosmic Cyclone",
+      "Lightning Storm",
+      "Evenly Matched"
+    ],
+    "cards_blocked_by_concentration": [
+      "Infinite Impermanence"
+    ],
+    "cards_blocked_by_support": [],
+    "cards_blocked_by_archetype_breadth": [],
+    "cards_blocked_by_attribution": [
+      "Infinite Impermanence"
+    ],
+    "aggregate_signal_count": 10
+  }
+}

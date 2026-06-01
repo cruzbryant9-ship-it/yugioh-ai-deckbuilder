@@ -1,0 +1,54 @@
+{
+  "cache_version": "stabilization-a-v1",
+  "fingerprint": "6b5f404b8ba27014270460c9da111ba26b78bd7bbf0aef3a808a38db51aa8ace",
+  "fingerprint_parts": {
+    "fingerprint_version": 1,
+    "cache_version": "stabilization-a-v1",
+    "report_version": "stabilization-a-v1",
+    "card_database": {
+      "cards.json": {
+        "exists": true,
+        "size": 27933090,
+        "mtime_ns": 1779812470850588900,
+        "sha256": "8ee449babeb052bd8acb9ff3bd703608308a5e536fac46aa089b3d500357f4f1"
+      },
+      "metadata.json": {
+        "exists": true,
+        "size": 420,
+        "mtime_ns": 1779812471111817400,
+        "sha256": "067f45f8a2c30da86ef7fc4d48f74252abd07a55db84d0db16b84b54242370c4"
+      },
+      "latest_update_analysis.json": {
+        "exists": true,
+        "size": 373,
+        "mtime_ns": 1779812471112822100,
+        "sha256": "3668205d4eb114175de407bb26de43d2226b755656eb19ff5df4e09a11770f11"
+      }
+    },
+    "custom_card_limits": {
+      "Pot of Greed": 0,
+      "Protector with Eyes of Blue": 0,
+      "Strength in Unity": 0
+    },
+    "engine_variants": [
+      "pure",
+      "ritual",
+      "chaos",
+      "bystial",
+      "horus",
+      "branded",
+      "board_breaker_heavy",
+      "handtrap_heavy"
+    ],
+    "side_plan_settings": {
+      "matrix_smoke_side_candidates": 4,
+      "matrix_full_side_candidates": 6,
+      "matrix_smoke_engine_limit": 4,
+      "matrix_smoke_matchup_limit": 4
+    }
+  },
+  "schema_version": 1,
+  "value": {
+    "value": 7
+  }
+}

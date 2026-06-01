@@ -1,0 +1,242 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "matchup": "combo",
+    "going": "second",
+    "runs": 1
+  },
+  "created_at_utc": "2026-05-23T22:22:38.685581+00:00",
+  "summary": {
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "average_game1_score": 281.11,
+    "average_post_side_score": 283.16,
+    "average_post_side_delta": 2.05,
+    "post_side_valid_rate": 1.0,
+    "average_side_deck_score": 103.0,
+    "average_matchup_coverage_score": 35.0,
+    "average_candidate_count": 12,
+    "average_valid_candidate_count": 12,
+    "average_valid_candidate_rate": 1.0,
+    "optimization_success_rate": 1.0,
+    "post_side_memory_used_rate": 1.0,
+    "most_used_side_cards": [
+      [
+        "Droll & Lock Bird",
+        1
+      ],
+      [
+        "Ash Blossom & Joyous Spring",
+        1
+      ],
+      [
+        "Infinite Impermanence",
+        1
+      ]
+    ]
+  },
+  "post_side_memory_updated": true,
+  "post_side_memory_summary": {
+    "top_side_in_cards": [
+      [
+        "Ash Blossom & Joyous Spring",
+        22
+      ],
+      [
+        "Droll & Lock Bird",
+        17
+      ],
+      [
+        "Infinite Impermanence",
+        12
+      ],
+      [
+        "Effect Veiler",
+        6
+      ],
+      [
+        "Nibiru, the Primal Being",
+        5
+      ],
+      [
+        "Evenly Matched",
+        1
+      ],
+      [
+        "Dark Ruler No More",
+        1
+      ]
+    ],
+    "top_side_out_cards": [
+      [
+        "Dragon Spirit of White",
+        12
+      ],
+      [
+        "Destined Rivals",
+        10
+      ],
+      [
+        "Ghost Ogre & Snow Rabbit",
+        7
+      ],
+      [
+        "Main 9",
+        5
+      ],
+      [
+        "Main 10",
+        5
+      ],
+      [
+        "Lightning Storm",
+        5
+      ],
+      [
+        "Solemn Judgment",
+        4
+      ],
+      [
+        "Book of Eclipse",
+        3
+      ],
+      [
+        "The Ultimate Creature of Destruction",
+        3
+      ],
+      [
+        "The Chaos Creator",
+        3
+      ]
+    ],
+    "best_post_side_pattern": "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | Ghost Ogre & Snow Rabbit",
+    "average_post_side_delta": 3.4683
+  },
+  "runs": [
+    {
+      "game1_score": 281.11,
+      "post_side_score": 283.16,
+      "post_side_delta": 2.05,
+      "post_side_valid": true,
+      "side_cards_used": [
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Infinite Impermanence"
+      ],
+      "cards_sided_out": [
+        "Skill Drain",
+        "Book of Eclipse",
+        "The Chaos Creator"
+      ],
+      "post_side_warnings": [],
+      "candidate_count": 12,
+      "valid_candidate_count": 12,
+      "rejected_candidate_count": 0,
+      "valid_candidate_rate": 1.0,
+      "rejection_reasons": {},
+      "optimization_used": true,
+      "post_side_memory_used": true,
+      "curated_opponent_memory_used": false,
+      "best_post_side_score": 283.16,
+      "best_side_in": [
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Infinite Impermanence"
+      ],
+      "best_side_out": [
+        "Skill Drain",
+        "Book of Eclipse",
+        "The Chaos Creator"
+      ],
+      "side_deck_score": 103.0,
+      "matchup_coverage_score": 35.0,
+      "game1_metrics": {
+        "final_score": 281.11,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 8.7,
+        "ash_vulnerability_rate": 1.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 1.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 91.07
+      },
+      "post_side_metrics": {
+        "final_score": 283.16,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 8.7,
+        "ash_vulnerability_rate": 1.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 1.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 90.65
+      },
+      "post_side_main": [
+        "Dragon Spirit of White",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Dictator of D.",
+        "The White Stone of Legend",
+        "Bingo Machine, Go!!!",
+        "Maiden with Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "Bingo Machine, Go!!!",
+        "The White Stone of Legend",
+        "The White Stone of Ancients",
+        "Sage with Eyes of Blue",
+        "The Ultimate Creature of Destruction",
+        "The Ultimate Creature of Destruction",
+        "Black Luster Soldier - Envoy of the Beginning",
+        "Black Luster Soldier - Envoy of the Beginning",
+        "Ghost Ogre & Snow Rabbit",
+        "Ghost Belle & Haunted Mansion",
+        "Nibiru, the Primal Being",
+        "Ash Blossom & Joyous Spring",
+        "Ghost Ogre & Snow Rabbit",
+        "Effect Veiler",
+        "Raigeki",
+        "Solemn Judgment",
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Infinite Impermanence"
+      ],
+      "recommended_side_deck": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Droll Bird",
+        "Book of Eclipse",
+        "Zuttomozaurus",
+        "Zuijin of the Ice Barrier",
+        "Zubababa Knight",
+        "Zubaba Knight",
+        "Zubaba Buster",
+        "Zoroa, the Magistus Verethragna"
+      ],
+      "blocked_card_violations_after_siding": [],
+      "post_side_deck_size_valid": true,
+      "run": 1,
+      "ok": true
+    }
+  ]
+}

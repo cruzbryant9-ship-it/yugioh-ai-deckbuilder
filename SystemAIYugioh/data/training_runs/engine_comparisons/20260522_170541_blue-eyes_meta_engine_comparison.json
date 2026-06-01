@@ -1,0 +1,2708 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "runs_per_engine": 1,
+    "variants": [
+      "pure",
+      "ritual",
+      "chaos",
+      "bystial",
+      "horus",
+      "branded",
+      "board_breaker_heavy",
+      "handtrap_heavy"
+    ]
+  },
+  "created_at_utc": "2026-05-22T17:05:41.923564+00:00",
+  "ranking": {
+    "best_overall_engine": "board_breaker_heavy",
+    "most_consistent_engine": "board_breaker_heavy",
+    "strongest_endboard_engine": "horus",
+    "lowest_brick_engine": "horus",
+    "best_going_first_engine": "board_breaker_heavy",
+    "best_going_second_engine": "horus",
+    "best_recommended_engine": "horus"
+  },
+  "variants": {
+    "pure": {
+      "variant": "pure",
+      "successful_runs": 1,
+      "failed_runs": 0,
+      "average_score": 232.52,
+      "best_score": 232.52,
+      "average_brick_penalty": 4.0,
+      "playable_hand_rate": 0.88,
+      "brick_rate": 0.0,
+      "combo_line_score": 20.59,
+      "average_endboard_score": 25.0,
+      "average_interruption_score": 30.0,
+      "real_average_endboard_score": 1.16,
+      "interruption_resilience_score": 6.27,
+      "follow_up_score": 5.43,
+      "graph_valid_line_rate": 0.51,
+      "graph_average_line_score": 11.63,
+      "graph_average_risk_score": 0.17,
+      "package_quality_score": 97.8,
+      "best_deck_list": {
+        "main_deck": [
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Dragon Spirit of White",
+          "Dragon Spirit of White",
+          "Blue-Eyes Alternative White Dragon",
+          "Maiden with Eyes of Blue",
+          "The White Stone of Ancients",
+          "The White Stone of Legend",
+          "Maiden with Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "The White Stone of Legend",
+          "Sage with Eyes of Blue",
+          "Maiden with Eyes of Blue",
+          "Wishes for Eyes of Blue",
+          "Destined Rivals",
+          "True Light",
+          "Effect Veiler",
+          "Effect Veiler",
+          "Ghost Ogre & Snow Rabbit",
+          "Ghost Ogre & Snow Rabbit",
+          "Effect Veiler",
+          "D.D. Crow",
+          "Book of Eclipse",
+          "Harpie's Feather Duster",
+          "Solemn Strike",
+          "Solemn Judgment"
+        ],
+        "extra_deck": [
+          "Dragon Master Knight",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Spirit Dragon",
+          "Dragon Master Knight",
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Blue-Eyes Twin Burst Dragon"
+        ]
+      },
+      "most_common_critique_issues": [],
+      "package_counts": {
+        "board_breakers": 2,
+        "bricks": 0,
+        "core": 11,
+        "extenders": 8,
+        "extra_deck": 10,
+        "handtraps": 6,
+        "searchers": 4,
+        "starters": 10,
+        "traps": 4
+      },
+      "package_quota_violations": [],
+      "runs": [
+        {
+          "run": 1,
+          "ok": true,
+          "variant": "pure",
+          "final_score": 232.52,
+          "score_breakdown": {
+            "consistency_score": 39.0,
+            "starter_score": 25.0,
+            "extender_score": 25.0,
+            "interruption_score": 30.0,
+            "brick_penalty": 4.0,
+            "endboard_score": 25.0,
+            "learned_card_bonus": 5.48,
+            "playable_hand_rate": 0.95,
+            "brick_rate": 0.0,
+            "combo_line_score": 20.21,
+            "interruption_resilience_score": 5.89,
+            "follow_up_score": 5.23,
+            "normal_summon_conflict_rate": 0.075,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.025,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.125,
+            "best_line_average_score": 6.25,
+            "graph_valid_line_rate": 0.575,
+            "graph_average_line_score": 10.87,
+            "graph_average_payoff_score": 4.61,
+            "graph_average_resource_score": 2.94,
+            "graph_average_risk_score": 0.2,
+            "graph_failed_line_rate": 0.425,
+            "most_common_graph_failure_reason": "missing required card: Dictator of D.",
+            "final_score": 232.52,
+            "package_quality_score": 97.65,
+            "quota_violation_penalty": 0.0
+          },
+          "candidate_pool_size": 37,
+          "main_deck": [
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Dragon Spirit of White",
+            "Dragon Spirit of White",
+            "Blue-Eyes Alternative White Dragon",
+            "Maiden with Eyes of Blue",
+            "The White Stone of Ancients",
+            "The White Stone of Legend",
+            "Maiden with Eyes of Blue",
+            "Sage with Eyes of Blue",
+            "Sage with Eyes of Blue",
+            "The White Stone of Legend",
+            "Sage with Eyes of Blue",
+            "Maiden with Eyes of Blue",
+            "Wishes for Eyes of Blue",
+            "Destined Rivals",
+            "True Light",
+            "Effect Veiler",
+            "Effect Veiler",
+            "Ghost Ogre & Snow Rabbit",
+            "Ghost Ogre & Snow Rabbit",
+            "Effect Veiler",
+            "D.D. Crow",
+            "Book of Eclipse",
+            "Harpie's Feather Duster",
+            "Solemn Strike",
+            "Solemn Judgment"
+          ],
+          "extra_deck": [
+            "Dragon Master Knight",
+            "Blue-Eyes Spirit Dragon",
+            "Blue-Eyes Spirit Dragon",
+            "Blue-Eyes Alternative Ultimate Dragon",
+            "Neo Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Spirit Dragon",
+            "Dragon Master Knight",
+            "Blue-Eyes Alternative Ultimate Dragon",
+            "Blue-Eyes Twin Burst Dragon"
+          ],
+          "detected_engines": [
+            "Blue-Eyes core",
+            "board breaker package",
+            "handtrap package"
+          ],
+          "critique_issues": [],
+          "real_combo_report": {
+            "samples": 100,
+            "playable_hand_rate": 0.88,
+            "brick_rate": 0.0,
+            "average_brick_count": 0,
+            "average_starter_count": 1.9,
+            "average_extender_count": 3.72,
+            "average_interruption_count": 3.91,
+            "most_common_combo_lines": [
+              [
+                "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+                14
+              ],
+              [
+                "Spirit Dragon synchro line",
+                5
+              ],
+              [
+                "Abyss Dragon follow-up line",
+                4
+              ],
+              [
+                "True Light + Jet Dragon -> Jet protection loop",
+                2
+              ],
+              [
+                "Wishes for Eyes of Blue access line",
+                2
+              ],
+              [
+                "Alternative White Dragon pressure line",
+                1
+              ]
+            ],
+            "best_line_frequency": [
+              [
+                "Sage + White Stone -> Spirit Dragon",
+                39
+              ],
+              [
+                "Abyss Dragon follow-up",
+                6
+              ],
+              [
+                "Wishes for Eyes -> access line",
+                4
+              ],
+              [
+                "True Light + Jet loop",
+                2
+              ]
+            ],
+            "average_endboard_score": 1.16,
+            "combo_line_score": 20.59,
+            "normal_summon_conflict_rate": 0.05,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.05,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.13,
+            "best_line_average_score": 5.93,
+            "graph_valid_line_rate": 0.51,
+            "graph_average_line_score": 11.63,
+            "graph_average_payoff_score": 4.32,
+            "graph_average_resource_score": 2.69,
+            "graph_average_risk_score": 0.17,
+            "graph_failed_line_rate": 0.49,
+            "most_common_graph_failure_reason": "missing required card: Dictator of D.",
+            "interruption_resilience_score": 6.27,
+            "follow_up_score": 5.43,
+            "recovery_route_frequency": 0.21,
+            "choke_point_frequency": [
+              [
+                "Ash Blossom & Joyous Spring",
+                20
+              ],
+              [
+                "Effect Veiler",
+                15
+              ],
+              [
+                "Infinite Impermanence",
+                15
+              ],
+              [
+                "Nibiru, the Primal Being",
+                5
+              ],
+              [
+                "D.D. Crow",
+                4
+              ],
+              [
+                "Cosmic Cyclone",
+                2
+              ],
+              [
+                "Evenly Matched",
+                2
+              ],
+              [
+                "Droll & Lock Bird",
+                2
+              ],
+              [
+                "Book of Moon",
+                1
+              ]
+            ]
+          },
+          "playable_hand_rate": 0.88,
+          "brick_rate": 0.0,
+          "combo_line_score": 20.59,
+          "average_endboard_score": 1.16,
+          "interruption_resilience_score": 6.27,
+          "follow_up_score": 5.43,
+          "package_report": {
+            "package_counts": {
+              "board_breakers": 2,
+              "bricks": 0,
+              "core": 11,
+              "extenders": 8,
+              "extra_deck": 10,
+              "handtraps": 6,
+              "searchers": 4,
+              "starters": 10,
+              "traps": 4
+            },
+            "chosen_engine_variant": "pure",
+            "starter_count": 11,
+            "brick_count": 0,
+            "non_engine_count": 12,
+            "package_quota_violations": []
+          },
+          "package_quality": {
+            "package_balance_score": 17.8,
+            "starter_quota_score": 20.0,
+            "brick_quota_score": 18.0,
+            "non_engine_score": 16.0,
+            "engine_coherence_score": 14.0,
+            "extra_deck_score": 12.0,
+            "quota_violation_penalty": 0.0,
+            "final_package_quality_score": 97.8
+          },
+          "package_quality_score": 97.8,
+          "quota_violation_penalty": 0.0,
+          "package_counts": {
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 11,
+            "extenders": 8,
+            "extra_deck": 10,
+            "handtraps": 6,
+            "searchers": 4,
+            "starters": 10,
+            "traps": 4
+          },
+          "package_starter_count": 11,
+          "package_brick_count": 0,
+          "non_engine_count": 12,
+          "package_quota_violations": []
+        }
+      ]
+    },
+    "ritual": {
+      "variant": "ritual",
+      "successful_runs": 1,
+      "failed_runs": 0,
+      "average_score": 238.88,
+      "best_score": 238.88,
+      "average_brick_penalty": 1.6,
+      "playable_hand_rate": 0.94,
+      "brick_rate": 0.0,
+      "combo_line_score": 22.67,
+      "average_endboard_score": 17.3,
+      "average_interruption_score": 30.0,
+      "real_average_endboard_score": 1.66,
+      "interruption_resilience_score": 7.2,
+      "follow_up_score": 5.47,
+      "graph_valid_line_rate": 0.77,
+      "graph_average_line_score": 9.73,
+      "graph_average_risk_score": 0.25,
+      "package_quality_score": 95.39,
+      "best_deck_list": {
+        "main_deck": [
+          "Dragon Spirit of White",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Dragon Spirit of White",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Bingo Machine, Go!!!",
+          "The White Stone of Ancients",
+          "Bingo Machine, Go!!!",
+          "Wishes for Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "Wishes for Eyes of Blue",
+          "Dictator of D.",
+          "Maiden with Eyes of Blue",
+          "The White Stone of Ancients",
+          "Sage with Eyes of Blue",
+          "Destined Rivals",
+          "Destined Rivals",
+          "Advanced Ritual Art",
+          "Advanced Ritual Art",
+          "Chaos Form",
+          "Blue-Eyes Chaos Dragon",
+          "Blue-Eyes Chaos MAX Dragon",
+          "Nibiru, the Primal Being",
+          "Nibiru, the Primal Being",
+          "Nibiru, the Primal Being",
+          "Droll & Lock Bird",
+          "Droll & Lock Bird",
+          "D.D. Crow",
+          "Evenly Matched",
+          "Raigeki",
+          "Solemn Judgment",
+          "Solemn Strike"
+        ],
+        "extra_deck": [
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Ultimate Spirit Dragon",
+          "Dragon Master Knight"
+        ]
+      },
+      "most_common_critique_issues": [],
+      "package_counts": {
+        "board_breakers": 2,
+        "bricks": 0,
+        "core": 11,
+        "engine": 5,
+        "extenders": 8,
+        "extra_deck": 10,
+        "handtraps": 6,
+        "searchers": 6,
+        "starters": 10,
+        "traps": 4
+      },
+      "package_quota_violations": [],
+      "runs": [
+        {
+          "run": 1,
+          "ok": true,
+          "variant": "ritual",
+          "final_score": 238.88,
+          "score_breakdown": {
+            "consistency_score": 42.2,
+            "starter_score": 25.0,
+            "extender_score": 25.0,
+            "interruption_score": 30.0,
+            "brick_penalty": 1.6,
+            "endboard_score": 17.3,
+            "learned_card_bonus": 4.51,
+            "playable_hand_rate": 1.0,
+            "brick_rate": 0.0,
+            "combo_line_score": 23.77,
+            "interruption_resilience_score": 7.08,
+            "follow_up_score": 5.47,
+            "normal_summon_conflict_rate": 0.05,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.05,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.05,
+            "best_line_average_score": 8.24,
+            "graph_valid_line_rate": 0.925,
+            "graph_average_line_score": 8.91,
+            "graph_average_payoff_score": 5.24,
+            "graph_average_resource_score": 4.91,
+            "graph_average_risk_score": 0.28,
+            "graph_failed_line_rate": 0.075,
+            "most_common_graph_failure_reason": "missing required card: True Light",
+            "final_score": 238.88,
+            "package_quality_score": 89.09,
+            "quota_violation_penalty": 0.0
+          },
+          "candidate_pool_size": 428,
+          "main_deck": [
+            "Dragon Spirit of White",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Dragon Spirit of White",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Bingo Machine, Go!!!",
+            "The White Stone of Ancients",
+            "Bingo Machine, Go!!!",
+            "Wishes for Eyes of Blue",
+            "Sage with Eyes of Blue",
+            "Wishes for Eyes of Blue",
+            "Dictator of D.",
+            "Maiden with Eyes of Blue",
+            "The White Stone of Ancients",
+            "Sage with Eyes of Blue",
+            "Destined Rivals",
+            "Destined Rivals",
+            "Advanced Ritual Art",
+            "Advanced Ritual Art",
+            "Chaos Form",
+            "Blue-Eyes Chaos Dragon",
+            "Blue-Eyes Chaos MAX Dragon",
+            "Nibiru, the Primal Being",
+            "Nibiru, the Primal Being",
+            "Nibiru, the Primal Being",
+            "Droll & Lock Bird",
+            "Droll & Lock Bird",
+            "D.D. Crow",
+            "Evenly Matched",
+            "Raigeki",
+            "Solemn Judgment",
+            "Solemn Strike"
+          ],
+          "extra_deck": [
+            "Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Ultimate Spirit Dragon",
+            "Dragon Master Knight"
+          ],
+          "detected_engines": [
+            "Blue-Eyes core",
+            "Blue-Eyes ritual",
+            "Chaos",
+            "board breaker package",
+            "handtrap package"
+          ],
+          "critique_issues": [],
+          "real_combo_report": {
+            "samples": 100,
+            "playable_hand_rate": 0.94,
+            "brick_rate": 0.0,
+            "average_brick_count": 0,
+            "average_starter_count": 2.1,
+            "average_extender_count": 3.71,
+            "average_interruption_count": 4.21,
+            "most_common_combo_lines": [
+              [
+                "Abyss Dragon follow-up line",
+                16
+              ],
+              [
+                "Wishes for Eyes of Blue access line",
+                12
+              ],
+              [
+                "Bingo Machine access -> Blue-Eyes consistency line",
+                10
+              ],
+              [
+                "Spirit Dragon synchro line",
+                8
+              ],
+              [
+                "Alternative White Dragon pressure line",
+                7
+              ],
+              [
+                "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+                5
+              ],
+              [
+                "Dictator of D. + Blue-Eyes access -> setup line",
+                3
+              ],
+              [
+                "Chaos Form + Chaos MAX -> Chaos MAX pressure",
+                1
+              ]
+            ],
+            "best_line_frequency": [
+              [
+                "Sage + White Stone -> Spirit Dragon",
+                25
+              ],
+              [
+                "Bingo Machine -> search line",
+                16
+              ],
+              [
+                "Wishes for Eyes -> access line",
+                14
+              ],
+              [
+                "Abyss Dragon follow-up",
+                12
+              ],
+              [
+                "Dictator setup -> Blue-Eyes access",
+                6
+              ],
+              [
+                "Chaos Form -> Chaos MAX",
+                4
+              ]
+            ],
+            "average_endboard_score": 1.66,
+            "combo_line_score": 22.67,
+            "normal_summon_conflict_rate": 0.05,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.02,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.09,
+            "best_line_average_score": 7.49,
+            "graph_valid_line_rate": 0.77,
+            "graph_average_line_score": 9.73,
+            "graph_average_payoff_score": 4.95,
+            "graph_average_resource_score": 3.98,
+            "graph_average_risk_score": 0.25,
+            "graph_failed_line_rate": 0.23,
+            "most_common_graph_failure_reason": "missing required card: True Light",
+            "interruption_resilience_score": 7.2,
+            "follow_up_score": 5.47,
+            "recovery_route_frequency": 0.43,
+            "choke_point_frequency": [
+              [
+                "Ash Blossom & Joyous Spring",
+                40
+              ],
+              [
+                "Droll & Lock Bird",
+                22
+              ],
+              [
+                "D.D. Crow",
+                18
+              ],
+              [
+                "Effect Veiler",
+                15
+              ],
+              [
+                "Infinite Impermanence",
+                15
+              ],
+              [
+                "Nibiru, the Primal Being",
+                8
+              ],
+              [
+                "Book of Moon",
+                7
+              ],
+              [
+                "Called by the Grave",
+                3
+              ],
+              [
+                "Book of Eclipse",
+                1
+              ],
+              [
+                "Dimensional Barrier",
+                1
+              ]
+            ]
+          },
+          "playable_hand_rate": 0.94,
+          "brick_rate": 0.0,
+          "combo_line_score": 22.67,
+          "average_endboard_score": 1.66,
+          "interruption_resilience_score": 7.2,
+          "follow_up_score": 5.47,
+          "package_report": {
+            "package_counts": {
+              "board_breakers": 2,
+              "bricks": 0,
+              "core": 11,
+              "engine": 5,
+              "extenders": 8,
+              "extra_deck": 10,
+              "handtraps": 6,
+              "searchers": 6,
+              "starters": 10,
+              "traps": 4
+            },
+            "chosen_engine_variant": "ritual",
+            "starter_count": 15,
+            "brick_count": 0,
+            "non_engine_count": 12,
+            "package_quota_violations": []
+          },
+          "package_quality": {
+            "package_balance_score": 15.8,
+            "starter_quota_score": 20.0,
+            "brick_quota_score": 18.0,
+            "non_engine_score": 16.0,
+            "engine_coherence_score": 14.0,
+            "extra_deck_score": 11.6,
+            "quota_violation_penalty": 0.0,
+            "final_package_quality_score": 95.39
+          },
+          "package_quality_score": 95.39,
+          "quota_violation_penalty": 0.0,
+          "package_counts": {
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 11,
+            "engine": 5,
+            "extenders": 8,
+            "extra_deck": 10,
+            "handtraps": 6,
+            "searchers": 6,
+            "starters": 10,
+            "traps": 4
+          },
+          "package_starter_count": 15,
+          "package_brick_count": 0,
+          "non_engine_count": 12,
+          "package_quota_violations": []
+        }
+      ]
+    },
+    "chaos": {
+      "variant": "chaos",
+      "successful_runs": 1,
+      "failed_runs": 0,
+      "average_score": 232.97,
+      "best_score": 232.97,
+      "average_brick_penalty": 3.2,
+      "playable_hand_rate": 0.92,
+      "brick_rate": 0.0,
+      "combo_line_score": 20.16,
+      "average_endboard_score": 20.9,
+      "average_interruption_score": 30.0,
+      "real_average_endboard_score": 0.73,
+      "interruption_resilience_score": 7.05,
+      "follow_up_score": 6.05,
+      "graph_valid_line_rate": 0.41,
+      "graph_average_line_score": 9.62,
+      "graph_average_risk_score": 0.14,
+      "package_quality_score": 98.4,
+      "best_deck_list": {
+        "main_deck": [
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Dragon Spirit of White",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Dragon Spirit of White",
+          "Maiden with Eyes of Blue",
+          "The White Stone of Ancients",
+          "The White Stone of Legend",
+          "The White Stone of Legend",
+          "The White Stone of Ancients",
+          "Wishes for Eyes of Blue",
+          "The White Stone of Ancients",
+          "Sage with Eyes of Blue",
+          "Maiden with Eyes of Blue",
+          "Maiden with Eyes of Blue",
+          "The Melody of Awakening Dragon",
+          "Bingo Machine, Go!!!",
+          "Destined Rivals",
+          "The Ultimate Creature of Destruction",
+          "The Chaos Creator",
+          "Chaos Dragon Levianeer",
+          "Black Luster Soldier - Envoy of the Beginning",
+          "Droll & Lock Bird",
+          "Ghost Ogre & Snow Rabbit",
+          "Infinite Impermanence",
+          "Ghost Ogre & Snow Rabbit",
+          "Ash Blossom & Joyous Spring",
+          "Droll & Lock Bird",
+          "Lightning Storm",
+          "Lightning Storm",
+          "Infinite Impermanence"
+        ],
+        "extra_deck": [
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Alternative Ultimate Dragon",
+          "Blue-Eyes Ultimate Dragon"
+        ]
+      },
+      "most_common_critique_issues": [],
+      "package_counts": {
+        "board_breakers": 2,
+        "bricks": 0,
+        "core": 11,
+        "engine": 3,
+        "extenders": 14,
+        "extra_deck": 10,
+        "handtraps": 13,
+        "searchers": 5,
+        "starters": 10,
+        "traps": 3
+      },
+      "package_quota_violations": [],
+      "runs": [
+        {
+          "run": 1,
+          "ok": true,
+          "variant": "chaos",
+          "final_score": 232.97,
+          "score_breakdown": {
+            "consistency_score": 41.6,
+            "starter_score": 25.0,
+            "extender_score": 25.0,
+            "interruption_score": 30.0,
+            "brick_penalty": 3.2,
+            "endboard_score": 20.9,
+            "learned_card_bonus": 5.37,
+            "playable_hand_rate": 1.0,
+            "brick_rate": 0.0,
+            "combo_line_score": 21.92,
+            "interruption_resilience_score": 6.89,
+            "follow_up_score": 6.2,
+            "normal_summon_conflict_rate": 0.05,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.05,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.2,
+            "best_line_average_score": 5.74,
+            "graph_valid_line_rate": 0.575,
+            "graph_average_line_score": 9.99,
+            "graph_average_payoff_score": 3.85,
+            "graph_average_resource_score": 2.94,
+            "graph_average_risk_score": 0.2,
+            "graph_failed_line_rate": 0.425,
+            "most_common_graph_failure_reason": "missing required card: Dictator of D.",
+            "final_score": 232.97,
+            "package_quality_score": 93.14,
+            "quota_violation_penalty": 0.0
+          },
+          "candidate_pool_size": 191,
+          "main_deck": [
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Jet Dragon",
+            "Dragon Spirit of White",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Dragon Spirit of White",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Dragon Spirit of White",
+            "Maiden with Eyes of Blue",
+            "The White Stone of Ancients",
+            "The White Stone of Legend",
+            "The White Stone of Legend",
+            "The White Stone of Ancients",
+            "Wishes for Eyes of Blue",
+            "The White Stone of Ancients",
+            "Sage with Eyes of Blue",
+            "Maiden with Eyes of Blue",
+            "Maiden with Eyes of Blue",
+            "The Melody of Awakening Dragon",
+            "Bingo Machine, Go!!!",
+            "Destined Rivals",
+            "The Ultimate Creature of Destruction",
+            "The Chaos Creator",
+            "Chaos Dragon Levianeer",
+            "Black Luster Soldier - Envoy of the Beginning",
+            "Droll & Lock Bird",
+            "Ghost Ogre & Snow Rabbit",
+            "Infinite Impermanence",
+            "Ghost Ogre & Snow Rabbit",
+            "Ash Blossom & Joyous Spring",
+            "Droll & Lock Bird",
+            "Lightning Storm",
+            "Lightning Storm",
+            "Infinite Impermanence"
+          ],
+          "extra_deck": [
+            "Blue-Eyes Spirit Dragon",
+            "Blue-Eyes Spirit Dragon",
+            "Blue-Eyes Alternative Ultimate Dragon",
+            "Blue-Eyes Ultimate Dragon"
+          ],
+          "detected_engines": [
+            "Blue-Eyes core",
+            "Blue-Eyes ritual",
+            "Chaos",
+            "board breaker package",
+            "handtrap package"
+          ],
+          "critique_issues": [],
+          "real_combo_report": {
+            "samples": 100,
+            "playable_hand_rate": 0.92,
+            "brick_rate": 0.0,
+            "average_brick_count": 0,
+            "average_starter_count": 1.97,
+            "average_extender_count": 4.07,
+            "average_interruption_count": 4.41,
+            "most_common_combo_lines": [
+              [
+                "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+                12
+              ],
+              [
+                "Spirit Dragon synchro line",
+                9
+              ],
+              [
+                "Alternative White Dragon pressure line",
+                4
+              ],
+              [
+                "Wishes for Eyes of Blue access line",
+                3
+              ],
+              [
+                "Bingo Machine access -> Blue-Eyes consistency line",
+                2
+              ],
+              [
+                "Abyss Dragon follow-up line",
+                2
+              ]
+            ],
+            "best_line_frequency": [
+              [
+                "Sage + White Stone -> Spirit Dragon",
+                15
+              ],
+              [
+                "Wishes for Eyes -> access line",
+                10
+              ],
+              [
+                "Abyss Dragon follow-up",
+                9
+              ],
+              [
+                "Bingo Machine -> search line",
+                7
+              ]
+            ],
+            "average_endboard_score": 0.73,
+            "combo_line_score": 20.16,
+            "normal_summon_conflict_rate": 0.09,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.05,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.23,
+            "best_line_average_score": 3.94,
+            "graph_valid_line_rate": 0.41,
+            "graph_average_line_score": 9.62,
+            "graph_average_payoff_score": 2.64,
+            "graph_average_resource_score": 2.13,
+            "graph_average_risk_score": 0.14,
+            "graph_failed_line_rate": 0.59,
+            "most_common_graph_failure_reason": "missing required card: Dictator of D.",
+            "interruption_resilience_score": 7.05,
+            "follow_up_score": 6.05,
+            "recovery_route_frequency": 0.2,
+            "choke_point_frequency": [
+              [
+                "Ash Blossom & Joyous Spring",
+                16
+              ],
+              [
+                "Effect Veiler",
+                16
+              ],
+              [
+                "Infinite Impermanence",
+                16
+              ],
+              [
+                "Nibiru, the Primal Being",
+                9
+              ],
+              [
+                "Droll & Lock Bird",
+                5
+              ],
+              [
+                "Book of Moon",
+                4
+              ],
+              [
+                "D.D. Crow",
+                2
+              ]
+            ]
+          },
+          "playable_hand_rate": 0.92,
+          "brick_rate": 0.0,
+          "combo_line_score": 20.16,
+          "average_endboard_score": 0.73,
+          "interruption_resilience_score": 7.05,
+          "follow_up_score": 6.05,
+          "package_report": {
+            "package_counts": {
+              "board_breakers": 2,
+              "bricks": 0,
+              "core": 11,
+              "engine": 3,
+              "extenders": 14,
+              "extra_deck": 10,
+              "handtraps": 13,
+              "searchers": 5,
+              "starters": 10,
+              "traps": 3
+            },
+            "chosen_engine_variant": "chaos",
+            "starter_count": 11,
+            "brick_count": 0,
+            "non_engine_count": 11,
+            "package_quota_violations": []
+          },
+          "package_quality": {
+            "package_balance_score": 18.4,
+            "starter_quota_score": 20.0,
+            "brick_quota_score": 18.0,
+            "non_engine_score": 16.0,
+            "engine_coherence_score": 14.0,
+            "extra_deck_score": 12.0,
+            "quota_violation_penalty": 0.0,
+            "final_package_quality_score": 98.4
+          },
+          "package_quality_score": 98.4,
+          "quota_violation_penalty": 0.0,
+          "package_counts": {
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 11,
+            "engine": 3,
+            "extenders": 14,
+            "extra_deck": 10,
+            "handtraps": 13,
+            "searchers": 5,
+            "starters": 10,
+            "traps": 3
+          },
+          "package_starter_count": 11,
+          "package_brick_count": 0,
+          "non_engine_count": 11,
+          "package_quota_violations": []
+        }
+      ]
+    },
+    "bystial": {
+      "variant": "bystial",
+      "successful_runs": 1,
+      "failed_runs": 0,
+      "average_score": 236.99,
+      "best_score": 236.99,
+      "average_brick_penalty": 2.4,
+      "playable_hand_rate": 0.98,
+      "brick_rate": 0.0,
+      "combo_line_score": 21.54,
+      "average_endboard_score": 22.6,
+      "average_interruption_score": 30.0,
+      "real_average_endboard_score": 1.16,
+      "interruption_resilience_score": 6.02,
+      "follow_up_score": 5.49,
+      "graph_valid_line_rate": 0.62,
+      "graph_average_line_score": 9.89,
+      "graph_average_risk_score": 0.18,
+      "package_quality_score": 96.4,
+      "best_deck_list": {
+        "main_deck": [
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Dragon Spirit of White",
+          "Bingo Machine, Go!!!",
+          "Dictator of D.",
+          "The White Stone of Legend",
+          "Bingo Machine, Go!!!",
+          "Maiden with Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "Dictator of D.",
+          "Bingo Machine, Go!!!",
+          "The White Stone of Legend",
+          "Sage with Eyes of Blue",
+          "True Light",
+          "True Light",
+          "Bystial Magnamhut",
+          "Bystial Druiswurm",
+          "The Bystial Lubellion",
+          "Branded Regained",
+          "Nibiru, the Primal Being",
+          "Ghost Ogre & Snow Rabbit",
+          "Droll & Lock Bird",
+          "Ash Blossom & Joyous Spring",
+          "Droll & Lock Bird",
+          "Harpie's Feather Duster",
+          "Raigeki",
+          "Skill Drain",
+          "Infinite Impermanence"
+        ],
+        "extra_deck": [
+          "Dragon Master Knight",
+          "Blue-Eyes Ultimate Spirit Dragon",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Tyrant Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Tyrant Dragon"
+        ]
+      },
+      "most_common_critique_issues": [],
+      "package_counts": {
+        "board_breakers": 2,
+        "bricks": 0,
+        "core": 11,
+        "engine": 4,
+        "extenders": 7,
+        "extra_deck": 10,
+        "handtraps": 11,
+        "searchers": 6,
+        "starters": 10,
+        "traps": 4
+      },
+      "package_quota_violations": [],
+      "runs": [
+        {
+          "run": 1,
+          "ok": true,
+          "variant": "bystial",
+          "final_score": 236.99,
+          "score_breakdown": {
+            "consistency_score": 41.0,
+            "starter_score": 25.0,
+            "extender_score": 25.0,
+            "interruption_score": 30.0,
+            "brick_penalty": 2.4,
+            "endboard_score": 22.6,
+            "learned_card_bonus": 4.86,
+            "playable_hand_rate": 0.975,
+            "brick_rate": 0.0,
+            "combo_line_score": 22.76,
+            "interruption_resilience_score": 6.14,
+            "follow_up_score": 5.69,
+            "normal_summon_conflict_rate": 0.0,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.225,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.225,
+            "best_line_average_score": 6.89,
+            "graph_valid_line_rate": 0.7,
+            "graph_average_line_score": 9.84,
+            "graph_average_payoff_score": 4.55,
+            "graph_average_resource_score": 3.63,
+            "graph_average_risk_score": 0.17,
+            "graph_failed_line_rate": 0.3,
+            "most_common_graph_failure_reason": "missing required card: Wishes for Eyes of Blue",
+            "final_score": 236.99,
+            "package_quality_score": 94.09,
+            "quota_violation_penalty": 0.0
+          },
+          "candidate_pool_size": 54,
+          "main_deck": [
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Dragon Spirit of White",
+            "Bingo Machine, Go!!!",
+            "Dictator of D.",
+            "The White Stone of Legend",
+            "Bingo Machine, Go!!!",
+            "Maiden with Eyes of Blue",
+            "Sage with Eyes of Blue",
+            "Dictator of D.",
+            "Bingo Machine, Go!!!",
+            "The White Stone of Legend",
+            "Sage with Eyes of Blue",
+            "True Light",
+            "True Light",
+            "Bystial Magnamhut",
+            "Bystial Druiswurm",
+            "The Bystial Lubellion",
+            "Branded Regained",
+            "Nibiru, the Primal Being",
+            "Ghost Ogre & Snow Rabbit",
+            "Droll & Lock Bird",
+            "Ash Blossom & Joyous Spring",
+            "Droll & Lock Bird",
+            "Harpie's Feather Duster",
+            "Raigeki",
+            "Skill Drain",
+            "Infinite Impermanence"
+          ],
+          "extra_deck": [
+            "Dragon Master Knight",
+            "Blue-Eyes Ultimate Spirit Dragon",
+            "Blue-Eyes Spirit Dragon",
+            "Blue-Eyes Tyrant Dragon",
+            "Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Spirit Dragon",
+            "Blue-Eyes Tyrant Dragon"
+          ],
+          "detected_engines": [
+            "Blue-Eyes core",
+            "Branded",
+            "Bystial",
+            "Chaos",
+            "board breaker package",
+            "handtrap package"
+          ],
+          "critique_issues": [],
+          "real_combo_report": {
+            "samples": 100,
+            "playable_hand_rate": 0.98,
+            "brick_rate": 0.0,
+            "average_brick_count": 0,
+            "average_starter_count": 2.39,
+            "average_extender_count": 3.67,
+            "average_interruption_count": 3.74,
+            "most_common_combo_lines": [
+              [
+                "Alternative White Dragon pressure line",
+                8
+              ],
+              [
+                "Bingo Machine access -> Blue-Eyes consistency line",
+                7
+              ],
+              [
+                "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+                6
+              ],
+              [
+                "Dictator of D. + Blue-Eyes access -> setup line",
+                4
+              ],
+              [
+                "Abyss Dragon follow-up line",
+                1
+              ]
+            ],
+            "best_line_frequency": [
+              [
+                "Bingo Machine -> search line",
+                21
+              ],
+              [
+                "Sage + White Stone -> Spirit Dragon",
+                21
+              ],
+              [
+                "Dictator setup -> Blue-Eyes access",
+                11
+              ],
+              [
+                "Abyss Dragon follow-up",
+                9
+              ]
+            ],
+            "average_endboard_score": 1.16,
+            "combo_line_score": 21.54,
+            "normal_summon_conflict_rate": 0.0,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.09,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.21,
+            "best_line_average_score": 6.13,
+            "graph_valid_line_rate": 0.62,
+            "graph_average_line_score": 9.89,
+            "graph_average_payoff_score": 4.17,
+            "graph_average_resource_score": 3.19,
+            "graph_average_risk_score": 0.18,
+            "graph_failed_line_rate": 0.38,
+            "most_common_graph_failure_reason": "missing required card: Wishes for Eyes of Blue",
+            "interruption_resilience_score": 6.02,
+            "follow_up_score": 5.49,
+            "recovery_route_frequency": 0.23,
+            "choke_point_frequency": [
+              [
+                "Ash Blossom & Joyous Spring",
+                17
+              ],
+              [
+                "Effect Veiler",
+                14
+              ],
+              [
+                "Infinite Impermanence",
+                14
+              ],
+              [
+                "Book of Moon",
+                8
+              ],
+              [
+                "Droll & Lock Bird",
+                7
+              ],
+              [
+                "D.D. Crow",
+                5
+              ],
+              [
+                "Called by the Grave",
+                4
+              ]
+            ]
+          },
+          "playable_hand_rate": 0.98,
+          "brick_rate": 0.0,
+          "combo_line_score": 21.54,
+          "average_endboard_score": 1.16,
+          "interruption_resilience_score": 6.02,
+          "follow_up_score": 5.49,
+          "package_report": {
+            "package_counts": {
+              "board_breakers": 2,
+              "bricks": 0,
+              "core": 11,
+              "engine": 4,
+              "extenders": 7,
+              "extra_deck": 10,
+              "handtraps": 11,
+              "searchers": 6,
+              "starters": 10,
+              "traps": 4
+            },
+            "chosen_engine_variant": "bystial",
+            "starter_count": 15,
+            "brick_count": 0,
+            "non_engine_count": 11,
+            "package_quota_violations": []
+          },
+          "package_quality": {
+            "package_balance_score": 16.4,
+            "starter_quota_score": 20.0,
+            "brick_quota_score": 18.0,
+            "non_engine_score": 16.0,
+            "engine_coherence_score": 14.0,
+            "extra_deck_score": 12.0,
+            "quota_violation_penalty": 0.0,
+            "final_package_quality_score": 96.4
+          },
+          "package_quality_score": 96.4,
+          "quota_violation_penalty": 0.0,
+          "package_counts": {
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 11,
+            "engine": 4,
+            "extenders": 7,
+            "extra_deck": 10,
+            "handtraps": 11,
+            "searchers": 6,
+            "starters": 10,
+            "traps": 4
+          },
+          "package_starter_count": 15,
+          "package_brick_count": 0,
+          "non_engine_count": 11,
+          "package_quota_violations": []
+        }
+      ]
+    },
+    "horus": {
+      "variant": "horus",
+      "successful_runs": 1,
+      "failed_runs": 0,
+      "average_score": 241.53,
+      "best_score": 241.53,
+      "average_brick_penalty": 0.8,
+      "playable_hand_rate": 0.98,
+      "brick_rate": 0.0,
+      "combo_line_score": 24.29,
+      "average_endboard_score": 25.0,
+      "average_interruption_score": 30.0,
+      "real_average_endboard_score": 1.78,
+      "interruption_resilience_score": 6.48,
+      "follow_up_score": 6.38,
+      "graph_valid_line_rate": 0.82,
+      "graph_average_line_score": 10.34,
+      "graph_average_risk_score": 0.22,
+      "package_quality_score": 94.83,
+      "best_deck_list": {
+        "main_deck": [
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Dragon Spirit of White",
+          "Blue-Eyes Alternative White Dragon",
+          "Maiden with Eyes of Blue",
+          "The White Stone of Ancients",
+          "Dictator of D.",
+          "Sage with Eyes of Blue",
+          "Bingo Machine, Go!!!",
+          "The White Stone of Legend",
+          "Dictator of D.",
+          "Maiden with Eyes of Blue",
+          "The White Stone of Ancients",
+          "Sage with Eyes of Blue",
+          "Wishes for Eyes of Blue",
+          "Destined Rivals",
+          "The Ultimate Creature of Destruction",
+          "Duamutef, Blessing of Horus",
+          "Hapi, Guidance of Horus",
+          "Hapi, Guidance of Horus",
+          "Imsety, Glory of Horus",
+          "Effect Veiler",
+          "Ash Blossom & Joyous Spring",
+          "Droll & Lock Bird",
+          "Infinite Impermanence",
+          "Infinite Impermanence",
+          "Ghost Belle & Haunted Mansion",
+          "Book of Eclipse",
+          "Raigeki"
+        ],
+        "extra_deck": [
+          "Blue-Eyes Twin Burst Dragon",
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Twin Burst Dragon",
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Alternative Ultimate Dragon"
+        ]
+      },
+      "most_common_critique_issues": [],
+      "package_counts": {
+        "board_breakers": 2,
+        "bricks": 0,
+        "core": 11,
+        "engine": 4,
+        "extenders": 7,
+        "extra_deck": 10,
+        "handtraps": 6,
+        "searchers": 9,
+        "starters": 10,
+        "traps": 2
+      },
+      "package_quota_violations": [],
+      "runs": [
+        {
+          "run": 1,
+          "ok": true,
+          "variant": "horus",
+          "final_score": 241.53,
+          "score_breakdown": {
+            "consistency_score": 41.6,
+            "starter_score": 25.0,
+            "extender_score": 25.0,
+            "interruption_score": 30.0,
+            "brick_penalty": 0.8,
+            "endboard_score": 25.0,
+            "learned_card_bonus": 5.09,
+            "playable_hand_rate": 0.95,
+            "brick_rate": 0.0,
+            "combo_line_score": 22.51,
+            "interruption_resilience_score": 6.38,
+            "follow_up_score": 6.13,
+            "normal_summon_conflict_rate": 0.075,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.0,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.25,
+            "best_line_average_score": 6.94,
+            "graph_valid_line_rate": 0.725,
+            "graph_average_line_score": 9.58,
+            "graph_average_payoff_score": 4.33,
+            "graph_average_resource_score": 3.95,
+            "graph_average_risk_score": 0.15,
+            "graph_failed_line_rate": 0.275,
+            "most_common_graph_failure_reason": "missing required card: True Light",
+            "final_score": 241.53,
+            "package_quality_score": 91.98,
+            "quota_violation_penalty": 0.0
+          },
+          "candidate_pool_size": 60,
+          "main_deck": [
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Dragon Spirit of White",
+            "Blue-Eyes Alternative White Dragon",
+            "Maiden with Eyes of Blue",
+            "The White Stone of Ancients",
+            "Dictator of D.",
+            "Sage with Eyes of Blue",
+            "Bingo Machine, Go!!!",
+            "The White Stone of Legend",
+            "Dictator of D.",
+            "Maiden with Eyes of Blue",
+            "The White Stone of Ancients",
+            "Sage with Eyes of Blue",
+            "Wishes for Eyes of Blue",
+            "Destined Rivals",
+            "The Ultimate Creature of Destruction",
+            "Duamutef, Blessing of Horus",
+            "Hapi, Guidance of Horus",
+            "Hapi, Guidance of Horus",
+            "Imsety, Glory of Horus",
+            "Effect Veiler",
+            "Ash Blossom & Joyous Spring",
+            "Droll & Lock Bird",
+            "Infinite Impermanence",
+            "Infinite Impermanence",
+            "Ghost Belle & Haunted Mansion",
+            "Book of Eclipse",
+            "Raigeki"
+          ],
+          "extra_deck": [
+            "Blue-Eyes Twin Burst Dragon",
+            "Neo Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Twin Burst Dragon",
+            "Neo Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Alternative Ultimate Dragon"
+          ],
+          "detected_engines": [
+            "Blue-Eyes core",
+            "Blue-Eyes ritual",
+            "Horus",
+            "board breaker package",
+            "handtrap package"
+          ],
+          "critique_issues": [],
+          "real_combo_report": {
+            "samples": 100,
+            "playable_hand_rate": 0.98,
+            "brick_rate": 0.0,
+            "average_brick_count": 0,
+            "average_starter_count": 2.19,
+            "average_extender_count": 4.25,
+            "average_interruption_count": 3.8,
+            "most_common_combo_lines": [
+              [
+                "Spirit Dragon synchro line",
+                13
+              ],
+              [
+                "Abyss Dragon follow-up line",
+                13
+              ],
+              [
+                "Dictator of D. + Blue-Eyes access -> setup line",
+                9
+              ],
+              [
+                "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+                6
+              ],
+              [
+                "Alternative White Dragon pressure line",
+                5
+              ],
+              [
+                "Bingo Machine access -> Blue-Eyes consistency line",
+                4
+              ],
+              [
+                "Wishes for Eyes of Blue access line",
+                3
+              ]
+            ],
+            "best_line_frequency": [
+              [
+                "Sage + White Stone -> Spirit Dragon",
+                34
+              ],
+              [
+                "Dictator setup -> Blue-Eyes access",
+                20
+              ],
+              [
+                "Abyss Dragon follow-up",
+                15
+              ],
+              [
+                "Bingo Machine -> search line",
+                9
+              ],
+              [
+                "Wishes for Eyes -> access line",
+                4
+              ]
+            ],
+            "average_endboard_score": 1.78,
+            "combo_line_score": 24.29,
+            "normal_summon_conflict_rate": 0.06,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.05,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.2,
+            "best_line_average_score": 8.48,
+            "graph_valid_line_rate": 0.82,
+            "graph_average_line_score": 10.34,
+            "graph_average_payoff_score": 5.69,
+            "graph_average_resource_score": 4.31,
+            "graph_average_risk_score": 0.22,
+            "graph_failed_line_rate": 0.18,
+            "most_common_graph_failure_reason": "missing required card: True Light",
+            "interruption_resilience_score": 6.48,
+            "follow_up_score": 6.38,
+            "recovery_route_frequency": 0.34,
+            "choke_point_frequency": [
+              [
+                "Ash Blossom & Joyous Spring",
+                30
+              ],
+              [
+                "D.D. Crow",
+                20
+              ],
+              [
+                "Effect Veiler",
+                18
+              ],
+              [
+                "Infinite Impermanence",
+                18
+              ],
+              [
+                "Nibiru, the Primal Being",
+                13
+              ],
+              [
+                "Called by the Grave",
+                9
+              ],
+              [
+                "Droll & Lock Bird",
+                7
+              ],
+              [
+                "Book of Moon",
+                5
+              ]
+            ]
+          },
+          "playable_hand_rate": 0.98,
+          "brick_rate": 0.0,
+          "combo_line_score": 24.29,
+          "average_endboard_score": 1.78,
+          "interruption_resilience_score": 6.48,
+          "follow_up_score": 6.38,
+          "package_report": {
+            "package_counts": {
+              "board_breakers": 2,
+              "bricks": 0,
+              "core": 11,
+              "engine": 4,
+              "extenders": 7,
+              "extra_deck": 10,
+              "handtraps": 6,
+              "searchers": 9,
+              "starters": 10,
+              "traps": 2
+            },
+            "chosen_engine_variant": "horus",
+            "starter_count": 17,
+            "brick_count": 0,
+            "non_engine_count": 10,
+            "package_quota_violations": []
+          },
+          "package_quality": {
+            "package_balance_score": 15.0,
+            "starter_quota_score": 20.0,
+            "brick_quota_score": 18.0,
+            "non_engine_score": 15.83,
+            "engine_coherence_score": 14.0,
+            "extra_deck_score": 12.0,
+            "quota_violation_penalty": 0.0,
+            "final_package_quality_score": 94.83
+          },
+          "package_quality_score": 94.83,
+          "quota_violation_penalty": 0.0,
+          "package_counts": {
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 11,
+            "engine": 4,
+            "extenders": 7,
+            "extra_deck": 10,
+            "handtraps": 6,
+            "searchers": 9,
+            "starters": 10,
+            "traps": 2
+          },
+          "package_starter_count": 17,
+          "package_brick_count": 0,
+          "non_engine_count": 10,
+          "package_quota_violations": []
+        }
+      ]
+    },
+    "branded": {
+      "variant": "branded",
+      "successful_runs": 1,
+      "failed_runs": 0,
+      "average_score": 233.64,
+      "best_score": 233.64,
+      "average_brick_penalty": 1.6,
+      "playable_hand_rate": 0.96,
+      "brick_rate": 0.0,
+      "combo_line_score": 20.15,
+      "average_endboard_score": 24.5,
+      "average_interruption_score": 30.0,
+      "real_average_endboard_score": 0.97,
+      "interruption_resilience_score": 6.06,
+      "follow_up_score": 5.55,
+      "graph_valid_line_rate": 0.6,
+      "graph_average_line_score": 9.13,
+      "graph_average_risk_score": 0.15,
+      "package_quality_score": 96.8,
+      "best_deck_list": {
+        "main_deck": [
+          "Blue-Eyes Solid Dragon",
+          "Dragon Spirit of White",
+          "Dragon Spirit of White",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Dragon Spirit of White",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Solid Dragon",
+          "The White Stone of Ancients",
+          "Sage with Eyes of Blue",
+          "The White Stone of Legend",
+          "Dictator of D.",
+          "Bingo Machine, Go!!!",
+          "Maiden with Eyes of Blue",
+          "The White Stone of Legend",
+          "The White Stone of Legend",
+          "Maiden with Eyes of Blue",
+          "Bingo Machine, Go!!!",
+          "Wishes for Eyes of Blue",
+          "True Light",
+          "The Ultimate Creature of Destruction",
+          "Branded Opening",
+          "Fallen of Albaz",
+          "Fallen of Albaz",
+          "Branded Opening",
+          "D.D. Crow",
+          "D.D. Crow",
+          "Ghost Belle & Haunted Mansion",
+          "Ghost Ogre & Snow Rabbit",
+          "Ghost Belle & Haunted Mansion",
+          "Effect Veiler",
+          "Harpie's Feather Duster",
+          "Evenly Matched",
+          "Skill Drain",
+          "Solemn Judgment"
+        ],
+        "extra_deck": [
+          "Dragon Master Knight",
+          "Blue-Eyes Spirit Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Tyrant Dragon",
+          "Neo Blue-Eyes Ultimate Dragon"
+        ]
+      },
+      "most_common_critique_issues": [],
+      "package_counts": {
+        "board_breakers": 2,
+        "bricks": 0,
+        "core": 11,
+        "engine": 4,
+        "extenders": 9,
+        "extra_deck": 10,
+        "handtraps": 6,
+        "searchers": 7,
+        "starters": 9,
+        "traps": 4
+      },
+      "package_quota_violations": [],
+      "runs": [
+        {
+          "run": 1,
+          "ok": true,
+          "variant": "branded",
+          "final_score": 233.64,
+          "score_breakdown": {
+            "consistency_score": 41.0,
+            "starter_score": 25.0,
+            "extender_score": 25.0,
+            "interruption_score": 30.0,
+            "brick_penalty": 1.6,
+            "endboard_score": 24.5,
+            "learned_card_bonus": 4.92,
+            "playable_hand_rate": 0.825,
+            "brick_rate": 0.0,
+            "combo_line_score": 20.39,
+            "interruption_resilience_score": 6.08,
+            "follow_up_score": 5.46,
+            "normal_summon_conflict_rate": 0.1,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.025,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.225,
+            "best_line_average_score": 6.44,
+            "graph_valid_line_rate": 0.625,
+            "graph_average_line_score": 10.3,
+            "graph_average_payoff_score": 4.5,
+            "graph_average_resource_score": 3.22,
+            "graph_average_risk_score": 0.17,
+            "graph_failed_line_rate": 0.375,
+            "most_common_graph_failure_reason": "missing required card: Chaos Form, Blue-Eyes Chaos MAX Dragon",
+            "final_score": 233.64,
+            "package_quality_score": 92.97,
+            "quota_violation_penalty": 0.0
+          },
+          "candidate_pool_size": 108,
+          "main_deck": [
+            "Blue-Eyes Solid Dragon",
+            "Dragon Spirit of White",
+            "Dragon Spirit of White",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Jet Dragon",
+            "Dragon Spirit of White",
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Solid Dragon",
+            "The White Stone of Ancients",
+            "Sage with Eyes of Blue",
+            "The White Stone of Legend",
+            "Dictator of D.",
+            "Bingo Machine, Go!!!",
+            "Maiden with Eyes of Blue",
+            "The White Stone of Legend",
+            "The White Stone of Legend",
+            "Maiden with Eyes of Blue",
+            "Bingo Machine, Go!!!",
+            "Wishes for Eyes of Blue",
+            "True Light",
+            "The Ultimate Creature of Destruction",
+            "Branded Opening",
+            "Fallen of Albaz",
+            "Fallen of Albaz",
+            "Branded Opening",
+            "D.D. Crow",
+            "D.D. Crow",
+            "Ghost Belle & Haunted Mansion",
+            "Ghost Ogre & Snow Rabbit",
+            "Ghost Belle & Haunted Mansion",
+            "Effect Veiler",
+            "Harpie's Feather Duster",
+            "Evenly Matched",
+            "Skill Drain",
+            "Solemn Judgment"
+          ],
+          "extra_deck": [
+            "Dragon Master Knight",
+            "Blue-Eyes Spirit Dragon",
+            "Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Tyrant Dragon",
+            "Neo Blue-Eyes Ultimate Dragon"
+          ],
+          "detected_engines": [
+            "Blue-Eyes core",
+            "Blue-Eyes ritual",
+            "Branded",
+            "board breaker package",
+            "handtrap package"
+          ],
+          "critique_issues": [],
+          "real_combo_report": {
+            "samples": 100,
+            "playable_hand_rate": 0.96,
+            "brick_rate": 0.0,
+            "average_brick_count": 0,
+            "average_starter_count": 1.93,
+            "average_extender_count": 3.5,
+            "average_interruption_count": 3.81,
+            "most_common_combo_lines": [
+              [
+                "Dictator of D. + Blue-Eyes access -> setup line",
+                6
+              ],
+              [
+                "Bingo Machine access -> Blue-Eyes consistency line",
+                5
+              ],
+              [
+                "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+                3
+              ],
+              [
+                "True Light + Jet Dragon -> Jet protection loop",
+                3
+              ],
+              [
+                "Spirit Dragon synchro line",
+                3
+              ],
+              [
+                "Abyss Dragon follow-up line",
+                2
+              ],
+              [
+                "Wishes for Eyes of Blue access line",
+                1
+              ]
+            ],
+            "best_line_frequency": [
+              [
+                "Bingo Machine -> search line",
+                25
+              ],
+              [
+                "Dictator setup -> Blue-Eyes access",
+                16
+              ],
+              [
+                "Sage + White Stone -> Spirit Dragon",
+                9
+              ],
+              [
+                "Wishes for Eyes -> access line",
+                5
+              ],
+              [
+                "Abyss Dragon follow-up",
+                3
+              ],
+              [
+                "True Light + Jet loop",
+                2
+              ]
+            ],
+            "average_endboard_score": 0.97,
+            "combo_line_score": 20.15,
+            "normal_summon_conflict_rate": 0.0,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.07,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.19,
+            "best_line_average_score": 5.48,
+            "graph_valid_line_rate": 0.6,
+            "graph_average_line_score": 9.13,
+            "graph_average_payoff_score": 3.58,
+            "graph_average_resource_score": 3.22,
+            "graph_average_risk_score": 0.15,
+            "graph_failed_line_rate": 0.4,
+            "most_common_graph_failure_reason": "missing required card: Chaos Form, Blue-Eyes Chaos MAX Dragon",
+            "interruption_resilience_score": 6.06,
+            "follow_up_score": 5.55,
+            "recovery_route_frequency": 0.16,
+            "choke_point_frequency": [
+              [
+                "Ash Blossom & Joyous Spring",
+                16
+              ],
+              [
+                "D.D. Crow",
+                7
+              ],
+              [
+                "Droll & Lock Bird",
+                6
+              ],
+              [
+                "Effect Veiler",
+                6
+              ],
+              [
+                "Infinite Impermanence",
+                6
+              ],
+              [
+                "Called by the Grave",
+                6
+              ],
+              [
+                "Cosmic Cyclone",
+                3
+              ],
+              [
+                "Evenly Matched",
+                3
+              ],
+              [
+                "Nibiru, the Primal Being",
+                3
+              ]
+            ]
+          },
+          "playable_hand_rate": 0.96,
+          "brick_rate": 0.0,
+          "combo_line_score": 20.15,
+          "average_endboard_score": 0.97,
+          "interruption_resilience_score": 6.06,
+          "follow_up_score": 5.55,
+          "package_report": {
+            "package_counts": {
+              "board_breakers": 2,
+              "bricks": 0,
+              "core": 11,
+              "engine": 4,
+              "extenders": 9,
+              "extra_deck": 10,
+              "handtraps": 6,
+              "searchers": 7,
+              "starters": 9,
+              "traps": 4
+            },
+            "chosen_engine_variant": "branded",
+            "starter_count": 14,
+            "brick_count": 0,
+            "non_engine_count": 12,
+            "package_quota_violations": []
+          },
+          "package_quality": {
+            "package_balance_score": 16.8,
+            "starter_quota_score": 20.0,
+            "brick_quota_score": 18.0,
+            "non_engine_score": 16.0,
+            "engine_coherence_score": 14.0,
+            "extra_deck_score": 12.0,
+            "quota_violation_penalty": 0.0,
+            "final_package_quality_score": 96.8
+          },
+          "package_quality_score": 96.8,
+          "quota_violation_penalty": 0.0,
+          "package_counts": {
+            "board_breakers": 2,
+            "bricks": 0,
+            "core": 11,
+            "engine": 4,
+            "extenders": 9,
+            "extra_deck": 10,
+            "handtraps": 6,
+            "searchers": 7,
+            "starters": 9,
+            "traps": 4
+          },
+          "package_starter_count": 14,
+          "package_brick_count": 0,
+          "non_engine_count": 12,
+          "package_quota_violations": []
+        }
+      ]
+    },
+    "board_breaker_heavy": {
+      "variant": "board_breaker_heavy",
+      "successful_runs": 1,
+      "failed_runs": 0,
+      "average_score": 242.78,
+      "best_score": 242.78,
+      "average_brick_penalty": 2.4,
+      "playable_hand_rate": 0.99,
+      "brick_rate": 0.0,
+      "combo_line_score": 21.71,
+      "average_endboard_score": 25.0,
+      "average_interruption_score": 30.0,
+      "real_average_endboard_score": 1.03,
+      "interruption_resilience_score": 6.73,
+      "follow_up_score": 5.31,
+      "graph_valid_line_rate": 0.69,
+      "graph_average_line_score": 8.74,
+      "graph_average_risk_score": 0.19,
+      "package_quality_score": 95.88,
+      "best_deck_list": {
+        "main_deck": [
+          "Blue-Eyes Solid Dragon",
+          "Dragon Spirit of White",
+          "Dragon Spirit of White",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Dragon Spirit of White",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Blue-Eyes Abyss Dragon",
+          "Dictator of D.",
+          "Maiden with Eyes of Blue",
+          "Bingo Machine, Go!!!",
+          "The White Stone of Legend",
+          "The White Stone of Ancients",
+          "The White Stone of Legend",
+          "The White Stone of Ancients",
+          "Maiden with Eyes of Blue",
+          "Wishes for Eyes of Blue",
+          "The White Stone of Ancients",
+          "Sage with Eyes of Blue",
+          "The Melody of Awakening Dragon",
+          "Malefic Blue-Eyes White Dragon",
+          "Ash Blossom & Joyous Spring",
+          "Infinite Impermanence",
+          "Ghost Belle & Haunted Mansion",
+          "Ash Blossom & Joyous Spring",
+          "Dark Ruler No More",
+          "Raigeki",
+          "Dark Ruler No More",
+          "Forbidden Droplet",
+          "Raigeki",
+          "Forbidden Droplet"
+        ],
+        "extra_deck": [
+          "Blue-Eyes Ultimate Spirit Dragon",
+          "Dragon Master Knight",
+          "Dragon Master Knight",
+          "Blue-Eyes Ultimate Spirit Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Spirit Dragon"
+        ]
+      },
+      "most_common_critique_issues": [],
+      "package_counts": {
+        "board_breakers": 6,
+        "bricks": 1,
+        "core": 11,
+        "extenders": 8,
+        "extra_deck": 10,
+        "handtraps": 4,
+        "searchers": 9,
+        "starters": 10
+      },
+      "package_quota_violations": [],
+      "runs": [
+        {
+          "run": 1,
+          "ok": true,
+          "variant": "board_breaker_heavy",
+          "final_score": 242.78,
+          "score_breakdown": {
+            "consistency_score": 42.8,
+            "starter_score": 25.0,
+            "extender_score": 25.0,
+            "interruption_score": 30.0,
+            "brick_penalty": 2.4,
+            "endboard_score": 25.0,
+            "learned_card_bonus": 5.29,
+            "playable_hand_rate": 0.975,
+            "brick_rate": 0.0,
+            "combo_line_score": 22.61,
+            "interruption_resilience_score": 6.47,
+            "follow_up_score": 5.74,
+            "normal_summon_conflict_rate": 0.05,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.025,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.3,
+            "best_line_average_score": 7.37,
+            "graph_valid_line_rate": 0.725,
+            "graph_average_line_score": 10.17,
+            "graph_average_payoff_score": 4.82,
+            "graph_average_resource_score": 3.86,
+            "graph_average_risk_score": 0.19,
+            "graph_failed_line_rate": 0.275,
+            "most_common_graph_failure_reason": "missing required card: True Light",
+            "final_score": 242.78,
+            "package_quality_score": 93.03,
+            "quota_violation_penalty": 0.0
+          },
+          "candidate_pool_size": 66,
+          "main_deck": [
+            "Blue-Eyes Solid Dragon",
+            "Dragon Spirit of White",
+            "Dragon Spirit of White",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Dragon Spirit of White",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Blue-Eyes Abyss Dragon",
+            "Dictator of D.",
+            "Maiden with Eyes of Blue",
+            "Bingo Machine, Go!!!",
+            "The White Stone of Legend",
+            "The White Stone of Ancients",
+            "The White Stone of Legend",
+            "The White Stone of Ancients",
+            "Maiden with Eyes of Blue",
+            "Wishes for Eyes of Blue",
+            "The White Stone of Ancients",
+            "Sage with Eyes of Blue",
+            "The Melody of Awakening Dragon",
+            "Malefic Blue-Eyes White Dragon",
+            "Ash Blossom & Joyous Spring",
+            "Infinite Impermanence",
+            "Ghost Belle & Haunted Mansion",
+            "Ash Blossom & Joyous Spring",
+            "Dark Ruler No More",
+            "Raigeki",
+            "Dark Ruler No More",
+            "Forbidden Droplet",
+            "Raigeki",
+            "Forbidden Droplet"
+          ],
+          "extra_deck": [
+            "Blue-Eyes Ultimate Spirit Dragon",
+            "Dragon Master Knight",
+            "Dragon Master Knight",
+            "Blue-Eyes Ultimate Spirit Dragon",
+            "Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Spirit Dragon"
+          ],
+          "detected_engines": [
+            "Blue-Eyes core",
+            "board breaker package",
+            "handtrap package"
+          ],
+          "critique_issues": [],
+          "real_combo_report": {
+            "samples": 100,
+            "playable_hand_rate": 0.99,
+            "brick_rate": 0.0,
+            "average_brick_count": 0,
+            "average_starter_count": 2.46,
+            "average_extender_count": 3.67,
+            "average_interruption_count": 4.1,
+            "most_common_combo_lines": [
+              [
+                "Abyss Dragon follow-up line",
+                19
+              ],
+              [
+                "Wishes for Eyes of Blue access line",
+                6
+              ],
+              [
+                "Bingo Machine access -> Blue-Eyes consistency line",
+                3
+              ],
+              [
+                "Dictator of D. + Blue-Eyes access -> setup line",
+                3
+              ],
+              [
+                "Spirit Dragon synchro line",
+                3
+              ],
+              [
+                "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+                2
+              ],
+              [
+                "Alternative White Dragon pressure line",
+                2
+              ]
+            ],
+            "best_line_frequency": [
+              [
+                "Abyss Dragon follow-up",
+                19
+              ],
+              [
+                "Dictator setup -> Blue-Eyes access",
+                16
+              ],
+              [
+                "Bingo Machine -> search line",
+                15
+              ],
+              [
+                "Wishes for Eyes -> access line",
+                11
+              ],
+              [
+                "Sage + White Stone -> Spirit Dragon",
+                8
+              ]
+            ],
+            "average_endboard_score": 1.03,
+            "combo_line_score": 21.71,
+            "normal_summon_conflict_rate": 0.01,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.03,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.21,
+            "best_line_average_score": 6.03,
+            "graph_valid_line_rate": 0.69,
+            "graph_average_line_score": 8.74,
+            "graph_average_payoff_score": 3.74,
+            "graph_average_resource_score": 3.69,
+            "graph_average_risk_score": 0.19,
+            "graph_failed_line_rate": 0.31,
+            "most_common_graph_failure_reason": "missing required card: True Light",
+            "interruption_resilience_score": 6.73,
+            "follow_up_score": 5.31,
+            "recovery_route_frequency": 0.3,
+            "choke_point_frequency": [
+              [
+                "Ash Blossom & Joyous Spring",
+                29
+              ],
+              [
+                "D.D. Crow",
+                22
+              ],
+              [
+                "Droll & Lock Bird",
+                9
+              ],
+              [
+                "Effect Veiler",
+                6
+              ],
+              [
+                "Infinite Impermanence",
+                6
+              ],
+              [
+                "Called by the Grave",
+                3
+              ],
+              [
+                "Nibiru, the Primal Being",
+                3
+              ],
+              [
+                "Book of Moon",
+                2
+              ]
+            ]
+          },
+          "playable_hand_rate": 0.99,
+          "brick_rate": 0.0,
+          "combo_line_score": 21.71,
+          "average_endboard_score": 1.03,
+          "interruption_resilience_score": 6.73,
+          "follow_up_score": 5.31,
+          "package_report": {
+            "package_counts": {
+              "board_breakers": 6,
+              "bricks": 1,
+              "core": 11,
+              "extenders": 8,
+              "extra_deck": 10,
+              "handtraps": 4,
+              "searchers": 9,
+              "starters": 10
+            },
+            "chosen_engine_variant": "board_breaker_heavy",
+            "starter_count": 16,
+            "brick_count": 0,
+            "non_engine_count": 10,
+            "package_quota_violations": []
+          },
+          "package_quality": {
+            "package_balance_score": 16.0,
+            "starter_quota_score": 20.0,
+            "brick_quota_score": 18.0,
+            "non_engine_score": 15.88,
+            "engine_coherence_score": 14.0,
+            "extra_deck_score": 12.0,
+            "quota_violation_penalty": 0.0,
+            "final_package_quality_score": 95.88
+          },
+          "package_quality_score": 95.88,
+          "quota_violation_penalty": 0.0,
+          "package_counts": {
+            "board_breakers": 6,
+            "bricks": 1,
+            "core": 11,
+            "extenders": 8,
+            "extra_deck": 10,
+            "handtraps": 4,
+            "searchers": 9,
+            "starters": 10
+          },
+          "package_starter_count": 16,
+          "package_brick_count": 0,
+          "non_engine_count": 10,
+          "package_quota_violations": []
+        }
+      ]
+    },
+    "handtrap_heavy": {
+      "variant": "handtrap_heavy",
+      "successful_runs": 1,
+      "failed_runs": 0,
+      "average_score": 238.49,
+      "best_score": 238.49,
+      "average_brick_penalty": 2.4,
+      "playable_hand_rate": 0.99,
+      "brick_rate": 0.0,
+      "combo_line_score": 21.62,
+      "average_endboard_score": 25.0,
+      "average_interruption_score": 30.0,
+      "real_average_endboard_score": 1.15,
+      "interruption_resilience_score": 6.35,
+      "follow_up_score": 5.57,
+      "graph_valid_line_rate": 0.59,
+      "graph_average_line_score": 10.14,
+      "graph_average_risk_score": 0.13,
+      "package_quality_score": 97.8,
+      "best_deck_list": {
+        "main_deck": [
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Blue-Eyes Solid Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Jet Dragon",
+          "Blue-Eyes Alternative White Dragon",
+          "Dragon Spirit of White",
+          "Dragon Spirit of White",
+          "Dictator of D.",
+          "Dictator of D.",
+          "Bingo Machine, Go!!!",
+          "Maiden with Eyes of Blue",
+          "Wishes for Eyes of Blue",
+          "Sage with Eyes of Blue",
+          "The White Stone of Legend",
+          "The White Stone of Ancients",
+          "Sage with Eyes of Blue",
+          "The White Stone of Ancients",
+          "True Light",
+          "Ash Blossom & Joyous Spring",
+          "Droll & Lock Bird",
+          "Ghost Belle & Haunted Mansion",
+          "Infinite Impermanence",
+          "Nibiru, the Primal Being",
+          "Ghost Ogre & Snow Rabbit",
+          "Ghost Ogre & Snow Rabbit",
+          "Nibiru, the Primal Being",
+          "Ghost Ogre & Snow Rabbit",
+          "Ghost Belle & Haunted Mansion",
+          "Dark Ruler No More"
+        ],
+        "extra_deck": [
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Ultimate Spirit Dragon",
+          "Dragon Master Knight",
+          "Blue-Eyes Twin Burst Dragon",
+          "Neo Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Tyrant Dragon",
+          "Blue-Eyes Ultimate Dragon",
+          "Blue-Eyes Spirit Dragon"
+        ]
+      },
+      "most_common_critique_issues": [],
+      "package_counts": {
+        "board_breakers": 1,
+        "bricks": 0,
+        "core": 11,
+        "extenders": 8,
+        "extra_deck": 10,
+        "handtraps": 10,
+        "searchers": 2,
+        "starters": 10,
+        "traps": 1
+      },
+      "package_quota_violations": [],
+      "runs": [
+        {
+          "run": 1,
+          "ok": true,
+          "variant": "handtrap_heavy",
+          "final_score": 238.49,
+          "score_breakdown": {
+            "consistency_score": 41.6,
+            "starter_score": 25.0,
+            "extender_score": 25.0,
+            "interruption_score": 30.0,
+            "brick_penalty": 2.4,
+            "endboard_score": 25.0,
+            "learned_card_bonus": 5.58,
+            "playable_hand_rate": 0.9,
+            "brick_rate": 0.0,
+            "combo_line_score": 21.87,
+            "interruption_resilience_score": 6.51,
+            "follow_up_score": 5.87,
+            "normal_summon_conflict_rate": 0.05,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.125,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.075,
+            "best_line_average_score": 6.11,
+            "graph_valid_line_rate": 0.6,
+            "graph_average_line_score": 10.18,
+            "graph_average_payoff_score": 4.01,
+            "graph_average_resource_score": 3.15,
+            "graph_average_risk_score": 0.15,
+            "graph_failed_line_rate": 0.4,
+            "most_common_graph_failure_reason": "missing required card: Chaos Form, Blue-Eyes Chaos MAX Dragon",
+            "final_score": 238.49,
+            "package_quality_score": 97.65,
+            "quota_violation_penalty": 0.0
+          },
+          "candidate_pool_size": 52,
+          "main_deck": [
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Blue-Eyes Solid Dragon",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Jet Dragon",
+            "Blue-Eyes Alternative White Dragon",
+            "Dragon Spirit of White",
+            "Dragon Spirit of White",
+            "Dictator of D.",
+            "Dictator of D.",
+            "Bingo Machine, Go!!!",
+            "Maiden with Eyes of Blue",
+            "Wishes for Eyes of Blue",
+            "Sage with Eyes of Blue",
+            "The White Stone of Legend",
+            "The White Stone of Ancients",
+            "Sage with Eyes of Blue",
+            "The White Stone of Ancients",
+            "True Light",
+            "Ash Blossom & Joyous Spring",
+            "Droll & Lock Bird",
+            "Ghost Belle & Haunted Mansion",
+            "Infinite Impermanence",
+            "Nibiru, the Primal Being",
+            "Ghost Ogre & Snow Rabbit",
+            "Ghost Ogre & Snow Rabbit",
+            "Nibiru, the Primal Being",
+            "Ghost Ogre & Snow Rabbit",
+            "Ghost Belle & Haunted Mansion",
+            "Dark Ruler No More"
+          ],
+          "extra_deck": [
+            "Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Ultimate Spirit Dragon",
+            "Dragon Master Knight",
+            "Blue-Eyes Twin Burst Dragon",
+            "Neo Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Tyrant Dragon",
+            "Blue-Eyes Ultimate Dragon",
+            "Blue-Eyes Spirit Dragon"
+          ],
+          "detected_engines": [
+            "Blue-Eyes core",
+            "board breaker package",
+            "handtrap package"
+          ],
+          "critique_issues": [],
+          "real_combo_report": {
+            "samples": 100,
+            "playable_hand_rate": 0.99,
+            "brick_rate": 0.0,
+            "average_brick_count": 0,
+            "average_starter_count": 1.88,
+            "average_extender_count": 4.16,
+            "average_interruption_count": 3.9,
+            "most_common_combo_lines": [
+              [
+                "Dictator of D. + Blue-Eyes access -> setup line",
+                8
+              ],
+              [
+                "Spirit Dragon synchro line",
+                7
+              ],
+              [
+                "Wishes for Eyes of Blue access line",
+                6
+              ],
+              [
+                "Sage + White Stone -> Blue-Eyes Spirit Dragon",
+                4
+              ],
+              [
+                "Alternative White Dragon pressure line",
+                3
+              ],
+              [
+                "Bingo Machine access -> Blue-Eyes consistency line",
+                3
+              ],
+              [
+                "True Light + Jet Dragon -> Jet protection loop",
+                2
+              ]
+            ],
+            "best_line_frequency": [
+              [
+                "Dictator setup -> Blue-Eyes access",
+                20
+              ],
+              [
+                "Sage + White Stone -> Spirit Dragon",
+                18
+              ],
+              [
+                "Bingo Machine -> search line",
+                12
+              ],
+              [
+                "Wishes for Eyes -> access line",
+                7
+              ],
+              [
+                "True Light + Jet loop",
+                2
+              ]
+            ],
+            "average_endboard_score": 1.15,
+            "combo_line_score": 21.62,
+            "normal_summon_conflict_rate": 0.03,
+            "once_per_turn_conflict_rate": 0.0,
+            "dead_duplicate_rate": 0.04,
+            "payoff_without_enabler_rate": 0.0,
+            "enabler_without_payoff_rate": 0.09,
+            "best_line_average_score": 5.99,
+            "graph_valid_line_rate": 0.59,
+            "graph_average_line_score": 10.14,
+            "graph_average_payoff_score": 3.92,
+            "graph_average_resource_score": 3.21,
+            "graph_average_risk_score": 0.13,
+            "graph_failed_line_rate": 0.41,
+            "most_common_graph_failure_reason": "missing required card: Chaos Form, Blue-Eyes Chaos MAX Dragon",
+            "interruption_resilience_score": 6.35,
+            "follow_up_score": 5.57,
+            "recovery_route_frequency": 0.24,
+            "choke_point_frequency": [
+              [
+                "Ash Blossom & Joyous Spring",
+                22
+              ],
+              [
+                "Effect Veiler",
+                11
+              ],
+              [
+                "Infinite Impermanence",
+                11
+              ],
+              [
+                "Droll & Lock Bird",
+                9
+              ],
+              [
+                "Called by the Grave",
+                8
+              ],
+              [
+                "D.D. Crow",
+                8
+              ],
+              [
+                "Nibiru, the Primal Being",
+                7
+              ],
+              [
+                "Book of Moon",
+                3
+              ],
+              [
+                "Cosmic Cyclone",
+                2
+              ],
+              [
+                "Evenly Matched",
+                2
+              ]
+            ]
+          },
+          "playable_hand_rate": 0.99,
+          "brick_rate": 0.0,
+          "combo_line_score": 21.62,
+          "average_endboard_score": 1.15,
+          "interruption_resilience_score": 6.35,
+          "follow_up_score": 5.57,
+          "package_report": {
+            "package_counts": {
+              "board_breakers": 1,
+              "bricks": 0,
+              "core": 11,
+              "extenders": 8,
+              "extra_deck": 10,
+              "handtraps": 10,
+              "searchers": 2,
+              "starters": 10,
+              "traps": 1
+            },
+            "chosen_engine_variant": "handtrap_heavy",
+            "starter_count": 11,
+            "brick_count": 0,
+            "non_engine_count": 12,
+            "package_quota_violations": []
+          },
+          "package_quality": {
+            "package_balance_score": 17.8,
+            "starter_quota_score": 20.0,
+            "brick_quota_score": 18.0,
+            "non_engine_score": 16.0,
+            "engine_coherence_score": 14.0,
+            "extra_deck_score": 12.0,
+            "quota_violation_penalty": 0.0,
+            "final_package_quality_score": 97.8
+          },
+          "package_quality_score": 97.8,
+          "quota_violation_penalty": 0.0,
+          "package_counts": {
+            "board_breakers": 1,
+            "bricks": 0,
+            "core": 11,
+            "extenders": 8,
+            "extra_deck": 10,
+            "handtraps": 10,
+            "searchers": 2,
+            "starters": 10,
+            "traps": 1
+          },
+          "package_starter_count": 11,
+          "package_brick_count": 0,
+          "non_engine_count": 12,
+          "package_quota_violations": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "matchup": "combo",
+    "going": "second",
+    "runs": 1
+  },
+  "created_at_utc": "2026-05-24T17:36:55.766125+00:00",
+  "summary": {
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "average_game1_score": 306.87,
+    "average_post_side_score": 310.57,
+    "average_post_side_delta": 3.7,
+    "post_side_valid_rate": 1.0,
+    "average_side_deck_score": 103.0,
+    "average_matchup_coverage_score": 32.0,
+    "average_candidate_count": 12,
+    "average_valid_candidate_count": 12,
+    "average_valid_candidate_rate": 1.0,
+    "optimization_success_rate": 1.0,
+    "post_side_memory_used_rate": 1.0,
+    "average_choke_stop_rate": 0.0,
+    "average_opponent_recovery_rate": 0.0,
+    "average_choke_coverage_score": 0.0,
+    "average_best_interruption_overlap": 0,
+    "average_poor_interruption_count": 0,
+    "average_timing_precision_score": 0.0,
+    "average_pivot_risk_score": 0.0,
+    "average_best_timing_window_count": 0,
+    "average_late_interruption_risk": 0.0,
+    "average_early_interruption_risk": 0.0,
+    "average_backup_line_success_rate": 0.0,
+    "most_used_side_cards": [
+      [
+        "Ash Blossom & Joyous Spring",
+        1
+      ],
+      [
+        "Infinite Impermanence",
+        1
+      ],
+      [
+        "Evenly Matched",
+        1
+      ]
+    ]
+  },
+  "post_side_memory_updated": true,
+  "post_side_memory_summary": {
+    "top_side_in_cards": [
+      [
+        "Ash Blossom & Joyous Spring",
+        37
+      ],
+      [
+        "Droll & Lock Bird",
+        30
+      ],
+      [
+        "Infinite Impermanence",
+        23
+      ],
+      [
+        "Effect Veiler",
+        11
+      ],
+      [
+        "Nibiru, the Primal Being",
+        6
+      ],
+      [
+        "Evenly Matched",
+        2
+      ],
+      [
+        "Dark Ruler No More",
+        1
+      ]
+    ],
+    "top_side_out_cards": [
+      [
+        "Dragon Spirit of White",
+        20
+      ],
+      [
+        "Destined Rivals",
+        14
+      ],
+      [
+        "Ghost Ogre & Snow Rabbit",
+        13
+      ],
+      [
+        "Lightning Storm",
+        12
+      ],
+      [
+        "Main 9",
+        7
+      ],
+      [
+        "Main 10",
+        7
+      ],
+      [
+        "Book of Eclipse",
+        5
+      ],
+      [
+        "The Ultimate Creature of Destruction",
+        5
+      ],
+      [
+        "Solemn Judgment",
+        5
+      ],
+      [
+        "Nibiru, the Primal Being",
+        5
+      ]
+    ],
+    "best_post_side_pattern": "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | Ghost Ogre & Snow Rabbit",
+    "average_post_side_delta": 3.3879
+  },
+  "runs": [
+    {
+      "game1_score": 306.87,
+      "post_side_score": 310.57,
+      "post_side_delta": 3.7,
+      "post_side_valid": true,
+      "side_cards_used": [
+        "Ash Blossom & Joyous Spring",
+        "Infinite Impermanence",
+        "Evenly Matched"
+      ],
+      "cards_sided_out": [
+        "Dragon Spirit of White",
+        "Ghost Ogre & Snow Rabbit",
+        "The Ultimate Creature of Destruction"
+      ],
+      "post_side_warnings": [],
+      "candidate_count": 12,
+      "valid_candidate_count": 12,
+      "rejected_candidate_count": 0,
+      "valid_candidate_rate": 1.0,
+      "rejection_reasons": {},
+      "optimization_used": true,
+      "post_side_memory_used": true,
+      "curated_opponent_memory_used": false,
+      "best_post_side_score": 310.57,
+      "best_side_in": [
+        "Ash Blossom & Joyous Spring",
+        "Infinite Impermanence",
+        "Evenly Matched"
+      ],
+      "best_side_out": [
+        "Dragon Spirit of White",
+        "Ghost Ogre & Snow Rabbit",
+        "The Ultimate Creature of Destruction"
+      ],
+      "side_deck_score": 103.0,
+      "matchup_coverage_score": 32.0,
+      "choke_report": {
+        "opponent": "combo",
+        "available_interruptions": [
+          "Evenly Matched",
+          "Dark Ruler No More",
+          "Nibiru, the Primal Being",
+          "Infinite Impermanence",
+          "Effect Veiler",
+          "Ash Blossom & Joyous Spring",
+          "Droll Bird",
+          "Book of Eclipse",
+          "Zuttomozaurus",
+          "Zuijin of the Ice Barrier",
+          "Zubababa Knight",
+          "Zubaba Knight",
+          "Zubaba Buster",
+          "Zoroa, the Magistus Verethragna",
+          "Zoroa, the Magistus Conflagrant Calamity"
+        ],
+        "likely_lines": [],
+        "best_interruptions": [],
+        "choke_results": [],
+        "best_timing_windows": [],
+        "bad_timing_windows": [],
+        "line_branch_results": [],
+        "average_stop_rate": 0.0,
+        "average_recovery_rate": 0.0,
+        "timing_precision_score": 0.0,
+        "pivot_risk_score": 0.0,
+        "best_timing_window_count": 0,
+        "late_interruption_risk": 0.0,
+        "early_interruption_risk": 0.0,
+        "backup_line_success_rate": 0.0,
+        "recommended_interruptions": [],
+        "poor_interruptions": [],
+        "choke_coverage_score": 0.0,
+        "best_interruption_overlap": 0,
+        "poor_interruption_count": 0
+      },
+      "choke_stop_rate": 0.0,
+      "opponent_recovery_rate": 0.0,
+      "choke_coverage_score": 0.0,
+      "best_interruption_overlap": 0,
+      "poor_interruption_count": 0,
+      "timing_precision_score": 0.0,
+      "pivot_risk_score": 0.0,
+      "best_timing_window_count": 0,
+      "late_interruption_risk": 0.0,
+      "early_interruption_risk": 0.0,
+      "backup_line_success_rate": 0.0,
+      "game1_metrics": {
+        "final_score": 306.87,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 11.25,
+        "ash_vulnerability_rate": 0.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 0.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 95.24
+      },
+      "post_side_metrics": {
+        "final_score": 310.57,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 11.25,
+        "ash_vulnerability_rate": 0.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 0.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 94.83
+      },
+      "post_side_main": [
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Dragon Spirit of White",
+        "Wishes for Eyes of Blue",
+        "Maiden with Eyes of Blue",
+        "Maiden with Eyes of Blue",
+        "The White Stone of Ancients",
+        "Wishes for Eyes of Blue",
+        "The White Stone of Legend",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "The White Stone of Ancients",
+        "Sage with Eyes of Blue",
+        "True Light",
+        "The Chaos Creator",
+        "Chaos Dragon Levianeer",
+        "Black Luster Soldier - Envoy of the Beginning",
+        "Infinite Impermanence",
+        "Ghost Ogre & Snow Rabbit",
+        "Droll & Lock Bird",
+        "Ghost Ogre & Snow Rabbit",
+        "Droll & Lock Bird",
+        "Raigeki",
+        "Book of Eclipse",
+        "Solemn Strike",
+        "Ash Blossom & Joyous Spring",
+        "Infinite Impermanence",
+        "Evenly Matched"
+      ],
+      "recommended_side_deck": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Ash Blossom & Joyous Spring",
+        "Droll Bird",
+        "Book of Eclipse",
+        "Zuttomozaurus",
+        "Zuijin of the Ice Barrier",
+        "Zubababa Knight",
+        "Zubaba Knight",
+        "Zubaba Buster",
+        "Zoroa, the Magistus Verethragna",
+        "Zoroa, the Magistus Conflagrant Calamity"
+      ],
+      "blocked_card_violations_after_siding": [],
+      "post_side_deck_size_valid": true,
+      "run": 1,
+      "ok": true
+    }
+  ]
+}

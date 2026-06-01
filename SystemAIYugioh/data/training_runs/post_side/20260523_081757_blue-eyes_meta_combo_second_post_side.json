@@ -1,0 +1,161 @@
+{
+  "config": {
+    "archetype": "Blue-Eyes",
+    "mode": "meta",
+    "matchup": "combo",
+    "going": "second",
+    "runs": 1
+  },
+  "created_at_utc": "2026-05-23T08:17:57.130025+00:00",
+  "summary": {
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "average_game1_score": 282.21,
+    "average_post_side_score": 284.41,
+    "average_post_side_delta": 2.2,
+    "post_side_valid_rate": 1.0,
+    "average_side_deck_score": 103.0,
+    "average_matchup_coverage_score": 35.0,
+    "average_candidate_count": 12,
+    "average_valid_candidate_count": 12,
+    "average_valid_candidate_rate": 1.0,
+    "optimization_success_rate": 1.0,
+    "most_used_side_cards": [
+      [
+        "Nibiru, the Primal Being",
+        1
+      ],
+      [
+        "Infinite Impermanence",
+        1
+      ],
+      [
+        "Ash Blossom & Joyous Spring",
+        1
+      ]
+    ]
+  },
+  "runs": [
+    {
+      "game1_score": 282.21,
+      "post_side_score": 284.41,
+      "post_side_delta": 2.2,
+      "post_side_valid": true,
+      "side_cards_used": [
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Ash Blossom & Joyous Spring"
+      ],
+      "cards_sided_out": [
+        "Dragon Spirit of White",
+        "Solemn Judgment",
+        "Forbidden Droplet"
+      ],
+      "post_side_warnings": [],
+      "candidate_count": 12,
+      "valid_candidate_count": 12,
+      "rejected_candidate_count": 0,
+      "valid_candidate_rate": 1.0,
+      "rejection_reasons": {},
+      "optimization_used": true,
+      "best_post_side_score": 284.41,
+      "best_side_in": [
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Ash Blossom & Joyous Spring"
+      ],
+      "best_side_out": [
+        "Dragon Spirit of White",
+        "Solemn Judgment",
+        "Forbidden Droplet"
+      ],
+      "side_deck_score": 103.0,
+      "matchup_coverage_score": 35.0,
+      "game1_metrics": {
+        "final_score": 282.21,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 8.7,
+        "ash_vulnerability_rate": 1.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 1.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 93.75
+      },
+      "post_side_metrics": {
+        "final_score": 284.41,
+        "playable_hand_rate": 1.0,
+        "brick_rate": 0.0,
+        "resilience_score": 8.7,
+        "ash_vulnerability_rate": 1.0,
+        "imperm_vulnerability_rate": 0.0,
+        "veiler_vulnerability_rate": 0.0,
+        "droll_vulnerability_rate": 1.0,
+        "crow_vulnerability_rate": 0.0,
+        "nibiru_vulnerability_rate": 0.0,
+        "package_quality_score": 93.15
+      },
+      "post_side_main": [
+        "Blue-Eyes Alternative White Dragon",
+        "Dragon Spirit of White",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Abyss Dragon",
+        "Blue-Eyes Alternative White Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Solid Dragon",
+        "Blue-Eyes Jet Dragon",
+        "Bingo Machine, Go!!!",
+        "Maiden with Eyes of Blue",
+        "Dictator of D.",
+        "Maiden with Eyes of Blue",
+        "Dictator of D.",
+        "The White Stone of Legend",
+        "The White Stone of Legend",
+        "Wishes for Eyes of Blue",
+        "Sage with Eyes of Blue",
+        "The White Stone of Ancients",
+        "Sage with Eyes of Blue",
+        "Destined Rivals",
+        "Destined Rivals",
+        "Black Luster Soldier - Envoy of the Beginning",
+        "Chaos Dragon Levianeer",
+        "Chaos Dragon Levianeer",
+        "Ash Blossom & Joyous Spring",
+        "Droll & Lock Bird",
+        "Infinite Impermanence",
+        "Ghost Belle & Haunted Mansion",
+        "Effect Veiler",
+        "Effect Veiler",
+        "Raigeki",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Ash Blossom & Joyous Spring"
+      ],
+      "recommended_side_deck": [
+        "Evenly Matched",
+        "Dark Ruler No More",
+        "Nibiru, the Primal Being",
+        "Infinite Impermanence",
+        "Effect Veiler",
+        "Droll & Lock Bird",
+        "Ash Blossom & Joyous Spring",
+        "Droll Bird",
+        "Book of Eclipse",
+        "Zuttomozaurus",
+        "Zuijin of the Ice Barrier",
+        "Zubababa Knight",
+        "Zubaba Knight",
+        "Zubaba Buster",
+        "Zoroa, the Magistus Verethragna"
+      ],
+      "blocked_card_violations_after_siding": [],
+      "post_side_deck_size_valid": true,
+      "run": 1,
+      "ok": true
+    }
+  ]
+}
