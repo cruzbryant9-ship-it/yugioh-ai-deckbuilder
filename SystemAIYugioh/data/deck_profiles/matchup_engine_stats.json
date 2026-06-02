@@ -4,7 +4,7 @@
       "meta": {
         "archetype": "Blue-Eyes",
         "mode": "meta",
-        "updated_at_utc": "2026-06-01T01:44:55.799747+00:00",
+        "updated_at_utc": "2026-06-01T21:22:56.390729+00:00",
         "summary": {
           "cell_count": 48,
           "successful_cells": 48,
@@ -13,25 +13,25 @@
           "failed_run_count": 0,
           "total_run_count": 48,
           "failure_rate": 0.0,
-          "average_score": 290.97,
-          "score_stddev": 13.8,
-          "average_side_deck_score": 94.56,
-          "average_post_side_score": 293.21,
-          "average_post_side_delta": 2.1,
+          "average_score": 293.92,
+          "score_stddev": 13.98,
+          "average_side_deck_score": 94.51,
+          "average_post_side_score": 296.04,
+          "average_post_side_delta": 2.3,
           "post_side_valid_rate": 1.0,
           "average_valid_candidate_rate": 1.0,
           "side_optimization_success_rate": 1.0,
           "post_side_memory_used_rate": 0.0,
           "average_memory_aided_post_side_delta": 0.0,
-          "average_matchup_coverage_score": 31.52,
-          "average_resilience_score": 9.89,
-          "average_choke_stop_rate": 0.835,
-          "average_opponent_recovery_rate": 0.5161,
-          "average_choke_coverage_score": 83.5,
-          "average_poor_interruption_count": 0.71,
-          "average_timing_precision_score": 0.7393,
+          "average_matchup_coverage_score": 31.5,
+          "average_resilience_score": 10.14,
+          "average_choke_stop_rate": 0.8375,
+          "average_opponent_recovery_rate": 0.5152,
+          "average_choke_coverage_score": 83.75,
+          "average_poor_interruption_count": 0.69,
+          "average_timing_precision_score": 0.7415,
           "average_pivot_risk_score": 0.7833,
-          "average_backup_line_success_rate": 0.4888,
+          "average_backup_line_success_rate": 0.4881,
           "average_graph_stop_rate": 0.7931,
           "average_graph_pivot_rate": 0.6034,
           "average_graph_endboard_reduction_score": 0.5451,
@@ -68,59 +68,59 @@
           "blocked_card_violation_count": 0
         },
         "rankings": {
-          "best_overall_engine": "chaos",
+          "best_overall_engine": "pure",
           "best_engine_by_matchup": {
-            "Snake-Eye curated profile": "chaos",
-            "Tenpai curated profile": "bystial",
-            "Labrynth curated profile": "ritual",
-            "Branded curated profile": "chaos"
+            "Snake-Eye curated profile": "pure",
+            "Tenpai curated profile": "pure",
+            "Labrynth curated profile": "pure",
+            "Branded curated profile": "pure"
           },
-          "best_going_first_engine": "bystial",
-          "best_going_second_engine": "chaos",
-          "safest_low_brick_engine": "ritual",
+          "best_going_first_engine": "pure",
+          "best_going_second_engine": "pure",
+          "safest_low_brick_engine": "pure",
           "best_side_deck_compatible_engine": "bystial",
-          "most_resilient_engine": "bystial",
-          "best_post_side_engine": "chaos",
+          "most_resilient_engine": "pure",
+          "best_post_side_engine": "pure",
           "best_side_plan_engine": "pure",
           "highest_valid_candidate_rate_engine": "pure",
-          "best_game1_to_post_side_improvement_engine": "chaos",
+          "best_game1_to_post_side_improvement_engine": "bystial",
           "worst_engine_matchup_pairing": {
             "engine_variant": "ritual",
-            "matchup": "Tenpai curated profile",
-            "going": "second",
-            "score": 266.73
+            "matchup": "Snake-Eye curated profile",
+            "going": "first",
+            "score": 264.54
           }
         },
         "engine_performance_by_matchup": {
           "Branded curated profile": {
             "pure": {
               "going": "both",
-              "average_score": 284.77,
-              "side_deck_score": 114.0,
-              "post_side_score": 286.39,
-              "post_side_delta": 1.46,
-              "valid_candidate_rate": 1.0,
-              "memory_aided_post_side_delta": 0,
-              "resilience_score": 8.7,
-              "brick_rate": 0.0
-            },
-            "ritual": {
-              "going": "both",
-              "average_score": 301.45,
+              "average_score": 309.54,
               "side_deck_score": 111.0,
-              "post_side_score": 303.69,
-              "post_side_delta": 3.04,
+              "post_side_score": 309.28,
+              "post_side_delta": -0.61,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
               "resilience_score": 11.25,
               "brick_rate": 0.0
             },
+            "ritual": {
+              "going": "both",
+              "average_score": 268.51,
+              "side_deck_score": 114.0,
+              "post_side_score": 269.08,
+              "post_side_delta": -0.5,
+              "valid_candidate_rate": 1.0,
+              "memory_aided_post_side_delta": 0,
+              "resilience_score": 6.25,
+              "brick_rate": 0.0
+            },
             "chaos": {
               "going": "both",
-              "average_score": 299.96,
-              "side_deck_score": 115.5,
-              "post_side_score": 305.39,
-              "post_side_delta": 6.07,
+              "average_score": 308.0,
+              "side_deck_score": 112.5,
+              "post_side_score": 308.77,
+              "post_side_delta": 0.79,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
               "resilience_score": 11.25,
@@ -128,34 +128,34 @@
             },
             "bystial": {
               "going": "both",
-              "average_score": 279.42,
-              "side_deck_score": 111.0,
-              "post_side_score": 281.98,
-              "post_side_delta": 2.67,
+              "average_score": 297.66,
+              "side_deck_score": 114.0,
+              "post_side_score": 301.96,
+              "post_side_delta": 2.48,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
-              "resilience_score": 8.7,
+              "resilience_score": 11.25,
               "brick_rate": 0.0
             }
           },
           "Labrynth curated profile": {
             "pure": {
               "going": "both",
-              "average_score": 301.41,
+              "average_score": 274.47,
               "side_deck_score": 96.5,
-              "post_side_score": 303.92,
-              "post_side_delta": 2.78,
+              "post_side_score": 274.42,
+              "post_side_delta": 0.87,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
-              "resilience_score": 11.25,
+              "resilience_score": 8.7,
               "brick_rate": 0.0
             },
             "ritual": {
               "going": "both",
-              "average_score": 300.62,
-              "side_deck_score": 111.0,
-              "post_side_score": 297.64,
-              "post_side_delta": -2.79,
+              "average_score": 308.72,
+              "side_deck_score": 109.5,
+              "post_side_score": 305.98,
+              "post_side_delta": -2.0,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
               "resilience_score": 11.25,
@@ -163,10 +163,10 @@
             },
             "chaos": {
               "going": "both",
-              "average_score": 305.78,
-              "side_deck_score": 96.5,
-              "post_side_score": 307.21,
-              "post_side_delta": 0.69,
+              "average_score": 298.81,
+              "side_deck_score": 95.0,
+              "post_side_score": 299.76,
+              "post_side_delta": 3.73,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
               "resilience_score": 11.25,
@@ -174,10 +174,10 @@
             },
             "bystial": {
               "going": "both",
-              "average_score": 300.29,
-              "side_deck_score": 112.5,
-              "post_side_score": 299.68,
-              "post_side_delta": 1.49,
+              "average_score": 304.66,
+              "side_deck_score": 108.0,
+              "post_side_score": 303.78,
+              "post_side_delta": -0.56,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
               "resilience_score": 11.25,
@@ -187,21 +187,21 @@
           "Snake-Eye curated profile": {
             "pure": {
               "going": "both",
-              "average_score": 275.81,
-              "side_deck_score": 112.5,
-              "post_side_score": 277.32,
-              "post_side_delta": -0.48,
+              "average_score": 300.91,
+              "side_deck_score": 114.0,
+              "post_side_score": 306.82,
+              "post_side_delta": 2.96,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
-              "resilience_score": 8.7,
+              "resilience_score": 11.25,
               "brick_rate": 0.0
             },
             "ritual": {
               "going": "both",
-              "average_score": 275.02,
-              "side_deck_score": 111.0,
-              "post_side_score": 278.24,
-              "post_side_delta": 3.11,
+              "average_score": 281.66,
+              "side_deck_score": 112.5,
+              "post_side_score": 280.82,
+              "post_side_delta": 0.64,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
               "resilience_score": 8.7,
@@ -209,34 +209,34 @@
             },
             "chaos": {
               "going": "both",
-              "average_score": 306.91,
-              "side_deck_score": 112.5,
-              "post_side_score": 310.9,
-              "post_side_delta": 4.51,
+              "average_score": 278.94,
+              "side_deck_score": 111.0,
+              "post_side_score": 283.27,
+              "post_side_delta": 5.55,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
-              "resilience_score": 11.25,
+              "resilience_score": 8.7,
               "brick_rate": 0.0
             },
             "bystial": {
               "going": "both",
-              "average_score": 304.48,
+              "average_score": 279.24,
               "side_deck_score": 112.5,
-              "post_side_score": 308.14,
-              "post_side_delta": 4.48,
+              "post_side_score": 280.4,
+              "post_side_delta": 0.76,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
-              "resilience_score": 11.25,
+              "resilience_score": 8.7,
               "brick_rate": 0.0
             }
           },
           "Tenpai curated profile": {
             "pure": {
               "going": "both",
-              "average_score": 308.02,
-              "side_deck_score": 72.0,
-              "post_side_score": 304.74,
-              "post_side_delta": -2.01,
+              "average_score": 304.56,
+              "side_deck_score": 70.5,
+              "post_side_score": 306.54,
+              "post_side_delta": -0.08,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
               "resilience_score": 11.25,
@@ -244,10 +244,10 @@
             },
             "ritual": {
               "going": "both",
-              "average_score": 300.82,
+              "average_score": 303.28,
               "side_deck_score": 70.5,
-              "post_side_score": 304.4,
-              "post_side_delta": 2.31,
+              "post_side_score": 305.68,
+              "post_side_delta": 2.12,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
               "resilience_score": 11.25,
@@ -255,54 +255,54 @@
             },
             "chaos": {
               "going": "both",
-              "average_score": 309.33,
-              "side_deck_score": 70.5,
-              "post_side_score": 309.54,
-              "post_side_delta": 0.25,
+              "average_score": 284.72,
+              "side_deck_score": 73.5,
+              "post_side_score": 282.67,
+              "post_side_delta": -1.05,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
-              "resilience_score": 11.25,
+              "resilience_score": 8.7,
               "brick_rate": 0.0
             },
             "bystial": {
               "going": "both",
-              "average_score": 302.68,
-              "side_deck_score": 72.0,
-              "post_side_score": 305.44,
-              "post_side_delta": 2.37,
+              "average_score": 278.43,
+              "side_deck_score": 78.0,
+              "post_side_score": 280.06,
+              "post_side_delta": 2.22,
               "valid_candidate_rate": 1.0,
               "memory_aided_post_side_delta": 0,
-              "resilience_score": 11.25,
+              "resilience_score": 8.7,
               "brick_rate": 0.0
             }
           }
         },
         "recommended_engine_by_matchup": {
           "Branded curated profile": {
-            "first": "chaos",
-            "second": "chaos",
-            "both": "chaos"
+            "first": "pure",
+            "second": "pure",
+            "both": "pure"
           },
           "Labrynth curated profile": {
-            "first": "bystial",
-            "second": "ritual",
-            "both": "chaos"
+            "first": "pure",
+            "second": "pure",
+            "both": "ritual"
           },
           "Snake-Eye curated profile": {
             "first": "bystial",
-            "second": "chaos",
-            "both": "chaos"
+            "second": "pure",
+            "both": "pure"
           },
           "Tenpai curated profile": {
-            "first": "bystial",
+            "first": "pure",
             "second": "chaos",
-            "both": "chaos"
+            "both": "pure"
           }
         },
         "matchup_specific_avoid_engines": {
           "Branded curated profile": "ritual",
-          "Labrynth curated profile": "chaos",
-          "Snake-Eye curated profile": "chaos",
+          "Labrynth curated profile": "ritual",
+          "Snake-Eye curated profile": "ritual",
           "Tenpai curated profile": "ritual"
         }
       }
@@ -316,18 +316,9 @@
     "legal": true,
     "confidence_score": null,
     "improvement": null,
-    "timestamp": "2026-06-01T01:44:55.743907+00:00"
+    "timestamp": "2026-06-01T21:19:47.795707+00:00"
   },
   "provenance_log": [
-    {
-      "source": "matrix",
-      "validator_generated": false,
-      "smoke": true,
-      "legal": true,
-      "confidence_score": null,
-      "improvement": null,
-      "timestamp": "2026-05-29T18:29:30.251114+00:00"
-    },
     {
       "source": "matrix",
       "validator_generated": false,
@@ -1218,6 +1209,15 @@
       "confidence_score": null,
       "improvement": null,
       "timestamp": "2026-06-01T01:44:55.743907+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-01T21:19:47.795707+00:00"
     }
   ]
 }

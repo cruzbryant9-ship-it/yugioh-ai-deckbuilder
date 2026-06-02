@@ -8,11 +8,11 @@ from tempfile import TemporaryDirectory
 from typing import Any
 
 from data.card_limits import startup_safety_cleanup
-from deck.curated_opponent_library import curated_to_opponent_profile
+from deck.curated_opponent_library import curated_to_opponent_profile, load_curated_profiles
 from matchup_matrix import GOING_OPTIONS, rank_matrix, run_cell
+from SystemAIYugioh.card_database import CardDatabase
 from SystemAIYugioh.json_utils import atomic_write_json, atomic_write_text
 from SystemAIYugioh.matrix_cache import MatrixCache
-from SystemAIYugioh.runtime_context import DEFAULT_RUNTIME_CONTEXT
 
 
 REPORT_DIR = Path("SystemAIYugioh") / "data" / "training_runs" / "cache_parity"
@@ -39,10 +39,10 @@ COMPARE_KEYS = (
 )
 
 
-def run_cache_parity(seed: int = 7701) -> dict[str, Any]:
+def run_cache_parity(seed: int = 7701, frozen_inputs: bool = True) -> dict[str, Any]:
     startup_safety_cleanup()
-    cards = DEFAULT_RUNTIME_CONTEXT.cards(refresh=True)
-    profile = curated_to_opponent_profile(DEFAULT_RUNTIME_CONTEXT.curated_profiles()[0])
+    cards = frozen_card_pool() if frozen_inputs else refreshed_card_pool()
+    profile = curated_to_opponent_profile(load_curated_profiles()[0])
     cold_cells = []
     warm_cells = []
     with TemporaryDirectory(prefix="phase7a_matrix_cache_") as folder:
@@ -63,6 +63,7 @@ def run_cache_parity(seed: int = 7701) -> dict[str, Any]:
         "report_type": "cache_parity",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "seed": seed,
+        "frozen_inputs": frozen_inputs,
         "matched_cells": len(comparisons) - len(mismatches),
         "mismatched_cells": len(mismatches),
         "mismatch_reasons": Counter(reason for item in mismatches for reason in item["mismatch_reasons"]).most_common(),
@@ -72,6 +73,16 @@ def run_cache_parity(seed: int = 7701) -> dict[str, Any]:
     }
     save_reports(report)
     return report
+
+
+def frozen_card_pool() -> list[dict[str, Any]]:
+    return CardDatabase().load_cards()
+
+
+def refreshed_card_pool() -> list[dict[str, Any]]:
+    database = CardDatabase()
+    database.refresh_on_startup()
+    return database.load_cards()
 
 
 def compare_cells(cold: dict[str, Any], warm: dict[str, Any]) -> dict[str, Any]:

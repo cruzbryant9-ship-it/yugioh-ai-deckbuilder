@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import sys
 from pathlib import Path
 from typing import Any
 
@@ -51,7 +50,6 @@ def card_database_state() -> dict[str, Any]:
 
 def source_dependency_state(extra_files: list[str | Path] | None = None) -> dict[str, Any]:
     paths: set[Path] = {PROJECT_ROOT / relative for relative in SCORE_AFFECTING_SOURCE_FILES}
-    paths.update(loaded_project_module_paths())
     if extra_files:
         paths.update(PROJECT_ROOT / Path(path) if not Path(path).is_absolute() else Path(path) for path in extra_files)
     files = {}
@@ -60,18 +58,6 @@ def source_dependency_state(extra_files: list[str | Path] | None = None) -> dict
             continue
         files[path.relative_to(PROJECT_ROOT).as_posix()] = file_state(path)
     return {"file_count": len(files), "files": files, "source_hash": stable_hash(files)}
-
-
-def loaded_project_module_paths() -> set[Path]:
-    paths: set[Path] = set()
-    for module in list(sys.modules.values()):
-        raw = getattr(module, "__file__", None)
-        if not raw:
-            continue
-        path = Path(raw).resolve()
-        if should_hash_source(path):
-            paths.add(path)
-    return paths
 
 
 def should_hash_source(path: Path) -> bool:

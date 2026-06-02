@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import OrderedDict
 from pathlib import Path
 from typing import Any
 
@@ -8,8 +9,9 @@ from SystemAIYugioh.json_utils import safe_load_json
 
 
 class RuntimeContext:
-    def __init__(self) -> None:
-        self._cache: dict[str, Any] = {}
+    def __init__(self, max_entries: int = 128) -> None:
+        self.max_entries = max_entries
+        self._cache: OrderedDict[str, Any] = OrderedDict()
         self.stats = {"hits": 0, "misses": 0}
 
     def reset(self) -> None:
@@ -19,10 +21,15 @@ class RuntimeContext:
     def get(self, key: str, loader) -> Any:
         if key in self._cache:
             self.stats["hits"] += 1
+            self._cache.move_to_end(key)
             return self._cache[key]
         self.stats["misses"] += 1
         value = loader()
         self._cache[key] = value
+        self._cache.move_to_end(key)
+        if self.max_entries > 0:
+            while len(self._cache) > self.max_entries:
+                self._cache.popitem(last=False)
         return value
 
     def card_database(self) -> CardDatabase:

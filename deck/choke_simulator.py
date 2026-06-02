@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from collections import Counter
+from collections import Counter, OrderedDict
 from typing import Any
 
 from deck.opponent_choke_model import OpponentLine, get_opponent_lines
@@ -27,7 +27,8 @@ INTERRUPTION_ALIASES = {
     "Dimension Shifter": ("dimension shifter",),
     "Kaiju": ("kaiju",),
 }
-CHOKE_CACHE: dict[tuple[str, tuple[str, ...], tuple[tuple[str, float], ...]], dict[str, Any]] = {}
+CHOKE_CACHE_MAX_ENTRIES = 2048
+CHOKE_CACHE: OrderedDict[tuple[str, tuple[str, ...], tuple[tuple[str, float], ...]], dict[str, Any]] = OrderedDict()
 CHOKE_CACHE_STATS = {"hits": 0, "misses": 0}
 
 
@@ -39,6 +40,7 @@ def simulate_choke_points(opponent_profile: str | OpponentProfile | None, availa
     )
     if key in CHOKE_CACHE:
         CHOKE_CACHE_STATS["hits"] += 1
+        CHOKE_CACHE.move_to_end(key)
         return dict(CHOKE_CACHE[key])
     CHOKE_CACHE_STATS["misses"] += 1
     graph = get_opponent_graph(opponent_profile)
@@ -146,12 +148,19 @@ def simulate_choke_points(opponent_profile: str | OpponentProfile | None, availa
     if graph_report.get("best_interruptions"):
         report["best_interruptions"] = list(dict.fromkeys([*graph_report["best_interruptions"], *report["best_interruptions"]]))[:10]
         report["recommended_interruptions"] = report["best_interruptions"][:6]
-    CHOKE_CACHE[key] = dict(report)
+    remember_choke_cache(key, dict(report))
     return report
 
 
 def choke_cache_stats() -> dict[str, int]:
     return dict(CHOKE_CACHE_STATS)
+
+
+def remember_choke_cache(key: tuple[str, tuple[str, ...], tuple[tuple[str, float], ...]], value: dict[str, Any]) -> None:
+    CHOKE_CACHE[key] = value
+    CHOKE_CACHE.move_to_end(key)
+    while len(CHOKE_CACHE) > CHOKE_CACHE_MAX_ENTRIES:
+        CHOKE_CACHE.popitem(last=False)
 
 
 def evaluate_timing_window(line: OpponentLine, interruption: str, base_result: dict[str, Any]) -> dict[str, Any]:

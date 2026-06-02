@@ -8,11 +8,11 @@ from tempfile import TemporaryDirectory
 from typing import Any
 
 from data.card_limits import startup_safety_cleanup
-from deck.curated_opponent_library import curated_to_opponent_profile
+from deck.curated_opponent_library import curated_to_opponent_profile, load_curated_profiles
 from matchup_matrix import run_cell
+from SystemAIYugioh.card_database import CardDatabase
 from SystemAIYugioh.json_utils import atomic_write_json
 from SystemAIYugioh.matrix_cache import MatrixCache
-from SystemAIYugioh.runtime_context import DEFAULT_RUNTIME_CONTEXT
 
 
 REPORT_DIR = Path("SystemAIYugioh") / "data" / "training_runs" / "determinism"
@@ -29,10 +29,10 @@ COMPARE_KEYS = (
 )
 
 
-def run_determinism_check(seed: int = 8801) -> dict[str, Any]:
+def run_determinism_check(seed: int = 8801, frozen_inputs: bool = True) -> dict[str, Any]:
     startup_safety_cleanup()
-    cards = DEFAULT_RUNTIME_CONTEXT.cards(refresh=True)
-    profile = curated_to_opponent_profile(DEFAULT_RUNTIME_CONTEXT.curated_profiles()[0])
+    cards = frozen_card_pool() if frozen_inputs else refreshed_card_pool()
+    profile = curated_to_opponent_profile(load_curated_profiles()[0])
     with TemporaryDirectory(prefix="phase7a_determinism_") as folder:
         random.seed(seed)
         first = run_cell(cards, "Blue-Eyes", "meta", "pure", profile, "both", 1, True, MatrixCache(cache_dir=folder, enabled=False), seed)
@@ -54,6 +54,7 @@ def run_determinism_check(seed: int = 8801) -> dict[str, Any]:
         "report_type": "benchmark_determinism",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "seed": seed,
+        "frozen_inputs": frozen_inputs,
         "same_seed_same_result": not unexpected,
         "score_drift": score_drift,
         "engine_drift": engine_drift,
@@ -67,6 +68,16 @@ def run_determinism_check(seed: int = 8801) -> dict[str, Any]:
     }
     save_report(report)
     return report
+
+
+def frozen_card_pool() -> list[dict[str, Any]]:
+    return CardDatabase().load_cards()
+
+
+def refreshed_card_pool() -> list[dict[str, Any]]:
+    database = CardDatabase()
+    database.refresh_on_startup()
+    return database.load_cards()
 
 
 def compare_metric(first: dict[str, Any], second: dict[str, Any], key: str) -> float:

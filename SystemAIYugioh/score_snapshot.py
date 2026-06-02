@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import OrderedDict
 from dataclasses import dataclass
 from typing import Any
 
@@ -36,9 +37,10 @@ def make_score_snapshot(deck: list[dict[str, Any]], archetype: str, mode: str, b
 
 
 class ScoreSnapshotCache:
-    def __init__(self) -> None:
-        self._breakdowns: dict[tuple[str, str, tuple[str, ...]], dict[str, Any]] = {}
-        self._full_scores: dict[tuple[str, str, tuple[str, ...]], dict[str, Any]] = {}
+    def __init__(self, max_entries: int = 2048) -> None:
+        self.max_entries = max_entries
+        self._breakdowns: OrderedDict[tuple[str, str, tuple[str, ...]], dict[str, Any]] = OrderedDict()
+        self._full_scores: OrderedDict[tuple[str, str, tuple[str, ...]], dict[str, Any]] = OrderedDict()
         self.stats = {"hits": 0, "misses": 0}
 
     def reset(self) -> None:
@@ -53,21 +55,31 @@ class ScoreSnapshotCache:
         key = self.key(deck, archetype, mode)
         if key in self._breakdowns:
             self.stats["hits"] += 1
+            self._breakdowns.move_to_end(key)
             return dict(self._breakdowns[key])
         self.stats["misses"] += 1
         value = dict(loader())
-        self._breakdowns[key] = value
+        self._remember(self._breakdowns, key, value)
         return dict(value)
 
     def cached_full_score(self, deck: list[dict[str, Any]], archetype: str, mode: str, loader) -> dict[str, Any]:
         key = self.key(deck, archetype, mode)
         if key in self._full_scores:
             self.stats["hits"] += 1
+            self._full_scores.move_to_end(key)
             return dict(self._full_scores[key])
         self.stats["misses"] += 1
         value = dict(loader())
-        self._full_scores[key] = value
+        self._remember(self._full_scores, key, value)
         return dict(value)
+
+    def _remember(self, cache: OrderedDict, key: tuple[str, str, tuple[str, ...]], value: dict[str, Any]) -> None:
+        cache[key] = value
+        cache.move_to_end(key)
+        if self.max_entries <= 0:
+            return
+        while len(cache) > self.max_entries:
+            cache.popitem(last=False)
 
 
 DEFAULT_SCORE_CACHE = ScoreSnapshotCache()

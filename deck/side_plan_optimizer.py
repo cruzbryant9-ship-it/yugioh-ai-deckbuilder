@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from collections import Counter
+from collections import Counter, OrderedDict
 from itertools import combinations
 from typing import Any
 
@@ -20,7 +20,8 @@ from SystemAIYugioh.banlist import get_card_limit
 
 SIDE_COUNTS = (3, 6, 9, 12, 15)
 CORE_TERMS = ("blue-eyes", "eyes of blue", "white stone", "dictator of d", "bingo machine")
-SIDE_CANDIDATE_SCORE_CACHE: dict[tuple[tuple[str, ...], str, str], float] = {}
+SIDE_CANDIDATE_SCORE_CACHE_MAX_ENTRIES = 4096
+SIDE_CANDIDATE_SCORE_CACHE: OrderedDict[tuple[tuple[str, ...], str, str], float] = OrderedDict()
 SIDE_CANDIDATE_SCORE_STATS = {"hits": 0, "misses": 0}
 
 
@@ -360,10 +361,14 @@ def cached_candidate_score(deck: list[dict[str, Any]], archetype: str, mode: str
     key = (tuple(str(card.get("name", "")) for card in deck), archetype, mode)
     if key in SIDE_CANDIDATE_SCORE_CACHE:
         SIDE_CANDIDATE_SCORE_STATS["hits"] += 1
+        SIDE_CANDIDATE_SCORE_CACHE.move_to_end(key)
         return SIDE_CANDIDATE_SCORE_CACHE[key]
     SIDE_CANDIDATE_SCORE_STATS["misses"] += 1
     score = float(score_deck_breakdown(deck, archetype, mode).get("final_score", 0.0))
     SIDE_CANDIDATE_SCORE_CACHE[key] = score
+    SIDE_CANDIDATE_SCORE_CACHE.move_to_end(key)
+    while len(SIDE_CANDIDATE_SCORE_CACHE) > SIDE_CANDIDATE_SCORE_CACHE_MAX_ENTRIES:
+        SIDE_CANDIDATE_SCORE_CACHE.popitem(last=False)
     return score
 
 

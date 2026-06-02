@@ -4,6 +4,7 @@ import copy
 import hashlib
 import json
 import time
+from collections import OrderedDict
 from pathlib import Path
 from typing import Any
 from datetime import datetime, timezone
@@ -24,7 +25,7 @@ class MatrixCache:
         self.cache_dir = Path(cache_dir)
         self.enabled = enabled
         self.fingerprint = fingerprint or matrix_cache_fingerprint()
-        self._cells: dict[str, dict[str, Any]] = {}
+        self._cells: OrderedDict[str, dict[str, Any]] = OrderedDict()
         self.stats = {
             "hits": 0,
             "misses": 0,
@@ -53,6 +54,7 @@ class MatrixCache:
     def get(self, key: str) -> dict[str, Any] | None:
         if key in self._cells:
             self.stats["hits"] += 1
+            self._cells.move_to_end(key)
             return copy.deepcopy(self._cells[key])
         if self.enabled:
             payload = safe_load_json(self.path_for(key), None)
@@ -67,7 +69,7 @@ class MatrixCache:
                 ):
                     self.stats["hits"] += 1
                     self.stats["disk_hits"] += 1
-                    self._cells[key] = copy.deepcopy(value)
+                    self._remember_cell(key, copy.deepcopy(value))
                     return copy.deepcopy(value)
                 if payload.get("fingerprint") != self.fingerprint["fingerprint"]:
                     self.stats["fingerprint_misses"] += 1
@@ -82,7 +84,7 @@ class MatrixCache:
             self.stats["skipped_failed"] += 1
             return
         stored = normalize_json_shape(copy.deepcopy(value))
-        self._cells[key] = stored
+        self._remember_cell(key, stored)
         if self.enabled:
             atomic_write_json(
                 self.path_for(key),
@@ -100,6 +102,17 @@ class MatrixCache:
 
     def path_for(self, key: str) -> Path:
         return self.cache_dir / f"{key}.json"
+
+    def _remember_cell(self, key: str, value: dict[str, Any]) -> None:
+        self._cells[key] = value
+        self._cells.move_to_end(key)
+        self._enforce_memory_bound()
+
+    def _enforce_memory_bound(self, max_entries: int = MATRIX_CACHE_MAX_ENTRIES) -> None:
+        if max_entries <= 0:
+            return
+        while len(self._cells) > max_entries:
+            self._cells.popitem(last=False)
 
     def prune(self, max_age_seconds: int = MATRIX_CACHE_MAX_AGE_SECONDS, max_entries: int = MATRIX_CACHE_MAX_ENTRIES) -> dict[str, int]:
         removed = 0
