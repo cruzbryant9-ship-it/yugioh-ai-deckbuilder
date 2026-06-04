@@ -76,6 +76,66 @@ class RegressionGateConfig:
 
 DEFAULT_CONFIG = RegressionGateConfig()
 
+MATRIX_DEGRADATION_KEYS = (
+    "score_stddev",
+    "blocked_card_violation_count",
+    "average_side_deck_score",
+    "average_matchup_coverage_score",
+    "average_resilience_score",
+    "average_post_side_score",
+    "average_post_side_delta",
+    "post_side_valid_rate",
+    "average_valid_candidate_rate",
+    "side_optimization_success_rate",
+    "average_memory_aided_post_side_delta",
+)
+
+TRAINING_DEGRADATION_KEYS = (
+    "average_score",
+    "average_package_quality_score",
+    "average_side_deck_score",
+    "average_matchup_coverage_score",
+    "average_post_side_score",
+    "average_post_side_delta",
+    "post_side_valid_rate",
+    "average_valid_candidate_rate",
+    "side_optimization_success_rate",
+    "average_memory_post_side_delta_difference",
+    "average_choke_stop_rate",
+    "average_opponent_recovery_rate",
+    "average_poor_interruption_count",
+    "average_timing_precision_score",
+    "average_pivot_risk_score",
+    "average_backup_line_success_rate",
+    "average_late_interruption_risk",
+    "average_graph_stop_rate",
+    "average_graph_pivot_rate",
+    "average_graph_endboard_reduction_score",
+    "average_graph_poor_interruption_count",
+    "average_opponent_resource_valid_rate",
+    "average_opponent_resource_failure_rate",
+)
+
+REAL_COMBO_DEGRADATION_KEYS = (
+    "playable_hand_rate",
+    "brick_rate",
+    "best_line_average_score",
+    "graph_valid_line_rate",
+    "graph_average_line_score",
+    "graph_failed_line_rate",
+    "graph_average_risk_score",
+    "resource_valid_line_rate",
+    "no_valid_line_rate",
+    "best_line_failure_rate",
+    "cost_condition_valid_rate",
+    "branch_valid_rate",
+    "no_valid_branch_rate",
+    "resilience_score",
+    "interrupted_line_success_rate",
+    "average_interruption_risk",
+    "typed_material_valid_rate",
+)
+
 
 class NumericGateValue(float):
     def __new__(cls, value: float, state: str, reason: str = ""):
@@ -103,6 +163,11 @@ def evaluate_matchup_matrix_update(
     config: RegressionGateConfig = DEFAULT_CONFIG,
 ) -> dict[str, Any]:
     reasons: list[str] = []
+    metric_degradation_reasons = _metric_degradation_reasons(
+        matrix_summary,
+        previous_profile.get("summary", {}) if isinstance(previous_profile, dict) else {},
+        MATRIX_DEGRADATION_KEYS,
+    )
     score_stddev = _number(matrix_summary.get("score_stddev"))
     if score_stddev > config.max_matrix_score_stddev:
         reasons.append(f"matrix average is too unstable: score stddev {score_stddev} > {config.max_matrix_score_stddev}")
@@ -148,6 +213,8 @@ def evaluate_matchup_matrix_update(
     return {
         "accepted": not reasons,
         "reasons": reasons,
+        "reporting_reasons": metric_degradation_reasons,
+        "metric_degradation_reasons": metric_degradation_reasons,
         "metrics": {
             "score_stddev": score_stddev,
             "blocked_card_violation_count": blocked,
@@ -170,6 +237,7 @@ def evaluate_training_batch(
     config: RegressionGateConfig = DEFAULT_CONFIG,
 ) -> dict[str, Any]:
     reasons: list[str] = []
+    metric_degradation_reasons = _metric_degradation_reasons(summary, previous_profile, TRAINING_DEGRADATION_KEYS)
     successful_runs = _number(summary.get("successful_runs"))
     if successful_runs <= 0:
         reasons.append("no successful training runs")
@@ -187,6 +255,9 @@ def evaluate_training_batch(
     previous_real = previous_profile.get("average_real_combo_report_values", {})
     if not isinstance(previous_real, dict):
         previous_real = {}
+    metric_degradation_reasons.extend(
+        _metric_degradation_reasons(real_metrics, previous_real, REAL_COMBO_DEGRADATION_KEYS, prefix="average_real_combo_values.")
+    )
 
     playable_rate = _number(real_metrics.get("playable_hand_rate"))
     previous_playable = _number(previous_real.get("playable_hand_rate"))
@@ -432,6 +503,8 @@ def evaluate_training_batch(
     return {
         "accepted": not reasons,
         "reasons": reasons,
+        "reporting_reasons": metric_degradation_reasons,
+        "metric_degradation_reasons": metric_degradation_reasons,
         "metrics": {
             "average_score": average_score,
             "previous_average_score": previous_average,
@@ -657,6 +730,28 @@ def _increased_above(current_value: Any, previous_value: Any, allowed_increase: 
     current = _number(current_value)
     previous = _number(previous_value)
     return current.is_numeric and previous.is_numeric and current > previous + allowed_increase
+
+
+def _metric_degradation_reasons(
+    current: dict[str, Any],
+    previous: dict[str, Any],
+    keys: tuple[str, ...],
+    *,
+    prefix: str = "",
+) -> list[str]:
+    if not isinstance(current, dict) or not isinstance(previous, dict):
+        return []
+    reasons: list[str] = []
+    for key in keys:
+        previous_state = _number(previous.get(key))
+        current_state = _number(current.get(key))
+        if previous_state.is_numeric and not current_state.is_numeric:
+            label = f"{prefix}{key}" if prefix else key
+            reasons.append(
+                f"metric degradation: {label} was historically numeric but is now {current_state.state}"
+                + (f" ({current_state.reason})" if current_state.reason else "")
+            )
+    return reasons
 
 
 def classify_gate_numeric_value(value: Any) -> dict[str, Any]:

@@ -1,0 +1,109 @@
+# Fingerprint Coverage Audit
+
+- Passed: True
+- Candidate modules: 92
+- Fingerprinted: 54
+- Explicitly excluded: 38
+- Uncovered: 0
+
+## Uncovered Modules
+
+- None
+
+## Exclusions
+
+- `SystemAIYugioh/__init__.py`: package marker only
+- `SystemAIYugioh/card_database.py`: card data loader; data files are fingerprinted separately
+- `SystemAIYugioh/fingerprint_coverage_audit.py`: coverage validator/reporting helper, not scoring logic
+- `SystemAIYugioh/json_utils.py`: generic persistence utility; not score-affecting logic
+- `SystemAIYugioh/logging_utils.py`: logging helper only
+- `SystemAIYugioh/main.py`: entrypoint wrapper, not scoring logic
+- `SystemAIYugioh/memory_context.py`: provenance helper; does not calculate scoring/matchup values
+- `SystemAIYugioh/memory_quarantine.py`: memory safety/reporting helper, not scoring logic
+- `SystemAIYugioh/report_builder.py`: report assembly only
+- `SystemAIYugioh/runtime_context.py`: runtime cache/resource loader; source changes do not alter scoring formulas
+- `SystemAIYugioh/source_fingerprint.py`: fingerprint infrastructure itself; covered by validation instead of self-fingerprinting
+- `SystemAIYugioh/validation_core.py`: validator helper only
+- `SystemAIYugioh/validation_harness.py`: validator harness only
+- `deck/__init__.py`: package marker only
+- `deck/archetype_relationship_graph.py`: relationship discovery helper; not used by benchmark scoring path
+- `deck/archetype_specialization_detector.py`: promotion-readiness detector/report helper; does not affect scoring or deck construction
+- `deck/archetype_specialization_profiles.py`: non-activated semi-specialization profile data for review only
+- `deck/curated_opponent_library.py`: static profile loading; profile data files are outside source fingerprint scope
+- `deck/decklist_parser.py`: input parsing utility for external decklists; not part of generated deck scoring
+- `deck/filler_signal_gates.py`: filler-memory governance remains inactive for benchmark scoring
+- `deck/generic_benchmark_memory.py`: memory persistence/reporting; not a scoring algorithm
+- `deck/generic_card_shift_explainer.py`: explanation/report generation only
+- `deck/generic_deck_diff_report.py`: report generation only
+- `deck/generic_diff_index.py`: generic diff memory/index maintenance, not direct scoring
+- `deck/generic_filler_impact.py`: filler impact report helper; filler-memory activation remains disabled
+- `deck/generic_filler_memory.py`: filler memory persistence; filler-memory activation remains disabled
+- `deck/generic_ratio_memory.py`: ratio memory persistence; not direct scoring
+- `deck/generic_ratio_recommender.py`: recommendation reporting, not active score formula
+- `deck/generic_targeted_retest.py`: offline retest orchestration, not scoring logic
+- `deck/generic_trend_diagnosis.py`: trend diagnosis/reporting only
+- `deck/rejection_classification.py`: report classification helper, not score calculation
+- `deck/semi_specialized_adapter_tuning.py`: proposed-only adapter tuning definitions; not used by default benchmark scoring or default deck construction
+- `deck/semi_specialized_builder_adapter.py`: explicit opt-in experimental Kashtira adapter; not used by default benchmark scoring or default deck construction
+- `deck/semi_specialized_package_planner.py`: non-activated package planning scaffold; not used by deck construction
+- `deck/semi_specialized_quota_replay.py`: non-activated quota replay/reporting harness; does not affect scoring or deck construction
+- `deck/semi_specialized_reconciled_comparison.py`: non-activated reconciled comparison/reporting harness; does not affect scoring or deck construction
+- `deck/semi_specialized_role_audit.py`: non-activated role audit/reporting harness; does not affect scoring or deck construction
+- `deck/semi_specialized_role_reconciliation.py`: non-activated role reconciliation/reporting harness; does not affect scoring or deck construction
+
+## Fingerprinted Modules
+
+- `SystemAIYugioh/banlist.py`
+- `SystemAIYugioh/cache_fingerprint.py`
+- `SystemAIYugioh/matrix_cache.py`
+- `SystemAIYugioh/metric_registry.py`
+- `SystemAIYugioh/opponent_metric_builder.py`
+- `SystemAIYugioh/opponent_signal_sentinel.py`
+- `SystemAIYugioh/regression_gates.py`
+- `SystemAIYugioh/report_schema.py`
+- `SystemAIYugioh/score_snapshot.py`
+- `deck/advisory_influence_budget.py`
+- `deck/archetype_role_inference.py`
+- `deck/builder.py`
+- `deck/card_conditions.py`
+- `deck/card_metadata.py`
+- `deck/card_text_parser.py`
+- `deck/chain_model.py`
+- `deck/choke_simulator.py`
+- `deck/combo_lines.py`
+- `deck/curated_opponent_memory.py`
+- `deck/deck_analysis.py`
+- `deck/deck_utils.py`
+- `deck/engine_variants.py`
+- `deck/generic_combo_skeleton.py`
+- `deck/generic_deck_builder.py`
+- `deck/generic_deck_repair.py`
+- `deck/generic_filler_selector.py`
+- `deck/generic_package_extractor.py`
+- `deck/generic_package_replay.py`
+- `deck/generic_repair_diagnostics.py`
+- `deck/generic_tuner.py`
+- `deck/hand_simulator.py`
+- `deck/interruption_profiles.py`
+- `deck/line_graph.py`
+- `deck/line_validator.py`
+- `deck/matchup_engine_stats.py`
+- `deck/matchup_profiles.py`
+- `deck/opponent_analyzer.py`
+- `deck/opponent_branch_graph.py`
+- `deck/opponent_choke_model.py`
+- `deck/opponent_graph_simulator.py`
+- `deck/opponent_probability_simulator.py`
+- `deck/opponent_profiles.py`
+- `deck/opponent_resource_state.py`
+- `deck/package_builder.py`
+- `deck/package_quality.py`
+- `deck/packages.py`
+- `deck/post_side_evaluation.py`
+- `deck/post_side_memory.py`
+- `deck/resource_state.py`
+- `deck/side_application.py`
+- `deck/side_deck_planner.py`
+- `deck/side_deck_scoring.py`
+- `deck/side_plan_optimizer.py`
+- `deck/timing_windows.py`

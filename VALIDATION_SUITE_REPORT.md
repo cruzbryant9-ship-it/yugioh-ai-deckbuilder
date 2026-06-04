@@ -7,6 +7,7 @@
 - `validate_stabilization_l.py`
 - `validate_stabilization_k.py`
 - `validate_stabilization_j.py`
+- `validate_stabilization_n.py`
 
 ## Commands Deduplicated
 
@@ -17,14 +18,15 @@
 ## Runtime Summary
 
 - Baseline runtime before consolidation: not measured by a historical structured runner.
-- Core suite duration: 33.1604 seconds
+- Core suite duration: 57.5093 seconds
 - Runtime improvement source: nested heavy validator and matchup-matrix smoke calls are skipped in core-suite mode.
-- validate_phase7a.py: 18.9086s, passed=True
-- validate_stabilization_m.py: 4.6958s, passed=True
-- validate_stabilization_l.py: 0.6744s, passed=True
-- validate_stabilization_k.py: 1.6581s, passed=True
-- validate_stabilization_j.py: 4.036s, passed=True
-- matchup matrix smoke: 3.1873s, passed=True
+- validate_phase7a.py: 20.7037s, passed=True
+- validate_stabilization_m.py: 5.0775s, passed=True
+- validate_stabilization_l.py: 0.8091s, passed=True
+- validate_stabilization_k.py: 2.6655s, passed=True
+- validate_stabilization_j.py: 4.3696s, passed=True
+- validate_stabilization_n.py: 20.5913s, passed=True
+- matchup matrix smoke: 3.2926s, passed=True
 
 ## Remaining Validators Using Old Local run_command
 

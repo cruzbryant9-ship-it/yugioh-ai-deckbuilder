@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "profiles": {
+    "blue-eyes": {
+      "meta": {
+        "Labrynth": {
+          "first": {
+            "best_engine_variants": {
+              "chaos": 1
+            },
+            "engine_score_totals": {
+              "chaos": 283.46
+            },
+            "engine_score_counts": {
+              "chaos": 1
+            },
+            "engine_delta_totals": {
+              "chaos": -0.42
+            },
+            "engine_delta_counts": {
+              "chaos": 1
+            },
+            "average_score_by_engine": {
+              "chaos": 283.46
+            },
+            "post_side_delta_by_engine": {
+              "chaos": -0.42
+            },
+            "side_in_card_success_counts": {
+              "Lightning Storm": 1,
+              "Cosmic Cyclone": 1,
+              "Infinite Impermanence": 1
+            },
+            "side_in_delta_totals": {
+              "Lightning Storm": -0.42,
+              "Cosmic Cyclone": -0.42,
+              "Infinite Impermanence": -0.42
+            },
+            "side_in_delta_counts": {
+              "Lightning Storm": 1,
+              "Cosmic Cyclone": 1,
+              "Infinite Impermanence": 1
+            },
+            "side_in_card_average_post_side_delta": {
+              "Lightning Storm": -0.42,
+              "Cosmic Cyclone": -0.42,
+              "Infinite Impermanence": -0.42
+            },
+            "side_out_card_success_counts": {
+              "Evenly Matched": 1,
+              "Dark Ruler No More": 1,
+              "Dragon Spirit of White": 1
+            },
+            "side_out_delta_totals": {
+              "Evenly Matched": -0.42,
+              "Dark Ruler No More": -0.42,
+              "Dragon Spirit of White": -0.42
+            },
+            "side_out_delta_counts": {
+              "Evenly Matched": 1,
+              "Dark Ruler No More": 1,
+              "Dragon Spirit of White": 1
+            },
+            "side_out_card_average_post_side_delta": {
+              "Evenly Matched": -0.42,
+              "Dark Ruler No More": -0.42,
+              "Dragon Spirit of White": -0.42
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Lightning Storm": -0.42,
+                "Cosmic Cyclone": -0.42,
+                "Infinite Impermanence": -0.42
+              },
+              "side_out": {
+                "Evenly Matched": -0.42,
+                "Dark Ruler No More": -0.42,
+                "Dragon Spirit of White": -0.42
+              }
+            },
+            "best_full_side_plans": {},
+            "worst_side_plans": {
+              "ENGINE: chaos || IN: Lightning Storm | Cosmic Cyclone | Infinite Impermanence || OUT: Evenly Matched | Dark Ruler No More | Dragon Spirit of White": {
+                "count": 1,
+                "delta_total": -0.42,
+                "best_delta": -0.42,
+                "worst_delta": -0.42
+              }
+            },
+            "interruption_vulnerability_trends": [
+              0.0
+            ],
+            "resilience_score_trends": [
+              8.7
+            ],
+            "matchup_coverage_trends": [
+              24.0
+            ],
+            "post_side_validity_history": [
+              1.0
+            ],
+            "post_side_delta_history": [
+              -0.42
+            ],
+            "choke_stop_rate_history": [
+              0.75
+            ],
+            "opponent_recovery_rate_history": [
+              0.5658
+            ],
+            "side_card_choke_totals": {
+              "Lightning Storm": 0.75,
+              "Cosmic Cyclone": 0.75,
+              "Infinite Impermanence": 0.75
+            },
+            "side_card_choke_counts": {
+              "Lightning Storm": 1,
+              "Cosmic Cyclone": 1,
+              "Infinite Impermanence": 1
+            },
+            "side_card_choke_effectiveness": {
+              "Lightning Storm": 0.75,
+              "Cosmic Cyclone": 0.75,
+              "Infinite Impermanence": 0.75
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.6559
+            ],
+            "pivot_risk_history": [
+              0.8183
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:12:53.100684+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:12:52.505495+00:00"
+            }
+          }
+        }
+      }
+    }
+  },
+  "last_update_provenance": {
+    "source": "matrix",
+    "validator_generated": false,
+    "smoke": true,
+    "legal": true,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-06-03T20:12:52.505495+00:00"
+  },
+  "provenance_log": [
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:12:52.505495+00:00"
+    }
+  ]
+}
+timestamp": "2026-06-03T20:12:52.982722+00:00"
+    }
+  ]
+}

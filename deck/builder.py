@@ -69,7 +69,39 @@ def build_deck(
     matchup: Any = None,
     going: str | None = None,
     generic_tune_runs: int = 0,
+    experimental_semi_specialized: bool = False,
+    specialization_profile: str | None = None,
+    experimental_variant: str | None = None,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    if experimental_semi_specialized:
+        try:
+            from deck.archetype_role_inference import archetype_pool
+            from deck.semi_specialized_builder_adapter import build_experimental_semi_specialized_deck
+
+            experimental_deck, experimental_report = build_experimental_semi_specialized_deck(
+                cards,
+                archetype_name,
+                mode=mode,
+                profile=specialization_profile,
+                size=size,
+                variant=experimental_variant,
+            )
+            if experimental_deck:
+                set_last_build_report(experimental_report)
+                return experimental_deck, archetype_pool(cards, archetype_name)
+        except Exception as exc:
+            set_last_build_report(
+                {
+                    "builder_used": "generic_failed",
+                    "experimental": False,
+                    "not_default": True,
+                    "fallback_used": True,
+                    "quota_warnings": [f"experimental adapter failed before fallback: {exc}"],
+                    "generic_confidence_score": 0.0,
+                    "package_counts": {},
+                }
+            )
+
     matchup_profile = load_matchup_engine_stats(archetype_name, mode) if use_learning and matchup else {}
     matchup_variant = engine_variant or recommended_variant_with_curated_memory(archetype_name, mode, matchup_profile, matchup, going)
     authored_available = False

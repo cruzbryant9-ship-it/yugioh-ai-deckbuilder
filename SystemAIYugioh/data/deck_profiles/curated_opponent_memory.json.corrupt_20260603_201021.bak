@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "profiles": {
+    "blue-eyes": {
+      "meta": {
+        "Tenpai": {
+          "first": {
+            "best_engine_variants": {
+              "pure": 1
+            },
+            "engine_score_totals": {
+              "pure": 302.7
+            },
+            "engine_score_counts": {
+              "pure": 1
+            },
+            "engine_delta_totals": {
+              "pure": 0.7
+            },
+            "engine_delta_counts": {
+              "pure": 1
+            },
+            "average_score_by_engine": {
+              "pure": 302.7
+            },
+            "post_side_delta_by_engine": {
+              "pure": 0.7
+            },
+            "side_in_card_success_counts": {
+              "Infinite Impermanence": 1,
+              "Effect Veiler": 1,
+              "Cosmic Cyclone": 1
+            },
+            "side_in_delta_totals": {
+              "Infinite Impermanence": 0.7,
+              "Effect Veiler": 0.7,
+              "Cosmic Cyclone": 0.7
+            },
+            "side_in_delta_counts": {
+              "Infinite Impermanence": 1,
+              "Effect Veiler": 1,
+              "Cosmic Cyclone": 1
+            },
+            "side_in_card_average_post_side_delta": {
+              "Infinite Impermanence": 0.7,
+              "Effect Veiler": 0.7,
+              "Cosmic Cyclone": 0.7
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 1,
+              "The Melody of Awakening Dragon": 1,
+              "Forbidden Droplet": 1
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 0.7,
+              "The Melody of Awakening Dragon": 0.7,
+              "Forbidden Droplet": 0.7
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 1,
+              "The Melody of Awakening Dragon": 1,
+              "Forbidden Droplet": 1
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 0.7,
+              "The Melody of Awakening Dragon": 0.7,
+              "Forbidden Droplet": 0.7
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Infinite Impermanence": 0.7,
+                "Effect Veiler": 0.7,
+                "Cosmic Cyclone": 0.7
+              },
+              "side_out": {
+                "Dragon Spirit of White": 0.7,
+                "The Melody of Awakening Dragon": 0.7,
+                "Forbidden Droplet": 0.7
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: pure || IN: Infinite Impermanence | Effect Veiler | Cosmic Cyclone || OUT: Dragon Spirit of White | The Melody of Awakening Dragon | Forbidden Droplet": {
+                "count": 1,
+                "delta_total": 0.7,
+                "best_delta": 0.7,
+                "worst_delta": 0.7
+              }
+            },
+            "worst_side_plans": {},
+            "interruption_vulnerability_trends": [
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25
+            ],
+            "matchup_coverage_trends": [
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0
+            ],
+            "post_side_delta_history": [
+              0.7
+            ],
+            "choke_stop_rate_history": [
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.4438
+            ],
+            "side_card_choke_totals": {
+              "Infinite Impermanence": 0.87,
+              "Effect Veiler": 0.87,
+              "Cosmic Cyclone": 0.87
+            },
+            "side_card_choke_counts": {
+              "Infinite Impermanence": 1,
+              "Effect Veiler": 1,
+              "Cosmic Cyclone": 1
+            },
+            "side_card_choke_effectiveness": {
+              "Infinite Impermanence": 0.87,
+              "Effect Veiler": 0.87,
+              "Cosmic Cyclone": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.7817
+            ],
+            "pivot_risk_history": [
+              0.7383
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:10:21.417531+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:10:21.310070+00:00"
+            }
+          }
+        }
+      }
+    }
+  },
+  "last_update_provenance": {
+    "source": "matrix",
+    "validator_generated": false,
+    "smoke": true,
+    "legal": true,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-06-03T20:10:21.310070+00:00"
+  },
+  "provenance_log": [
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:21.310070+00:00"
+    }
+  ]
+}

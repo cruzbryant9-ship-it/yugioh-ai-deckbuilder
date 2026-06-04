@@ -20,6 +20,7 @@ CORE_VALIDATORS = (
     "validate_stabilization_l.py",
     "validate_stabilization_k.py",
     "validate_stabilization_j.py",
+    "validate_stabilization_n.py",
 )
 
 

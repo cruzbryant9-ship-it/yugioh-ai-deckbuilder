@@ -1,0 +1,5059 @@
+{
+  "version": 1,
+  "profiles": {
+    "blue-eyes": {
+      "meta": {
+        "Tenpai": {
+          "first": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4
+            },
+            "engine_score_totals": {
+              "pure": 1210.8,
+              "ritual": 1122.16,
+              "chaos": 1225.08,
+              "bystial": 1188.96
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4
+            },
+            "engine_delta_totals": {
+              "pure": 2.8,
+              "ritual": 15.52,
+              "chaos": 126.2,
+              "bystial": 1.48
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4
+            },
+            "average_score_by_engine": {
+              "pure": 302.7,
+              "ritual": 280.54,
+              "chaos": 306.27,
+              "bystial": 297.24
+            },
+            "post_side_delta_by_engine": {
+              "pure": 0.7,
+              "ritual": 3.88,
+              "chaos": 31.55,
+              "bystial": 0.37
+            },
+            "side_in_card_success_counts": {
+              "Infinite Impermanence": 8,
+              "Effect Veiler": 8,
+              "Cosmic Cyclone": 16,
+              "Droll & Lock Bird": 8,
+              "Book of Eclipse": 4,
+              "True Light": 4
+            },
+            "side_in_delta_totals": {
+              "Infinite Impermanence": 4.28,
+              "Effect Veiler": 18.319999999999997,
+              "Cosmic Cyclone": 146.00000000000003,
+              "Droll & Lock Bird": 17.0,
+              "Book of Eclipse": 126.2,
+              "True Light": 126.2
+            },
+            "side_in_delta_counts": {
+              "Infinite Impermanence": 8,
+              "Effect Veiler": 8,
+              "Cosmic Cyclone": 16,
+              "Droll & Lock Bird": 8,
+              "Book of Eclipse": 4,
+              "True Light": 4
+            },
+            "side_in_card_average_post_side_delta": {
+              "Infinite Impermanence": 0.535,
+              "Effect Veiler": 2.29,
+              "Cosmic Cyclone": 9.125,
+              "Droll & Lock Bird": 2.125,
+              "Book of Eclipse": 31.55,
+              "True Light": 31.55
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 16,
+              "The Melody of Awakening Dragon": 4,
+              "Forbidden Droplet": 4,
+              "Raigeki": 4,
+              "Evenly Matched": 4,
+              "Lightning Storm": 4,
+              "Dark Ruler No More": 4,
+              "Solemn Strike": 4,
+              "Skill Drain": 4
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 146.00000000000003,
+              "The Melody of Awakening Dragon": 2.8,
+              "Forbidden Droplet": 2.8,
+              "Raigeki": 15.52,
+              "Evenly Matched": 15.52,
+              "Lightning Storm": 126.2,
+              "Dark Ruler No More": 126.2,
+              "Solemn Strike": 1.48,
+              "Skill Drain": 1.48
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 16,
+              "The Melody of Awakening Dragon": 4,
+              "Forbidden Droplet": 4,
+              "Raigeki": 4,
+              "Evenly Matched": 4,
+              "Lightning Storm": 4,
+              "Dark Ruler No More": 4,
+              "Solemn Strike": 4,
+              "Skill Drain": 4
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 9.125,
+              "The Melody of Awakening Dragon": 0.7,
+              "Forbidden Droplet": 0.7,
+              "Raigeki": 3.88,
+              "Evenly Matched": 3.88,
+              "Lightning Storm": 31.55,
+              "Dark Ruler No More": 31.55,
+              "Solemn Strike": 0.37,
+              "Skill Drain": 0.37
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Infinite Impermanence": 0.535,
+                "Effect Veiler": 2.29,
+                "Cosmic Cyclone": 9.125,
+                "Droll & Lock Bird": 2.125,
+                "Book of Eclipse": 31.55,
+                "True Light": 31.55
+              },
+              "side_out": {
+                "Dragon Spirit of White": 9.125,
+                "The Melody of Awakening Dragon": 0.7,
+                "Forbidden Droplet": 0.7,
+                "Raigeki": 3.88,
+                "Evenly Matched": 3.88,
+                "Lightning Storm": 31.55,
+                "Dark Ruler No More": 31.55,
+                "Solemn Strike": 0.37,
+                "Skill Drain": 0.37
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: pure || IN: Infinite Impermanence | Effect Veiler | Cosmic Cyclone || OUT: Dragon Spirit of White | The Melody of Awakening Dragon | Forbidden Droplet": {
+                "count": 4,
+                "delta_total": 2.8,
+                "best_delta": 0.7,
+                "worst_delta": 0.7
+              },
+              "ENGINE: ritual || IN: Effect Veiler | Cosmic Cyclone | Droll & Lock Bird || OUT: Raigeki | Evenly Matched | Dragon Spirit of White": {
+                "count": 4,
+                "delta_total": 15.52,
+                "best_delta": 3.88,
+                "worst_delta": 3.88
+              },
+              "ENGINE: chaos || IN: Cosmic Cyclone | Book of Eclipse | True Light || OUT: Lightning Storm | Dark Ruler No More | Dragon Spirit of White": {
+                "count": 4,
+                "delta_total": 126.2,
+                "best_delta": 31.55,
+                "worst_delta": 31.55
+              },
+              "ENGINE: bystial || IN: Infinite Impermanence | Cosmic Cyclone | Droll & Lock Bird || OUT: Dragon Spirit of White | Solemn Strike | Skill Drain": {
+                "count": 4,
+                "delta_total": 1.48,
+                "best_delta": 0.37,
+                "worst_delta": 0.37
+              }
+            },
+            "worst_side_plans": {},
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              8.7,
+              6.25,
+              11.25,
+              11.25,
+              8.7,
+              6.25,
+              11.25,
+              11.25,
+              8.7,
+              6.25,
+              11.25,
+              11.25,
+              8.7,
+              6.25,
+              11.25
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              0.7,
+              3.88,
+              31.55,
+              0.37,
+              0.7,
+              3.88,
+              31.55,
+              0.37,
+              0.7,
+              3.88,
+              31.55,
+              0.37,
+              0.7,
+              3.88,
+              31.55,
+              0.37
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438
+            ],
+            "side_card_choke_totals": {
+              "Infinite Impermanence": 6.96,
+              "Effect Veiler": 6.96,
+              "Cosmic Cyclone": 13.919999999999995,
+              "Droll & Lock Bird": 6.96,
+              "Book of Eclipse": 3.48,
+              "True Light": 3.48
+            },
+            "side_card_choke_counts": {
+              "Infinite Impermanence": 8,
+              "Effect Veiler": 8,
+              "Cosmic Cyclone": 16,
+              "Droll & Lock Bird": 8,
+              "Book of Eclipse": 4,
+              "True Light": 4
+            },
+            "side_card_choke_effectiveness": {
+              "Infinite Impermanence": 0.87,
+              "Effect Veiler": 0.87,
+              "Cosmic Cyclone": 0.87,
+              "Droll & Lock Bird": 0.87,
+              "Book of Eclipse": 0.87,
+              "True Light": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817
+            ],
+            "pivot_risk_history": [
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.964084+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          },
+          "second": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4
+            },
+            "engine_score_totals": {
+              "pure": 1211.72,
+              "ritual": 1219.96,
+              "chaos": 1221.44,
+              "bystial": 1199.6
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4
+            },
+            "engine_delta_totals": {
+              "pure": 127.2,
+              "ritual": 1.08,
+              "chaos": 23.68,
+              "bystial": 5.36
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4
+            },
+            "average_score_by_engine": {
+              "pure": 302.93,
+              "ritual": 304.99,
+              "chaos": 305.36,
+              "bystial": 299.9
+            },
+            "post_side_delta_by_engine": {
+              "pure": 31.8,
+              "ritual": 0.27,
+              "chaos": 5.92,
+              "bystial": 1.34
+            },
+            "side_in_card_success_counts": {
+              "Droll & Lock Bird": 12,
+              "Infinite Impermanence": 16,
+              "True Light": 8,
+              "Effect Veiler": 12
+            },
+            "side_in_delta_totals": {
+              "Droll & Lock Bird": 156.24,
+              "Infinite Impermanence": 157.32000000000002,
+              "True Light": 128.28,
+              "Effect Veiler": 30.12
+            },
+            "side_in_delta_counts": {
+              "Droll & Lock Bird": 12,
+              "Infinite Impermanence": 16,
+              "True Light": 8,
+              "Effect Veiler": 12
+            },
+            "side_in_card_average_post_side_delta": {
+              "Droll & Lock Bird": 13.02,
+              "Infinite Impermanence": 9.8325,
+              "True Light": 16.035,
+              "Effect Veiler": 2.51
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 16,
+              "Solemn Judgment": 8,
+              "The Ultimate Creature of Destruction": 8,
+              "Ghost Ogre & Snow Rabbit": 4,
+              "Forbidden Droplet": 4,
+              "Skill Drain": 4,
+              "The Bystial Lubellion": 4
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 157.32000000000002,
+              "Solemn Judgment": 150.88,
+              "The Ultimate Creature of Destruction": 128.28,
+              "Ghost Ogre & Snow Rabbit": 1.08,
+              "Forbidden Droplet": 23.68,
+              "Skill Drain": 5.36,
+              "The Bystial Lubellion": 5.36
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 16,
+              "Solemn Judgment": 8,
+              "The Ultimate Creature of Destruction": 8,
+              "Ghost Ogre & Snow Rabbit": 4,
+              "Forbidden Droplet": 4,
+              "Skill Drain": 4,
+              "The Bystial Lubellion": 4
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 9.8325,
+              "Solemn Judgment": 18.86,
+              "The Ultimate Creature of Destruction": 16.035,
+              "Ghost Ogre & Snow Rabbit": 0.27,
+              "Forbidden Droplet": 5.92,
+              "Skill Drain": 1.34,
+              "The Bystial Lubellion": 1.34
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Droll & Lock Bird": 13.02,
+                "Infinite Impermanence": 9.8325,
+                "True Light": 16.035,
+                "Effect Veiler": 2.51
+              },
+              "side_out": {
+                "Dragon Spirit of White": 9.8325,
+                "Solemn Judgment": 18.86,
+                "The Ultimate Creature of Destruction": 16.035,
+                "Ghost Ogre & Snow Rabbit": 0.27,
+                "Forbidden Droplet": 5.92,
+                "Skill Drain": 1.34,
+                "The Bystial Lubellion": 1.34
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: pure || IN: Droll & Lock Bird | Infinite Impermanence | True Light || OUT: Dragon Spirit of White | Solemn Judgment | The Ultimate Creature of Destruction": {
+                "count": 4,
+                "delta_total": 127.2,
+                "best_delta": 31.8,
+                "worst_delta": 31.8
+              },
+              "ENGINE: ritual || IN: Effect Veiler | Infinite Impermanence | True Light || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | The Ultimate Creature of Destruction": {
+                "count": 4,
+                "delta_total": 1.08,
+                "best_delta": 0.27,
+                "worst_delta": 0.27
+              },
+              "ENGINE: chaos || IN: Effect Veiler | Droll & Lock Bird | Infinite Impermanence || OUT: Dragon Spirit of White | Forbidden Droplet | Solemn Judgment": {
+                "count": 4,
+                "delta_total": 23.68,
+                "best_delta": 5.92,
+                "worst_delta": 5.92
+              },
+              "ENGINE: bystial || IN: Effect Veiler | Droll & Lock Bird | Infinite Impermanence || OUT: Dragon Spirit of White | Skill Drain | The Bystial Lubellion": {
+                "count": 4,
+                "delta_total": 5.36,
+                "best_delta": 1.34,
+                "worst_delta": 1.34
+              }
+            },
+            "worst_side_plans": {},
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              31.8,
+              0.27,
+              5.92,
+              1.34,
+              31.8,
+              0.27,
+              5.92,
+              1.34,
+              31.8,
+              0.27,
+              5.92,
+              1.34,
+              31.8,
+              0.27,
+              5.92,
+              1.34
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438
+            ],
+            "side_card_choke_totals": {
+              "Droll & Lock Bird": 10.439999999999998,
+              "Infinite Impermanence": 13.919999999999995,
+              "True Light": 6.96,
+              "Effect Veiler": 10.439999999999998
+            },
+            "side_card_choke_counts": {
+              "Droll & Lock Bird": 12,
+              "Infinite Impermanence": 16,
+              "True Light": 8,
+              "Effect Veiler": 12
+            },
+            "side_card_choke_effectiveness": {
+              "Droll & Lock Bird": 0.87,
+              "Infinite Impermanence": 0.87,
+              "True Light": 0.87,
+              "Effect Veiler": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817
+            ],
+            "pivot_risk_history": [
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.980635+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          },
+          "both": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_score_totals": {
+              "pure": 1231.24,
+              "ritual": 1190.64,
+              "chaos": 1222.6,
+              "bystial": 915.03
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_delta_totals": {
+              "pure": 1.12,
+              "ritual": 100.44,
+              "chaos": 6.12,
+              "bystial": -0.9299999999999999
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "average_score_by_engine": {
+              "pure": 307.81,
+              "ritual": 297.66,
+              "chaos": 305.65,
+              "bystial": 305.01
+            },
+            "post_side_delta_by_engine": {
+              "pure": 0.28,
+              "ritual": 25.11,
+              "chaos": 1.53,
+              "bystial": -0.31
+            },
+            "side_in_card_success_counts": {
+              "Cosmic Cyclone": 11,
+              "Effect Veiler": 15,
+              "Droll & Lock Bird": 4,
+              "Book of Eclipse": 4,
+              "True Light": 4,
+              "Infinite Impermanence": 7
+            },
+            "side_in_delta_totals": {
+              "Cosmic Cyclone": 6.310000000000001,
+              "Effect Veiler": 106.75,
+              "Droll & Lock Bird": 1.12,
+              "Book of Eclipse": 100.44,
+              "True Light": 100.44,
+              "Infinite Impermanence": 5.1899999999999995
+            },
+            "side_in_delta_counts": {
+              "Cosmic Cyclone": 11,
+              "Effect Veiler": 15,
+              "Droll & Lock Bird": 4,
+              "Book of Eclipse": 4,
+              "True Light": 4,
+              "Infinite Impermanence": 7
+            },
+            "side_in_card_average_post_side_delta": {
+              "Cosmic Cyclone": 0.5736,
+              "Effect Veiler": 7.1167,
+              "Droll & Lock Bird": 0.28,
+              "Book of Eclipse": 25.11,
+              "True Light": 25.11,
+              "Infinite Impermanence": 0.7414
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 8,
+              "Nibiru, the Primal Being": 12,
+              "Lightning Storm": 4,
+              "Droll & Lock Bird": 4,
+              "Effect Veiler": 7,
+              "Skill Drain": 4,
+              "Book of Eclipse": 3,
+              "The Bystial Lubellion": 3
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 101.56,
+              "Nibiru, the Primal Being": 107.68,
+              "Lightning Storm": 1.12,
+              "Droll & Lock Bird": 100.44,
+              "Effect Veiler": 5.1899999999999995,
+              "Skill Drain": 6.12,
+              "Book of Eclipse": -0.9299999999999999,
+              "The Bystial Lubellion": -0.9299999999999999
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 8,
+              "Nibiru, the Primal Being": 12,
+              "Lightning Storm": 4,
+              "Droll & Lock Bird": 4,
+              "Effect Veiler": 7,
+              "Skill Drain": 4,
+              "Book of Eclipse": 3,
+              "The Bystial Lubellion": 3
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 12.695,
+              "Nibiru, the Primal Being": 8.9733,
+              "Lightning Storm": 0.28,
+              "Droll & Lock Bird": 25.11,
+              "Effect Veiler": 0.7414,
+              "Skill Drain": 1.53,
+              "Book of Eclipse": -0.31,
+              "The Bystial Lubellion": -0.31
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Cosmic Cyclone": 0.5736,
+                "Effect Veiler": 7.1167,
+                "Droll & Lock Bird": 0.28,
+                "Book of Eclipse": 25.11,
+                "True Light": 25.11,
+                "Infinite Impermanence": 0.7414
+              },
+              "side_out": {
+                "Dragon Spirit of White": 12.695,
+                "Nibiru, the Primal Being": 8.9733,
+                "Lightning Storm": 0.28,
+                "Droll & Lock Bird": 25.11,
+                "Effect Veiler": 0.7414,
+                "Skill Drain": 1.53,
+                "Book of Eclipse": -0.31,
+                "The Bystial Lubellion": -0.31
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: pure || IN: Cosmic Cyclone | Effect Veiler | Droll & Lock Bird || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Lightning Storm": {
+                "count": 4,
+                "delta_total": 1.12,
+                "best_delta": 0.28,
+                "worst_delta": 0.28
+              },
+              "ENGINE: ritual || IN: Effect Veiler | Book of Eclipse | True Light || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Droll & Lock Bird": {
+                "count": 4,
+                "delta_total": 100.44,
+                "best_delta": 25.11,
+                "worst_delta": 25.11
+              },
+              "ENGINE: chaos || IN: Infinite Impermanence | Cosmic Cyclone | Effect Veiler || OUT: Nibiru, the Primal Being | Effect Veiler | Skill Drain": {
+                "count": 4,
+                "delta_total": 6.12,
+                "best_delta": 1.53,
+                "worst_delta": 1.53
+              }
+            },
+            "worst_side_plans": {
+              "ENGINE: bystial || IN: Infinite Impermanence | Cosmic Cyclone | Effect Veiler || OUT: Book of Eclipse | Effect Veiler | The Bystial Lubellion": {
+                "count": 3,
+                "delta_total": -0.9299999999999999,
+                "best_delta": -0.31,
+                "worst_delta": -0.31
+              }
+            },
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              0.28,
+              25.11,
+              1.53,
+              -0.31,
+              0.28,
+              25.11,
+              1.53,
+              -0.31,
+              0.28,
+              25.11,
+              1.53,
+              -0.31,
+              0.28,
+              25.11,
+              1.53
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438,
+              0.4438
+            ],
+            "side_card_choke_totals": {
+              "Cosmic Cyclone": 9.569999999999999,
+              "Effect Veiler": 13.049999999999995,
+              "Droll & Lock Bird": 3.48,
+              "Book of Eclipse": 3.48,
+              "True Light": 3.48,
+              "Infinite Impermanence": 6.09
+            },
+            "side_card_choke_counts": {
+              "Cosmic Cyclone": 11,
+              "Effect Veiler": 15,
+              "Droll & Lock Bird": 4,
+              "Book of Eclipse": 4,
+              "True Light": 4,
+              "Infinite Impermanence": 7
+            },
+            "side_card_choke_effectiveness": {
+              "Cosmic Cyclone": 0.87,
+              "Effect Veiler": 0.87,
+              "Droll & Lock Bird": 0.87,
+              "Book of Eclipse": 0.87,
+              "True Light": 0.87,
+              "Infinite Impermanence": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817,
+              0.7817
+            ],
+            "pivot_risk_history": [
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383,
+              0.7383
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.798305+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          }
+        },
+        "Labrynth": {
+          "first": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_score_totals": {
+              "pure": 1209.08,
+              "ritual": 1199.36,
+              "chaos": 1133.84,
+              "bystial": 590.4300000000001
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_delta_totals": {
+              "pure": -9.76,
+              "ritual": -2.96,
+              "chaos": -1.68,
+              "bystial": -2.73
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "average_score_by_engine": {
+              "pure": 302.27,
+              "ritual": 299.84,
+              "chaos": 283.46,
+              "bystial": 196.81
+            },
+            "post_side_delta_by_engine": {
+              "pure": -2.44,
+              "ritual": -0.74,
+              "chaos": -0.42,
+              "bystial": -0.91
+            },
+            "side_in_card_success_counts": {
+              "Lightning Storm": 15,
+              "Cosmic Cyclone": 15,
+              "Infinite Impermanence": 15
+            },
+            "side_in_delta_totals": {
+              "Lightning Storm": -17.13,
+              "Cosmic Cyclone": -17.13,
+              "Infinite Impermanence": -17.13
+            },
+            "side_in_delta_counts": {
+              "Lightning Storm": 15,
+              "Cosmic Cyclone": 15,
+              "Infinite Impermanence": 15
+            },
+            "side_in_card_average_post_side_delta": {
+              "Lightning Storm": -1.142,
+              "Cosmic Cyclone": -1.142,
+              "Infinite Impermanence": -1.142
+            },
+            "side_out_card_success_counts": {
+              "Dark Ruler No More": 12,
+              "Dragon Spirit of White": 11,
+              "Ash Blossom & Joyous Spring": 4,
+              "Lightning Storm": 4,
+              "Advanced Ritual Art": 4,
+              "Evenly Matched": 7,
+              "Raigeki": 3
+            },
+            "side_out_delta_totals": {
+              "Dark Ruler No More": -14.399999999999999,
+              "Dragon Spirit of White": -14.17,
+              "Ash Blossom & Joyous Spring": -9.76,
+              "Lightning Storm": -2.96,
+              "Advanced Ritual Art": -2.96,
+              "Evenly Matched": -4.41,
+              "Raigeki": -2.73
+            },
+            "side_out_delta_counts": {
+              "Dark Ruler No More": 12,
+              "Dragon Spirit of White": 11,
+              "Ash Blossom & Joyous Spring": 4,
+              "Lightning Storm": 4,
+              "Advanced Ritual Art": 4,
+              "Evenly Matched": 7,
+              "Raigeki": 3
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dark Ruler No More": -1.2,
+              "Dragon Spirit of White": -1.2882,
+              "Ash Blossom & Joyous Spring": -2.44,
+              "Lightning Storm": -0.74,
+              "Advanced Ritual Art": -0.74,
+              "Evenly Matched": -0.63,
+              "Raigeki": -0.91
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Lightning Storm": -1.142,
+                "Cosmic Cyclone": -1.142,
+                "Infinite Impermanence": -1.142
+              },
+              "side_out": {
+                "Dark Ruler No More": -1.2,
+                "Dragon Spirit of White": -1.2882,
+                "Ash Blossom & Joyous Spring": -2.44,
+                "Lightning Storm": -0.74,
+                "Advanced Ritual Art": -0.74,
+                "Evenly Matched": -0.63,
+                "Raigeki": -0.91
+              }
+            },
+            "best_full_side_plans": {},
+            "worst_side_plans": {
+              "ENGINE: pure || IN: Lightning Storm | Cosmic Cyclone | Infinite Impermanence || OUT: Dark Ruler No More | Dragon Spirit of White | Ash Blossom & Joyous Spring": {
+                "count": 4,
+                "delta_total": -9.76,
+                "best_delta": -2.44,
+                "worst_delta": -2.44
+              },
+              "ENGINE: ritual || IN: Lightning Storm | Cosmic Cyclone | Infinite Impermanence || OUT: Lightning Storm | Dark Ruler No More | Advanced Ritual Art": {
+                "count": 4,
+                "delta_total": -2.96,
+                "best_delta": -0.74,
+                "worst_delta": -0.74
+              },
+              "ENGINE: chaos || IN: Lightning Storm | Cosmic Cyclone | Infinite Impermanence || OUT: Evenly Matched | Dark Ruler No More | Dragon Spirit of White": {
+                "count": 4,
+                "delta_total": -1.68,
+                "best_delta": -0.42,
+                "worst_delta": -0.42
+              },
+              "ENGINE: bystial || IN: Lightning Storm | Cosmic Cyclone | Infinite Impermanence || OUT: Evenly Matched | Raigeki | Dragon Spirit of White": {
+                "count": 3,
+                "delta_total": -2.73,
+                "best_delta": -0.91,
+                "worst_delta": -0.91
+              }
+            },
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              11.25,
+              8.7,
+              0.0,
+              11.25,
+              11.25,
+              8.7,
+              0.0,
+              11.25,
+              11.25,
+              8.7,
+              0.0,
+              11.25,
+              11.25,
+              8.7
+            ],
+            "matchup_coverage_trends": [
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0,
+              24.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              -2.44,
+              -0.74,
+              -0.42,
+              -0.91,
+              -2.44,
+              -0.74,
+              -0.42,
+              -0.91,
+              -2.44,
+              -0.74,
+              -0.42,
+              -0.91,
+              -2.44,
+              -0.74,
+              -0.42
+            ],
+            "choke_stop_rate_history": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "opponent_recovery_rate_history": [
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658
+            ],
+            "side_card_choke_totals": {
+              "Lightning Storm": 11.25,
+              "Cosmic Cyclone": 11.25,
+              "Infinite Impermanence": 11.25
+            },
+            "side_card_choke_counts": {
+              "Lightning Storm": 15,
+              "Cosmic Cyclone": 15,
+              "Infinite Impermanence": 15
+            },
+            "side_card_choke_effectiveness": {
+              "Lightning Storm": 0.75,
+              "Cosmic Cyclone": 0.75,
+              "Infinite Impermanence": 0.75
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559
+            ],
+            "pivot_risk_history": [
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.815563+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          },
+          "second": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_score_totals": {
+              "pure": 1130.4,
+              "ritual": 824.68,
+              "chaos": 1089.12,
+              "bystial": 828.33
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_delta_totals": {
+              "pure": -103.4,
+              "ritual": 12.36,
+              "chaos": -14.16,
+              "bystial": -80.69999999999999
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "average_score_by_engine": {
+              "pure": 282.6,
+              "ritual": 206.17,
+              "chaos": 272.28,
+              "bystial": 276.11
+            },
+            "post_side_delta_by_engine": {
+              "pure": -25.85,
+              "ritual": 3.09,
+              "chaos": -3.54,
+              "bystial": -26.9
+            },
+            "side_in_card_success_counts": {
+              "Lightning Storm": 15,
+              "Cosmic Cyclone": 11,
+              "Infinite Impermanence": 7,
+              "Yad'al-Hecahands": 4,
+              "Harpie's Feather Duster": 4,
+              "Evenly Matched": 4
+            },
+            "side_in_delta_totals": {
+              "Lightning Storm": -185.89999999999998,
+              "Cosmic Cyclone": -171.73999999999998,
+              "Infinite Impermanence": -184.1,
+              "Yad'al-Hecahands": 12.36,
+              "Harpie's Feather Duster": -14.16,
+              "Evenly Matched": -14.16
+            },
+            "side_in_delta_counts": {
+              "Lightning Storm": 15,
+              "Cosmic Cyclone": 11,
+              "Infinite Impermanence": 7,
+              "Yad'al-Hecahands": 4,
+              "Harpie's Feather Duster": 4,
+              "Evenly Matched": 4
+            },
+            "side_in_card_average_post_side_delta": {
+              "Lightning Storm": -12.3933,
+              "Cosmic Cyclone": -15.6127,
+              "Infinite Impermanence": -26.3,
+              "Yad'al-Hecahands": 3.09,
+              "Harpie's Feather Duster": -3.54,
+              "Evenly Matched": -3.54
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 11,
+              "The Ultimate Creature of Destruction": 8,
+              "True Light": 7,
+              "Harpie's Feather Duster": 4,
+              "Lightning Storm": 4,
+              "Destined Rivals": 7,
+              "Ghost Ogre & Snow Rabbit": 4
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": -171.73999999999998,
+              "The Ultimate Creature of Destruction": -117.56000000000002,
+              "True Light": -184.1,
+              "Harpie's Feather Duster": 12.36,
+              "Lightning Storm": 12.36,
+              "Destined Rivals": -94.86,
+              "Ghost Ogre & Snow Rabbit": -14.16
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 11,
+              "The Ultimate Creature of Destruction": 8,
+              "True Light": 7,
+              "Harpie's Feather Duster": 4,
+              "Lightning Storm": 4,
+              "Destined Rivals": 7,
+              "Ghost Ogre & Snow Rabbit": 4
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": -15.6127,
+              "The Ultimate Creature of Destruction": -14.695,
+              "True Light": -26.3,
+              "Harpie's Feather Duster": 3.09,
+              "Lightning Storm": 3.09,
+              "Destined Rivals": -13.5514,
+              "Ghost Ogre & Snow Rabbit": -3.54
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Lightning Storm": -12.3933,
+                "Cosmic Cyclone": -15.6127,
+                "Infinite Impermanence": -26.3,
+                "Yad'al-Hecahands": 3.09,
+                "Harpie's Feather Duster": -3.54,
+                "Evenly Matched": -3.54
+              },
+              "side_out": {
+                "Dragon Spirit of White": -15.6127,
+                "The Ultimate Creature of Destruction": -14.695,
+                "True Light": -26.3,
+                "Harpie's Feather Duster": 3.09,
+                "Lightning Storm": 3.09,
+                "Destined Rivals": -13.5514,
+                "Ghost Ogre & Snow Rabbit": -3.54
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: ritual || IN: Lightning Storm | Cosmic Cyclone | Yad'al-Hecahands || OUT: Dragon Spirit of White | Harpie's Feather Duster | Lightning Storm": {
+                "count": 4,
+                "delta_total": 12.36,
+                "best_delta": 3.09,
+                "worst_delta": 3.09
+              }
+            },
+            "worst_side_plans": {
+              "ENGINE: pure || IN: Lightning Storm | Cosmic Cyclone | Infinite Impermanence || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | True Light": {
+                "count": 4,
+                "delta_total": -103.4,
+                "best_delta": -25.85,
+                "worst_delta": -25.85
+              },
+              "ENGINE: chaos || IN: Harpie's Feather Duster | Evenly Matched | Lightning Storm || OUT: The Ultimate Creature of Destruction | Destined Rivals | Ghost Ogre & Snow Rabbit": {
+                "count": 4,
+                "delta_total": -14.16,
+                "best_delta": -3.54,
+                "worst_delta": -3.54
+              },
+              "ENGINE: bystial || IN: Lightning Storm | Cosmic Cyclone | Infinite Impermanence || OUT: Dragon Spirit of White | Destined Rivals | True Light": {
+                "count": 3,
+                "delta_total": -80.69999999999999,
+                "best_delta": -26.9,
+                "worst_delta": -26.9
+              }
+            },
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              0.0,
+              8.7,
+              11.25,
+              11.25,
+              0.0,
+              8.7,
+              11.25,
+              11.25,
+              0.0,
+              8.7,
+              11.25,
+              11.25,
+              0.0,
+              8.7
+            ],
+            "matchup_coverage_trends": [
+              24.0,
+              19.0,
+              24.0,
+              24.0,
+              24.0,
+              19.0,
+              24.0,
+              24.0,
+              24.0,
+              19.0,
+              24.0,
+              24.0,
+              24.0,
+              19.0,
+              24.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              -25.85,
+              3.09,
+              -3.54,
+              -26.9,
+              -25.85,
+              3.09,
+              -3.54,
+              -26.9,
+              -25.85,
+              3.09,
+              -3.54,
+              -26.9,
+              -25.85,
+              3.09,
+              -3.54
+            ],
+            "choke_stop_rate_history": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "opponent_recovery_rate_history": [
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658
+            ],
+            "side_card_choke_totals": {
+              "Lightning Storm": 11.25,
+              "Cosmic Cyclone": 8.25,
+              "Infinite Impermanence": 5.25,
+              "Yad'al-Hecahands": 3.0,
+              "Harpie's Feather Duster": 3.0,
+              "Evenly Matched": 3.0
+            },
+            "side_card_choke_counts": {
+              "Lightning Storm": 15,
+              "Cosmic Cyclone": 11,
+              "Infinite Impermanence": 7,
+              "Yad'al-Hecahands": 4,
+              "Harpie's Feather Duster": 4,
+              "Evenly Matched": 4
+            },
+            "side_card_choke_effectiveness": {
+              "Lightning Storm": 0.75,
+              "Cosmic Cyclone": 0.75,
+              "Infinite Impermanence": 0.75,
+              "Yad'al-Hecahands": 0.75,
+              "Harpie's Feather Duster": 0.75,
+              "Evenly Matched": 0.75
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559
+            ],
+            "pivot_risk_history": [
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.831626+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          },
+          "both": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_score_totals": {
+              "pure": 1218.04,
+              "ritual": 1222.28,
+              "chaos": 1129.04,
+              "bystial": 911.8199999999999
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_delta_totals": {
+              "pure": -0.52,
+              "ritual": -1.6,
+              "chaos": -0.4,
+              "bystial": 5.07
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "average_score_by_engine": {
+              "pure": 304.51,
+              "ritual": 305.57,
+              "chaos": 282.26,
+              "bystial": 303.94
+            },
+            "post_side_delta_by_engine": {
+              "pure": -0.13,
+              "ritual": -0.4,
+              "chaos": -0.1,
+              "bystial": 1.69
+            },
+            "side_in_card_success_counts": {
+              "Cosmic Cyclone": 15,
+              "Evenly Matched": 4,
+              "Infinite Impermanence": 11,
+              "Zefraniu, Secret of the Yang Zing": 7,
+              "Harpie's Feather Duster": 4,
+              "Lightning Storm": 4
+            },
+            "side_in_delta_totals": {
+              "Cosmic Cyclone": 2.5500000000000003,
+              "Evenly Matched": -0.52,
+              "Infinite Impermanence": 2.95,
+              "Zefraniu, Secret of the Yang Zing": 3.47,
+              "Harpie's Feather Duster": -0.4,
+              "Lightning Storm": -0.4
+            },
+            "side_in_delta_counts": {
+              "Cosmic Cyclone": 15,
+              "Evenly Matched": 4,
+              "Infinite Impermanence": 11,
+              "Zefraniu, Secret of the Yang Zing": 7,
+              "Harpie's Feather Duster": 4,
+              "Lightning Storm": 4
+            },
+            "side_in_card_average_post_side_delta": {
+              "Cosmic Cyclone": 0.17,
+              "Evenly Matched": -0.13,
+              "Infinite Impermanence": 0.2682,
+              "Zefraniu, Secret of the Yang Zing": 0.4957,
+              "Harpie's Feather Duster": -0.1,
+              "Lightning Storm": -0.1
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 15,
+              "Nibiru, the Primal Being": 4,
+              "The Ultimate Creature of Destruction": 8,
+              "Book of Eclipse": 7,
+              "Harpie's Feather Duster": 7,
+              "The Chaos Creator": 4
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 2.5500000000000003,
+              "Nibiru, the Primal Being": -0.52,
+              "The Ultimate Creature of Destruction": -0.9199999999999999,
+              "Book of Eclipse": 3.47,
+              "Harpie's Feather Duster": 3.47,
+              "The Chaos Creator": -0.4
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 15,
+              "Nibiru, the Primal Being": 4,
+              "The Ultimate Creature of Destruction": 8,
+              "Book of Eclipse": 7,
+              "Harpie's Feather Duster": 7,
+              "The Chaos Creator": 4
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 0.17,
+              "Nibiru, the Primal Being": -0.13,
+              "The Ultimate Creature of Destruction": -0.115,
+              "Book of Eclipse": 0.4957,
+              "Harpie's Feather Duster": 0.4957,
+              "The Chaos Creator": -0.1
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Cosmic Cyclone": 0.17,
+                "Evenly Matched": -0.13,
+                "Infinite Impermanence": 0.2682,
+                "Zefraniu, Secret of the Yang Zing": 0.4957,
+                "Harpie's Feather Duster": -0.1,
+                "Lightning Storm": -0.1
+              },
+              "side_out": {
+                "Dragon Spirit of White": 0.17,
+                "Nibiru, the Primal Being": -0.13,
+                "The Ultimate Creature of Destruction": -0.115,
+                "Book of Eclipse": 0.4957,
+                "Harpie's Feather Duster": 0.4957,
+                "The Chaos Creator": -0.1
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: bystial || IN: Cosmic Cyclone | Infinite Impermanence | Zefraniu, Secret of the Yang Zing || OUT: Dragon Spirit of White | Book of Eclipse | Harpie's Feather Duster": {
+                "count": 3,
+                "delta_total": 5.07,
+                "best_delta": 1.69,
+                "worst_delta": 1.69
+              }
+            },
+            "worst_side_plans": {
+              "ENGINE: pure || IN: Cosmic Cyclone | Evenly Matched | Infinite Impermanence || OUT: Dragon Spirit of White | Nibiru, the Primal Being | The Ultimate Creature of Destruction": {
+                "count": 4,
+                "delta_total": -0.52,
+                "best_delta": -0.13,
+                "worst_delta": -0.13
+              },
+              "ENGINE: ritual || IN: Cosmic Cyclone | Infinite Impermanence | Zefraniu, Secret of the Yang Zing || OUT: Dragon Spirit of White | Book of Eclipse | Harpie's Feather Duster": {
+                "count": 4,
+                "delta_total": -1.6,
+                "best_delta": -0.4,
+                "worst_delta": -0.4
+              },
+              "ENGINE: chaos || IN: Harpie's Feather Duster | Lightning Storm | Cosmic Cyclone || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | The Chaos Creator": {
+                "count": 4,
+                "delta_total": -0.4,
+                "best_delta": -0.1,
+                "worst_delta": -0.1
+              }
+            },
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7
+            ],
+            "matchup_coverage_trends": [
+              24.0,
+              19.0,
+              24.0,
+              19.0,
+              24.0,
+              19.0,
+              24.0,
+              19.0,
+              24.0,
+              19.0,
+              24.0,
+              19.0,
+              24.0,
+              19.0,
+              24.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              -0.13,
+              -0.4,
+              -0.1,
+              1.69,
+              -0.13,
+              -0.4,
+              -0.1,
+              1.69,
+              -0.13,
+              -0.4,
+              -0.1,
+              1.69,
+              -0.13,
+              -0.4,
+              -0.1
+            ],
+            "choke_stop_rate_history": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "opponent_recovery_rate_history": [
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658,
+              0.5658
+            ],
+            "side_card_choke_totals": {
+              "Cosmic Cyclone": 11.25,
+              "Evenly Matched": 3.0,
+              "Infinite Impermanence": 8.25,
+              "Zefraniu, Secret of the Yang Zing": 5.25,
+              "Harpie's Feather Duster": 3.0,
+              "Lightning Storm": 3.0
+            },
+            "side_card_choke_counts": {
+              "Cosmic Cyclone": 15,
+              "Evenly Matched": 4,
+              "Infinite Impermanence": 11,
+              "Zefraniu, Secret of the Yang Zing": 7,
+              "Harpie's Feather Duster": 4,
+              "Lightning Storm": 4
+            },
+            "side_card_choke_effectiveness": {
+              "Cosmic Cyclone": 0.75,
+              "Evenly Matched": 0.75,
+              "Infinite Impermanence": 0.75,
+              "Zefraniu, Secret of the Yang Zing": 0.75,
+              "Harpie's Feather Duster": 0.75,
+              "Lightning Storm": 0.75
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559,
+              0.6559
+            ],
+            "pivot_risk_history": [
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183,
+              0.8183
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.847863+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          }
+        },
+        "Branded": {
+          "first": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_score_totals": {
+              "pure": 1129.0,
+              "ritual": 840.56,
+              "chaos": 1242.28,
+              "bystial": 934.3199999999999
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_delta_totals": {
+              "pure": 11.92,
+              "ritual": -3.2,
+              "chaos": 5.6,
+              "bystial": 9.18
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "average_score_by_engine": {
+              "pure": 282.25,
+              "ritual": 210.14,
+              "chaos": 310.57,
+              "bystial": 311.44
+            },
+            "post_side_delta_by_engine": {
+              "pure": 2.98,
+              "ritual": -0.8,
+              "chaos": 1.4,
+              "bystial": 3.06
+            },
+            "side_in_card_success_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Droll & Lock Bird": 15,
+              "Ghost Belle & Haunted Mansion": 15
+            },
+            "side_in_delta_totals": {
+              "Ash Blossom & Joyous Spring": 23.499999999999993,
+              "Droll & Lock Bird": 23.499999999999993,
+              "Ghost Belle & Haunted Mansion": 23.499999999999993
+            },
+            "side_in_delta_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Droll & Lock Bird": 15,
+              "Ghost Belle & Haunted Mansion": 15
+            },
+            "side_in_card_average_post_side_delta": {
+              "Ash Blossom & Joyous Spring": 1.5667,
+              "Droll & Lock Bird": 1.5667,
+              "Ghost Belle & Haunted Mansion": 1.5667
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 11,
+              "Ghost Ogre & Snow Rabbit": 4,
+              "Nibiru, the Primal Being": 4,
+              "Lightning Storm": 4,
+              "Advanced Ritual Art": 4,
+              "The Ultimate Creature of Destruction": 8,
+              "The Chaos Creator": 4,
+              "Raigeki": 3,
+              "Book of Eclipse": 3
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 26.699999999999996,
+              "Ghost Ogre & Snow Rabbit": 11.92,
+              "Nibiru, the Primal Being": 11.92,
+              "Lightning Storm": -3.2,
+              "Advanced Ritual Art": -3.2,
+              "The Ultimate Creature of Destruction": 2.3999999999999995,
+              "The Chaos Creator": 5.6,
+              "Raigeki": 9.18,
+              "Book of Eclipse": 9.18
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 11,
+              "Ghost Ogre & Snow Rabbit": 4,
+              "Nibiru, the Primal Being": 4,
+              "Lightning Storm": 4,
+              "Advanced Ritual Art": 4,
+              "The Ultimate Creature of Destruction": 8,
+              "The Chaos Creator": 4,
+              "Raigeki": 3,
+              "Book of Eclipse": 3
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 2.4273,
+              "Ghost Ogre & Snow Rabbit": 2.98,
+              "Nibiru, the Primal Being": 2.98,
+              "Lightning Storm": -0.8,
+              "Advanced Ritual Art": -0.8,
+              "The Ultimate Creature of Destruction": 0.3,
+              "The Chaos Creator": 1.4,
+              "Raigeki": 3.06,
+              "Book of Eclipse": 3.06
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Ash Blossom & Joyous Spring": 1.5667,
+                "Droll & Lock Bird": 1.5667,
+                "Ghost Belle & Haunted Mansion": 1.5667
+              },
+              "side_out": {
+                "Dragon Spirit of White": 2.4273,
+                "Ghost Ogre & Snow Rabbit": 2.98,
+                "Nibiru, the Primal Being": 2.98,
+                "Lightning Storm": -0.8,
+                "Advanced Ritual Art": -0.8,
+                "The Ultimate Creature of Destruction": 0.3,
+                "The Chaos Creator": 1.4,
+                "Raigeki": 3.06,
+                "Book of Eclipse": 3.06
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: pure || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Ghost Belle & Haunted Mansion || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Nibiru, the Primal Being": {
+                "count": 4,
+                "delta_total": 11.92,
+                "best_delta": 2.98,
+                "worst_delta": 2.98
+              },
+              "ENGINE: chaos || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Ghost Belle & Haunted Mansion || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | The Chaos Creator": {
+                "count": 4,
+                "delta_total": 5.6,
+                "best_delta": 1.4,
+                "worst_delta": 1.4
+              },
+              "ENGINE: bystial || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Ghost Belle & Haunted Mansion || OUT: Raigeki | Dragon Spirit of White | Book of Eclipse": {
+                "count": 3,
+                "delta_total": 9.18,
+                "best_delta": 3.06,
+                "worst_delta": 3.06
+              }
+            },
+            "worst_side_plans": {
+              "ENGINE: ritual || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Ghost Belle & Haunted Mansion || OUT: Lightning Storm | Advanced Ritual Art | The Ultimate Creature of Destruction": {
+                "count": 4,
+                "delta_total": -3.2,
+                "best_delta": -0.8,
+                "worst_delta": -0.8
+              }
+            },
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              8.7,
+              0.0,
+              11.25,
+              11.25,
+              8.7,
+              0.0,
+              11.25,
+              11.25,
+              8.7,
+              0.0,
+              11.25,
+              11.25,
+              8.7,
+              0.0,
+              11.25
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              34.0,
+              35.0,
+              35.0,
+              35.0,
+              34.0,
+              35.0,
+              35.0,
+              35.0,
+              34.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              2.98,
+              -0.8,
+              1.4,
+              3.06,
+              2.98,
+              -0.8,
+              1.4,
+              3.06,
+              2.98,
+              -0.8,
+              1.4,
+              3.06,
+              2.98,
+              -0.8,
+              1.4
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138
+            ],
+            "side_card_choke_totals": {
+              "Ash Blossom & Joyous Spring": 13.049999999999995,
+              "Droll & Lock Bird": 13.049999999999995,
+              "Ghost Belle & Haunted Mansion": 13.049999999999995
+            },
+            "side_card_choke_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Droll & Lock Bird": 15,
+              "Ghost Belle & Haunted Mansion": 15
+            },
+            "side_card_choke_effectiveness": {
+              "Ash Blossom & Joyous Spring": 0.87,
+              "Droll & Lock Bird": 0.87,
+              "Ghost Belle & Haunted Mansion": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713
+            ],
+            "pivot_risk_history": [
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.864351+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          },
+          "second": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_score_totals": {
+              "pure": 1221.32,
+              "ritual": 1232.32,
+              "chaos": 1111.08,
+              "bystial": 906.81
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_delta_totals": {
+              "pure": 11.96,
+              "ritual": 7.88,
+              "chaos": -101.36,
+              "bystial": 4.7700000000000005
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "average_score_by_engine": {
+              "pure": 305.33,
+              "ritual": 308.08,
+              "chaos": 277.77,
+              "bystial": 302.27
+            },
+            "post_side_delta_by_engine": {
+              "pure": 2.99,
+              "ritual": 1.97,
+              "chaos": -25.34,
+              "bystial": 1.59
+            },
+            "side_in_card_success_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Droll & Lock Bird": 15,
+              "Ghost Belle & Haunted Mansion": 15
+            },
+            "side_in_delta_totals": {
+              "Ash Blossom & Joyous Spring": -76.74999999999999,
+              "Droll & Lock Bird": -76.74999999999999,
+              "Ghost Belle & Haunted Mansion": -76.74999999999999
+            },
+            "side_in_delta_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Droll & Lock Bird": 15,
+              "Ghost Belle & Haunted Mansion": 15
+            },
+            "side_in_card_average_post_side_delta": {
+              "Ash Blossom & Joyous Spring": -5.1167,
+              "Droll & Lock Bird": -5.1167,
+              "Ghost Belle & Haunted Mansion": -5.1167
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 7,
+              "Forbidden Droplet": 7,
+              "Ghost Ogre & Snow Rabbit": 8,
+              "Solemn Strike": 7,
+              "Lightning Storm": 8,
+              "True Light": 4,
+              "The Ultimate Creature of Destruction": 4
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 16.73,
+              "Forbidden Droplet": 16.73,
+              "Ghost Ogre & Snow Rabbit": 19.84,
+              "Solemn Strike": 12.65,
+              "Lightning Storm": -93.48,
+              "True Light": -101.36,
+              "The Ultimate Creature of Destruction": -101.36
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 7,
+              "Forbidden Droplet": 7,
+              "Ghost Ogre & Snow Rabbit": 8,
+              "Solemn Strike": 7,
+              "Lightning Storm": 8,
+              "True Light": 4,
+              "The Ultimate Creature of Destruction": 4
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 2.39,
+              "Forbidden Droplet": 2.39,
+              "Ghost Ogre & Snow Rabbit": 2.48,
+              "Solemn Strike": 1.8071,
+              "Lightning Storm": -11.685,
+              "True Light": -25.34,
+              "The Ultimate Creature of Destruction": -25.34
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Ash Blossom & Joyous Spring": -5.1167,
+                "Droll & Lock Bird": -5.1167,
+                "Ghost Belle & Haunted Mansion": -5.1167
+              },
+              "side_out": {
+                "Dragon Spirit of White": 2.39,
+                "Forbidden Droplet": 2.39,
+                "Ghost Ogre & Snow Rabbit": 2.48,
+                "Solemn Strike": 1.8071,
+                "Lightning Storm": -11.685,
+                "True Light": -25.34,
+                "The Ultimate Creature of Destruction": -25.34
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: pure || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Ghost Belle & Haunted Mansion || OUT: Dragon Spirit of White | Forbidden Droplet | Ghost Ogre & Snow Rabbit": {
+                "count": 4,
+                "delta_total": 11.96,
+                "best_delta": 2.99,
+                "worst_delta": 2.99
+              },
+              "ENGINE: ritual || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Ghost Belle & Haunted Mansion || OUT: Solemn Strike | Lightning Storm | Ghost Ogre & Snow Rabbit": {
+                "count": 4,
+                "delta_total": 7.88,
+                "best_delta": 1.97,
+                "worst_delta": 1.97
+              },
+              "ENGINE: bystial || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Ghost Belle & Haunted Mansion || OUT: Dragon Spirit of White | Forbidden Droplet | Solemn Strike": {
+                "count": 3,
+                "delta_total": 4.7700000000000005,
+                "best_delta": 1.59,
+                "worst_delta": 1.59
+              }
+            },
+            "worst_side_plans": {
+              "ENGINE: chaos || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Ghost Belle & Haunted Mansion || OUT: Lightning Storm | True Light | The Ultimate Creature of Destruction": {
+                "count": 4,
+                "delta_total": -101.36,
+                "best_delta": -25.34,
+                "worst_delta": -25.34
+              }
+            },
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25,
+              11.25
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              34.0,
+              35.0,
+              35.0,
+              35.0,
+              34.0,
+              35.0,
+              35.0,
+              35.0,
+              34.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              2.99,
+              1.97,
+              -25.34,
+              1.59,
+              2.99,
+              1.97,
+              -25.34,
+              1.59,
+              2.99,
+              1.97,
+              -25.34,
+              1.59,
+              2.99,
+              1.97,
+              -25.34
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138
+            ],
+            "side_card_choke_totals": {
+              "Ash Blossom & Joyous Spring": 13.049999999999995,
+              "Droll & Lock Bird": 13.049999999999995,
+              "Ghost Belle & Haunted Mansion": 13.049999999999995
+            },
+            "side_card_choke_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Droll & Lock Bird": 15,
+              "Ghost Belle & Haunted Mansion": 15
+            },
+            "side_card_choke_effectiveness": {
+              "Ash Blossom & Joyous Spring": 0.87,
+              "Droll & Lock Bird": 0.87,
+              "Ghost Belle & Haunted Mansion": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713
+            ],
+            "pivot_risk_history": [
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.882303+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          },
+          "both": {
+            "best_engine_variants": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_score_totals": {
+              "pure": 1236.36,
+              "ritual": 1113.92,
+              "chaos": 1144.56,
+              "bystial": 920.19
+            },
+            "engine_score_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "engine_delta_totals": {
+              "pure": 13.64,
+              "ritual": 16.76,
+              "chaos": 20.48,
+              "bystial": 7.3500000000000005
+            },
+            "engine_delta_counts": {
+              "pure": 4,
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 3
+            },
+            "average_score_by_engine": {
+              "pure": 309.09,
+              "ritual": 278.48,
+              "chaos": 286.14,
+              "bystial": 306.73
+            },
+            "post_side_delta_by_engine": {
+              "pure": 3.41,
+              "ritual": 4.19,
+              "chaos": 5.12,
+              "bystial": 2.45
+            },
+            "side_in_card_success_counts": {
+              "Droll & Lock Bird": 15,
+              "Bystial Magnamhut": 15,
+              "Ghost Belle & Haunted Mansion": 8,
+              "Ash Blossom & Joyous Spring": 7
+            },
+            "side_in_delta_totals": {
+              "Droll & Lock Bird": 58.23,
+              "Bystial Magnamhut": 58.23,
+              "Ghost Belle & Haunted Mansion": 34.120000000000005,
+              "Ash Blossom & Joyous Spring": 24.110000000000003
+            },
+            "side_in_delta_counts": {
+              "Droll & Lock Bird": 15,
+              "Bystial Magnamhut": 15,
+              "Ghost Belle & Haunted Mansion": 8,
+              "Ash Blossom & Joyous Spring": 7
+            },
+            "side_in_card_average_post_side_delta": {
+              "Droll & Lock Bird": 3.882,
+              "Bystial Magnamhut": 3.882,
+              "Ghost Belle & Haunted Mansion": 4.265,
+              "Ash Blossom & Joyous Spring": 3.4443
+            },
+            "side_out_card_success_counts": {
+              "Harpie's Feather Duster": 4,
+              "Solemn Judgment": 4,
+              "Ghost Belle & Haunted Mansion": 4,
+              "Dragon Spirit of White": 11,
+              "Advanced Ritual Art": 4,
+              "Ghost Ogre & Snow Rabbit": 11,
+              "Book of Eclipse": 4,
+              "Evenly Matched": 3
+            },
+            "side_out_delta_totals": {
+              "Harpie's Feather Duster": 13.64,
+              "Solemn Judgment": 13.64,
+              "Ghost Belle & Haunted Mansion": 13.64,
+              "Dragon Spirit of White": 44.59,
+              "Advanced Ritual Art": 16.76,
+              "Ghost Ogre & Snow Rabbit": 44.59,
+              "Book of Eclipse": 20.48,
+              "Evenly Matched": 7.3500000000000005
+            },
+            "side_out_delta_counts": {
+              "Harpie's Feather Duster": 4,
+              "Solemn Judgment": 4,
+              "Ghost Belle & Haunted Mansion": 4,
+              "Dragon Spirit of White": 11,
+              "Advanced Ritual Art": 4,
+              "Ghost Ogre & Snow Rabbit": 11,
+              "Book of Eclipse": 4,
+              "Evenly Matched": 3
+            },
+            "side_out_card_average_post_side_delta": {
+              "Harpie's Feather Duster": 3.41,
+              "Solemn Judgment": 3.41,
+              "Ghost Belle & Haunted Mansion": 3.41,
+              "Dragon Spirit of White": 4.0536,
+              "Advanced Ritual Art": 4.19,
+              "Ghost Ogre & Snow Rabbit": 4.0536,
+              "Book of Eclipse": 5.12,
+              "Evenly Matched": 2.45
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Droll & Lock Bird": 3.882,
+                "Bystial Magnamhut": 3.882,
+                "Ghost Belle & Haunted Mansion": 4.265,
+                "Ash Blossom & Joyous Spring": 3.4443
+              },
+              "side_out": {
+                "Harpie's Feather Duster": 3.41,
+                "Solemn Judgment": 3.41,
+                "Ghost Belle & Haunted Mansion": 3.41,
+                "Dragon Spirit of White": 4.0536,
+                "Advanced Ritual Art": 4.19,
+                "Ghost Ogre & Snow Rabbit": 4.0536,
+                "Book of Eclipse": 5.12,
+                "Evenly Matched": 2.45
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: pure || IN: Droll & Lock Bird | Bystial Magnamhut | Ghost Belle & Haunted Mansion || OUT: Harpie's Feather Duster | Solemn Judgment | Ghost Belle & Haunted Mansion": {
+                "count": 4,
+                "delta_total": 13.64,
+                "best_delta": 3.41,
+                "worst_delta": 3.41
+              },
+              "ENGINE: ritual || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Bystial Magnamhut || OUT: Dragon Spirit of White | Advanced Ritual Art | Ghost Ogre & Snow Rabbit": {
+                "count": 4,
+                "delta_total": 16.76,
+                "best_delta": 4.19,
+                "worst_delta": 4.19
+              },
+              "ENGINE: chaos || IN: Droll & Lock Bird | Bystial Magnamhut | Ghost Belle & Haunted Mansion || OUT: Dragon Spirit of White | Book of Eclipse | Ghost Ogre & Snow Rabbit": {
+                "count": 4,
+                "delta_total": 20.48,
+                "best_delta": 5.12,
+                "worst_delta": 5.12
+              },
+              "ENGINE: bystial || IN: Ash Blossom & Joyous Spring | Droll & Lock Bird | Bystial Magnamhut || OUT: Dragon Spirit of White | Ghost Ogre & Snow Rabbit | Evenly Matched": {
+                "count": 3,
+                "delta_total": 7.3500000000000005,
+                "best_delta": 2.45,
+                "worst_delta": 2.45
+              }
+            },
+            "worst_side_plans": {},
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              8.7,
+              8.7,
+              11.25,
+              11.25,
+              8.7,
+              8.7,
+              11.25,
+              11.25,
+              8.7,
+              8.7,
+              11.25,
+              11.25,
+              8.7,
+              8.7
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              3.41,
+              4.19,
+              5.12,
+              2.45,
+              3.41,
+              4.19,
+              5.12,
+              2.45,
+              3.41,
+              4.19,
+              5.12,
+              2.45,
+              3.41,
+              4.19,
+              5.12
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138,
+              0.5138
+            ],
+            "side_card_choke_totals": {
+              "Droll & Lock Bird": 13.049999999999995,
+              "Bystial Magnamhut": 13.049999999999995,
+              "Ghost Belle & Haunted Mansion": 6.96,
+              "Ash Blossom & Joyous Spring": 6.09
+            },
+            "side_card_choke_counts": {
+              "Droll & Lock Bird": 15,
+              "Bystial Magnamhut": 15,
+              "Ghost Belle & Haunted Mansion": 8,
+              "Ash Blossom & Joyous Spring": 7
+            },
+            "side_card_choke_effectiveness": {
+              "Droll & Lock Bird": 0.87,
+              "Bystial Magnamhut": 0.87,
+              "Ghost Belle & Haunted Mansion": 0.87,
+              "Ash Blossom & Joyous Spring": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713,
+              0.7713
+            ],
+            "pivot_risk_history": [
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783,
+              0.7783
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.899258+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          }
+        },
+        "Snake-Eye": {
+          "first": {
+            "best_engine_variants": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "engine_score_totals": {
+              "ritual": 1205.64,
+              "chaos": 1218.52,
+              "bystial": 1138.96,
+              "pure": 931.71
+            },
+            "engine_score_counts": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "engine_delta_totals": {
+              "ritual": 4.96,
+              "chaos": 2.6,
+              "bystial": 8.84,
+              "pure": 10.649999999999999
+            },
+            "engine_delta_counts": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "average_score_by_engine": {
+              "ritual": 301.41,
+              "chaos": 304.63,
+              "bystial": 284.74,
+              "pure": 310.57
+            },
+            "post_side_delta_by_engine": {
+              "ritual": 1.24,
+              "chaos": 0.65,
+              "bystial": 2.21,
+              "pure": 3.55
+            },
+            "side_in_card_success_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Effect Veiler": 15,
+              "Droll & Lock Bird": 7,
+              "Nibiru, the Primal Being": 4,
+              "Ghost Belle & Haunted Mansion": 4
+            },
+            "side_in_delta_totals": {
+              "Ash Blossom & Joyous Spring": 27.049999999999997,
+              "Effect Veiler": 27.049999999999997,
+              "Droll & Lock Bird": 15.610000000000001,
+              "Nibiru, the Primal Being": 2.6,
+              "Ghost Belle & Haunted Mansion": 8.84
+            },
+            "side_in_delta_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Effect Veiler": 15,
+              "Droll & Lock Bird": 7,
+              "Nibiru, the Primal Being": 4,
+              "Ghost Belle & Haunted Mansion": 4
+            },
+            "side_in_card_average_post_side_delta": {
+              "Ash Blossom & Joyous Spring": 1.8033,
+              "Effect Veiler": 1.8033,
+              "Droll & Lock Bird": 2.23,
+              "Nibiru, the Primal Being": 0.65,
+              "Ghost Belle & Haunted Mansion": 2.21
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 11,
+              "Book of Eclipse": 12,
+              "Ghost Ogre & Snow Rabbit": 12,
+              "The Chaos Creator": 4,
+              "Raigeki": 3,
+              "Lightning Storm": 3
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 24.45,
+              "Book of Eclipse": 16.400000000000002,
+              "Ghost Ogre & Snow Rabbit": 16.400000000000002,
+              "The Chaos Creator": 2.6,
+              "Raigeki": 10.649999999999999,
+              "Lightning Storm": 10.649999999999999
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 11,
+              "Book of Eclipse": 12,
+              "Ghost Ogre & Snow Rabbit": 12,
+              "The Chaos Creator": 4,
+              "Raigeki": 3,
+              "Lightning Storm": 3
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 2.2227,
+              "Book of Eclipse": 1.3667,
+              "Ghost Ogre & Snow Rabbit": 1.3667,
+              "The Chaos Creator": 0.65,
+              "Raigeki": 3.55,
+              "Lightning Storm": 3.55
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Ash Blossom & Joyous Spring": 1.8033,
+                "Effect Veiler": 1.8033,
+                "Droll & Lock Bird": 2.23,
+                "Nibiru, the Primal Being": 0.65,
+                "Ghost Belle & Haunted Mansion": 2.21
+              },
+              "side_out": {
+                "Dragon Spirit of White": 2.2227,
+                "Book of Eclipse": 1.3667,
+                "Ghost Ogre & Snow Rabbit": 1.3667,
+                "The Chaos Creator": 0.65,
+                "Raigeki": 3.55,
+                "Lightning Storm": 3.55
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: ritual || IN: Ash Blossom & Joyous Spring | Effect Veiler | Droll & Lock Bird || OUT: Dragon Spirit of White | Book of Eclipse | Ghost Ogre & Snow Rabbit": {
+                "count": 4,
+                "delta_total": 4.96,
+                "best_delta": 1.24,
+                "worst_delta": 1.24
+              },
+              "ENGINE: chaos || IN: Ash Blossom & Joyous Spring | Effect Veiler | Nibiru, the Primal Being || OUT: Book of Eclipse | The Chaos Creator | Ghost Ogre & Snow Rabbit": {
+                "count": 4,
+                "delta_total": 2.6,
+                "best_delta": 0.65,
+                "worst_delta": 0.65
+              },
+              "ENGINE: bystial || IN: Ash Blossom & Joyous Spring | Effect Veiler | Ghost Belle & Haunted Mansion || OUT: Dragon Spirit of White | Book of Eclipse | Ghost Ogre & Snow Rabbit": {
+                "count": 4,
+                "delta_total": 8.84,
+                "best_delta": 2.21,
+                "worst_delta": 2.21
+              },
+              "ENGINE: pure || IN: Ash Blossom & Joyous Spring | Effect Veiler | Droll & Lock Bird || OUT: Raigeki | Lightning Storm | Dragon Spirit of White": {
+                "count": 3,
+                "delta_total": 10.649999999999999,
+                "best_delta": 3.55,
+                "worst_delta": 3.55
+              }
+            },
+            "worst_side_plans": {},
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              1.24,
+              0.65,
+              2.21,
+              3.55,
+              1.24,
+              0.65,
+              2.21,
+              3.55,
+              1.24,
+              0.65,
+              2.21,
+              3.55,
+              1.24,
+              0.65,
+              2.21
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338
+            ],
+            "side_card_choke_totals": {
+              "Ash Blossom & Joyous Spring": 13.049999999999995,
+              "Effect Veiler": 13.049999999999995,
+              "Droll & Lock Bird": 6.09,
+              "Nibiru, the Primal Being": 3.48,
+              "Ghost Belle & Haunted Mansion": 3.48
+            },
+            "side_card_choke_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Effect Veiler": 15,
+              "Droll & Lock Bird": 7,
+              "Nibiru, the Primal Being": 4,
+              "Ghost Belle & Haunted Mansion": 4
+            },
+            "side_card_choke_effectiveness": {
+              "Ash Blossom & Joyous Spring": 0.87,
+              "Effect Veiler": 0.87,
+              "Droll & Lock Bird": 0.87,
+              "Nibiru, the Primal Being": 0.87,
+              "Ghost Belle & Haunted Mansion": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766
+            ],
+            "pivot_risk_history": [
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.915216+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          },
+          "second": {
+            "best_engine_variants": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "engine_score_totals": {
+              "ritual": 1112.64,
+              "chaos": 1124.88,
+              "bystial": 1121.32,
+              "pure": 850.83
+            },
+            "engine_score_counts": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "engine_delta_totals": {
+              "ritual": -3.0,
+              "chaos": 9.8,
+              "bystial": -1.92,
+              "pure": 13.14
+            },
+            "engine_delta_counts": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "average_score_by_engine": {
+              "ritual": 278.16,
+              "chaos": 281.22,
+              "bystial": 280.33,
+              "pure": 283.61
+            },
+            "post_side_delta_by_engine": {
+              "ritual": -0.75,
+              "chaos": 2.45,
+              "bystial": -0.48,
+              "pure": 4.38
+            },
+            "side_in_card_success_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Ghost Belle & Haunted Mansion": 7,
+              "Bystial Magnamhut": 15,
+              "Effect Veiler": 8
+            },
+            "side_in_delta_totals": {
+              "Ash Blossom & Joyous Spring": 18.019999999999996,
+              "Ghost Belle & Haunted Mansion": 10.14,
+              "Bystial Magnamhut": 18.019999999999996,
+              "Effect Veiler": 7.879999999999999
+            },
+            "side_in_delta_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Ghost Belle & Haunted Mansion": 7,
+              "Bystial Magnamhut": 15,
+              "Effect Veiler": 8
+            },
+            "side_in_card_average_post_side_delta": {
+              "Ash Blossom & Joyous Spring": 1.2013,
+              "Ghost Belle & Haunted Mansion": 1.4486,
+              "Bystial Magnamhut": 1.2013,
+              "Effect Veiler": 0.985
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 7,
+              "Destined Rivals": 11,
+              "Skill Drain": 4,
+              "Harpie's Feather Duster": 7,
+              "Ghost Ogre & Snow Rabbit": 4,
+              "True Light": 4,
+              "Lightning Storm": 4,
+              "The Bystial Lubellion": 4
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 10.14,
+              "Destined Rivals": 8.219999999999999,
+              "Skill Drain": -3.0,
+              "Harpie's Feather Duster": 22.939999999999998,
+              "Ghost Ogre & Snow Rabbit": 9.8,
+              "True Light": 9.8,
+              "Lightning Storm": -1.92,
+              "The Bystial Lubellion": -1.92
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 7,
+              "Destined Rivals": 11,
+              "Skill Drain": 4,
+              "Harpie's Feather Duster": 7,
+              "Ghost Ogre & Snow Rabbit": 4,
+              "True Light": 4,
+              "Lightning Storm": 4,
+              "The Bystial Lubellion": 4
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 1.4486,
+              "Destined Rivals": 0.7473,
+              "Skill Drain": -0.75,
+              "Harpie's Feather Duster": 3.2771,
+              "Ghost Ogre & Snow Rabbit": 2.45,
+              "True Light": 2.45,
+              "Lightning Storm": -0.48,
+              "The Bystial Lubellion": -0.48
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Ash Blossom & Joyous Spring": 1.2013,
+                "Ghost Belle & Haunted Mansion": 1.4486,
+                "Bystial Magnamhut": 1.2013,
+                "Effect Veiler": 0.985
+              },
+              "side_out": {
+                "Dragon Spirit of White": 1.4486,
+                "Destined Rivals": 0.7473,
+                "Skill Drain": -0.75,
+                "Harpie's Feather Duster": 3.2771,
+                "Ghost Ogre & Snow Rabbit": 2.45,
+                "True Light": 2.45,
+                "Lightning Storm": -0.48,
+                "The Bystial Lubellion": -0.48
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: chaos || IN: Ash Blossom & Joyous Spring | Effect Veiler | Bystial Magnamhut || OUT: Harpie's Feather Duster | Ghost Ogre & Snow Rabbit | True Light": {
+                "count": 4,
+                "delta_total": 9.8,
+                "best_delta": 2.45,
+                "worst_delta": 2.45
+              },
+              "ENGINE: pure || IN: Ash Blossom & Joyous Spring | Ghost Belle & Haunted Mansion | Bystial Magnamhut || OUT: Dragon Spirit of White | Destined Rivals | Harpie's Feather Duster": {
+                "count": 3,
+                "delta_total": 13.14,
+                "best_delta": 4.38,
+                "worst_delta": 4.38
+              }
+            },
+            "worst_side_plans": {
+              "ENGINE: ritual || IN: Ash Blossom & Joyous Spring | Ghost Belle & Haunted Mansion | Bystial Magnamhut || OUT: Dragon Spirit of White | Destined Rivals | Skill Drain": {
+                "count": 4,
+                "delta_total": -3.0,
+                "best_delta": -0.75,
+                "worst_delta": -0.75
+              },
+              "ENGINE: bystial || IN: Ash Blossom & Joyous Spring | Effect Veiler | Bystial Magnamhut || OUT: Lightning Storm | Destined Rivals | The Bystial Lubellion": {
+                "count": 4,
+                "delta_total": -1.92,
+                "best_delta": -0.48,
+                "worst_delta": -0.48
+              }
+            },
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7,
+              8.7
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              -0.75,
+              2.45,
+              -0.48,
+              4.38,
+              -0.75,
+              2.45,
+              -0.48,
+              4.38,
+              -0.75,
+              2.45,
+              -0.48,
+              4.38,
+              -0.75,
+              2.45,
+              -0.48
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338
+            ],
+            "side_card_choke_totals": {
+              "Ash Blossom & Joyous Spring": 13.049999999999995,
+              "Ghost Belle & Haunted Mansion": 6.09,
+              "Bystial Magnamhut": 13.049999999999995,
+              "Effect Veiler": 6.96
+            },
+            "side_card_choke_counts": {
+              "Ash Blossom & Joyous Spring": 15,
+              "Ghost Belle & Haunted Mansion": 7,
+              "Bystial Magnamhut": 15,
+              "Effect Veiler": 8
+            },
+            "side_card_choke_effectiveness": {
+              "Ash Blossom & Joyous Spring": 0.87,
+              "Ghost Belle & Haunted Mansion": 0.87,
+              "Bystial Magnamhut": 0.87,
+              "Effect Veiler": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766
+            ],
+            "pivot_risk_history": [
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.932170+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          },
+          "both": {
+            "best_engine_variants": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "engine_score_totals": {
+              "ritual": 1211.24,
+              "chaos": 1247.68,
+              "bystial": 1127.32,
+              "pure": 923.67
+            },
+            "engine_score_counts": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "engine_delta_totals": {
+              "ritual": 19.24,
+              "chaos": 12.76,
+              "bystial": 3.96,
+              "pure": 8.25
+            },
+            "engine_delta_counts": {
+              "ritual": 4,
+              "chaos": 4,
+              "bystial": 4,
+              "pure": 3
+            },
+            "average_score_by_engine": {
+              "ritual": 302.81,
+              "chaos": 311.92,
+              "bystial": 281.83,
+              "pure": 307.89
+            },
+            "post_side_delta_by_engine": {
+              "ritual": 4.81,
+              "chaos": 3.19,
+              "bystial": 0.99,
+              "pure": 2.75
+            },
+            "side_in_card_success_counts": {
+              "Effect Veiler": 15,
+              "Ash Blossom & Joyous Spring": 15,
+              "Bystial Magnamhut": 11,
+              "Nibiru, the Primal Being": 4
+            },
+            "side_in_delta_totals": {
+              "Effect Veiler": 44.21,
+              "Ash Blossom & Joyous Spring": 44.21,
+              "Bystial Magnamhut": 40.25,
+              "Nibiru, the Primal Being": 3.96
+            },
+            "side_in_delta_counts": {
+              "Effect Veiler": 15,
+              "Ash Blossom & Joyous Spring": 15,
+              "Bystial Magnamhut": 11,
+              "Nibiru, the Primal Being": 4
+            },
+            "side_in_card_average_post_side_delta": {
+              "Effect Veiler": 2.9473,
+              "Ash Blossom & Joyous Spring": 2.9473,
+              "Bystial Magnamhut": 3.6591,
+              "Nibiru, the Primal Being": 0.99
+            },
+            "side_out_card_success_counts": {
+              "Dragon Spirit of White": 7,
+              "Book of Eclipse": 8,
+              "Harpie's Feather Duster": 15,
+              "Ghost Belle & Haunted Mansion": 4,
+              "Raigeki": 4,
+              "Skill Drain": 4,
+              "Droll & Lock Bird": 3
+            },
+            "side_out_delta_totals": {
+              "Dragon Spirit of White": 27.49,
+              "Book of Eclipse": 32.0,
+              "Harpie's Feather Duster": 44.21,
+              "Ghost Belle & Haunted Mansion": 12.76,
+              "Raigeki": 3.96,
+              "Skill Drain": 3.96,
+              "Droll & Lock Bird": 8.25
+            },
+            "side_out_delta_counts": {
+              "Dragon Spirit of White": 7,
+              "Book of Eclipse": 8,
+              "Harpie's Feather Duster": 15,
+              "Ghost Belle & Haunted Mansion": 4,
+              "Raigeki": 4,
+              "Skill Drain": 4,
+              "Droll & Lock Bird": 3
+            },
+            "side_out_card_average_post_side_delta": {
+              "Dragon Spirit of White": 3.9271,
+              "Book of Eclipse": 4.0,
+              "Harpie's Feather Duster": 2.9473,
+              "Ghost Belle & Haunted Mansion": 3.19,
+              "Raigeki": 0.99,
+              "Skill Drain": 0.99,
+              "Droll & Lock Bird": 2.75
+            },
+            "average_post_side_delta_by_card": {
+              "side_in": {
+                "Effect Veiler": 2.9473,
+                "Ash Blossom & Joyous Spring": 2.9473,
+                "Bystial Magnamhut": 3.6591,
+                "Nibiru, the Primal Being": 0.99
+              },
+              "side_out": {
+                "Dragon Spirit of White": 3.9271,
+                "Book of Eclipse": 4.0,
+                "Harpie's Feather Duster": 2.9473,
+                "Ghost Belle & Haunted Mansion": 3.19,
+                "Raigeki": 0.99,
+                "Skill Drain": 0.99,
+                "Droll & Lock Bird": 2.75
+              }
+            },
+            "best_full_side_plans": {
+              "ENGINE: ritual || IN: Effect Veiler | Ash Blossom & Joyous Spring | Bystial Magnamhut || OUT: Dragon Spirit of White | Book of Eclipse | Harpie's Feather Duster": {
+                "count": 4,
+                "delta_total": 19.24,
+                "best_delta": 4.81,
+                "worst_delta": 4.81
+              },
+              "ENGINE: chaos || IN: Effect Veiler | Ash Blossom & Joyous Spring | Bystial Magnamhut || OUT: Book of Eclipse | Harpie's Feather Duster | Ghost Belle & Haunted Mansion": {
+                "count": 4,
+                "delta_total": 12.76,
+                "best_delta": 3.19,
+                "worst_delta": 3.19
+              },
+              "ENGINE: bystial || IN: Effect Veiler | Ash Blossom & Joyous Spring | Nibiru, the Primal Being || OUT: Harpie's Feather Duster | Raigeki | Skill Drain": {
+                "count": 4,
+                "delta_total": 3.96,
+                "best_delta": 0.99,
+                "worst_delta": 0.99
+              },
+              "ENGINE: pure || IN: Effect Veiler | Ash Blossom & Joyous Spring | Bystial Magnamhut || OUT: Dragon Spirit of White | Harpie's Feather Duster | Droll & Lock Bird": {
+                "count": 3,
+                "delta_total": 8.25,
+                "best_delta": 2.75,
+                "worst_delta": 2.75
+              }
+            },
+            "worst_side_plans": {},
+            "interruption_vulnerability_trends": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "resilience_score_trends": [
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7,
+              11.25,
+              11.25,
+              11.25,
+              8.7
+            ],
+            "matchup_coverage_trends": [
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0,
+              35.0
+            ],
+            "post_side_validity_history": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "post_side_delta_history": [
+              4.81,
+              3.19,
+              0.99,
+              2.75,
+              4.81,
+              3.19,
+              0.99,
+              2.75,
+              4.81,
+              3.19,
+              0.99,
+              2.75,
+              4.81,
+              3.19,
+              0.99
+            ],
+            "choke_stop_rate_history": [
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87,
+              0.87
+            ],
+            "opponent_recovery_rate_history": [
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338,
+              0.5338
+            ],
+            "side_card_choke_totals": {
+              "Effect Veiler": 13.049999999999995,
+              "Ash Blossom & Joyous Spring": 13.049999999999995,
+              "Bystial Magnamhut": 9.569999999999999,
+              "Nibiru, the Primal Being": 3.48
+            },
+            "side_card_choke_counts": {
+              "Effect Veiler": 15,
+              "Ash Blossom & Joyous Spring": 15,
+              "Bystial Magnamhut": 11,
+              "Nibiru, the Primal Being": 4
+            },
+            "side_card_choke_effectiveness": {
+              "Effect Veiler": 0.87,
+              "Ash Blossom & Joyous Spring": 0.87,
+              "Bystial Magnamhut": 0.87,
+              "Nibiru, the Primal Being": 0.87
+            },
+            "poor_interruption_history": {},
+            "best_interruption_packages": {},
+            "timing_precision_history": [
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766,
+              0.766
+            ],
+            "pivot_risk_history": [
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983,
+              0.7983
+            ],
+            "best_interruption_timing": {},
+            "poor_timing_history": {},
+            "cards_requiring_precise_timing": {},
+            "broadly_safe_interruption_cards": {},
+            "blocked_rejection_count": 0,
+            "updated_at_utc": "2026-06-03T20:11:12.949124+00:00",
+            "last_update_provenance": {
+              "source": "matrix",
+              "validator_generated": false,
+              "smoke": true,
+              "legal": true,
+              "confidence_score": null,
+              "improvement": null,
+              "timestamp": "2026-06-03T20:11:12.222793+00:00"
+            }
+          }
+        }
+      }
+    }
+  },
+  "last_update_provenance": {
+    "source": "matrix",
+    "validator_generated": false,
+    "smoke": true,
+    "legal": true,
+    "confidence_score": null,
+    "improvement": null,
+    "timestamp": "2026-06-03T20:11:12.222793+00:00"
+  },
+  "provenance_log": [
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:10:22.091326+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:11.374488+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    },
+    {
+      "source": "matrix",
+      "validator_generated": false,
+      "smoke": true,
+      "legal": true,
+      "confidence_score": null,
+      "improvement": null,
+      "timestamp": "2026-06-03T20:11:12.222793+00:00"
+    }
+  ]
+}
+  ]
+}

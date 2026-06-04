@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import json
+import os
 import shutil
 import time
+import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -25,7 +27,7 @@ def safe_load_json(path: str | Path, default: Any = None) -> Any:
 def atomic_write_json(path: str | Path, payload: Any, indent: int = 2) -> None:
     target = Path(path)
     target.parent.mkdir(parents=True, exist_ok=True)
-    temp = target.with_suffix(target.suffix + ".tmp")
+    temp = unique_temp_path(target)
     with temp.open("w", encoding="utf-8") as file:
         json.dump(payload, file, indent=indent, ensure_ascii=False)
         file.write("\n")
@@ -38,9 +40,14 @@ atomic_json_write = atomic_write_json
 def atomic_write_text(path: str | Path, text: str) -> None:
     target = Path(path)
     target.parent.mkdir(parents=True, exist_ok=True)
-    temp = target.with_suffix(target.suffix + ".tmp")
+    temp = unique_temp_path(target)
     temp.write_text(text, encoding="utf-8")
     replace_with_retry(temp, target)
+
+
+def unique_temp_path(target: Path) -> Path:
+    token = f"{os.getpid()}_{time.time_ns()}_{uuid.uuid4().hex}"
+    return target.with_name(f"{target.name}.{token}.tmp")
 
 
 def replace_with_retry(temp: Path, target: Path, attempts: int = 5, delay: float = 0.15) -> None:
