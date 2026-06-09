@@ -219,17 +219,22 @@ __marimo__/
 
 # Python cache
 __pycache__/
+**/__pycache__/
+**pycache**/
 *.pyc
 *.pyo
 
 # Training data
 SystemAIYugioh/data/training_runs/
+SystemAIYugioh/data/runtime_cache/
+SystemAIYugioh/data/snapshots/
 
 # Learning outputs
 meta_stats.json
 learned_card_stats.json
 learned_engine_stats.json
 learning_tuning.json
+backup_learning/
 
 # Logs
 *.log
