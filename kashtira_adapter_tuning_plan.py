@@ -7,6 +7,7 @@ from pathlib import Path
 from statistics import mean
 from typing import Any
 
+from deck.interaction_core_registry import interaction_core_set
 from deck.semi_specialized_adapter_tuning import generate_kashtira_adapter_tuning_variants
 from kashtira_experimental_regression_analysis import run_one
 from SystemAIYugioh.card_database import CardDatabase
@@ -14,7 +15,7 @@ from SystemAIYugioh.json_utils import atomic_write_json, atomic_write_text
 
 
 REPORT_DIR = Path("SystemAIYugioh") / "data" / "training_runs" / "semi_specialization"
-INTERACTION_CORE = {"Ash Blossom & Joyous Spring", "D.D. Crow", "Ghost Belle & Haunted Mansion", "Nibiru, the Primal Being"}
+INTERACTION_CORE = interaction_core_set("Kashtira")
 
 
 def build_tuning_plan(mode: str = "meta", runs: int = 10, seed: int = 12345, frozen_cards: bool = False) -> dict[str, Any]:
@@ -36,6 +37,7 @@ def build_tuning_plan(mode: str = "meta", runs: int = 10, seed: int = 12345, fro
     variants = [simulate_variant(variant, rows, generic, current) for variant in generate_kashtira_adapter_tuning_variants()]
     best = choose_best_variant(variants)
     recommendation = choose_recommendation(generic, current, best)
+    evidence = recommendation_evidence(recommendation)
     return {
         "report_type": "kashtira_adapter_tuning_plan",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -50,6 +52,10 @@ def build_tuning_plan(mode: str = "meta", runs: int = 10, seed: int = 12345, fro
         "variants": variants,
         "best_variant": best,
         "recommendation": recommendation,
+        "recommendation_details": evidence,
+        "evidence_source": evidence["evidence_source"],
+        "promotion_allowed": evidence["promotion_allowed"],
+        "requires_execution_gate": evidence["requires_execution_gate"],
         "report_only": True,
         "updates_applied": False,
     }
@@ -127,16 +133,26 @@ def choose_best_variant(variants: list[dict[str, Any]]) -> dict[str, Any]:
 
 def choose_recommendation(generic: dict[str, Any], current: dict[str, Any], best: dict[str, Any]) -> str:
     if not best or best.get("average_score", 0) <= current.get("average_score", 0):
-        return "keep_current_experimental_blocked"
+        return "do_not_use_for_promotion"
     if best.get("average_score", 0) < generic.get("average_score", 0):
-        return "test_variant_next"
+        return "needs_real_execution"
     if (
         best.get("average_score", 0) >= generic.get("average_score", 0)
         and best.get("legality_rate") == 1.0
         and not best.get("blocked_card_violations")
     ):
-        return "eligible_for_experimental_adapter_update"
-    return "test_variant_next"
+        return "proposal_only"
+    return "needs_real_execution"
+
+
+def recommendation_evidence(recommendation: str) -> dict[str, Any]:
+    return {
+        "recommendation": recommendation,
+        "evidence_source": "projected",
+        "promotion_allowed": False,
+        "requires_execution_gate": True,
+        "notes": "Phase 8L uses projected estimates only; it may propose a follow-up execution test but cannot authorize promotion or adapter updates.",
+    }
 
 
 def quota_balance(package_counts: dict[str, Any]) -> float:
@@ -170,6 +186,9 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"- Seed: {report['seed']}",
         f"- Frozen cards: {report['frozen_cards']}",
         f"- Recommendation: `{report['recommendation']}`",
+        f"- Evidence source: `{report['evidence_source']}`",
+        f"- Promotion allowed: {report['promotion_allowed']}",
+        f"- Requires execution gate: {report['requires_execution_gate']}",
         f"- Updates applied: {report['updates_applied']}",
         "",
         "## Baselines",

@@ -2,6 +2,11 @@ from __future__ import annotations
 
 from typing import Any
 
+from deck.interaction_core_registry import interaction_core_for
+
+
+KASHTIRA_INTERACTION_CORE = list(interaction_core_for("Kashtira"))
+
 
 def generate_kashtira_adapter_tuning_variants() -> list[dict[str, Any]]:
     return [
@@ -9,7 +14,7 @@ def generate_kashtira_adapter_tuning_variants() -> list[dict[str, Any]]:
             "name": "preserve_interaction_core",
             "description": "Preserve generic high-scoring hand-trap interaction before filling reconciled quota gaps.",
             "proposed_adjustment": {
-                "preserve_cards": ["Ash Blossom & Joyous Spring", "D.D. Crow", "Ghost Belle & Haunted Mansion", "Nibiru, the Primal Being"],
+                "preserve_cards": KASHTIRA_INTERACTION_CORE,
                 "reduce_roles": [],
                 "score_estimate_bias": 1.45,
             },
@@ -65,7 +70,7 @@ def generate_kashtira_adapter_tuning_variants() -> list[dict[str, Any]]:
             "name": "hybrid_generic_interaction_overlay",
             "description": "Combine interaction preservation with softened quota movement and lower generic fill.",
             "proposed_adjustment": {
-                "preserve_cards": ["Ash Blossom & Joyous Spring", "D.D. Crow", "Ghost Belle & Haunted Mansion", "Nibiru, the Primal Being"],
+                "preserve_cards": KASHTIRA_INTERACTION_CORE,
                 "quota_softening": {"starters": -1, "extenders": 2, "board_breakers": -1},
                 "generic_fill_cap_delta": -5,
                 "score_estimate_bias": 2.25,

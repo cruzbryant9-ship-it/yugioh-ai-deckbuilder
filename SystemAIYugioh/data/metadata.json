@@ -1,8 +1,8 @@
 {
-  "last_sync_utc": "2026-06-04T05:38:06.667966+00:00",
-  "last_sync_epoch": 1780551486.6679666,
+  "last_sync_utc": "2026-06-09T02:32:16.485587+00:00",
+  "last_sync_epoch": 1780972336.4855876,
   "source": "https://db.ygoprodeck.com/api/v7/cardinfo.php",
   "card_count": 14372,
-  "latest_snapshot": "C:\\Users\\theeg\\OneDrive\\Desktop\\yugioh_ai_deckbuilder\\SystemAIYugioh\\data\\snapshots\\cards_20260604_053804.json",
-  "database_hash": "93d4a5bcc282e98095a5298c78a4f6979cec21d1e845ca88d30d267609fb862d"
+  "latest_snapshot": "C:\\Users\\theeg\\OneDrive\\Desktop\\yugioh_ai_deckbuilder\\SystemAIYugioh\\data\\snapshots\\cards_20260609_023214.json",
+  "database_hash": "dd58ed80417fe60424b0ff8415d0dd8c1c58caaca7e32a6d11c3729982a1588e"
 }

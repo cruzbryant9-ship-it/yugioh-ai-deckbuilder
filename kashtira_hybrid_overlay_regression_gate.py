@@ -11,12 +11,20 @@ from typing import Any
 
 from deck.builder import build_deck, get_last_build_report, score_deck_breakdown
 from deck.deck_utils import blocked_card_violations
+from deck.executed_dependency_telemetry import (
+    build_dependency_telemetry,
+    compare_dependency_summaries,
+    dependency_gate_status,
+    promotion_safety_gates,
+    summarize_dependency_telemetry,
+)
+from deck.interaction_core_registry import interaction_core_set
 from SystemAIYugioh.card_database import CardDatabase
 from SystemAIYugioh.json_utils import atomic_write_json, atomic_write_text
 
 
 REPORT_DIR = Path("SystemAIYugioh") / "data" / "training_runs" / "semi_specialization"
-INTERACTION_CORE = {"Ash Blossom & Joyous Spring", "D.D. Crow", "Ghost Belle & Haunted Mansion", "Nibiru, the Primal Being"}
+INTERACTION_CORE = interaction_core_set("Kashtira")
 QUOTA_TARGETS = {"starters": 12, "starters_searchers": 12, "extenders": 7, "payoffs": 3, "interruptions": 9, "board_breakers": 3, "generic_fill": 0}
 
 
@@ -37,7 +45,12 @@ def run_hybrid_gate(mode: str = "meta", runs: int = 10, seed: int = 12345, froze
     generic = summarize(rows, "generic")
     current = summarize(rows, "current_experimental")
     hybrid = summarize(rows, "hybrid_overlay")
-    recommendation = choose_recommendation(generic, hybrid)
+    generic_dependency = generic["dependency_telemetry"]
+    current_dependency = current["dependency_telemetry"]
+    hybrid_dependency = hybrid["dependency_telemetry"]
+    current_safety = promotion_safety_gates(generic_dependency, current_dependency)
+    hybrid_safety = promotion_safety_gates(generic_dependency, hybrid_dependency)
+    recommendation = choose_recommendation(generic, hybrid, hybrid_safety)
     return {
         "report_type": "kashtira_hybrid_overlay_regression_gate",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -50,6 +63,33 @@ def run_hybrid_gate(mode: str = "meta", runs: int = 10, seed: int = 12345, froze
         "generic": generic,
         "current_experimental": current,
         "hybrid_overlay": hybrid,
+        "generic_dependency": generic_dependency,
+        "experimental_dependency": current_dependency,
+        "hybrid_dependency": hybrid_dependency,
+        "dependency_delta": {
+            "current_experimental_vs_generic": compare_dependency_summaries(generic_dependency, current_dependency),
+            "hybrid_overlay_vs_generic": compare_dependency_summaries(generic_dependency, hybrid_dependency),
+        },
+        "dependency_gate_status": {
+            "current_experimental_vs_generic": dependency_gate_status(generic_dependency, current_dependency),
+            "hybrid_overlay_vs_generic": dependency_gate_status(generic_dependency, hybrid_dependency),
+        },
+        "generic_fill_gate": {
+            "current_experimental_vs_generic": current_safety["generic_fill_gate"],
+            "hybrid_overlay_vs_generic": hybrid_safety["generic_fill_gate"],
+        },
+        "interaction_loss_gate": {
+            "current_experimental_vs_generic": current_safety["interaction_loss_gate"],
+            "hybrid_overlay_vs_generic": hybrid_safety["interaction_loss_gate"],
+        },
+        "promotion_blocking_reasons": {
+            "current_experimental_vs_generic": current_safety["promotion_blocking_reasons"],
+            "hybrid_overlay_vs_generic": hybrid_safety["promotion_blocking_reasons"],
+        },
+        "lost_interaction_cards": {
+            "current_experimental_vs_generic": current_safety["lost_interaction_cards"],
+            "hybrid_overlay_vs_generic": hybrid_safety["lost_interaction_cards"],
+        },
         "hybrid_score_delta_vs_generic": round(hybrid["average_score"] - generic["average_score"], 4),
         "hybrid_score_delta_vs_current_experimental": round(hybrid["average_score"] - current["average_score"], 4),
         "recommendation": recommendation,
@@ -86,6 +126,7 @@ def run_builder(cards: list[dict[str, Any]], mode: str, seed: int, kind: str) ->
         "quota_balance": quota_balance(package_counts),
         "preserved_interaction_count": interaction_count(deck),
         "generic_fill_count": float(package_counts.get("generic_fill", 0) or 0),
+        "dependency_telemetry": build_dependency_telemetry(deck, report, "Kashtira"),
         "legality_ok": int(report.get("main_deck_count", 0) or 0) >= 40 and not blocked,
         "blocked_card_violations": blocked,
     }
@@ -94,6 +135,7 @@ def run_builder(cards: list[dict[str, Any]], mode: str, seed: int, kind: str) ->
 def summarize(rows: list[dict[str, Any]], key: str) -> dict[str, Any]:
     selected = [row[key] for row in rows]
     scores = [row["score"] for row in selected]
+    dependency_summary = summarize_dependency_telemetry(selected)
     return {
         "average_score": round(mean(scores), 4),
         "best_score": round(max(scores), 4),
@@ -106,6 +148,15 @@ def summarize(rows: list[dict[str, Any]], key: str) -> dict[str, Any]:
         "quota_balance": round(mean(row["quota_balance"] for row in selected), 4),
         "preserved_interaction_count": round(mean(row["preserved_interaction_count"] for row in selected), 4),
         "generic_fill_count": round(mean(row["generic_fill_count"] for row in selected), 4),
+        "safe_filler_used_count": dependency_summary["safe_filler_used_count"],
+        "repair_used": dependency_summary["repair_used"],
+        "repair_success": dependency_summary["repair_success"],
+        "repair_action_count": dependency_summary["repair_action_count"],
+        "repair_dependency_score": dependency_summary["repair_dependency_score"],
+        "filler_dependency_score": dependency_summary["filler_dependency_score"],
+        "repair_dependency": dependency_summary["repair_dependency_score"].get("average"),
+        "filler_dependency": dependency_summary["filler_dependency_score"].get("average"),
+        "dependency_telemetry": dependency_summary,
         "legality_rate": round(mean(1.0 if row["legality_ok"] else 0.0 for row in selected), 4),
         "fallback_rate": round(mean(1.0 if row["fallback_used"] else 0.0 for row in selected), 4),
         "blocked_card_violations": sorted(set(name for row in selected for name in row["blocked_card_violations"])),
@@ -115,7 +166,9 @@ def summarize(rows: list[dict[str, Any]], key: str) -> dict[str, Any]:
     }
 
 
-def choose_recommendation(generic: dict[str, Any], hybrid: dict[str, Any]) -> str:
+def choose_recommendation(generic: dict[str, Any], hybrid: dict[str, Any], safety: dict[str, Any] | None = None) -> str:
+    if safety and safety.get("promotion_blocked"):
+        return "promote_blocked"
     if hybrid["legality_rate"] < 1.0 or hybrid["fallback_rate"] > 0.0 or hybrid["blocked_card_violations"]:
         return "promote_blocked"
     delta = hybrid["average_score"] - generic["average_score"]
@@ -171,6 +224,8 @@ def render_markdown(report: dict[str, Any]) -> str:
             f"- Quota balance: {row['quota_balance']}",
             f"- Preserved interaction count: {row['preserved_interaction_count']}",
             f"- Generic fill count: {row['generic_fill_count']}",
+            f"- Filler dependency score: {row['dependency_telemetry']['filler_dependency_score']}",
+            f"- Repair dependency score: {row['dependency_telemetry']['repair_dependency_score']}",
             f"- Legality rate: {row['legality_rate']}",
             f"- Fallback rate: {row['fallback_rate']}",
             "",
@@ -180,6 +235,18 @@ def render_markdown(report: dict[str, Any]) -> str:
         "",
         f"- Hybrid score delta vs generic: {report['hybrid_score_delta_vs_generic']}",
         f"- Hybrid score delta vs current experimental: {report['hybrid_score_delta_vs_current_experimental']}",
+        "",
+        "## Dependency Gate Status",
+        "",
+        f"- Current experimental vs generic: {report['dependency_gate_status']['current_experimental_vs_generic']}",
+        f"- Hybrid overlay vs generic: {report['dependency_gate_status']['hybrid_overlay_vs_generic']}",
+        "",
+        "## Promotion Safety Gates",
+        "",
+        f"- Hybrid generic-fill gate: {report['generic_fill_gate']['hybrid_overlay_vs_generic']}",
+        f"- Hybrid interaction-loss gate: {report['interaction_loss_gate']['hybrid_overlay_vs_generic']}",
+        f"- Hybrid promotion blocking reasons: {report['promotion_blocking_reasons']['hybrid_overlay_vs_generic']}",
+        f"- Hybrid lost interaction cards: {report['lost_interaction_cards']['hybrid_overlay_vs_generic']}",
     ])
     return "\n".join(lines) + "\n"
 

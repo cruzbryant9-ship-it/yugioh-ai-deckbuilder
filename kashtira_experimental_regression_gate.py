@@ -11,6 +11,13 @@ from typing import Any
 
 from deck.builder import build_deck, get_last_build_report, score_deck_breakdown
 from deck.deck_utils import blocked_card_violations
+from deck.executed_dependency_telemetry import (
+    build_dependency_telemetry,
+    compare_dependency_summaries,
+    dependency_gate_status,
+    promotion_safety_gates,
+    summarize_dependency_telemetry,
+)
 from SystemAIYugioh.card_database import CardDatabase
 from SystemAIYugioh.json_utils import atomic_write_json, atomic_write_text
 
@@ -51,7 +58,10 @@ def run_regression_gate(mode: str = "meta", runs: int = 10, seed: int = 12345, f
     quota_delta = round(float(experimental["quota_balance"]) - float(generic["quota_balance"]), 4)
     legality_delta = round(float(experimental["legality_rate"]) - float(generic["legality_rate"]), 4)
     fallback_delta = round(float(experimental["fallback_rate"]) - float(generic["fallback_rate"]), 4)
-    recommendation = recommend_regression_status(generic, experimental, run_count)
+    generic_dependency = generic["dependency_telemetry"]
+    experimental_dependency = experimental["dependency_telemetry"]
+    safety = promotion_safety_gates(generic_dependency, experimental_dependency)
+    recommendation = recommend_regression_status(generic, experimental, run_count, safety)
     return {
         "report_type": "kashtira_experimental_regression_gate",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -67,6 +77,14 @@ def run_regression_gate(mode: str = "meta", runs: int = 10, seed: int = 12345, f
         "quota_delta": quota_delta,
         "legality_delta": legality_delta,
         "fallback_delta": fallback_delta,
+        "generic_dependency": generic_dependency,
+        "experimental_dependency": experimental_dependency,
+        "dependency_delta": compare_dependency_summaries(generic_dependency, experimental_dependency),
+        "dependency_gate_status": dependency_gate_status(generic_dependency, experimental_dependency),
+        "generic_fill_gate": safety["generic_fill_gate"],
+        "interaction_loss_gate": safety["interaction_loss_gate"],
+        "promotion_blocking_reasons": safety["promotion_blocking_reasons"],
+        "lost_interaction_cards": safety["lost_interaction_cards"],
         "recommendation": recommendation,
         "promotion_blocked": recommendation == "promote_blocked",
         "run_results": rows,
@@ -111,6 +129,7 @@ def deck_result(deck: list[dict[str, Any]], report: dict[str, Any], mode: str) -
         "extra_deck_count": extra_count,
         "repair_dependency": float(report.get("repair_action_count", 0) or 0),
         "filler_dependency": float(report.get("safe_filler_used_count", 0) or 0),
+        "dependency_telemetry": build_dependency_telemetry(deck, report, "Kashtira"),
         "blocked_card_violations": blocked,
         "quota_warnings": list(report.get("quota_warnings", []) or []),
         "metadata": {
@@ -125,6 +144,7 @@ def summarize(rows: list[dict[str, Any]], key: str) -> dict[str, Any]:
     selected = [row[key] for row in rows]
     scores = [float(row.get("score", 0) or 0) for row in selected]
     package_quality = [float(row.get("package_quality", 0) or 0) for row in selected]
+    dependency_summary = summarize_dependency_telemetry(selected)
     package_totals: Counter[str] = Counter()
     for row in selected:
         package_totals.update({name: float(value or 0) for name, value in (row.get("package_counts", {}) or {}).items()})
@@ -137,6 +157,13 @@ def summarize(rows: list[dict[str, Any]], key: str) -> dict[str, Any]:
         "legality_rate": round(mean(1.0 if row.get("legality_ok") else 0.0 for row in selected), 4),
         "repair_dependency": round(mean(float(row.get("repair_dependency", 0) or 0) for row in selected), 4),
         "filler_dependency": round(mean(float(row.get("filler_dependency", 0) or 0) for row in selected), 4),
+        "safe_filler_used_count": dependency_summary["safe_filler_used_count"],
+        "repair_used": dependency_summary["repair_used"],
+        "repair_success": dependency_summary["repair_success"],
+        "repair_action_count": dependency_summary["repair_action_count"],
+        "repair_dependency_score": dependency_summary["repair_dependency_score"],
+        "filler_dependency_score": dependency_summary["filler_dependency_score"],
+        "dependency_telemetry": dependency_summary,
         "quota_balance": round(mean(float(row.get("quota_balance", 0) or 0) for row in selected), 4),
         "blocked_card_violations": sorted(set(name for row in selected for name in row.get("blocked_card_violations", []))),
         "fallback_rate": round(mean(1.0 if row.get("fallback_used") else 0.0 for row in selected), 4),
@@ -156,7 +183,9 @@ def quota_balance(package_counts: dict[str, Any]) -> float:
     return round(total_gap, 4)
 
 
-def recommend_regression_status(generic: dict[str, Any], experimental: dict[str, Any], runs: int) -> str:
+def recommend_regression_status(generic: dict[str, Any], experimental: dict[str, Any], runs: int, safety: dict[str, Any] | None = None) -> str:
+    if safety and safety.get("promotion_blocked"):
+        return "promote_blocked"
     score_regresses = float(experimental.get("average_score", 0) or 0) < float(generic.get("average_score", 0) or 0)
     quota_improves = float(experimental.get("quota_balance", 9999) or 9999) <= float(generic.get("quota_balance", 9999) or 9999)
     if score_regresses:
@@ -222,6 +251,8 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"- Package quality: {generic['average_package_quality']}",
         f"- Legality rate: {generic['legality_rate']}",
         f"- Quota balance: {generic['quota_balance']}",
+        f"- Filler dependency score: {generic['dependency_telemetry']['filler_dependency_score']}",
+        f"- Repair dependency score: {generic['dependency_telemetry']['repair_dependency_score']}",
         "",
         "## Experimental",
         "",
@@ -233,6 +264,8 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"- Legality rate: {experimental['legality_rate']}",
         f"- Quota balance: {experimental['quota_balance']}",
         f"- Fallback rate: {experimental['fallback_rate']}",
+        f"- Filler dependency score: {experimental['dependency_telemetry']['filler_dependency_score']}",
+        f"- Repair dependency score: {experimental['dependency_telemetry']['repair_dependency_score']}",
         "",
         "## Deltas",
         "",
@@ -240,6 +273,17 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"- Quota delta: {report['quota_delta']}",
         f"- Legality delta: {report['legality_delta']}",
         f"- Fallback delta: {report['fallback_delta']}",
+        "",
+        "## Dependency Gate Status",
+        "",
+        f"- {report['dependency_gate_status']}",
+        "",
+        "## Promotion Safety Gates",
+        "",
+        f"- Generic-fill gate: {report['generic_fill_gate']}",
+        f"- Interaction-loss gate: {report['interaction_loss_gate']}",
+        f"- Promotion blocking reasons: {report['promotion_blocking_reasons']}",
+        f"- Lost interaction cards: {report['lost_interaction_cards']}",
     ]
     return "\n".join(lines) + "\n"
 

@@ -37,12 +37,12 @@ Proposed-only tuning and regression testing. No gameplay behavior, active builde
 
 ## Recommendation
 
-- `eligible_for_experimental_adapter_update`
+- `proposal_only`
 
 ## Validation Results
 
 - Passed: True
-- Duration seconds: 124.6887
+- Duration seconds: 204.6211
 - PASS: proposed variants are generated
 - PASS: all variants are marked applied false
 - PASS: tuning runner works

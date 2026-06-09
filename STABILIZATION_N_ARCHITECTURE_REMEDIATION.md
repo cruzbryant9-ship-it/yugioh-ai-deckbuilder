@@ -29,7 +29,7 @@ Infrastructure-only pass. No gameplay, scoring formula, deck-building, Blue-Eyes
 ## Validation Results
 
 - Passed: True
-- Duration seconds: 20.3013
+- Duration seconds: 18.4149
 - PASS: regression gate missing handling
 - PASS: no dead gate configuration
 - PASS: source fingerprint correctness

@@ -89,10 +89,24 @@ def validate_blue_eyes() -> dict[str, Any]:
 
 def validate_report_only() -> dict[str, Any]:
     report = build_tuning_plan("meta", 1, 12345, frozen_cards=True)
-    allowed = {"keep_current_experimental_blocked", "test_variant_next", "eligible_for_experimental_adapter_update"}
-    if report.get("recommendation") not in allowed or report.get("report_only") is not True or report.get("updates_applied") is not False:
+    allowed = {"proposal_only", "needs_real_execution", "do_not_use_for_promotion"}
+    if (
+        report.get("recommendation") not in allowed
+        or report.get("report_only") is not True
+        or report.get("updates_applied") is not False
+        or report.get("evidence_source") != "projected"
+        or report.get("promotion_allowed") is not False
+        or report.get("requires_execution_gate") is not True
+    ):
         raise AssertionError(report)
-    return {"recommendation": report["recommendation"], "report_only": report["report_only"], "updates_applied": report["updates_applied"]}
+    return {
+        "recommendation": report["recommendation"],
+        "evidence_source": report["evidence_source"],
+        "promotion_allowed": report["promotion_allowed"],
+        "requires_execution_gate": report["requires_execution_gate"],
+        "report_only": report["report_only"],
+        "updates_applied": report["updates_applied"],
+    }
 
 
 def validate_phase8k() -> dict[str, Any]:

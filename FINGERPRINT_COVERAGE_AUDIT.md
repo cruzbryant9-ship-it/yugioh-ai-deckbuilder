@@ -1,9 +1,9 @@
 # Fingerprint Coverage Audit
 
 - Passed: True
-- Candidate modules: 92
+- Candidate modules: 95
 - Fingerprinted: 54
-- Explicitly excluded: 38
+- Explicitly excluded: 41
 - Uncovered: 0
 
 ## Uncovered Modules
@@ -31,6 +31,7 @@
 - `deck/archetype_specialization_profiles.py`: non-activated semi-specialization profile data for review only
 - `deck/curated_opponent_library.py`: static profile loading; profile data files are outside source fingerprint scope
 - `deck/decklist_parser.py`: input parsing utility for external decklists; not part of generated deck scoring
+- `deck/executed_dependency_telemetry.py`: executed comparison telemetry/report helper; does not affect scoring or deck construction
 - `deck/filler_signal_gates.py`: filler-memory governance remains inactive for benchmark scoring
 - `deck/generic_benchmark_memory.py`: memory persistence/reporting; not a scoring algorithm
 - `deck/generic_card_shift_explainer.py`: explanation/report generation only
@@ -42,6 +43,8 @@
 - `deck/generic_ratio_recommender.py`: recommendation reporting, not active score formula
 - `deck/generic_targeted_retest.py`: offline retest orchestration, not scoring logic
 - `deck/generic_trend_diagnosis.py`: trend diagnosis/reporting only
+- `deck/interaction_core_registry.py`: report-only interaction-core ownership registry; does not activate builder behavior
+- `deck/interaction_preservation_trace.py`: trace/report helper for non-activated experimental adapter behavior; does not affect scoring or deck construction
 - `deck/rejection_classification.py`: report classification helper, not score calculation
 - `deck/semi_specialized_adapter_tuning.py`: proposed-only adapter tuning definitions; not used by default benchmark scoring or default deck construction
 - `deck/semi_specialized_builder_adapter.py`: explicit opt-in experimental Kashtira adapter; not used by default benchmark scoring or default deck construction

@@ -1256,167 +1256,167 @@
           },
           "both": {
             "side_in_card_counts": {
-              "Nibiru, the Primal Being": 41,
-              "Infinite Impermanence": 780,
-              "Effect Veiler": 721,
-              "Droll & Lock Bird": 624,
-              "Ash Blossom & Joyous Spring": 1033,
-              "Dark Ruler No More": 91,
-              "Evenly Matched": 7
+              "Nibiru, the Primal Being": 43,
+              "Infinite Impermanence": 862,
+              "Effect Veiler": 783,
+              "Droll & Lock Bird": 687,
+              "Ash Blossom & Joyous Spring": 1136,
+              "Dark Ruler No More": 102,
+              "Evenly Matched": 8
             },
             "side_out_card_counts": {
-              "Raigeki": 164,
-              "Nibiru, the Primal Being": 162,
+              "Raigeki": 180,
+              "Nibiru, the Primal Being": 211,
               "Infinite Impermanence": 7,
-              "Dragon Spirit of White": 646,
+              "Dragon Spirit of White": 711,
               "True Light": 5,
               "The Bystial Lubellion": 1,
-              "Harpie's Feather Duster": 197,
-              "Evenly Matched": 227,
-              "D.D. Crow": 218,
-              "The Ultimate Creature of Destruction": 160,
-              "Book of Eclipse": 237,
-              "The Melody of Awakening Dragon": 68,
-              "The Chaos Creator": 84,
-              "Skill Drain": 92,
-              "Ghost Ogre & Snow Rabbit": 116,
-              "Lightning Storm": 172,
-              "Destined Rivals": 100,
-              "Bystial Magnamhut": 54,
+              "Harpie's Feather Duster": 219,
+              "Evenly Matched": 247,
+              "D.D. Crow": 230,
+              "The Ultimate Creature of Destruction": 174,
+              "Book of Eclipse": 250,
+              "The Melody of Awakening Dragon": 72,
+              "The Chaos Creator": 105,
+              "Skill Drain": 98,
+              "Ghost Ogre & Snow Rabbit": 128,
+              "Lightning Storm": 204,
+              "Destined Rivals": 103,
+              "Bystial Magnamhut": 63,
               "Bystial Druiswurm": 28,
-              "Solemn Judgment": 140,
+              "Solemn Judgment": 159,
               "Ghost Belle & Haunted Mansion": 43,
-              "Black Luster Soldier - Envoy of the Beginning": 35,
+              "Black Luster Soldier - Envoy of the Beginning": 36,
               "Forbidden Droplet": 41,
-              "Deep-Eyes White Dragon": 13,
+              "Deep-Eyes White Dragon": 15,
               "Branded Regained": 31,
-              "Solemn Strike": 101,
+              "Solemn Strike": 103,
               "Dark Ruler No More": 32,
-              "Chaos Dragon Levianeer": 49,
+              "Chaos Dragon Levianeer": 51,
               "Advanced Ritual Art": 42,
               "Chaos Form": 32
             },
             "side_in_delta_totals": {
-              "Nibiru, the Primal Being": 60.95000000000002,
-              "Infinite Impermanence": 1876.4899999999986,
-              "Effect Veiler": 1636.9399999999973,
-              "Droll & Lock Bird": 1799.0900000000004,
-              "Ash Blossom & Joyous Spring": 2619.5299999999947,
-              "Dark Ruler No More": 198.83000000000007,
-              "Evenly Matched": 10.35
+              "Nibiru, the Primal Being": 65.59000000000002,
+              "Infinite Impermanence": 2138.959999999998,
+              "Effect Veiler": 1823.9499999999978,
+              "Droll & Lock Bird": 2045.2800000000004,
+              "Ash Blossom & Joyous Spring": 2966.7499999999936,
+              "Dark Ruler No More": 224.38000000000008,
+              "Evenly Matched": 16.67
             },
             "side_in_delta_counts": {
-              "Nibiru, the Primal Being": 41,
-              "Infinite Impermanence": 780,
-              "Effect Veiler": 721,
-              "Droll & Lock Bird": 624,
-              "Ash Blossom & Joyous Spring": 1033,
-              "Dark Ruler No More": 91,
-              "Evenly Matched": 7
+              "Nibiru, the Primal Being": 43,
+              "Infinite Impermanence": 862,
+              "Effect Veiler": 783,
+              "Droll & Lock Bird": 687,
+              "Ash Blossom & Joyous Spring": 1136,
+              "Dark Ruler No More": 102,
+              "Evenly Matched": 8
             },
             "side_out_delta_totals": {
-              "Raigeki": 416.6200000000001,
-              "Nibiru, the Primal Being": 480.9199999999999,
+              "Raigeki": 482.98000000000025,
+              "Nibiru, the Primal Being": 648.7099999999997,
               "Infinite Impermanence": 7.36,
-              "Dragon Spirit of White": 1545.88,
+              "Dragon Spirit of White": 1754.9700000000007,
               "True Light": -0.4099999999999999,
               "The Bystial Lubellion": -1.67,
-              "Harpie's Feather Duster": 523.9299999999998,
-              "Evenly Matched": 627.9599999999999,
-              "D.D. Crow": 532.0300000000002,
-              "The Ultimate Creature of Destruction": 399.39999999999975,
-              "Book of Eclipse": 533.3000000000005,
-              "The Melody of Awakening Dragon": 174.15999999999997,
-              "The Chaos Creator": 251.61000000000004,
-              "Skill Drain": 229.60999999999999,
-              "Ghost Ogre & Snow Rabbit": 283.46,
-              "Lightning Storm": 476.2599999999998,
-              "Destined Rivals": 231.54,
-              "Bystial Magnamhut": 105.02999999999999,
+              "Harpie's Feather Duster": 594.3299999999995,
+              "Evenly Matched": 698.2799999999999,
+              "D.D. Crow": 565.6200000000002,
+              "The Ultimate Creature of Destruction": 446.50999999999976,
+              "Book of Eclipse": 571.9300000000005,
+              "The Melody of Awakening Dragon": 185.65999999999997,
+              "The Chaos Creator": 331.55999999999995,
+              "Skill Drain": 242.11,
+              "Ghost Ogre & Snow Rabbit": 310.44,
+              "Lightning Storm": 597.9699999999998,
+              "Destined Rivals": 238.32,
+              "Bystial Magnamhut": 123.69999999999996,
               "Bystial Druiswurm": 45.61000000000001,
-              "Solemn Judgment": 396.6500000000002,
+              "Solemn Judgment": 476.1200000000002,
               "Ghost Belle & Haunted Mansion": 71.89000000000001,
-              "Black Luster Soldier - Envoy of the Beginning": 81.30000000000001,
+              "Black Luster Soldier - Envoy of the Beginning": 82.36000000000001,
               "Forbidden Droplet": 80.66999999999999,
-              "Deep-Eyes White Dragon": 39.029999999999994,
+              "Deep-Eyes White Dragon": 50.93999999999999,
               "Branded Regained": 35.39,
-              "Solemn Strike": 229.88000000000002,
+              "Solemn Strike": 236.08000000000004,
               "Dark Ruler No More": 67.88,
-              "Chaos Dragon Levianeer": 120.64,
+              "Chaos Dragon Levianeer": 120.02,
               "Advanced Ritual Art": 122.07999999999997,
               "Chaos Form": 94.16999999999999
             },
             "side_out_delta_counts": {
-              "Raigeki": 164,
-              "Nibiru, the Primal Being": 162,
+              "Raigeki": 180,
+              "Nibiru, the Primal Being": 211,
               "Infinite Impermanence": 7,
-              "Dragon Spirit of White": 646,
+              "Dragon Spirit of White": 711,
               "True Light": 5,
               "The Bystial Lubellion": 1,
-              "Harpie's Feather Duster": 197,
-              "Evenly Matched": 227,
-              "D.D. Crow": 218,
-              "The Ultimate Creature of Destruction": 160,
-              "Book of Eclipse": 237,
-              "The Melody of Awakening Dragon": 68,
-              "The Chaos Creator": 84,
-              "Skill Drain": 92,
-              "Ghost Ogre & Snow Rabbit": 116,
-              "Lightning Storm": 172,
-              "Destined Rivals": 100,
-              "Bystial Magnamhut": 54,
+              "Harpie's Feather Duster": 219,
+              "Evenly Matched": 247,
+              "D.D. Crow": 230,
+              "The Ultimate Creature of Destruction": 174,
+              "Book of Eclipse": 250,
+              "The Melody of Awakening Dragon": 72,
+              "The Chaos Creator": 105,
+              "Skill Drain": 98,
+              "Ghost Ogre & Snow Rabbit": 128,
+              "Lightning Storm": 204,
+              "Destined Rivals": 103,
+              "Bystial Magnamhut": 63,
               "Bystial Druiswurm": 28,
-              "Solemn Judgment": 140,
+              "Solemn Judgment": 159,
               "Ghost Belle & Haunted Mansion": 43,
-              "Black Luster Soldier - Envoy of the Beginning": 35,
+              "Black Luster Soldier - Envoy of the Beginning": 36,
               "Forbidden Droplet": 41,
-              "Deep-Eyes White Dragon": 13,
+              "Deep-Eyes White Dragon": 15,
               "Branded Regained": 31,
-              "Solemn Strike": 101,
+              "Solemn Strike": 103,
               "Dark Ruler No More": 32,
-              "Chaos Dragon Levianeer": 49,
+              "Chaos Dragon Levianeer": 51,
               "Advanced Ritual Art": 42,
               "Chaos Form": 32
             },
             "average_post_side_delta_by_card": {
               "side_in": {
-                "Nibiru, the Primal Being": 1.4866,
-                "Infinite Impermanence": 2.4058,
-                "Effect Veiler": 2.2704,
-                "Droll & Lock Bird": 2.8832,
-                "Ash Blossom & Joyous Spring": 2.5358,
-                "Dark Ruler No More": 2.1849,
-                "Evenly Matched": 1.4786
+                "Nibiru, the Primal Being": 1.5253,
+                "Infinite Impermanence": 2.4814,
+                "Effect Veiler": 2.3294,
+                "Droll & Lock Bird": 2.9771,
+                "Ash Blossom & Joyous Spring": 2.6116,
+                "Dark Ruler No More": 2.1998,
+                "Evenly Matched": 2.0838
               },
               "side_out": {
-                "Raigeki": 2.5404,
-                "Nibiru, the Primal Being": 2.9686,
+                "Raigeki": 2.6832,
+                "Nibiru, the Primal Being": 3.0745,
                 "Infinite Impermanence": 1.0514,
-                "Dragon Spirit of White": 2.393,
+                "Dragon Spirit of White": 2.4683,
                 "True Light": -0.082,
                 "The Bystial Lubellion": -1.67,
-                "Harpie's Feather Duster": 2.6595,
-                "Evenly Matched": 2.7663,
-                "D.D. Crow": 2.4405,
-                "The Ultimate Creature of Destruction": 2.4962,
-                "Book of Eclipse": 2.2502,
-                "The Melody of Awakening Dragon": 2.5612,
-                "The Chaos Creator": 2.9954,
-                "Skill Drain": 2.4958,
-                "Ghost Ogre & Snow Rabbit": 2.4436,
-                "Lightning Storm": 2.769,
-                "Destined Rivals": 2.3154,
-                "Bystial Magnamhut": 1.945,
+                "Harpie's Feather Duster": 2.7138,
+                "Evenly Matched": 2.827,
+                "D.D. Crow": 2.4592,
+                "The Ultimate Creature of Destruction": 2.5661,
+                "Book of Eclipse": 2.2877,
+                "The Melody of Awakening Dragon": 2.5786,
+                "The Chaos Creator": 3.1577,
+                "Skill Drain": 2.4705,
+                "Ghost Ogre & Snow Rabbit": 2.4253,
+                "Lightning Storm": 2.9312,
+                "Destined Rivals": 2.3138,
+                "Bystial Magnamhut": 1.9635,
                 "Bystial Druiswurm": 1.6289,
-                "Solemn Judgment": 2.8332,
+                "Solemn Judgment": 2.9945,
                 "Ghost Belle & Haunted Mansion": 1.6719,
-                "Black Luster Soldier - Envoy of the Beginning": 2.3229,
+                "Black Luster Soldier - Envoy of the Beginning": 2.2878,
                 "Forbidden Droplet": 1.9676,
-                "Deep-Eyes White Dragon": 3.0023,
+                "Deep-Eyes White Dragon": 3.396,
                 "Branded Regained": 1.1416,
-                "Solemn Strike": 2.276,
+                "Solemn Strike": 2.292,
                 "Dark Ruler No More": 2.1212,
-                "Chaos Dragon Levianeer": 2.462,
+                "Chaos Dragon Levianeer": 2.3533,
                 "Advanced Ritual Art": 2.9067,
                 "Chaos Form": 2.9428
               }
@@ -1448,8 +1448,8 @@
                 "best_delta": 2.46
               },
               "Droll & Lock Bird | Infinite Impermanence | Effect Veiler": {
-                "count": 21,
-                "delta_total": 43.52,
+                "count": 23,
+                "delta_total": 47.47,
                 "best_delta": 8.03
               },
               "Ash Blossom & Joyous Spring | Droll & Lock Bird | Infinite Impermanence": {
@@ -1483,8 +1483,8 @@
                 "best_delta": 4.45
               },
               "Ash Blossom & Joyous Spring | Infinite Impermanence | Dark Ruler No More": {
-                "count": 19,
-                "delta_total": 33.42,
+                "count": 20,
+                "delta_total": 33.07,
                 "best_delta": 6.62
               },
               "Ash Blossom & Joyous Spring | Infinite Impermanence | Droll & Lock Bird": {
@@ -1493,9 +1493,9 @@
                 "best_delta": 6.53
               },
               "Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler": {
-                "count": 304,
-                "delta_total": 609.9600000000003,
-                "best_delta": 7.28
+                "count": 345,
+                "delta_total": 715.2900000000003,
+                "best_delta": 8.24
               },
               "Effect Veiler | Ash Blossom & Joyous Spring | Infinite Impermanence": {
                 "count": 16,
@@ -1533,8 +1533,8 @@
                 "best_delta": 3.96
               },
               "Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence": {
-                "count": 292,
-                "delta_total": 902.1999999999995,
+                "count": 328,
+                "delta_total": 1048.6999999999991,
                 "best_delta": 11.97
               },
               "Effect Veiler | Evenly Matched | Dark Ruler No More": {
@@ -1553,14 +1553,14 @@
                 "best_delta": -0.04
               },
               "Infinite Impermanence | Effect Veiler | Dark Ruler No More": {
-                "count": 6,
-                "delta_total": 14.98,
+                "count": 7,
+                "delta_total": 18.97,
                 "best_delta": 5.11
               },
               "Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler": {
-                "count": 231,
-                "delta_total": 653.2600000000002,
-                "best_delta": 9.49
+                "count": 247,
+                "delta_total": 722.36,
+                "best_delta": 10.8
               },
               "Infinite Impermanence | Nibiru, the Primal Being | Effect Veiler": {
                 "count": 1,
@@ -1568,8 +1568,8 @@
                 "best_delta": 0.8
               },
               "Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More": {
-                "count": 43,
-                "delta_total": 101.96,
+                "count": 51,
+                "delta_total": 122.28,
                 "best_delta": 7.67
               },
               "Droll & Lock Bird | Ash Blossom & Joyous Spring | Nibiru, the Primal Being": {
@@ -1593,8 +1593,8 @@
                 "best_delta": 2.41
               },
               "Infinite Impermanence | Effect Veiler | Nibiru, the Primal Being": {
-                "count": 14,
-                "delta_total": 15.109999999999998,
+                "count": 15,
+                "delta_total": 18.159999999999997,
                 "best_delta": 3.94
               },
               "Ash Blossom & Joyous Spring | Infinite Impermanence | Evenly Matched": {
@@ -1608,9 +1608,14 @@
                 "best_delta": 1.1
               },
               "Effect Veiler | Nibiru, the Primal Being | Dark Ruler No More": {
-                "count": 5,
-                "delta_total": 9.8,
+                "count": 6,
+                "delta_total": 11.39,
                 "best_delta": 5.18
+              },
+              "Droll & Lock Bird | Ash Blossom & Joyous Spring | Evenly Matched": {
+                "count": 1,
+                "delta_total": 6.32,
+                "best_delta": 6.32
               }
             },
             "best_side_out_patterns": {
@@ -1650,14 +1655,14 @@
                 "best_delta": 2.46
               },
               "Dragon Spirit of White | Nibiru, the Primal Being | Harpie's Feather Duster": {
-                "count": 1,
-                "delta_total": 6.53,
+                "count": 2,
+                "delta_total": 11.83,
                 "best_delta": 6.53
               },
               "Dragon Spirit of White | Book of Eclipse | Nibiru, the Primal Being": {
-                "count": 2,
-                "delta_total": 1.5,
-                "best_delta": 1.98
+                "count": 4,
+                "delta_total": 5.13,
+                "best_delta": 2.04
               },
               "Dragon Spirit of White | Book of Eclipse | Evenly Matched": {
                 "count": 28,
@@ -1665,9 +1670,9 @@
                 "best_delta": 6.53
               },
               "Dragon Spirit of White | Harpie's Feather Duster | The Ultimate Creature of Destruction": {
-                "count": 3,
-                "delta_total": 4.7,
-                "best_delta": 2.85
+                "count": 5,
+                "delta_total": 10.75,
+                "best_delta": 4.8
               },
               "Nibiru, the Primal Being | D.D. Crow | The Melody of Awakening Dragon": {
                 "count": 1,
@@ -1705,9 +1710,9 @@
                 "best_delta": 9.47
               },
               "Dragon Spirit of White | Evenly Matched | Raigeki": {
-                "count": 5,
-                "delta_total": 21.96,
-                "best_delta": 6.62
+                "count": 7,
+                "delta_total": 36.52,
+                "best_delta": 8.24
               },
               "D.D. Crow | Raigeki | The Chaos Creator": {
                 "count": 1,
@@ -1840,8 +1845,8 @@
                 "best_delta": 1.25
               },
               "Dragon Spirit of White | Raigeki | Bystial Magnamhut": {
-                "count": 1,
-                "delta_total": 4.34,
+                "count": 2,
+                "delta_total": 5.529999999999999,
                 "best_delta": 4.34
               },
               "Dragon Spirit of White | Harpie's Feather Duster | Destined Rivals": {
@@ -1865,8 +1870,8 @@
                 "best_delta": 0.6
               },
               "Dragon Spirit of White | Book of Eclipse | Harpie's Feather Duster": {
-                "count": 6,
-                "delta_total": 23.419999999999998,
+                "count": 7,
+                "delta_total": 24.459999999999997,
                 "best_delta": 7.12
               },
               "Dragon Spirit of White | The Melody of Awakening Dragon | D.D. Crow": {
@@ -1905,14 +1910,14 @@
                 "best_delta": 5.4
               },
               "Dragon Spirit of White | Nibiru, the Primal Being | Bystial Magnamhut": {
-                "count": 1,
-                "delta_total": -0.72,
-                "best_delta": -0.72
+                "count": 2,
+                "delta_total": 1.23,
+                "best_delta": 1.95
               },
               "Dragon Spirit of White | Harpie's Feather Duster | Raigeki": {
-                "count": 2,
-                "delta_total": 5.12,
-                "best_delta": 3.74
+                "count": 3,
+                "delta_total": 9.120000000000001,
+                "best_delta": 4.0
               },
               "Dragon Spirit of White | Raigeki | Skill Drain": {
                 "count": 2,
@@ -2005,8 +2010,8 @@
                 "best_delta": -0.72
               },
               "Dragon Spirit of White | Book of Eclipse | The Chaos Creator": {
-                "count": 8,
-                "delta_total": 17.259999999999998,
+                "count": 10,
+                "delta_total": 23.169999999999998,
                 "best_delta": 6.26
               },
               "Harpie's Feather Duster | The Chaos Creator | D.D. Crow": {
@@ -2075,13 +2080,13 @@
                 "best_delta": 0.5
               },
               "Dragon Spirit of White | Book of Eclipse | Solemn Judgment": {
-                "count": 22,
-                "delta_total": 38.33,
-                "best_delta": 5.42
+                "count": 25,
+                "delta_total": 52.48,
+                "best_delta": 7.18
               },
               "Dragon Spirit of White | Solemn Judgment | Harpie's Feather Duster": {
-                "count": 5,
-                "delta_total": 13.42,
+                "count": 6,
+                "delta_total": 17.41,
                 "best_delta": 5.32
               },
               "Dragon Spirit of White | Lightning Storm | Ghost Belle & Haunted Mansion": {
@@ -2120,8 +2125,8 @@
                 "best_delta": 3.37
               },
               "Dragon Spirit of White | Book of Eclipse | Lightning Storm": {
-                "count": 8,
-                "delta_total": 18.24,
+                "count": 9,
+                "delta_total": 22.779999999999998,
                 "best_delta": 7.2
               },
               "Dragon Spirit of White | Book of Eclipse | The Ultimate Creature of Destruction": {
@@ -2130,8 +2135,8 @@
                 "best_delta": 5.39
               },
               "Dragon Spirit of White | Lightning Storm | The Ultimate Creature of Destruction": {
-                "count": 6,
-                "delta_total": 17.669999999999998,
+                "count": 7,
+                "delta_total": 19.509999999999998,
                 "best_delta": 8.11
               },
               "Lightning Storm | The Melody of Awakening Dragon | The Ultimate Creature of Destruction": {
@@ -2160,8 +2165,8 @@
                 "best_delta": 3.46
               },
               "Raigeki | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
-                "count": 2,
-                "delta_total": 8.0,
+                "count": 3,
+                "delta_total": 15.36,
                 "best_delta": 8.06
               },
               "Lightning Storm | The Ultimate Creature of Destruction | Harpie's Feather Duster": {
@@ -2210,8 +2215,8 @@
                 "best_delta": 2.27
               },
               "Dragon Spirit of White | Book of Eclipse | Ghost Ogre & Snow Rabbit": {
-                "count": 9,
-                "delta_total": 16.65,
+                "count": 10,
+                "delta_total": 18.439999999999998,
                 "best_delta": 6.64
               },
               "Dragon Spirit of White | Raigeki | The Melody of Awakening Dragon": {
@@ -2290,8 +2295,8 @@
                 "best_delta": 7.26
               },
               "Raigeki | Ghost Ogre & Snow Rabbit | Destined Rivals": {
-                "count": 1,
-                "delta_total": 5.55,
+                "count": 2,
+                "delta_total": 9.24,
                 "best_delta": 5.55
               },
               "Dragon Spirit of White | The Ultimate Creature of Destruction | Lightning Storm": {
@@ -2475,9 +2480,9 @@
                 "best_delta": 6.5
               },
               "Lightning Storm | Skill Drain | D.D. Crow": {
-                "count": 1,
-                "delta_total": -0.06,
-                "best_delta": -0.06
+                "count": 2,
+                "delta_total": 2.28,
+                "best_delta": 2.34
               },
               "Harpie's Feather Duster | D.D. Crow | Skill Drain": {
                 "count": 1,
@@ -2765,9 +2770,9 @@
                 "best_delta": 3.2
               },
               "Lightning Storm | Harpie's Feather Duster | The Ultimate Creature of Destruction": {
-                "count": 3,
-                "delta_total": 6.44,
-                "best_delta": 3.64
+                "count": 4,
+                "delta_total": 12.620000000000001,
+                "best_delta": 6.18
               },
               "The Melody of Awakening Dragon | Lightning Storm | Harpie's Feather Duster": {
                 "count": 1,
@@ -2940,9 +2945,9 @@
                 "best_delta": 0.88
               },
               "Dragon Spirit of White | Lightning Storm | Harpie's Feather Duster": {
-                "count": 3,
-                "delta_total": 1.94,
-                "best_delta": 1.39
+                "count": 5,
+                "delta_total": 5.76,
+                "best_delta": 3.3
               },
               "Lightning Storm | Bystial Magnamhut | D.D. Crow": {
                 "count": 2,
@@ -3070,9 +3075,9 @@
                 "best_delta": 2.25
               },
               "Dragon Spirit of White | The Chaos Creator | Evenly Matched": {
-                "count": 2,
-                "delta_total": 0.3600000000000001,
-                "best_delta": 2.22
+                "count": 4,
+                "delta_total": 4.890000000000001,
+                "best_delta": 2.77
               },
               "Black Luster Soldier - Envoy of the Beginning | Solemn Strike | The Chaos Creator": {
                 "count": 1,
@@ -3230,9 +3235,9 @@
                 "best_delta": 2.98
               },
               "The Chaos Creator | Lightning Storm | D.D. Crow": {
-                "count": 1,
-                "delta_total": 7.22,
-                "best_delta": 7.22
+                "count": 2,
+                "delta_total": 16.52,
+                "best_delta": 9.3
               },
               "Dragon Spirit of White | Black Luster Soldier - Envoy of the Beginning | The Chaos Creator": {
                 "count": 1,
@@ -3320,9 +3325,9 @@
                 "best_delta": 1.28
               },
               "Dragon Spirit of White | The Chaos Creator | Harpie's Feather Duster": {
-                "count": 2,
-                "delta_total": 6.109999999999999,
-                "best_delta": 5.18
+                "count": 4,
+                "delta_total": 12.529999999999998,
+                "best_delta": 6.13
               },
               "Harpie's Feather Duster | Black Luster Soldier - Envoy of the Beginning | Destined Rivals": {
                 "count": 1,
@@ -3635,8 +3640,8 @@
                 "best_delta": 2.51
               },
               "Dragon Spirit of White | Solemn Judgment | Lightning Storm": {
-                "count": 4,
-                "delta_total": 12.399999999999999,
+                "count": 6,
+                "delta_total": 18.16,
                 "best_delta": 6.46
               },
               "D.D. Crow | Dark Ruler No More | Destined Rivals": {
@@ -3825,8 +3830,8 @@
                 "best_delta": 2.28
               },
               "Dragon Spirit of White | Lightning Storm | Skill Drain": {
-                "count": 1,
-                "delta_total": 2.82,
+                "count": 2,
+                "delta_total": 4.4,
                 "best_delta": 2.82
               },
               "Harpie's Feather Duster | The Ultimate Creature of Destruction | D.D. Crow": {
@@ -4120,9 +4125,9 @@
                 "best_delta": -0.86
               },
               "Book of Eclipse | Solemn Judgment | Evenly Matched": {
-                "count": 2,
-                "delta_total": 4.26,
-                "best_delta": 2.61
+                "count": 3,
+                "delta_total": 7.99,
+                "best_delta": 3.73
               },
               "The Ultimate Creature of Destruction | D.D. Crow | Nibiru, the Primal Being": {
                 "count": 1,
@@ -4190,9 +4195,9 @@
                 "best_delta": 1.43
               },
               "Dragon Spirit of White | Nibiru, the Primal Being | Lightning Storm": {
-                "count": 2,
-                "delta_total": 13.14,
-                "best_delta": 8.03
+                "count": 11,
+                "delta_total": 53.05,
+                "best_delta": 10.8
               },
               "Nibiru, the Primal Being | Skill Drain | Harpie's Feather Duster": {
                 "count": 1,
@@ -4290,9 +4295,9 @@
                 "best_delta": 3.22
               },
               "Nibiru, the Primal Being | Lightning Storm | D.D. Crow": {
-                "count": 1,
-                "delta_total": 0.22,
-                "best_delta": 0.22
+                "count": 2,
+                "delta_total": 3.52,
+                "best_delta": 3.3
               },
               "Chaos Form | Evenly Matched | Nibiru, the Primal Being": {
                 "count": 1,
@@ -4335,9 +4340,9 @@
                 "best_delta": 6.43
               },
               "Harpie's Feather Duster | Raigeki | D.D. Crow": {
-                "count": 1,
-                "delta_total": 3.45,
-                "best_delta": 3.45
+                "count": 2,
+                "delta_total": 8.81,
+                "best_delta": 5.36
               },
               "Dragon Spirit of White | The Chaos Creator | Chaos Dragon Levianeer": {
                 "count": 5,
@@ -4380,9 +4385,9 @@
                 "best_delta": 2.06
               },
               "Dragon Spirit of White | The Chaos Creator | Nibiru, the Primal Being": {
-                "count": 5,
-                "delta_total": 15.999999999999998,
-                "best_delta": 6.11
+                "count": 7,
+                "delta_total": 31.709999999999997,
+                "best_delta": 10.43
               },
               "Evenly Matched | Ghost Ogre & Snow Rabbit | Destined Rivals": {
                 "count": 1,
@@ -4410,9 +4415,9 @@
                 "best_delta": 4.5
               },
               "Dragon Spirit of White | Nibiru, the Primal Being | Evenly Matched": {
-                "count": 1,
-                "delta_total": 3.08,
-                "best_delta": 3.08
+                "count": 6,
+                "delta_total": 13.840000000000002,
+                "best_delta": 4.2
               },
               "Solemn Judgment | Nibiru, the Primal Being | Evenly Matched": {
                 "count": 2,
@@ -4440,18 +4445,18 @@
                 "best_delta": 0.8
               },
               "Dragon Spirit of White | Deep-Eyes White Dragon | Nibiru, the Primal Being": {
-                "count": 2,
-                "delta_total": 7.16,
-                "best_delta": 4.34
+                "count": 4,
+                "delta_total": 19.07,
+                "best_delta": 6.98
               },
               "Dragon Spirit of White | The Chaos Creator | Lightning Storm": {
-                "count": 2,
-                "delta_total": 5.609999999999999,
-                "best_delta": 3.57
+                "count": 5,
+                "delta_total": 11.19,
+                "best_delta": 3.83
               },
               "Dragon Spirit of White | Nibiru, the Primal Being | The Chaos Creator": {
-                "count": 2,
-                "delta_total": 19.81,
+                "count": 7,
+                "delta_total": 37.660000000000004,
                 "best_delta": 10.54
               },
               "Harpie's Feather Duster | Chaos Dragon Levianeer | D.D. Crow": {
@@ -4475,9 +4480,184 @@
                 "best_delta": 2.94
               },
               "Nibiru, the Primal Being | Solemn Judgment | Lightning Storm": {
-                "count": 1,
-                "delta_total": 7.94,
+                "count": 2,
+                "delta_total": 13.0,
                 "best_delta": 7.94
+              },
+              "Nibiru, the Primal Being | Lightning Storm | Evenly Matched": {
+                "count": 1,
+                "delta_total": 6.02,
+                "best_delta": 6.02
+              },
+              "Ghost Ogre & Snow Rabbit | D.D. Crow | Solemn Strike": {
+                "count": 1,
+                "delta_total": -0.29,
+                "best_delta": -0.29
+              },
+              "Dragon Spirit of White | Nibiru, the Primal Being | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -0.35,
+                "best_delta": -0.35
+              },
+              "Solemn Judgment | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 2,
+                "delta_total": 7.370000000000001,
+                "best_delta": 4.23
+              },
+              "Nibiru, the Primal Being | Evenly Matched | Raigeki": {
+                "count": 2,
+                "delta_total": 5.48,
+                "best_delta": 6.49
+              },
+              "Raigeki | The Ultimate Creature of Destruction | Solemn Strike": {
+                "count": 1,
+                "delta_total": 6.49,
+                "best_delta": 6.49
+              },
+              "Lightning Storm | Solemn Judgment | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 6.7,
+                "best_delta": 6.7
+              },
+              "Dragon Spirit of White | Nibiru, the Primal Being | Solemn Judgment": {
+                "count": 4,
+                "delta_total": 16.19,
+                "best_delta": 6.4
+              },
+              "Harpie's Feather Duster | Raigeki | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 2.9,
+                "best_delta": 2.9
+              },
+              "Evenly Matched | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.36,
+                "best_delta": 0.36
+              },
+              "Lightning Storm | Evenly Matched | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 8.15,
+                "best_delta": 8.15
+              },
+              "Raigeki | Chaos Dragon Levianeer | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -0.28,
+                "best_delta": -0.28
+              },
+              "Book of Eclipse | The Chaos Creator | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 1.22,
+                "best_delta": 1.22
+              },
+              "Nibiru, the Primal Being | Harpie's Feather Duster | Raigeki": {
+                "count": 1,
+                "delta_total": 0.36,
+                "best_delta": 0.36
+              },
+              "Lightning Storm | D.D. Crow | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.2,
+                "best_delta": 1.2
+              },
+              "Nibiru, the Primal Being | The Chaos Creator | Evenly Matched": {
+                "count": 1,
+                "delta_total": 3.77,
+                "best_delta": 3.77
+              },
+              "Lightning Storm | Solemn Judgment | D.D. Crow": {
+                "count": 1,
+                "delta_total": 2.15,
+                "best_delta": 2.15
+              },
+              "Dragon Spirit of White | Harpie's Feather Duster | Chaos Dragon Levianeer": {
+                "count": 1,
+                "delta_total": -0.34,
+                "best_delta": -0.34
+              },
+              "Harpie's Feather Duster | Destined Rivals | Black Luster Soldier - Envoy of the Beginning": {
+                "count": 1,
+                "delta_total": 1.06,
+                "best_delta": 1.06
+              },
+              "Nibiru, the Primal Being | Skill Drain | Destined Rivals": {
+                "count": 1,
+                "delta_total": 2.03,
+                "best_delta": 2.03
+              },
+              "Nibiru, the Primal Being | Bystial Magnamhut | Lightning Storm": {
+                "count": 2,
+                "delta_total": 5.93,
+                "best_delta": 2.99
+              },
+              "Dragon Spirit of White | Nibiru, the Primal Being | The Ultimate Creature of Destruction": {
+                "count": 3,
+                "delta_total": 0.41000000000000014,
+                "best_delta": 1.83
+              },
+              "Bystial Magnamhut | Lightning Storm | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.35,
+                "best_delta": 2.35
+              },
+              "Dragon Spirit of White | Bystial Magnamhut | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": -0.59,
+                "best_delta": -0.59
+              },
+              "Solemn Judgment | Evenly Matched | Raigeki": {
+                "count": 1,
+                "delta_total": 8.55,
+                "best_delta": 8.55
+              },
+              "Evenly Matched | Harpie's Feather Duster | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 3.66,
+                "best_delta": 3.66
+              },
+              "Evenly Matched | Skill Drain | D.D. Crow": {
+                "count": 1,
+                "delta_total": 0.46,
+                "best_delta": 0.46
+              },
+              "The Chaos Creator | Nibiru, the Primal Being | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 7.27,
+                "best_delta": 7.27
+              },
+              "Nibiru, the Primal Being | Evenly Matched | D.D. Crow": {
+                "count": 1,
+                "delta_total": 0.29,
+                "best_delta": 0.29
+              },
+              "The Chaos Creator | Nibiru, the Primal Being | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 2.39,
+                "best_delta": 2.39
+              },
+              "Skill Drain | D.D. Crow | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 3.74,
+                "best_delta": 3.74
+              },
+              "The Melody of Awakening Dragon | Bystial Magnamhut | D.D. Crow": {
+                "count": 2,
+                "delta_total": 5.74,
+                "best_delta": 3.24
+              },
+              "Book of Eclipse | Nibiru, the Primal Being | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 2.62,
+                "best_delta": 2.62
+              },
+              "Solemn Judgment | Harpie's Feather Duster | Raigeki": {
+                "count": 1,
+                "delta_total": 4.6,
+                "best_delta": 4.6
+              },
+              "Raigeki | Bystial Magnamhut | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 2.1,
+                "best_delta": 2.1
               }
             },
             "best_full_side_plans": {
@@ -4952,9 +5132,9 @@
                 "best_delta": 1.48
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Evenly Matched | Raigeki": {
-                "count": 2,
-                "delta_total": 10.91,
-                "best_delta": 6.62
+                "count": 3,
+                "delta_total": 19.15,
+                "best_delta": 8.24
               },
               "IN: Nibiru, the Primal Being | Droll & Lock Bird | Ash Blossom & Joyous Spring || OUT: Destined Rivals | Bystial Druiswurm | Nibiru, the Primal Being": {
                 "count": 1,
@@ -4992,8 +5172,8 @@
                 "best_delta": 0.05
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Harpie's Feather Duster | The Ultimate Creature of Destruction": {
-                "count": 1,
-                "delta_total": 1.41,
+                "count": 2,
+                "delta_total": 2.66,
                 "best_delta": 1.41
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | The Ultimate Creature of Destruction | Bystial Magnamhut": {
@@ -5322,8 +5502,8 @@
                 "best_delta": 2.7
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Book of Eclipse | Ghost Ogre & Snow Rabbit": {
-                "count": 3,
-                "delta_total": 3.3400000000000003,
+                "count": 4,
+                "delta_total": 5.130000000000001,
                 "best_delta": 2.85
               },
               "IN: Ash Blossom & Joyous Spring | Effect Veiler | Infinite Impermanence || OUT: Dragon Spirit of White | Raigeki | Ghost Ogre & Snow Rabbit": {
@@ -6022,9 +6202,9 @@
                 "best_delta": 3.2
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Lightning Storm | Harpie's Feather Duster | The Ultimate Creature of Destruction": {
-                "count": 1,
-                "delta_total": 1.35,
-                "best_delta": 1.35
+                "count": 2,
+                "delta_total": 7.529999999999999,
+                "best_delta": 6.18
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: The Melody of Awakening Dragon | Lightning Storm | Harpie's Feather Duster": {
                 "count": 1,
@@ -6122,8 +6302,8 @@
                 "best_delta": 2.18
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Book of Eclipse | Lightning Storm": {
-                "count": 2,
-                "delta_total": 8.51,
+                "count": 3,
+                "delta_total": 13.05,
                 "best_delta": 7.2
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: The Ultimate Creature of Destruction | Bystial Magnamhut | Raigeki": {
@@ -6287,9 +6467,9 @@
                 "best_delta": 0.88
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Lightning Storm | Harpie's Feather Duster": {
-                "count": 1,
-                "delta_total": -0.58,
-                "best_delta": -0.58
+                "count": 2,
+                "delta_total": -0.05999999999999994,
+                "best_delta": 0.52
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Lightning Storm | Bystial Magnamhut | D.D. Crow": {
                 "count": 2,
@@ -6437,9 +6617,9 @@
                 "best_delta": 2.25
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Evenly Matched": {
-                "count": 1,
-                "delta_total": -1.86,
-                "best_delta": -1.86
+                "count": 2,
+                "delta_total": 0.9099999999999999,
+                "best_delta": 2.77
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Black Luster Soldier - Envoy of the Beginning | Solemn Strike | The Chaos Creator": {
                 "count": 1,
@@ -6637,9 +6817,9 @@
                 "best_delta": 2.98
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: The Chaos Creator | Lightning Storm | D.D. Crow": {
-                "count": 1,
-                "delta_total": 7.22,
-                "best_delta": 7.22
+                "count": 2,
+                "delta_total": 16.52,
+                "best_delta": 9.3
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Black Luster Soldier - Envoy of the Beginning | The Chaos Creator": {
                 "count": 1,
@@ -6752,14 +6932,14 @@
                 "best_delta": 1.28
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Harpie's Feather Duster": {
-                "count": 1,
-                "delta_total": 5.18,
-                "best_delta": 5.18
+                "count": 2,
+                "delta_total": 11.309999999999999,
+                "best_delta": 6.13
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Book of Eclipse | The Chaos Creator": {
-                "count": 2,
-                "delta_total": 1.13,
-                "best_delta": 1.24
+                "count": 4,
+                "delta_total": 7.039999999999999,
+                "best_delta": 3.94
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Harpie's Feather Duster | Black Luster Soldier - Envoy of the Beginning | Destined Rivals": {
                 "count": 1,
@@ -6787,9 +6967,9 @@
                 "best_delta": 4.86
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Book of Eclipse | Solemn Judgment": {
-                "count": 9,
-                "delta_total": 14.760000000000002,
-                "best_delta": 3.33
+                "count": 11,
+                "delta_total": 21.730000000000004,
+                "best_delta": 5.9
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Solemn Strike | Solemn Judgment": {
                 "count": 2,
@@ -7207,8 +7387,8 @@
                 "best_delta": 2.51
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Solemn Judgment | Lightning Storm": {
-                "count": 2,
-                "delta_total": 4.26,
+                "count": 3,
+                "delta_total": 5.57,
                 "best_delta": 4.05
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: D.D. Crow | Dark Ruler No More | Destined Rivals": {
@@ -7532,9 +7712,9 @@
                 "best_delta": 0.68
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Book of Eclipse | Solemn Judgment": {
-                "count": 3,
-                "delta_total": 9.2,
-                "best_delta": 5.42
+                "count": 4,
+                "delta_total": 16.38,
+                "best_delta": 7.18
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Solemn Judgment | D.D. Crow": {
                 "count": 1,
@@ -7542,8 +7722,8 @@
                 "best_delta": 2.28
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Lightning Storm | Skill Drain": {
-                "count": 1,
-                "delta_total": 2.82,
+                "count": 2,
+                "delta_total": 4.4,
                 "best_delta": 2.82
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Harpie's Feather Duster | The Ultimate Creature of Destruction | D.D. Crow": {
@@ -7872,8 +8052,8 @@
                 "best_delta": 1.52
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Book of Eclipse | Harpie's Feather Duster": {
-                "count": 1,
-                "delta_total": 2.12,
+                "count": 2,
+                "delta_total": 3.16,
                 "best_delta": 2.12
               },
               "IN: Infinite Impermanence | Effect Veiler | Nibiru, the Primal Being || OUT: Dragon Spirit of White | Solemn Judgment | Raigeki": {
@@ -7907,9 +8087,9 @@
                 "best_delta": 1.33
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More || OUT: Dragon Spirit of White | Lightning Storm | Harpie's Feather Duster": {
-                "count": 1,
-                "delta_total": 1.39,
-                "best_delta": 1.39
+                "count": 2,
+                "delta_total": 4.6899999999999995,
+                "best_delta": 3.3
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Solemn Judgment | Raigeki": {
                 "count": 1,
@@ -8167,9 +8347,9 @@
                 "best_delta": 2.98
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Book of Eclipse | Solemn Judgment | Evenly Matched": {
-                "count": 1,
-                "delta_total": 2.61,
-                "best_delta": 2.61
+                "count": 2,
+                "delta_total": 6.34,
+                "best_delta": 3.73
               },
               "IN: Ash Blossom & Joyous Spring | Effect Veiler | Nibiru, the Primal Being || OUT: Dragon Spirit of White | Raigeki | D.D. Crow": {
                 "count": 1,
@@ -8362,9 +8542,9 @@
                 "best_delta": 3.22
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Nibiru, the Primal Being | Lightning Storm | D.D. Crow": {
-                "count": 1,
-                "delta_total": 0.22,
-                "best_delta": 0.22
+                "count": 2,
+                "delta_total": 3.52,
+                "best_delta": 3.3
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Chaos Form | Evenly Matched | Nibiru, the Primal Being": {
                 "count": 1,
@@ -8427,9 +8607,9 @@
                 "best_delta": 3.41
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Raigeki | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
-                "count": 1,
-                "delta_total": -0.06,
-                "best_delta": -0.06
+                "count": 2,
+                "delta_total": 7.300000000000001,
+                "best_delta": 7.36
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Chaos Form | Nibiru, the Primal Being | Harpie's Feather Duster": {
                 "count": 1,
@@ -8457,9 +8637,9 @@
                 "best_delta": 2.84
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Harpie's Feather Duster | Raigeki | D.D. Crow": {
-                "count": 1,
-                "delta_total": 3.45,
-                "best_delta": 3.45
+                "count": 2,
+                "delta_total": 8.81,
+                "best_delta": 5.36
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Chaos Dragon Levianeer": {
                 "count": 2,
@@ -8527,8 +8707,8 @@
                 "best_delta": 4.33
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Evenly Matched": {
-                "count": 1,
-                "delta_total": 2.22,
+                "count": 2,
+                "delta_total": 3.9800000000000004,
                 "best_delta": 2.22
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Evenly Matched | Ghost Ogre & Snow Rabbit | Destined Rivals": {
@@ -8632,9 +8812,9 @@
                 "best_delta": 4.34
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Lightning Storm": {
-                "count": 1,
-                "delta_total": 3.57,
-                "best_delta": 3.57
+                "count": 2,
+                "delta_total": 7.4,
+                "best_delta": 3.83
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Deep-Eyes White Dragon | Nibiru, the Primal Being": {
                 "count": 1,
@@ -8642,8 +8822,8 @@
                 "best_delta": 2.82
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Nibiru, the Primal Being | The Chaos Creator": {
-                "count": 1,
-                "delta_total": 10.54,
+                "count": 2,
+                "delta_total": 14.93,
                 "best_delta": 10.54
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | The Chaos Creator | Harpie's Feather Duster": {
@@ -8652,8 +8832,8 @@
                 "best_delta": 0.93
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | The Chaos Creator": {
-                "count": 1,
-                "delta_total": 9.27,
+                "count": 3,
+                "delta_total": 19.08,
                 "best_delta": 9.27
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Harpie's Feather Duster | Chaos Dragon Levianeer | D.D. Crow": {
@@ -8667,9 +8847,9 @@
                 "best_delta": 6.3
               },
               "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Nibiru, the Primal Being": {
-                "count": 2,
-                "delta_total": 4.8,
-                "best_delta": 3.71
+                "count": 3,
+                "delta_total": 10.08,
+                "best_delta": 5.28
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: The Chaos Creator | Nibiru, the Primal Being | Lightning Storm": {
                 "count": 1,
@@ -8682,8 +8862,8 @@
                 "best_delta": 2.94
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | The Chaos Creator | Lightning Storm": {
-                "count": 1,
-                "delta_total": 2.04,
+                "count": 2,
+                "delta_total": 1.06,
                 "best_delta": 2.04
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Nibiru, the Primal Being": {
@@ -8692,9 +8872,324 @@
                 "best_delta": 6.11
               },
               "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Nibiru, the Primal Being | Solemn Judgment | Lightning Storm": {
-                "count": 1,
-                "delta_total": 7.94,
+                "count": 2,
+                "delta_total": 13.0,
                 "best_delta": 7.94
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Lightning Storm": {
+                "count": 1,
+                "delta_total": 10.8,
+                "best_delta": 10.8
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Raigeki | Ghost Ogre & Snow Rabbit | Destined Rivals": {
+                "count": 1,
+                "delta_total": 3.69,
+                "best_delta": 3.69
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Nibiru, the Primal Being | Lightning Storm | Evenly Matched": {
+                "count": 1,
+                "delta_total": 6.02,
+                "best_delta": 6.02
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Ghost Ogre & Snow Rabbit | D.D. Crow | Solemn Strike": {
+                "count": 1,
+                "delta_total": -0.29,
+                "best_delta": -0.29
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Harpie's Feather Duster | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 4.8,
+                "best_delta": 4.8
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Evenly Matched || OUT: Dragon Spirit of White | Evenly Matched | Raigeki": {
+                "count": 1,
+                "delta_total": 6.32,
+                "best_delta": 6.32
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Lightning Storm": {
+                "count": 5,
+                "delta_total": 16.75,
+                "best_delta": 5.98
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Dark Ruler No More || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -0.35,
+                "best_delta": -0.35
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Lightning Storm": {
+                "count": 2,
+                "delta_total": 9.31,
+                "best_delta": 6.79
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Solemn Judgment | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 2,
+                "delta_total": 7.370000000000001,
+                "best_delta": 4.23
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Nibiru, the Primal Being | Evenly Matched | Raigeki": {
+                "count": 2,
+                "delta_total": 5.48,
+                "best_delta": 6.49
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Raigeki | The Ultimate Creature of Destruction | Solemn Strike": {
+                "count": 1,
+                "delta_total": 6.49,
+                "best_delta": 6.49
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Lightning Storm | Solemn Judgment | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 6.7,
+                "best_delta": 6.7
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 3.63,
+                "best_delta": 3.63
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Harpie's Feather Duster | Raigeki | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 2.9,
+                "best_delta": 2.9
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Evenly Matched | The Ultimate Creature of Destruction | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 0.36,
+                "best_delta": 0.36
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Lightning Storm | Evenly Matched | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 8.15,
+                "best_delta": 8.15
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More || OUT: Dragon Spirit of White | Nibiru, the Primal Being | The Chaos Creator": {
+                "count": 1,
+                "delta_total": 1.76,
+                "best_delta": 1.76
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Solemn Judgment": {
+                "count": 2,
+                "delta_total": 10.74,
+                "best_delta": 6.4
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | The Chaos Creator": {
+                "count": 1,
+                "delta_total": 1.89,
+                "best_delta": 1.89
+              },
+              "IN: Infinite Impermanence | Effect Veiler | Dark Ruler No More || OUT: Dragon Spirit of White | Solemn Judgment | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 3.99,
+                "best_delta": 3.99
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Raigeki | Chaos Dragon Levianeer | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": -0.28,
+                "best_delta": -0.28
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Book of Eclipse | The Chaos Creator | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 1.22,
+                "best_delta": 1.22
+              },
+              "IN: Droll & Lock Bird | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 0.29,
+                "best_delta": 0.29
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Nibiru, the Primal Being | Harpie's Feather Duster | Raigeki": {
+                "count": 1,
+                "delta_total": 0.36,
+                "best_delta": 0.36
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Book of Eclipse | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 2.04,
+                "best_delta": 2.04
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Lightning Storm | D.D. Crow | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 1.2,
+                "best_delta": 1.2
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Nibiru, the Primal Being | The Chaos Creator | Evenly Matched": {
+                "count": 1,
+                "delta_total": 3.77,
+                "best_delta": 3.77
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Lightning Storm | Solemn Judgment | D.D. Crow": {
+                "count": 1,
+                "delta_total": 2.15,
+                "best_delta": 2.15
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Harpie's Feather Duster | Chaos Dragon Levianeer": {
+                "count": 1,
+                "delta_total": -0.34,
+                "best_delta": -0.34
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | The Chaos Creator | Lightning Storm": {
+                "count": 1,
+                "delta_total": 2.73,
+                "best_delta": 2.73
+              },
+              "IN: Infinite Impermanence | Effect Veiler | Nibiru, the Primal Being || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Lightning Storm": {
+                "count": 1,
+                "delta_total": 3.05,
+                "best_delta": 3.05
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Lightning Storm | Skill Drain | D.D. Crow": {
+                "count": 1,
+                "delta_total": 2.34,
+                "best_delta": 2.34
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Harpie's Feather Duster | Destined Rivals | Black Luster Soldier - Envoy of the Beginning": {
+                "count": 1,
+                "delta_total": 1.06,
+                "best_delta": 1.06
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Nibiru, the Primal Being | Skill Drain | Destined Rivals": {
+                "count": 1,
+                "delta_total": 2.03,
+                "best_delta": 2.03
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Nibiru, the Primal Being | Bystial Magnamhut | Lightning Storm": {
+                "count": 1,
+                "delta_total": 2.99,
+                "best_delta": 2.99
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Nibiru, the Primal Being | Bystial Magnamhut | Lightning Storm": {
+                "count": 1,
+                "delta_total": 2.94,
+                "best_delta": 2.94
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More || OUT: Dragon Spirit of White | Nibiru, the Primal Being | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 1.83,
+                "best_delta": 1.83
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Bystial Magnamhut | Lightning Storm | Skill Drain": {
+                "count": 1,
+                "delta_total": 2.35,
+                "best_delta": 2.35
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Evenly Matched": {
+                "count": 5,
+                "delta_total": 10.76,
+                "best_delta": 4.2
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Bystial Magnamhut | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": -0.59,
+                "best_delta": -0.59
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | The Ultimate Creature of Destruction": {
+                "count": 2,
+                "delta_total": -1.42,
+                "best_delta": -0.27
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Solemn Judgment | Evenly Matched | Raigeki": {
+                "count": 1,
+                "delta_total": 8.55,
+                "best_delta": 8.55
+              },
+              "IN: Droll & Lock Bird | Infinite Impermanence | Effect Veiler || OUT: Evenly Matched | Harpie's Feather Duster | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 3.66,
+                "best_delta": 3.66
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Evenly Matched | Skill Drain | D.D. Crow": {
+                "count": 1,
+                "delta_total": 0.46,
+                "best_delta": 0.46
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More || OUT: Dragon Spirit of White | Harpie's Feather Duster | Raigeki": {
+                "count": 1,
+                "delta_total": 4.0,
+                "best_delta": 4.0
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: The Chaos Creator | Nibiru, the Primal Being | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 7.27,
+                "best_delta": 7.27
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Nibiru, the Primal Being | Evenly Matched | D.D. Crow": {
+                "count": 1,
+                "delta_total": 0.29,
+                "best_delta": 0.29
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: The Chaos Creator | Nibiru, the Primal Being | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 2.39,
+                "best_delta": 2.39
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Skill Drain | D.D. Crow | Ghost Ogre & Snow Rabbit": {
+                "count": 1,
+                "delta_total": 3.74,
+                "best_delta": 3.74
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Dragon Spirit of White | The Chaos Creator | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 10.43,
+                "best_delta": 10.43
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: The Melody of Awakening Dragon | Bystial Magnamhut | D.D. Crow": {
+                "count": 2,
+                "delta_total": 5.74,
+                "best_delta": 3.24
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Book of Eclipse | Nibiru, the Primal Being | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 2.62,
+                "best_delta": 2.62
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Deep-Eyes White Dragon | Nibiru, the Primal Being": {
+                "count": 2,
+                "delta_total": 11.91,
+                "best_delta": 6.98
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More || OUT: Dragon Spirit of White | Raigeki | Bystial Magnamhut": {
+                "count": 1,
+                "delta_total": 1.19,
+                "best_delta": 1.19
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More || OUT: Dragon Spirit of White | Lightning Storm | The Ultimate Creature of Destruction": {
+                "count": 1,
+                "delta_total": 1.84,
+                "best_delta": 1.84
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Solemn Judgment": {
+                "count": 1,
+                "delta_total": 1.82,
+                "best_delta": 1.82
+              },
+              "IN: Effect Veiler | Nibiru, the Primal Being | Dark Ruler No More || OUT: Dragon Spirit of White | Book of Eclipse | Nibiru, the Primal Being": {
+                "count": 1,
+                "delta_total": 1.59,
+                "best_delta": 1.59
+              },
+              "IN: Ash Blossom & Joyous Spring | Infinite Impermanence | Effect Veiler || OUT: Solemn Judgment | Harpie's Feather Duster | Raigeki": {
+                "count": 1,
+                "delta_total": 4.6,
+                "best_delta": 4.6
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Infinite Impermanence || OUT: Raigeki | Bystial Magnamhut | The Melody of Awakening Dragon": {
+                "count": 1,
+                "delta_total": 2.1,
+                "best_delta": 2.1
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Effect Veiler || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Harpie's Feather Duster": {
+                "count": 1,
+                "delta_total": 5.3,
+                "best_delta": 5.3
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More || OUT: Dragon Spirit of White | Nibiru, the Primal Being | Bystial Magnamhut": {
+                "count": 1,
+                "delta_total": 1.95,
+                "best_delta": 1.95
+              },
+              "IN: Droll & Lock Bird | Ash Blossom & Joyous Spring | Dark Ruler No More || OUT: Dragon Spirit of White | Solemn Judgment | Lightning Storm": {
+                "count": 1,
+                "delta_total": 4.45,
+                "best_delta": 4.45
               }
             },
             "valid_candidate_rate_history": [
@@ -8900,114 +9395,6 @@
               1.0
             ],
             "post_side_score_history": [
-              282.38,
-              310.62,
-              280.56,
-              304.85,
-              306.36,
-              309.87,
-              308.32,
-              286.87,
-              306.12,
-              275.5,
-              305.47,
-              280.79,
-              307.9,
-              276.14,
-              308.34,
-              277.76,
-              282.21,
-              311.18,
-              312.88,
-              309.22,
-              276.24,
-              306.78,
-              284.15,
-              305.69,
-              273.31,
-              302.82,
-              303.84,
-              306.85,
-              307.35,
-              307.06,
-              310.83,
-              307.61,
-              308.16,
-              279.83,
-              305.89,
-              282.24,
-              309.97,
-              307.01,
-              285.47,
-              278.08,
-              280.79,
-              278.94,
-              274.08,
-              307.07,
-              306.6,
-              284.11,
-              306.15,
-              304.23,
-              282.86,
-              306.12,
-              283.58,
-              307.17,
-              279.13,
-              281.44,
-              304.73,
-              280.46,
-              284.24,
-              303.13,
-              283.01,
-              282.64,
-              309.98,
-              302.74,
-              267.93,
-              281.88,
-              306.08,
-              308.82,
-              303.99,
-              281.62,
-              306.37,
-              278.07,
-              304.75,
-              277.63,
-              306.83,
-              310.92,
-              305.94,
-              307.44,
-              272.57,
-              265.95,
-              282.77,
-              298.9,
-              282.55,
-              281.9,
-              278.92,
-              301.19,
-              272.08,
-              277.51,
-              279.15,
-              299.81,
-              286.98,
-              305.18,
-              272.24,
-              277.4,
-              274.23,
-              303.27,
-              276.67,
-              302.88,
-              280.04,
-              280.22,
-              280.02,
-              280.95,
-              279.64,
-              305.37,
-              281.07,
-              302.7,
-              303.44,
-              277.57,
-              305.83,
-              280.2,
               275.46,
               305.44,
               306.14,
@@ -9099,117 +9486,117 @@
               306.41,
               284.98,
               281.48,
-              304.34
+              304.34,
+              307.42,
+              213.81,
+              311.39,
+              308.91,
+              283.07,
+              306.88,
+              309.01,
+              308.01,
+              307.59,
+              305.91,
+              306.56,
+              280.94,
+              311.16,
+              276.27,
+              307.14,
+              306.28,
+              287.47,
+              310.11,
+              284.09,
+              305.98,
+              306.92,
+              284.2,
+              283.2,
+              306.95,
+              311.29,
+              303.9,
+              275.05,
+              281.6,
+              306.26,
+              307.82,
+              286.82,
+              275.78,
+              310.45,
+              282.71,
+              280.19,
+              309.49,
+              284.71,
+              288.48,
+              311.34,
+              281.5,
+              309.54,
+              307.21,
+              305.25,
+              276.2,
+              302.96,
+              285.35,
+              308.93,
+              280.88,
+              309.34,
+              308.8,
+              307.26,
+              309.82,
+              283.53,
+              283.27,
+              279.31,
+              307.05,
+              271.96,
+              283.39,
+              306.42,
+              284.54,
+              282.97,
+              281.71,
+              306.17,
+              274.64,
+              285.4,
+              309.83,
+              312.28,
+              305.18,
+              308.93,
+              273.6,
+              281.71,
+              284.83,
+              275.56,
+              306.02,
+              305.55,
+              306.12,
+              310.66,
+              306.68,
+              282.02,
+              308.98,
+              278.43,
+              310.86,
+              283.25,
+              304.0,
+              275.73,
+              309.0,
+              283.93,
+              284.7,
+              284.74,
+              281.56,
+              279.71,
+              276.35,
+              276.81,
+              281.67,
+              285.54,
+              277.64,
+              307.99,
+              306.26,
+              278.41,
+              284.11,
+              310.45,
+              307.34,
+              281.14,
+              305.02,
+              306.79,
+              283.32,
+              310.24,
+              273.18
             ],
             "post_side_delta_history": [
-              2.73,
-              2.31,
-              1.69,
-              0.45,
-              3.34,
-              3.64,
-              0.38,
-              6.9,
-              1.56,
-              -0.86,
-              1.94,
-              0.51,
-              1.65,
-              0.36,
-              1.27,
-              2.88,
-              1.08,
-              2.43,
-              2.89,
-              3.88,
-              1.0,
-              3.81,
-              4.7,
-              7.01,
-              1.32,
-              0.75,
-              5.21,
-              1.8,
-              1.74,
-              0.36,
-              3.42,
-              1.17,
-              3.18,
-              0.68,
-              1.54,
-              1.3,
-              1.82,
-              2.09,
-              1.71,
-              0.8,
-              1.52,
-              6.04,
-              7.27,
-              -0.71,
-              1.47,
-              1.31,
-              2.98,
-              -2.04,
-              2.61,
-              6.66,
-              0.27,
-              0.6,
-              6.6,
-              1.49,
-              1.1,
-              3.52,
-              5.59,
-              0.42,
-              4.9,
-              5.71,
-              0.68,
-              3.08,
-              7.14,
-              5.45,
-              1.43,
-              2.16,
-              0.99,
-              8.03,
-              0.81,
-              0.94,
-              7.64,
-              3.13,
-              0.56,
-              2.91,
-              7.12,
-              3.43,
-              3.26,
-              2.39,
-              1.22,
-              3.52,
-              2.24,
-              1.34,
-              0.82,
-              3.58,
-              -0.04,
-              6.54,
-              0.82,
-              1.65,
-              4.48,
-              4.41,
-              5.02,
-              0.34,
-              3.16,
-              5.45,
-              6.68,
-              6.9,
-              5.18,
-              5.03,
-              3.69,
-              2.61,
-              4.49,
-              2.98,
-              3.39,
-              0.22,
-              6.12,
-              3.22,
-              2.89,
-              3.47,
               2.55,
               3.13,
               2.84,
@@ -9301,45 +9688,153 @@
               3.71,
               6.11,
               7.94,
-              0.76
+              0.76,
+              1.97,
+              10.8,
+              1.31,
+              3.69,
+              6.02,
+              -0.29,
+              4.8,
+              6.32,
+              7.36,
+              1.14,
+              -0.35,
+              6.79,
+              4.23,
+              6.49,
+              2.52,
+              6.49,
+              6.7,
+              3.63,
+              2.9,
+              -1.01,
+              1.79,
+              0.36,
+              8.15,
+              1.76,
+              4.34,
+              1.89,
+              -0.98,
+              3.99,
+              -0.28,
+              1.22,
+              6.13,
+              3.83,
+              2.42,
+              0.29,
+              4.39,
+              5.9,
+              0.36,
+              2.04,
+              1.2,
+              7.39,
+              3.77,
+              9.3,
+              2.15,
+              -0.34,
+              2.73,
+              3.05,
+              3.3,
+              1.04,
+              2.34,
+              1.06,
+              1.07,
+              2.03,
+              3.14,
+              4.13,
+              2.99,
+              2.94,
+              1.83,
+              2.35,
+              3.31,
+              -0.59,
+              0.19,
+              -0.27,
+              6.4,
+              1.58,
+              7.18,
+              8.55,
+              3.73,
+              3.66,
+              0.46,
+              1.76,
+              1.39,
+              5.36,
+              4.0,
+              7.27,
+              3.94,
+              6.18,
+              4.2,
+              0.29,
+              3.3,
+              2.39,
+              5.28,
+              3.74,
+              2.77,
+              10.43,
+              5.98,
+              4.7,
+              2.5,
+              2.62,
+              6.98,
+              1.25,
+              1.19,
+              4.93,
+              5.06,
+              1.84,
+              0.8,
+              3.24,
+              0.52,
+              -1.15,
+              1.67,
+              1.82,
+              4.54,
+              1.59,
+              4.6,
+              2.1,
+              5.3,
+              8.24,
+              1.95,
+              4.45
             ],
             "rejected_side_cards": {},
             "cards_frequently_present_in_bad_side_plans": {
-              "Infinite Impermanence": 92,
-              "Effect Veiler": 84,
-              "Droll & Lock Bird": 40,
-              "Dragon Spirit of White": 76,
+              "Infinite Impermanence": 100,
+              "Effect Veiler": 89,
+              "Droll & Lock Bird": 44,
+              "Dragon Spirit of White": 82,
               "True Light": 3,
               "The Bystial Lubellion": 1,
-              "Nibiru, the Primal Being": 22,
-              "Harpie's Feather Duster": 16,
-              "D.D. Crow": 29,
-              "Ash Blossom & Joyous Spring": 103,
+              "Nibiru, the Primal Being": 26,
+              "Harpie's Feather Duster": 18,
+              "D.D. Crow": 30,
+              "Ash Blossom & Joyous Spring": 112,
               "Book of Eclipse": 24,
-              "Bystial Magnamhut": 4,
-              "Raigeki": 14,
-              "Lightning Storm": 16,
-              "Ghost Ogre & Snow Rabbit": 13,
-              "Dark Ruler No More": 17,
-              "Evenly Matched": 18,
+              "Bystial Magnamhut": 5,
+              "Raigeki": 16,
+              "Lightning Storm": 17,
+              "Ghost Ogre & Snow Rabbit": 16,
+              "Dark Ruler No More": 18,
+              "Evenly Matched": 19,
               "Bystial Druiswurm": 5,
               "The Melody of Awakening Dragon": 8,
               "Skill Drain": 8,
               "Destined Rivals": 10,
-              "The Ultimate Creature of Destruction": 16,
-              "The Chaos Creator": 8,
+              "The Ultimate Creature of Destruction": 18,
+              "The Chaos Creator": 9,
               "Solemn Judgment": 9,
               "Black Luster Soldier - Envoy of the Beginning": 7,
               "Forbidden Droplet": 6,
               "Branded Regained": 5,
               "Ghost Belle & Haunted Mansion": 6,
-              "Solemn Strike": 7,
-              "Chaos Dragon Levianeer": 7,
+              "Solemn Strike": 8,
+              "Chaos Dragon Levianeer": 9,
               "Deep-Eyes White Dragon": 1,
               "Advanced Ritual Art": 2,
               "Chaos Form": 1
             },
-            "updated_at_utc": "2026-06-04T06:54:37.294601+00:00",
+            "updated_at_utc": "2026-06-09T07:28:27.952024+00:00",
             "last_update_provenance": {
               "source": "manual",
               "validator_generated": false,
@@ -9347,7 +9842,7 @@
               "legal": null,
               "confidence_score": null,
               "improvement": null,
-              "timestamp": "2026-06-04T06:54:37.290884+00:00"
+              "timestamp": "2026-06-09T07:28:27.949725+00:00"
             }
           }
         },
@@ -10073,7 +10568,7 @@
     "legal": null,
     "confidence_score": null,
     "improvement": null,
-    "timestamp": "2026-06-04T06:54:37.290884+00:00"
+    "timestamp": "2026-06-09T07:28:27.949725+00:00"
   },
   "provenance_log": [
     {
@@ -10083,7 +10578,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:38:31.976717+00:00"
+      "timestamp": "2026-06-05T03:31:46.691135+00:00"
     },
     {
       "source": "manual",
@@ -10092,7 +10587,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:39:37.111777+00:00"
+      "timestamp": "2026-06-05T03:32:39.151677+00:00"
     },
     {
       "source": "manual",
@@ -10101,7 +10596,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:44:13.087171+00:00"
+      "timestamp": "2026-06-05T03:33:31.311039+00:00"
     },
     {
       "source": "manual",
@@ -10110,7 +10605,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:45:18.773546+00:00"
+      "timestamp": "2026-06-05T03:38:01.753151+00:00"
     },
     {
       "source": "manual",
@@ -10119,7 +10614,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:46:26.352398+00:00"
+      "timestamp": "2026-06-05T03:39:05.932813+00:00"
     },
     {
       "source": "manual",
@@ -10128,7 +10623,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:47:34.534072+00:00"
+      "timestamp": "2026-06-05T03:43:07.803977+00:00"
     },
     {
       "source": "manual",
@@ -10137,7 +10632,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:48:40.293630+00:00"
+      "timestamp": "2026-06-05T03:43:08.038778+00:00"
     },
     {
       "source": "manual",
@@ -10146,7 +10641,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:49:49.391507+00:00"
+      "timestamp": "2026-06-05T06:36:50.186667+00:00"
     },
     {
       "source": "manual",
@@ -10155,7 +10650,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:50:55.412826+00:00"
+      "timestamp": "2026-06-05T06:38:19.609912+00:00"
     },
     {
       "source": "manual",
@@ -10164,7 +10659,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:52:04.262470+00:00"
+      "timestamp": "2026-06-05T06:39:48.859999+00:00"
     },
     {
       "source": "manual",
@@ -10173,7 +10668,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:53:10.379091+00:00"
+      "timestamp": "2026-06-05T06:56:31.667217+00:00"
     },
     {
       "source": "manual",
@@ -10182,7 +10677,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:54:39.742576+00:00"
+      "timestamp": "2026-06-05T06:56:54.711111+00:00"
     },
     {
       "source": "manual",
@@ -10191,7 +10686,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:55:40.551379+00:00"
+      "timestamp": "2026-06-05T06:58:27.341475+00:00"
     },
     {
       "source": "manual",
@@ -10200,7 +10695,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:56:42.542859+00:00"
+      "timestamp": "2026-06-05T07:06:17.077988+00:00"
     },
     {
       "source": "manual",
@@ -10209,7 +10704,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:57:45.215076+00:00"
+      "timestamp": "2026-06-05T07:12:57.212179+00:00"
     },
     {
       "source": "manual",
@@ -10218,7 +10713,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:58:45.731155+00:00"
+      "timestamp": "2026-06-05T07:17:44.924924+00:00"
     },
     {
       "source": "manual",
@@ -10227,7 +10722,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T04:59:49.568144+00:00"
+      "timestamp": "2026-06-05T07:19:04.902564+00:00"
     },
     {
       "source": "manual",
@@ -10236,7 +10731,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:00:50.005025+00:00"
+      "timestamp": "2026-06-05T07:45:31.349809+00:00"
     },
     {
       "source": "manual",
@@ -10245,7 +10740,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:01:53.156726+00:00"
+      "timestamp": "2026-06-05T07:47:00.747635+00:00"
     },
     {
       "source": "manual",
@@ -10254,7 +10749,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:02:53.698637+00:00"
+      "timestamp": "2026-06-05T08:03:15.344948+00:00"
     },
     {
       "source": "manual",
@@ -10263,7 +10758,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:04:37.855478+00:00"
+      "timestamp": "2026-06-05T08:03:15.473254+00:00"
     },
     {
       "source": "manual",
@@ -10272,7 +10767,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:05:38.794335+00:00"
+      "timestamp": "2026-06-05T08:06:34.159776+00:00"
     },
     {
       "source": "manual",
@@ -10281,7 +10776,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:06:41.115211+00:00"
+      "timestamp": "2026-06-05T08:07:52.740312+00:00"
     },
     {
       "source": "manual",
@@ -10290,7 +10785,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:07:43.655326+00:00"
+      "timestamp": "2026-06-05T08:09:10.052545+00:00"
     },
     {
       "source": "manual",
@@ -10299,7 +10794,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:08:44.164046+00:00"
+      "timestamp": "2026-06-05T19:56:14.977454+00:00"
     },
     {
       "source": "manual",
@@ -10308,7 +10803,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:09:47.435823+00:00"
+      "timestamp": "2026-06-05T19:59:50.555063+00:00"
     },
     {
       "source": "manual",
@@ -10317,7 +10812,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:10:47.904108+00:00"
+      "timestamp": "2026-06-05T20:04:15.796598+00:00"
     },
     {
       "source": "manual",
@@ -10326,7 +10821,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:11:51.273071+00:00"
+      "timestamp": "2026-06-05T20:05:09.952921+00:00"
     },
     {
       "source": "manual",
@@ -10335,7 +10830,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:12:51.582793+00:00"
+      "timestamp": "2026-06-05T20:09:15.197430+00:00"
     },
     {
       "source": "manual",
@@ -10344,7 +10839,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:13:55.176901+00:00"
+      "timestamp": "2026-06-05T20:10:08.560303+00:00"
     },
     {
       "source": "manual",
@@ -10353,7 +10848,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:14:55.755005+00:00"
+      "timestamp": "2026-06-05T20:11:02.071462+00:00"
     },
     {
       "source": "manual",
@@ -10362,7 +10857,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:16:08.783442+00:00"
+      "timestamp": "2026-06-05T20:14:10.907069+00:00"
     },
     {
       "source": "manual",
@@ -10371,7 +10866,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:17:09.313327+00:00"
+      "timestamp": "2026-06-05T20:14:11.120499+00:00"
     },
     {
       "source": "manual",
@@ -10380,7 +10875,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:20:43.997872+00:00"
+      "timestamp": "2026-06-06T01:07:45.832682+00:00"
     },
     {
       "source": "manual",
@@ -10389,7 +10884,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:21:44.909982+00:00"
+      "timestamp": "2026-06-06T01:09:08.017539+00:00"
     },
     {
       "source": "manual",
@@ -10398,7 +10893,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:28:58.419533+00:00"
+      "timestamp": "2026-06-06T01:17:48.074441+00:00"
     },
     {
       "source": "manual",
@@ -10407,7 +10902,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:38:11.875957+00:00"
+      "timestamp": "2026-06-06T01:19:28.931982+00:00"
     },
     {
       "source": "manual",
@@ -10416,7 +10911,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:41:51.230072+00:00"
+      "timestamp": "2026-06-06T01:28:29.831089+00:00"
     },
     {
       "source": "manual",
@@ -10425,7 +10920,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:42:54.220162+00:00"
+      "timestamp": "2026-06-06T01:29:45.672574+00:00"
     },
     {
       "source": "manual",
@@ -10434,7 +10929,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:43:57.206086+00:00"
+      "timestamp": "2026-06-06T01:35:22.795374+00:00"
     },
     {
       "source": "manual",
@@ -10443,7 +10938,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:44:57.979751+00:00"
+      "timestamp": "2026-06-06T01:36:36.804582+00:00"
     },
     {
       "source": "manual",
@@ -10452,7 +10947,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:46:01.803076+00:00"
+      "timestamp": "2026-06-06T01:40:48.334009+00:00"
     },
     {
       "source": "manual",
@@ -10461,7 +10956,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:47:02.626250+00:00"
+      "timestamp": "2026-06-06T01:42:07.566991+00:00"
     },
     {
       "source": "manual",
@@ -10470,7 +10965,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:48:06.845042+00:00"
+      "timestamp": "2026-06-06T08:12:35.859445+00:00"
     },
     {
       "source": "manual",
@@ -10479,7 +10974,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:49:07.877856+00:00"
+      "timestamp": "2026-06-06T08:15:45.848059+00:00"
     },
     {
       "source": "manual",
@@ -10488,7 +10983,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:50:34.682990+00:00"
+      "timestamp": "2026-06-06T08:22:56.118594+00:00"
     },
     {
       "source": "manual",
@@ -10497,7 +10992,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:51:35.672850+00:00"
+      "timestamp": "2026-06-06T08:23:49.079525+00:00"
     },
     {
       "source": "manual",
@@ -10506,7 +11001,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:52:37.973880+00:00"
+      "timestamp": "2026-06-06T08:28:25.826321+00:00"
     },
     {
       "source": "manual",
@@ -10515,7 +11010,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:53:41.209103+00:00"
+      "timestamp": "2026-06-06T08:29:18.588442+00:00"
     },
     {
       "source": "manual",
@@ -10524,7 +11019,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:54:41.838091+00:00"
+      "timestamp": "2026-06-06T08:32:15.634490+00:00"
     },
     {
       "source": "manual",
@@ -10533,7 +11028,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:55:45.755833+00:00"
+      "timestamp": "2026-06-06T08:33:21.565918+00:00"
     },
     {
       "source": "manual",
@@ -10542,7 +11037,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:56:46.604584+00:00"
+      "timestamp": "2026-06-06T16:59:41.210721+00:00"
     },
     {
       "source": "manual",
@@ -10551,7 +11046,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:57:50.466511+00:00"
+      "timestamp": "2026-06-06T17:02:53.386770+00:00"
     },
     {
       "source": "manual",
@@ -10560,7 +11055,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T05:58:50.995588+00:00"
+      "timestamp": "2026-06-06T17:08:56.634963+00:00"
     },
     {
       "source": "manual",
@@ -10569,7 +11064,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:00:35.761845+00:00"
+      "timestamp": "2026-06-06T17:09:52.591265+00:00"
     },
     {
       "source": "manual",
@@ -10578,7 +11073,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:01:36.547051+00:00"
+      "timestamp": "2026-06-06T17:17:02.034837+00:00"
     },
     {
       "source": "manual",
@@ -10587,7 +11082,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:02:38.552737+00:00"
+      "timestamp": "2026-06-06T17:17:55.022753+00:00"
     },
     {
       "source": "manual",
@@ -10596,7 +11091,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:03:41.740121+00:00"
+      "timestamp": "2026-06-06T17:20:45.496604+00:00"
     },
     {
       "source": "manual",
@@ -10605,7 +11100,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:04:42.720419+00:00"
+      "timestamp": "2026-06-06T17:21:45.139259+00:00"
     },
     {
       "source": "manual",
@@ -10614,7 +11109,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:05:46.317660+00:00"
+      "timestamp": "2026-06-07T03:36:17.117817+00:00"
     },
     {
       "source": "manual",
@@ -10623,7 +11118,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:06:48.391651+00:00"
+      "timestamp": "2026-06-07T03:41:58.822510+00:00"
     },
     {
       "source": "manual",
@@ -10632,7 +11127,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:07:52.230998+00:00"
+      "timestamp": "2026-06-07T04:11:26.916719+00:00"
     },
     {
       "source": "manual",
@@ -10641,7 +11136,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:08:53.012935+00:00"
+      "timestamp": "2026-06-07T04:12:56.401841+00:00"
     },
     {
       "source": "manual",
@@ -10650,7 +11145,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:09:57.071120+00:00"
+      "timestamp": "2026-06-07T04:23:50.624505+00:00"
     },
     {
       "source": "manual",
@@ -10659,7 +11154,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:10:57.460204+00:00"
+      "timestamp": "2026-06-07T04:25:08.528525+00:00"
     },
     {
       "source": "manual",
@@ -10668,7 +11163,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:12:11.110024+00:00"
+      "timestamp": "2026-06-07T04:32:21.514666+00:00"
     },
     {
       "source": "manual",
@@ -10677,7 +11172,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:13:11.715465+00:00"
+      "timestamp": "2026-06-07T04:33:51.725267+00:00"
     },
     {
       "source": "manual",
@@ -10686,7 +11181,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:17:27.094804+00:00"
+      "timestamp": "2026-06-07T07:30:08.124174+00:00"
     },
     {
       "source": "manual",
@@ -10695,7 +11190,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:18:27.915431+00:00"
+      "timestamp": "2026-06-07T07:31:06.779108+00:00"
     },
     {
       "source": "manual",
@@ -10704,7 +11199,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:19:30.020889+00:00"
+      "timestamp": "2026-06-07T07:43:46.918737+00:00"
     },
     {
       "source": "manual",
@@ -10713,7 +11208,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:20:33.169629+00:00"
+      "timestamp": "2026-06-07T07:44:43.904621+00:00"
     },
     {
       "source": "manual",
@@ -10722,7 +11217,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:21:34.124220+00:00"
+      "timestamp": "2026-06-07T08:01:22.793074+00:00"
     },
     {
       "source": "manual",
@@ -10731,7 +11226,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:22:37.816660+00:00"
+      "timestamp": "2026-06-07T08:02:20.025014+00:00"
     },
     {
       "source": "manual",
@@ -10740,7 +11235,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:23:38.618061+00:00"
+      "timestamp": "2026-06-07T08:04:08.733161+00:00"
     },
     {
       "source": "manual",
@@ -10749,7 +11244,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:24:42.067230+00:00"
+      "timestamp": "2026-06-07T08:05:13.243082+00:00"
     },
     {
       "source": "manual",
@@ -10758,7 +11253,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:25:42.995538+00:00"
+      "timestamp": "2026-06-08T17:20:49.856872+00:00"
     },
     {
       "source": "manual",
@@ -10767,7 +11262,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:27:09.470457+00:00"
+      "timestamp": "2026-06-08T17:24:31.358255+00:00"
     },
     {
       "source": "manual",
@@ -10776,7 +11271,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:28:10.006057+00:00"
+      "timestamp": "2026-06-08T17:39:37.069518+00:00"
     },
     {
       "source": "manual",
@@ -10785,7 +11280,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:29:12.501118+00:00"
+      "timestamp": "2026-06-08T17:40:33.446082+00:00"
     },
     {
       "source": "manual",
@@ -10794,7 +11289,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:30:15.587550+00:00"
+      "timestamp": "2026-06-08T17:53:09.209896+00:00"
     },
     {
       "source": "manual",
@@ -10803,7 +11298,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:31:16.561472+00:00"
+      "timestamp": "2026-06-08T17:54:07.585289+00:00"
     },
     {
       "source": "manual",
@@ -10812,7 +11307,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:32:20.405827+00:00"
+      "timestamp": "2026-06-08T18:05:59.365489+00:00"
     },
     {
       "source": "manual",
@@ -10821,7 +11316,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:33:21.413789+00:00"
+      "timestamp": "2026-06-08T18:07:01.910126+00:00"
     },
     {
       "source": "manual",
@@ -10830,7 +11325,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:34:25.135362+00:00"
+      "timestamp": "2026-06-08T21:44:18.719813+00:00"
     },
     {
       "source": "manual",
@@ -10839,7 +11334,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:35:26.192465+00:00"
+      "timestamp": "2026-06-08T21:45:25.447942+00:00"
     },
     {
       "source": "manual",
@@ -10848,7 +11343,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:37:11.173257+00:00"
+      "timestamp": "2026-06-08T22:06:49.428589+00:00"
     },
     {
       "source": "manual",
@@ -10857,7 +11352,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:38:11.805753+00:00"
+      "timestamp": "2026-06-08T22:07:49.021571+00:00"
     },
     {
       "source": "manual",
@@ -10866,7 +11361,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:39:14.445172+00:00"
+      "timestamp": "2026-06-08T22:13:57.266520+00:00"
     },
     {
       "source": "manual",
@@ -10875,7 +11370,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:40:17.666674+00:00"
+      "timestamp": "2026-06-08T22:14:56.428574+00:00"
     },
     {
       "source": "manual",
@@ -10884,7 +11379,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:41:18.771338+00:00"
+      "timestamp": "2026-06-08T22:20:18.912255+00:00"
     },
     {
       "source": "manual",
@@ -10893,7 +11388,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:42:23.081863+00:00"
+      "timestamp": "2026-06-08T22:21:26.428103+00:00"
     },
     {
       "source": "manual",
@@ -10902,7 +11397,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:43:23.836201+00:00"
+      "timestamp": "2026-06-09T02:32:21.536970+00:00"
     },
     {
       "source": "manual",
@@ -10911,7 +11406,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:44:27.852371+00:00"
+      "timestamp": "2026-06-09T02:36:21.413770+00:00"
     },
     {
       "source": "manual",
@@ -10920,7 +11415,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:45:28.637689+00:00"
+      "timestamp": "2026-06-09T03:35:01.443750+00:00"
     },
     {
       "source": "manual",
@@ -10929,7 +11424,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:46:32.885213+00:00"
+      "timestamp": "2026-06-09T03:38:07.336793+00:00"
     },
     {
       "source": "manual",
@@ -10938,7 +11433,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:47:33.921475+00:00"
+      "timestamp": "2026-06-09T03:39:07.585935+00:00"
     },
     {
       "source": "manual",
@@ -10947,7 +11442,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:48:47.704288+00:00"
+      "timestamp": "2026-06-09T03:55:15.829387+00:00"
     },
     {
       "source": "manual",
@@ -10956,7 +11451,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:49:48.915000+00:00"
+      "timestamp": "2026-06-09T03:56:16.377326+00:00"
     },
     {
       "source": "manual",
@@ -10965,7 +11460,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:53:32.155685+00:00"
+      "timestamp": "2026-06-09T06:52:53.570166+00:00"
     },
     {
       "source": "manual",
@@ -10974,7 +11469,7 @@
       "legal": null,
       "confidence_score": null,
       "improvement": null,
-      "timestamp": "2026-06-04T06:54:37.290884+00:00"
+      "timestamp": "2026-06-09T07:28:27.949725+00:00"
     }
   ]
 }

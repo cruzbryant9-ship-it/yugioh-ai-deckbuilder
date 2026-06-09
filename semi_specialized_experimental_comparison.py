@@ -9,6 +9,13 @@ from typing import Any
 
 from deck.builder import build_deck, get_last_build_report, score_deck_breakdown
 from deck.deck_utils import blocked_card_violations
+from deck.executed_dependency_telemetry import (
+    build_dependency_telemetry,
+    compare_dependency_summaries,
+    dependency_gate_status,
+    promotion_safety_gates,
+    summarize_dependency_telemetry,
+)
 from SystemAIYugioh.card_database import CardDatabase
 from SystemAIYugioh.json_utils import atomic_write_json, atomic_write_text
 
@@ -39,13 +46,22 @@ def run_experimental_comparison(archetype: str = "Kashtira", mode: str = "meta",
         )
     generic_summary = summarize_runs(run_rows, "generic")
     experimental_summary = summarize_runs(run_rows, "experimental")
-    regression = regression_recommendation(generic_summary, experimental_summary)
+    safety = promotion_safety_gates(generic_summary["dependency_telemetry"], experimental_summary["dependency_telemetry"])
+    regression = regression_recommendation(generic_summary, experimental_summary, safety)
     return {
         "archetype": archetype,
         "mode": mode,
         "runs": max(1, int(runs or 1)),
         "generic_summary": generic_summary,
         "experimental_summary": experimental_summary,
+        "generic_dependency": generic_summary["dependency_telemetry"],
+        "experimental_dependency": experimental_summary["dependency_telemetry"],
+        "dependency_delta": compare_dependency_summaries(generic_summary["dependency_telemetry"], experimental_summary["dependency_telemetry"]),
+        "dependency_gate_status": dependency_gate_status(generic_summary["dependency_telemetry"], experimental_summary["dependency_telemetry"]),
+        "generic_fill_gate": safety["generic_fill_gate"],
+        "interaction_loss_gate": safety["interaction_loss_gate"],
+        "promotion_blocking_reasons": safety["promotion_blocking_reasons"],
+        "lost_interaction_cards": safety["lost_interaction_cards"],
         "fallback_rate": experimental_summary.get("fallback_rate", 0.0),
         "regression_recommendation": regression,
         "run_results": run_rows,
@@ -66,6 +82,7 @@ def deck_result(deck: list[dict[str, Any]], report: dict[str, Any], archetype: s
         "extra_deck_count": report.get("extra_deck_count"),
         "filler_dependency": float(report.get("safe_filler_used_count", 0) or 0),
         "repair_dependency": float(report.get("repair_action_count", 0) or 0),
+        "dependency_telemetry": build_dependency_telemetry(deck, report, archetype),
         "blocked_card_violations": blocked_card_violations(deck),
         "quota_warnings": report.get("quota_warnings", []),
         "legality_ok": len(blocked_card_violations(deck)) == 0 and int(report.get("main_deck_count", 0) or 0) >= 40,
@@ -75,6 +92,7 @@ def deck_result(deck: list[dict[str, Any]], report: dict[str, Any], archetype: s
 def summarize_runs(rows: list[dict[str, Any]], key: str) -> dict[str, Any]:
     selected = [row[key] for row in rows]
     package_totals: Counter[str] = Counter()
+    dependency_summary = summarize_dependency_telemetry(selected)
     for row in selected:
         package_totals.update({name: float(value or 0) for name, value in (row.get("package_counts", {}) or {}).items()})
     return {
@@ -85,12 +103,21 @@ def summarize_runs(rows: list[dict[str, Any]], key: str) -> dict[str, Any]:
         "fallback_rate": round(mean(1.0 if row.get("fallback_used") else 0.0 for row in selected), 4),
         "filler_dependency": round(mean(float(row.get("filler_dependency", 0) or 0) for row in selected), 4),
         "repair_dependency": round(mean(float(row.get("repair_dependency", 0) or 0) for row in selected), 4),
+        "safe_filler_used_count": dependency_summary["safe_filler_used_count"],
+        "repair_used": dependency_summary["repair_used"],
+        "repair_success": dependency_summary["repair_success"],
+        "repair_action_count": dependency_summary["repair_action_count"],
+        "repair_dependency_score": dependency_summary["repair_dependency_score"],
+        "filler_dependency_score": dependency_summary["filler_dependency_score"],
+        "dependency_telemetry": dependency_summary,
         "blocked_card_violations": sorted(set(name for row in selected for name in row.get("blocked_card_violations", []))),
         "builders_used": sorted(set(str(row.get("builder_used")) for row in selected)),
     }
 
 
-def regression_recommendation(generic: dict[str, Any], experimental: dict[str, Any]) -> str:
+def regression_recommendation(generic: dict[str, Any], experimental: dict[str, Any], safety: dict[str, Any] | None = None) -> str:
+    if safety and safety.get("promotion_blocked"):
+        return "do_not_promote_safety_gate"
     if experimental.get("blocked_card_violations") or experimental.get("legality_ok_rate", 0) < 1.0:
         return "do_not_promote_legality_risk"
     if experimental.get("fallback_rate", 1) > 0:
@@ -143,6 +170,8 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"- Legality OK rate: {generic['legality_ok_rate']}",
         f"- Filler dependency: {generic['filler_dependency']}",
         f"- Repair dependency: {generic['repair_dependency']}",
+        f"- Filler dependency score: {generic['dependency_telemetry']['filler_dependency_score']}",
+        f"- Repair dependency score: {generic['dependency_telemetry']['repair_dependency_score']}",
         "",
         "## Experimental Summary",
         "",
@@ -152,7 +181,20 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"- Fallback rate: {experimental['fallback_rate']}",
         f"- Filler dependency: {experimental['filler_dependency']}",
         f"- Repair dependency: {experimental['repair_dependency']}",
+        f"- Filler dependency score: {experimental['dependency_telemetry']['filler_dependency_score']}",
+        f"- Repair dependency score: {experimental['dependency_telemetry']['repair_dependency_score']}",
         f"- Builders used: {', '.join(experimental['builders_used'])}",
+        "",
+        "## Dependency Gate Status",
+        "",
+        f"- {comparison['dependency_gate_status']}",
+        "",
+        "## Promotion Safety Gates",
+        "",
+        f"- Generic-fill gate: {comparison['generic_fill_gate']}",
+        f"- Interaction-loss gate: {comparison['interaction_loss_gate']}",
+        f"- Promotion blocking reasons: {comparison['promotion_blocking_reasons']}",
+        f"- Lost interaction cards: {comparison['lost_interaction_cards']}",
     ]
     return "\n".join(lines) + "\n"
 
